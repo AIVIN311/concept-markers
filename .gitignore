@@ -1,0 +1,8 @@
+# Local browser automation artifacts
+.playwright-cli/
+
+# Local ops audit/log outputs
+_ops/*.log
+_ops/*.txt
+_ops/remote_markers_*.js
+_ops/markers-audit-*.json
