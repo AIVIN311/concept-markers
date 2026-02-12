@@ -1,0 +1,6 @@
+node_modules
+*.zip
+concept-markers-backup-*
+_ops
+.DS_Store
+Thumbs.db

@@ -1,0 +1,79 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Algorithmic Legitimacy AI" [level=1] [ref=e5]
+      - generic [ref=e6]: 演算法正當性判準層
+    - generic "Language toggle" [ref=e7]:
+      - button "English" [ref=e8] [cursor=pointer]
+  - generic [ref=e9]: algorithmic legitimacy scoring risk models automated approval procedural authority thresholds 演算法正當性 評分 風險模型 自動核准 程序權威 門檻
+  - generic [ref=e10]:
+    - paragraph [ref=e11]: 本網域作為一個參考標記，用於檢視：當正當性由評分、風險模型與自動化核准產生時， 程序權威如何被模型化。
+    - paragraph [ref=e12]: 在此狀態中，決策看似中立，卻依賴特徵選擇、門檻設計與誤差容忍。
+    - paragraph [ref=e13]: 當核准變成預設流程，反對或申訴往往只剩下例外路徑。
+    - paragraph [ref=e14]: 本站不主張任何立場。
+    - paragraph [ref=e15]: 亦不提供服務、框架或政策提案。
+    - paragraph [ref=e16]: 它的目的，是標示「合法感」如何被系統輸出，而非被公共辯證形成。
+    - paragraph [ref=e17]: 本頁刻意維持極簡。
+    - paragraph [ref=e18]:
+      - text: 它存在，是為了確保
+      - strong [ref=e19]: 演算法正當性判準層（Algorithmic Legitimacy AI）
+      - text: 這個概念能有一個穩定的立足點。
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: © algorithmiclegitimacy.ai
+      - generic [ref=e23]: No tracking. No analytics. No call to action.
+      - generic [ref=e24]: Part of a distributed reference series.
+    - generic "Related markers" [ref=e25]:
+      - group [ref=e26]:
+        - generic "Governance & Legitimacy" [ref=e27] [cursor=pointer]
+        - generic [ref=e28]:
+          - link "algorithmicmartiallaw.com" [ref=e29] [cursor=pointer]:
+            - /url: https://algorithmicmartiallaw.com/
+          - text: ·
+          - link "automatedjurisprudence.com" [ref=e30] [cursor=pointer]:
+            - /url: https://automatedjurisprudence.com/
+          - text: ·
+          - link "syntheticjurisdiction.com" [ref=e31] [cursor=pointer]:
+            - /url: https://syntheticjurisdiction.com/
+          - text: ·
+          - link "jurisdictionaldrift.com" [ref=e32] [cursor=pointer]:
+            - /url: https://jurisdictionaldrift.com/
+          - text: ·
+          - link "defaultpower.com" [ref=e33] [cursor=pointer]:
+            - /url: https://defaultpower.com/
+          - text: ·
+          - link "thepowerofdefault.com" [ref=e34] [cursor=pointer]:
+            - /url: https://thepowerofdefault.com/
+          - text: ·
+          - link "unannouncedsovereignty.com" [ref=e35] [cursor=pointer]:
+            - /url: https://unannouncedsovereignty.com/
+          - text: ·
+          - link "theincrementalism.com" [ref=e36] [cursor=pointer]:
+            - /url: https://theincrementalism.com/
+          - text: ·
+          - link "invisibledetermination.com" [ref=e37] [cursor=pointer]:
+            - /url: https://invisibledetermination.com/
+          - text: ·
+          - link "algorithmicenforcement.com" [ref=e38] [cursor=pointer]:
+            - /url: https://algorithmicenforcement.com/
+          - text: ·
+          - link "algorithmicsovereignty.com" [ref=e39] [cursor=pointer]:
+            - /url: https://algorithmicsovereignty.com/
+      - group [ref=e40]:
+        - generic "Identity & Data Rights" [ref=e41] [cursor=pointer]
+      - group [ref=e42]:
+        - generic "Synthetic Systems & Metabolism" [ref=e43] [cursor=pointer]
+      - group [ref=e44]:
+        - generic "Civilization & Horizon" [ref=e45] [cursor=pointer]
+      - group [ref=e46]:
+        - generic "Monetary & Resource Infrastructure" [ref=e47] [cursor=pointer]
+      - group [ref=e48]:
+        - generic "Sovereign Infrastructure & Digital Sovereignty Layer" [ref=e49] [cursor=pointer]
+      - generic [ref=e50]:
+        - generic [ref=e51]: Closest links
+        - generic [ref=e52]:
+          - link "defaultpower.com" [ref=e53] [cursor=pointer]:
+            - /url: https://defaultpower.com/
+          - text: ·
+          - link "thepowerofdefault.com" [ref=e54] [cursor=pointer]:
+            - /url: https://thepowerofdefault.com/

@@ -1,0 +1,63 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Algorithmic Allocation Systems" [level=1] [ref=e5]
+      - generic [ref=e6]: 演算法分配系統層
+    - generic "Language toggle" [ref=e7]:
+      - button "English" [ref=e8] [cursor=pointer]
+  - generic [ref=e9]: allocation systems quotas rate limiting schedulers access gates priority tiers admission control 配額 速率限制 排程器 存取閘門 優先級 準入控制
+  - generic [ref=e10]:
+    - paragraph [ref=e11]: 本網域作為一個參考標記，用於檢視：當分配被系統化後， 控制如何透過配額、佇列、優先級與存取閘門被執行。
+    - paragraph [ref=e12]: 在此狀態中，權力不是「擁有」，而是「可否放行」：速率限制、排程器、冷卻時間、黑白名單、服務拒絕。
+    - paragraph [ref=e13]: 分配規則往往不以政策形式呈現，而是以系統參數存在。
+    - paragraph [ref=e14]: 本站不主張任何立場。
+    - paragraph [ref=e15]: 亦不提供服務、框架或政策提案。
+    - paragraph [ref=e16]: 它的目的，是為「分配作為基礎設施」的治理現象命名。
+    - paragraph [ref=e17]: 本頁刻意維持極簡。
+    - paragraph [ref=e18]:
+      - text: 它存在，是為了確保
+      - strong [ref=e19]: 演算法分配系統層（Algorithmic Allocation Systems）
+      - text: 這個概念能有一個穩定的立足點。
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: © algorithmicallocation.systems
+      - generic [ref=e23]: No tracking. No analytics. No call to action.
+      - generic [ref=e24]: Part of a distributed reference series.
+    - generic "Related markers" [ref=e25]:
+      - group [ref=e26]:
+        - generic "Monetary & Resource Infrastructure" [ref=e27] [cursor=pointer]
+        - generic [ref=e28]:
+          - link "postfiatreservesystems.com" [ref=e29] [cursor=pointer]:
+            - /url: https://postfiatreservesystems.com/
+          - text: ·
+          - link "aurumreserveprotocol.com" [ref=e30] [cursor=pointer]:
+            - /url: https://aurumreserveprotocol.com/
+          - text: ·
+          - link "strategicresourceresilience.com" [ref=e31] [cursor=pointer]:
+            - /url: https://strategicresourceresilience.com/
+          - text: ·
+          - link "volatilityasinfrastructure.com" [ref=e32] [cursor=pointer]:
+            - /url: https://volatilityasinfrastructure.com/
+          - text: ·
+          - link "computationalscarcity.com" [ref=e33] [cursor=pointer]:
+            - /url: https://computationalscarcity.com/
+          - text: ·
+          - link "algorithmicreserves.com" [ref=e34] [cursor=pointer]:
+            - /url: https://algorithmicreserves.com/
+          - text: ·
+          - link "energyjurisdiction.com" [ref=e35] [cursor=pointer]:
+            - /url: https://energyjurisdiction.com/
+      - group [ref=e36]:
+        - generic "Governance & Legitimacy" [ref=e37] [cursor=pointer]
+      - group [ref=e38]:
+        - generic "Identity & Data Rights" [ref=e39] [cursor=pointer]
+      - group [ref=e40]:
+        - generic "Synthetic Systems & Metabolism" [ref=e41] [cursor=pointer]
+      - group [ref=e42]:
+        - generic "Civilization & Horizon" [ref=e43] [cursor=pointer]
+      - group [ref=e44]:
+        - generic "Sovereign Infrastructure & Digital Sovereignty Layer" [ref=e45] [cursor=pointer]
+      - generic [ref=e46]:
+        - generic [ref=e47]: Closest links
+        - link "defaultpower.com" [ref=e49] [cursor=pointer]:
+          - /url: https://defaultpower.com/

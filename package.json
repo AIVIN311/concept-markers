@@ -1,0 +1,17 @@
+{
+  "name": "concept-markers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static concept-marker pages for Cloudflare Pages (no backend).",
+  "scripts": {
+    "format": "npx prettier --write --ignore-unknown --config ./.prettierrc.json \"**/*.{html,js,json,md}\"",
+    "format:check": "npx prettier --check --ignore-unknown --config ./.prettierrc.json \"**/*.{html,js,json,md}\"",
+    "format:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1",
+    "format:check:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1 -CheckOnly",
+    "markers:audit": "node ./scripts/audit_marker_sync.js",
+    "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict"
+  },
+  "devDependencies": {
+    "prettier": "3.8.1"
+  }
+}

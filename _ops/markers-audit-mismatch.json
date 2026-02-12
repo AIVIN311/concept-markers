@@ -1,0 +1,29 @@
+{
+  "page_mismatches": [],
+  "doc_mismatches": [],
+  "bridge_exceptions_applied": [
+    {
+      "axis": "Synthetic Systems Axis",
+      "node": "volatilityasinfrastructure.com",
+      "mapped_group": "synthetic_systems",
+      "markers_group": "monetary_infrastructure",
+      "status": "BRIDGE_EXCEPTION"
+    },
+    {
+      "axis": "Identity & Cognitive Substrate",
+      "node": "humanintelligenceisirreplaceable.com",
+      "mapped_group": "identity_data",
+      "markers_group": "civilization",
+      "status": "BRIDGE_EXCEPTION"
+    },
+    {
+      "axis": "Sovereign Infrastructure Axis",
+      "node": "energyjurisdiction.com",
+      "mapped_group": "sovereign_infrastructure",
+      "markers_group": "monetary_infrastructure",
+      "status": "BRIDGE_EXCEPTION"
+    }
+  ],
+  "hosts_missing_in_pages": [],
+  "hosts_missing_in_markers": []
+}

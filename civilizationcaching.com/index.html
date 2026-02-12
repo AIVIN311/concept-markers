@@ -1,0 +1,370 @@
+﻿<!doctype html>
+<html lang="en" data-series="civilization">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Civilization Caching｜文明緩存</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="A concept marker for examining how civilizations store, accumulate, and reuse structures, knowledge, and systems over time.｜概念標記：檢視文明如何隨時間累積、保存與調用結構、知識與系統。"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Optional: light hint that this page is an index-layer node, not a hub -->
+    <meta name="ref-layer" content="atlas" />
+
+    <meta name="related" content="defaultpower.com,civilizationprotocols.com" />
+
+    <link rel="alternate" hreflang="en" href="https://civilizationcaching.com/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://civilizationcaching.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://civilizationcaching.com/" />
+
+    <meta property="og:title" content="Civilization Caching｜文明緩存" />
+    <meta
+      property="og:description"
+      content="A concept marker for examining how civilizations store and reuse accumulated systems and knowledge."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Minimal structured signal: this is a reference index node -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Civilization Caching",
+        "alternateName": "文明緩存",
+        "url": "https://civilizationcaching.com/",
+        "description": "A concept marker and index layer for examining how civilizations store, accumulate, and reuse structures, knowledge, and systems over time."
+      }
+    </script>
+
+    <style>
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: #ffffff;
+        color: #111111;
+        margin: 0;
+        padding: 4rem 1.5rem;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin: 0;
+      }
+      p {
+        margin-bottom: 1.2rem;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .subtitle {
+        margin-top: 0.25rem;
+        font-size: 0.95rem;
+        color: #666;
+      }
+
+      .lang-toggle {
+        font-size: 0.9rem;
+        color: #666;
+        user-select: none;
+        white-space: nowrap;
+      }
+      .lang-toggle button {
+        font: inherit;
+        background: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 999px;
+        padding: 0.35rem 0.65rem;
+        cursor: pointer;
+      }
+      .lang-toggle button:hover {
+        border-color: rgba(0, 0, 0, 0.35);
+      }
+
+      [data-lang] {
+        display: none;
+      }
+      [data-lang].active {
+        display: block;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      /* Atlas / Index layer */
+      .atlas {
+        margin-top: 2rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+      }
+      .atlas details {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        padding: 0.9rem 1rem;
+        background: rgba(0, 0, 0, 0.01);
+      }
+      .atlas summary {
+        cursor: pointer;
+        list-style: none;
+        font-weight: 600;
+      }
+      .atlas summary::-webkit-details-marker {
+        display: none;
+      }
+      .atlas .hint {
+        margin-top: 0.35rem;
+        font-size: 0.92rem;
+        color: #666;
+      }
+      .atlas .index-note {
+        margin-top: 0.9rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      footer {
+        margin-top: 4rem;
+        font-size: 0.85rem;
+        color: #666;
+      }
+      footer a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+      footer a:hover {
+        border-bottom-color: rgba(0, 0, 0, 0.35);
+      }
+
+      .marker-meta {
+        margin-bottom: 1rem;
+      }
+      .marker-meta small {
+        display: block;
+        margin-top: 0.25rem;
+      }
+
+      .marker-links {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem 1rem;
+      }
+      .marker-links a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+
+      /* Index container for markers.js (grouped list) */
+      .network-index {
+        margin-top: 0.9rem;
+        display: grid;
+        gap: 0.9rem;
+      }
+      .network-index .group {
+        padding: 0.75rem 0.85rem;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.01);
+      }
+      .network-index .group-title {
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+        color: #333;
+      }
+      .network-index .group-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 0.9rem;
+        font-size: 0.92rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="topbar">
+        <div>
+          <h1>Civilization Caching</h1>
+          <div class="subtitle">文明緩存</div>
+        </div>
+
+        <div class="lang-toggle" aria-label="Language toggle">
+          <button id="langBtn" type="button">中文</button>
+        </div>
+      </div>
+
+      <div class="sr-only" aria-hidden="true">
+        civilization caching accumulated systems historical layers institutional memory knowledge
+        storage infrastructural continuity 文明緩存 文明累積 歷史層疊 制度記憶 知識保存 系統延續
+        基礎設施傳承
+      </div>
+
+      <section data-lang="en">
+        <p>
+          This domain serves as a reference point for examining how civilizations store, accumulate,
+          and reuse structures, knowledge, and systems over time.
+        </p>
+
+        <p>Civilization caching does not occur only through archives or libraries.</p>
+
+        <p>
+          It emerges through institutions, infrastructures, legal frameworks, technological
+          platforms, cultural practices, and inherited systems that persist beyond their original
+          context.
+        </p>
+
+        <p>
+          In such processes, past decisions, designs, and values remain embedded, shaping future
+          possibilities and constraints.
+        </p>
+
+        <p>This site does not propose models of preservation or reform.</p>
+
+        <p>
+          Its purpose is to mark a structural phenomenon in which civilizations operate not only
+          through innovation, but through accumulated layers of cached systems.
+        </p>
+
+        <p>This page is intentionally minimal.</p>
+
+        <p>
+          It exists to ensure the term <strong>Civilization Caching</strong>
+          has a stable place to stand.
+        </p>
+      </section>
+
+      <section data-lang="zh">
+        <p>本網域作為檢視文明如何隨時間累積、保存與調用結構、知識與系統的參考點。</p>
+
+        <p>「文明緩存」並非僅存在於檔案館或圖書館之中。</p>
+
+        <p>
+          它透過制度、基礎設施、法律架構、科技平台、 文化實踐與繼承系統逐步形成，
+          並長期存續於原始脈絡之外。
+        </p>
+
+        <p>在這樣的過程中，過去的決策、設計與價值持續被嵌入， 形塑未來的可能性與限制。</p>
+
+        <p>本網站不提出保存策略或改革方案。</p>
+
+        <p>其目的是標示一種結構性現象： 文明的運作不僅依賴創新， 也依賴累積層疊的緩存系統。</p>
+
+        <p>本頁刻意保持簡約。</p>
+
+        <p>
+          它的存在，是為了確保
+          <strong>文明緩存（Civilization Caching）</strong>
+          這個詞能有一個穩定的立足點。
+        </p>
+      </section>
+
+      <!-- Atlas / Index Layer (not an entry gate, default collapsed) -->
+      <section class="atlas" aria-label="Atlas / Network Index">
+        <details>
+          <summary>Atlas / Network Index</summary>
+          <div class="hint">
+            A map layer for a distributed reference series. Not a homepage. Not a hub.
+          </div>
+          <div class="index-note">
+            This section is intentionally quiet. It exists to provide a directory view when needed.
+          </div>
+
+          <!-- markers.js can populate this container with grouped links -->
+          <div id="networkIndex" class="network-index" aria-label="Network groups">
+            <div class="group">
+              <div class="group-title">Index loading…</div>
+              <div class="group-links">
+                <span>Markers will appear here.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <footer id="markerFooter">
+        <div class="marker-meta">
+          <div>© civilizationcaching.com</div>
+          <small>No tracking. No analytics. No call to action.</small>
+          <small>Index layer node for a distributed reference series.</small>
+        </div>
+
+        <!-- Keep a lightweight "related" strip (fast glance), separate from the atlas -->
+        <div class="marker-links" aria-label="Related markers">
+          <small>Related markers will appear here.</small>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      (function () {
+        const en = document.querySelector('[data-lang="en"]');
+        const zh = document.querySelector('[data-lang="zh"]');
+        const btn = document.getElementById("langBtn");
+
+        if (!en || !zh || !btn) return;
+
+        function setLang(lang) {
+          const isZh = lang === "zh";
+          en.classList.toggle("active", !isZh);
+          zh.classList.toggle("active", isZh);
+
+          btn.textContent = isZh ? "English" : "中文";
+          document.documentElement.lang = isZh ? "zh-Hant" : "en";
+
+          try {
+            localStorage.setItem("prefLang", isZh ? "zh" : "en");
+          } catch (e) {}
+        }
+
+        let initial = "en";
+        try {
+          const saved = localStorage.getItem("prefLang");
+          if (saved === "zh" || saved === "en") initial = saved;
+        } catch (e) {}
+
+        if (initial === "en") {
+          const navLang = (navigator.language || "").toLowerCase();
+          if (navLang.startsWith("zh")) initial = "zh";
+        }
+
+        setLang(initial);
+
+        btn.addEventListener("click", function () {
+          const currentIsZh = zh.classList.contains("active");
+          setLang(currentIsZh ? "en" : "zh");
+        });
+      })();
+    </script>
+
+    <!-- Your existing network script (kept). It can fill footer + atlas containers. -->
+    <script src="https://networklayer-bnf.pages.dev/markers.js?v=20260212a" defer></script>
+
+    <!-- Optional tiny adapter: if markers.js doesn't know #networkIndex, it won't break anything. -->
+  </body>
+</html>

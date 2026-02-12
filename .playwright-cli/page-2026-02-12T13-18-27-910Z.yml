@@ -1,0 +1,73 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Synthetic Solvency" [level=1] [ref=e5]
+      - generic [ref=e6]: 合成償付能力
+    - generic "Language toggle" [ref=e7]:
+      - button "English" [ref=e8] [cursor=pointer]
+  - generic [ref=e9]: synthetic solvency algorithmic finance risk construction obligations liquidity stability models 合成償付能力 演算法金融 風險建構 償付責任 流動性 穩定性 模型
+  - generic [ref=e10]:
+    - paragraph [ref=e11]: 本網域作為一個參考標記，用於檢視：合成金融系統中的償付能力如何成立。
+    - paragraph [ref=e12]: 在傳統金融中，償付能力仰賴實體資產、儲備與制度擔保。
+    - paragraph [ref=e13]: 在合成系統中，價值、曝險與責任愈來愈由模型建構。
+    - paragraph [ref=e14]: 穩定性不再僅靠金庫維持， 而是透過自動化風險門檻、抵押演算法與持續重算機制維繫。
+    - paragraph [ref=e15]: 「合成償付能力」並不意味虛假或欺詐。
+    - paragraph [ref=e16]: 它標示的是一種轉變：償付能力逐漸成為計算條件，而非靜態資產事實。
+    - paragraph [ref=e17]: 本頁刻意維持極簡。
+    - paragraph [ref=e18]:
+      - text: 它存在，是為了確保
+      - strong [ref=e19]: 合成償付能力（Synthetic Solvency）
+      - text: 這個概念能有一個穩定的立足點。
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: © syntheticsolvency.com
+      - generic [ref=e23]: No tracking. No analytics. No call to action.
+      - generic [ref=e24]: Part of a distributed reference series.
+    - generic "Related markers" [ref=e25]:
+      - group [ref=e26]:
+        - generic "Synthetic Systems & Metabolism" [ref=e27] [cursor=pointer]
+        - generic [ref=e28]:
+          - link "syntheticpollution.com" [ref=e29] [cursor=pointer]:
+            - /url: https://syntheticpollution.com/
+          - text: ·
+          - link "syntheticrealitycrisis.com" [ref=e30] [cursor=pointer]:
+            - /url: https://syntheticrealitycrisis.com/
+          - text: ·
+          - link "siliconmetabolism.com" [ref=e31] [cursor=pointer]:
+            - /url: https://siliconmetabolism.com/
+          - text: ·
+          - link "modelautophagy.com" [ref=e32] [cursor=pointer]:
+            - /url: https://modelautophagy.com/
+          - text: ·
+          - link "emotionalquantification.com" [ref=e33] [cursor=pointer]:
+            - /url: https://emotionalquantification.com/
+          - text: ·
+          - link "technologicalpathdependency.com" [ref=e34] [cursor=pointer]:
+            - /url: https://technologicalpathdependency.com/
+          - text: ·
+          - link "syntheticliability.com" [ref=e35] [cursor=pointer]:
+            - /url: https://syntheticliability.com/
+      - group [ref=e36]:
+        - generic "Governance & Legitimacy" [ref=e37] [cursor=pointer]
+      - group [ref=e38]:
+        - generic "Identity & Data Rights" [ref=e39] [cursor=pointer]
+      - group [ref=e40]:
+        - generic "Civilization & Horizon" [ref=e41] [cursor=pointer]
+      - group [ref=e42]:
+        - generic "Monetary & Resource Infrastructure" [ref=e43] [cursor=pointer]
+      - group [ref=e44]:
+        - generic "Sovereign Infrastructure & Digital Sovereignty Layer" [ref=e45] [cursor=pointer]
+      - generic [ref=e46]:
+        - generic [ref=e47]: Closest links
+        - generic [ref=e48]:
+          - link "syntheticliability.com" [ref=e49] [cursor=pointer]:
+            - /url: https://syntheticliability.com/
+          - text: ·
+          - link "volatilityasinfrastructure.com" [ref=e50] [cursor=pointer]:
+            - /url: https://volatilityasinfrastructure.com/
+          - text: ·
+          - link "algorithmicreserves.com" [ref=e51] [cursor=pointer]:
+            - /url: https://algorithmicreserves.com/
+          - text: ·
+          - link "postfiatreservesystems.com" [ref=e52] [cursor=pointer]:
+            - /url: https://postfiatreservesystems.com/

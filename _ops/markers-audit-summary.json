@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-02-12T14:31:51.993Z",
+  "strict_mode": true,
+  "markers_sync": {
+    "networklayer_hash_sha256": "59473a49a4db8505bed31114ed9d65b69ec966c2df69603f4445ce3f9611ec5f",
+    "root_hash_sha256": "59473a49a4db8505bed31114ed9d65b69ec966c2df69603f4445ce3f9611ec5f",
+    "identical": true
+  },
+  "pages": {
+    "total_index_pages_scanned": 55,
+    "markers_hosts_total": 55,
+    "ok": 55,
+    "series_group_mismatch": 0,
+    "host_not_in_markers": 0,
+    "hosts_missing_in_pages": 0,
+    "hosts_missing_in_markers": 0
+  },
+  "relational_layer": {
+    "axes_checked": 6,
+    "core_nodes_checked": 48,
+    "ok": 45,
+    "bridge_exception": 3,
+    "mismatch": 0
+  }
+}
