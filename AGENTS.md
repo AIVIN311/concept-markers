@@ -13,8 +13,8 @@
 
 - Project scope and conventions: `README.md`
 - Relational topology intent: `RELATIONAL_LAYER.md`
-- Shared marker logic (canonical): `networklayer/markers.js`
-- Shared marker mirror (must stay in sync): `markers.js`
+- Shared marker logic (canonical): `networklayer/markers.js` (single source)
+- Root `markers.js` is optional; audit uses virtual mirror fallback when absent
 - Tooling contracts: `package.json`, `run_prettier_all.ps1`, `PRETTIER_UNIFY.md`
 
 ## 2) Scope model
@@ -22,7 +22,7 @@
 ### Allowed by default
 
 - Content maintenance under `*/index.html`
-- Shared marker updates in `networklayer/markers.js` with mirror sync to `markers.js`
+- Shared marker updates in `networklayer/markers.js` (single-source contract)
 - Non-breaking updates to `scripts/`, `ops/`, `README.md`, `RELATIONAL_LAYER.md`, `AGENTS.md`
 
 ### Not allowed unless explicitly requested

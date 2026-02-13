@@ -41,6 +41,22 @@ function readUtf8(filePath) {
   return fs.readFileSync(filePath, "utf8");
 }
 
+function readRootMarkersMirror(networkMarkers) {
+  if (fs.existsSync(ROOT_MARKERS)) {
+    return {
+      source: "file",
+      exists: true,
+      content: readUtf8(ROOT_MARKERS),
+    };
+  }
+
+  return {
+    source: "virtual",
+    exists: false,
+    content: networkMarkers,
+  };
+}
+
 function sha256(text) {
   return crypto.createHash("sha256").update(text, "utf8").digest("hex");
 }
@@ -186,12 +202,13 @@ function extractHostFromHtml(relativePath, html) {
 }
 
 function parseRelationalAxes(relationalSource) {
+  const normalizedSource = relationalSource.replace(/\r\n/g, "\n");
   const axes = [];
   const axisRe =
     /###\s+\d+\.\s+([^\n]+)\n\nMapped group id:\s*`([^`]+)`([\s\S]*?)(?=\n###\s+\d+\.|\n##\s+Mirror Architecture)/g;
 
   let match;
-  while ((match = axisRe.exec(relationalSource)) !== null) {
+  while ((match = axisRe.exec(normalizedSource)) !== null) {
     const title = match[1].trim();
     const mappedGroup = match[2].trim();
     const body = match[3];
@@ -222,7 +239,8 @@ function writeJson(fileName, payload) {
 
 function main() {
   const networkMarkers = readUtf8(NETWORK_MARKERS);
-  const rootMarkers = readUtf8(ROOT_MARKERS);
+  const rootMirror = readRootMarkersMirror(networkMarkers);
+  const rootMarkers = rootMirror.content;
   const relationalSource = readUtf8(RELATIONAL_LAYER);
   const markers = parseMarkersConfig(networkMarkers);
 
@@ -324,6 +342,8 @@ function main() {
     markers_sync: {
       networklayer_hash_sha256: networkHash,
       root_hash_sha256: rootHash,
+      root_source: rootMirror.source,
+      root_file_exists: rootMirror.exists,
       identical: markersSyncOk,
     },
     pages: {
@@ -358,6 +378,8 @@ function main() {
   writeJson("markers-audit-mismatch.json", mismatchPayload);
 
   console.log("Markers audit complete.");
+  console.log(`- Root markers source: ${summary.markers_sync.root_source}`);
+  console.log(`- Root markers file exists: ${summary.markers_sync.root_file_exists}`);
   console.log(`- Markers files identical: ${summary.markers_sync.identical}`);
   console.log(`- Pages scanned: ${summary.pages.total_index_pages_scanned}`);
   console.log(

@@ -47,12 +47,13 @@ agents:
       allowed_files_glob:
         - "*/index.html"
         - "networklayer/**"
-        - "markers.js"
         - "scripts/**"
         - "ops/**"
         - "README.md"
         - "RELATIONAL_LAYER.md"
         - "AGENTS.md"
     guardrails:
-      require_marker_mirror_sync: true
+      require_marker_mirror_sync: false # compatibility flag; single-source markers contract
+      require_single_source_markers: true
+      markers_source_of_truth: "networklayer/markers.js"
       require_format_check: true

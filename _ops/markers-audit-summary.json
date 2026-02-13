@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-02-12T14:31:51.993Z",
+  "generated_at": "2026-02-13T14:25:25.676Z",
   "strict_mode": true,
   "markers_sync": {
-    "networklayer_hash_sha256": "59473a49a4db8505bed31114ed9d65b69ec966c2df69603f4445ce3f9611ec5f",
-    "root_hash_sha256": "59473a49a4db8505bed31114ed9d65b69ec966c2df69603f4445ce3f9611ec5f",
+    "networklayer_hash_sha256": "6e9d13d008e7727741b41fc8e6127113ddb3dc85c9496f7697829143c65ea686",
+    "root_hash_sha256": "6e9d13d008e7727741b41fc8e6127113ddb3dc85c9496f7697829143c65ea686",
+    "root_source": "virtual",
+    "root_file_exists": false,
     "identical": true
   },
   "pages": {

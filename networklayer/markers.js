@@ -171,16 +171,14 @@
       .replace(/\/$/, "");
   }
 
+  function hostKey(s) {
+    return normalizeHost(s).toLowerCase();
+  }
+
   function normalizeUrl(u) {
     const h = normalizeHost(u);
     if (!h) return "";
     return `https://${h}/`;
-  }
-
-  function stripTld(s) {
-    return normalizeHost(s)
-      .replace(/\.(com|ai|systems)$/i, "")
-      .replace(/\.pages\.dev$/, "");
   }
 
   function esc(s) {
@@ -210,10 +208,10 @@
     return host;
   }
 
-  const currentHost = getCurrentSiteHost();
+  const currentHost = hostKey(getCurrentSiteHost());
 
   function isSameSite(nameOrUrl) {
-    return stripTld(nameOrUrl) === stripTld(currentHost);
+    return hostKey(nameOrUrl) === currentHost;
   }
 
   function linkHTML(nameOrHost, url) {
@@ -230,7 +228,7 @@
   const hostToUrl = new Map();
   for (const g of groups) {
     for (const [name, url] of g.items) {
-      const h = normalizeHost(name);
+      const h = hostKey(name);
       if (h && url) hostToUrl.set(h, url);
     }
   }
@@ -259,11 +257,12 @@
 
     for (const p of parts) {
       const h = normalizeHost(p);
-      if (!h) continue;
-      if (isSameSite(h)) continue;
-      if (seen.has(h)) continue;
-      seen.add(h);
-      out.push(h);
+      const key = hostKey(h);
+      if (!key) continue;
+      if (isSameSite(key)) continue;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(key);
       if (out.length >= MAX_RELATED) break;
     }
     return out;
@@ -275,7 +274,7 @@
 
     const links = relHosts
       .map((h) => {
-        const url = hostToUrl.get(h) || normalizeUrl(h);
+        const url = hostToUrl.get(hostKey(h)) || normalizeUrl(h);
         return linkHTML(h, url);
       })
       .join(" · ");
@@ -300,12 +299,13 @@
   });
 
   function getDisplayItems(g) {
-    const seenSlug = new Set();
+    const seenHosts = new Set();
     return g.items.filter(([name]) => {
-      if (isSameSite(name)) return false;
-      const slug = stripTld(name);
-      if (seenSlug.has(slug)) return false;
-      seenSlug.add(slug);
+      const key = hostKey(name);
+      if (!key) return false;
+      if (isSameSite(key)) return false;
+      if (seenHosts.has(key)) return false;
+      seenHosts.add(key);
       return true;
     });
   }

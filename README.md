@@ -15,8 +15,7 @@ Each concept has its own folder and `index.html`, while a shared marker script r
 
 The main shared logic is in:
 
-- `networklayer/markers.js`
-- `markers.js` (kept in sync as a mirror copy)
+- `networklayer/markers.js` (single source of truth)
 
 ## Relational Layer
 
@@ -37,6 +36,13 @@ stability, and civilizational horizon interactions across core nodes.
 - `networklayer/index.html`: minimal network-layer status page
 - `run_prettier_all.ps1`: full formatting/check/report workflow
 - `PRETTIER_UNIFY.md`: formatting SOP
+
+## Marker Source Contract
+
+- Canonical source: `networklayer/markers.js`
+- Root `markers.js` is optional and not required for normal maintenance.
+- `markers:audit` / `markers:audit:strict` will use a virtual in-memory mirror when root
+  `markers.js` is missing.
 
 ## Page Conventions
 
@@ -66,12 +72,16 @@ npm run format
 npm run format:check
 npm run format:all
 npm run format:check:all
+npm run markers:audit
+npm run markers:audit:strict
 ```
 
 Notes:
 
 - `format:all` and `format:check:all` use `run_prettier_all.ps1`.
 - `format:all` creates a backup zip in the parent directory unless skipped.
+- Marker audit reports are written to `_ops/markers-audit-summary.json` and
+  `_ops/markers-audit-mismatch.json`.
 
 Pilot template note:
 
