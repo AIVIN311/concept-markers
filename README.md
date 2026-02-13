@@ -73,6 +73,10 @@ Notes:
 - `format:all` and `format:check:all` use `run_prettier_all.ps1`.
 - `format:all` creates a backup zip in the parent directory unless skipped.
 
+Pilot template note:
+
+- Canonical crawler/head pilot spec: `ops/canonical-head-template-pilot.md`
+
 ## Deployment Notes
 
 - Keep `markers.js?v=...` token aligned across pages to avoid cache/version drift.
