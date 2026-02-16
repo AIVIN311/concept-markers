@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://algorithmicreserves.com/sitemap.xml

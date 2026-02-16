@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://civilizationprotocols.com/sitemap.xml

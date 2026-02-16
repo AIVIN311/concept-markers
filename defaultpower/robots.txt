@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://defaultpower.com/sitemap.xml

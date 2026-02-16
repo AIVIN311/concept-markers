@@ -12,7 +12,12 @@
     "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict",
     "sitemaps:generate": "node ./scripts/generate_sitemaps.js",
     "sitemaps:validate": "node ./scripts/validate_sitemaps.js",
-    "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate"
+    "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate",
+    "sitemaps:index": "node ./scripts/generate_sitemap_index.js",
+    "robots:generate": "node ./scripts/generate_robots.js",
+    "canonical:ensure": "node ./scripts/add_canonical.js",
+    "sitemap:index": "node ./scripts/generate_sitemap_index.js",
+    "seo:refresh": "npm run sitemaps:refresh && npm run sitemaps:index && npm run robots:generate"
   },
   "devDependencies": {
     "prettier": "3.8.1"

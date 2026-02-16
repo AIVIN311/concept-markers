@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://civilizationcaching.com/sitemap.xml
+Sitemap: https://civilizationcaching.com/sitemap-index.xml
