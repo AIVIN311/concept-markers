@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 
 const ROOT = process.cwd();
 const EXCLUDED_DIRS = new Set(["networklayer"]);
@@ -23,6 +24,26 @@ function folderToHost(folderName) {
     return normalized;
   }
   return `${normalized}.com`;
+}
+
+function gitLastMod(filePath) {
+  try {
+    const relativePath = path.relative(ROOT, filePath).replace(/\\/g, "/");
+    const output = execSync(`git log -1 --format=%cs -- "${relativePath}"`, {
+      cwd: ROOT,
+      stdio: ["ignore", "pipe", "ignore"],
+    })
+      .toString()
+      .trim();
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(output)) {
+      return output;
+    }
+  } catch {
+    // Fall through to UTC date fallback below.
+  }
+
+  return new Date().toISOString().slice(0, 10);
 }
 
 function buildSitemapXml(folderName, lastmod) {
@@ -51,16 +72,16 @@ function main() {
     return;
   }
 
-  const today = new Date().toISOString().slice(0, 10);
-
   for (const folderName of siteFolders) {
+    const indexPath = path.join(ROOT, folderName, "index.html");
+    const lastmod = gitLastMod(indexPath);
     const sitemapPath = path.join(ROOT, folderName, "sitemap.xml");
-    const xml = buildSitemapXml(folderName, today);
+    const xml = buildSitemapXml(folderName, lastmod);
     fs.writeFileSync(sitemapPath, xml, "utf8");
   }
 
   console.log(`Generated sitemap.xml for ${siteFolders.length} site folders.`);
-  console.log(`lastmod date: ${today}`);
+  console.log("lastmod source: git commit date per site's index.html (fallback: today UTC).");
 }
 
 try {

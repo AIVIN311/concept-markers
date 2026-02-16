@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 
 const ROOT = process.cwd();
 const HUB_FOLDER = "civilizationcaching";
@@ -26,13 +27,33 @@ function folderToHost(folderName) {
   return `${normalized}.com`;
 }
 
-function buildSitemapIndex(hosts, lastmod) {
-  const entries = hosts
-    .map((host) => {
+function gitLastMod(filePath) {
+  try {
+    const relativePath = path.relative(ROOT, filePath).replace(/\\/g, "/");
+    const output = execSync(`git log -1 --format=%cs -- "${relativePath}"`, {
+      cwd: ROOT,
+      stdio: ["ignore", "pipe", "ignore"],
+    })
+      .toString()
+      .trim();
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(output)) {
+      return output;
+    }
+  } catch {
+    // Fall through to UTC date fallback below.
+  }
+
+  return new Date().toISOString().slice(0, 10);
+}
+
+function buildSitemapIndex(entries) {
+  const body = entries
+    .map((entry) => {
       return [
         "  <sitemap>",
-        `    <loc>https://${host}/sitemap.xml</loc>`,
-        `    <lastmod>${lastmod}</lastmod>`,
+        `    <loc>${entry.loc}</loc>`,
+        `    <lastmod>${entry.lastmod}</lastmod>`,
         "  </sitemap>",
       ].join("\n");
     })
@@ -41,7 +62,7 @@ function buildSitemapIndex(hosts, lastmod) {
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    entries,
+    body,
     "</sitemapindex>",
     "",
   ].join("\n");
@@ -56,14 +77,20 @@ function main() {
   }
 
   const siteFolders = getSiteFolders(ROOT);
-  const hosts = siteFolders.map(folderToHost);
-  const today = new Date().toISOString().slice(0, 10);
+  const entries = siteFolders.map((folderName) => {
+    const host = folderToHost(folderName);
+    const indexPath = path.join(ROOT, folderName, "index.html");
+    return {
+      loc: `https://${host}/sitemap.xml`,
+      lastmod: gitLastMod(indexPath),
+    };
+  });
 
-  const xml = buildSitemapIndex(hosts, today);
+  const xml = buildSitemapIndex(entries);
   fs.writeFileSync(path.join(hubPath, "sitemap-index.xml"), xml, "utf8");
 
-  console.log(`Wrote ${HUB_FOLDER}/sitemap-index.xml with ${hosts.length} sitemap entries.`);
-  console.log(`lastmod date: ${today}`);
+  console.log(`Wrote ${HUB_FOLDER}/sitemap-index.xml with ${entries.length} sitemap entries.`);
+  console.log("lastmod source: git commit date per site's index.html (fallback: today UTC).");
 }
 
 try {
