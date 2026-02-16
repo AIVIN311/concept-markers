@@ -9,7 +9,10 @@
     "format:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1",
     "format:check:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1 -CheckOnly",
     "markers:audit": "node ./scripts/audit_marker_sync.js",
-    "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict"
+    "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict",
+    "sitemaps:generate": "node ./scripts/generate_sitemaps.js",
+    "sitemaps:validate": "node ./scripts/validate_sitemaps.js",
+    "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate"
   },
   "devDependencies": {
     "prettier": "3.8.1"
