@@ -56,6 +56,42 @@ stability, and civilizational horizon interactions across core nodes.
 - `npm run domains:validate` is the guardrail before generation tasks.
 - Redirect CSV schema design is documented in `infra/www-to-apex-redirects.schema.json`.
 
+## Runbook (運行手冊)
+
+1. Q: Where to change when adding a new site?  
+   A: Only change `domains.json` and add `<folder>/index.html`.  
+   中文：新增站點只改 `domains.json` 與 `<folder>/index.html`。  
+   Details:
+   - Add one row in `domains.json`: `{ "folder": "...", "host": "..." }`
+   - Add `<folder>/index.html`
+   - `host` must be lowercase canonical form
+   - `folder` must be a single path segment (no `/` or `\`)
+
+2. Q: What is the standard validation flow (one-click)?  
+   A: Run `npm run verify:all`.  
+   中文：標準驗證流程一鍵執行 `npm run verify:all`。  
+   Internal order:
+   1. `npm run domains:validate`
+   2. `npm run redirects:generate`
+   3. `npm run sitemaps:generate`
+   4. `npm run sitemaps:index`
+   5. `npm run sitemaps:validate`
+   6. `npm run robots:generate`
+   7. `npm run markers:audit:strict`
+   8. `npm run format:check`
+
+3. Q: What outputs are generated, and what must not be committed?  
+   A: Commit tracked generated artifacts when changed; do not commit local ops artifacts.  
+   中文：追蹤中的生成檔有變更就提交；本地運維輸出不要提交。  
+   Commit when changed:
+   - `infra/www-to-apex-redirects-v1.csv`
+   - `<domain>/sitemap.xml`
+   - `civilizationcaching/sitemap-index.xml`
+   - `<domain>/robots.txt`
+
+   Do not commit:
+   - `_ops/` (already gitignored)
+
 ## Page Conventions
 
 Each page should include:

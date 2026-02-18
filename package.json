@@ -19,7 +19,8 @@
     "robots:generate": "node ./scripts/generate_robots.js",
     "canonical:ensure": "node ./scripts/add_canonical.js",
     "sitemap:index": "node ./scripts/generate_sitemap_index.js",
-    "seo:refresh": "npm run sitemaps:refresh && npm run sitemaps:index && npm run robots:generate"
+    "seo:refresh": "npm run sitemaps:refresh && npm run sitemaps:index && npm run robots:generate",
+    "verify:all": "npm run domains:validate && npm run redirects:generate && npm run sitemaps:generate && npm run sitemaps:index && npm run sitemaps:validate && npm run robots:generate && npm run markers:audit:strict && npm run format:check"
   },
   "devDependencies": {
     "prettier": "3.8.1"
