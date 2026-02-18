@@ -3,28 +3,9 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
+const { loadDomains } = require("./lib/domains");
 
 const ROOT = process.cwd();
-const EXCLUDED_DIRS = new Set(["networklayer"]);
-const SUPPORTED_TLDS = [".com", ".ai", ".systems"];
-
-function getSiteFolders(rootDir) {
-  return fs
-    .readdirSync(rootDir, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .filter((name) => !EXCLUDED_DIRS.has(name))
-    .filter((name) => fs.existsSync(path.join(rootDir, name, "index.html")))
-    .sort((a, b) => a.localeCompare(b));
-}
-
-function folderToHost(folderName) {
-  const normalized = folderName.toLowerCase();
-  if (SUPPORTED_TLDS.some((tld) => normalized.endsWith(tld))) {
-    return normalized;
-  }
-  return `${normalized}.com`;
-}
 
 function gitLastMod(filePath) {
   try {
@@ -46,9 +27,7 @@ function gitLastMod(filePath) {
   return new Date().toISOString().slice(0, 10);
 }
 
-function buildSitemapXml(folderName, lastmod) {
-  const host = folderToHost(folderName);
-
+function buildSitemapXml(host, lastmod) {
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -64,23 +43,16 @@ function buildSitemapXml(folderName, lastmod) {
 }
 
 function main() {
-  const siteFolders = getSiteFolders(ROOT);
+  const domains = loadDomains(ROOT);
 
-  if (siteFolders.length === 0) {
-    console.error("No site folders with index.html were found.");
-    process.exitCode = 1;
-    return;
-  }
-
-  for (const folderName of siteFolders) {
-    const indexPath = path.join(ROOT, folderName, "index.html");
-    const lastmod = gitLastMod(indexPath);
-    const sitemapPath = path.join(ROOT, folderName, "sitemap.xml");
-    const xml = buildSitemapXml(folderName, lastmod);
+  for (const domain of domains) {
+    const lastmod = gitLastMod(domain.indexPath);
+    const sitemapPath = path.join(ROOT, domain.folder, "sitemap.xml");
+    const xml = buildSitemapXml(domain.host, lastmod);
     fs.writeFileSync(sitemapPath, xml, "utf8");
   }
 
-  console.log(`Generated sitemap.xml for ${siteFolders.length} site folders.`);
+  console.log(`Generated sitemap.xml for ${domains.length} sites.`);
   console.log("lastmod source: git commit date per site's index.html (fallback: today UTC).");
 }
 

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "domains": [
+    {
+      "folder": "algorithmicallocation.ai",
+      "host": "algorithmicallocation.ai"
+    },
+    {
+      "folder": "AlgorithmicAllocation",
+      "host": "algorithmicallocation.com"
+    },
+    {
+      "folder": "algorithmicallocation.systems",
+      "host": "algorithmicallocation.systems"
+    },
+    {
+      "folder": "AlgorithmicEnforcement",
+      "host": "algorithmicenforcement.com"
+    },
+    {
+      "folder": "algorithmiclegitimacy.ai",
+      "host": "algorithmiclegitimacy.ai"
+    },
+    {
+      "folder": "algorithmiclegitimacy",
+      "host": "algorithmiclegitimacy.com"
+    },
+    {
+      "folder": "algorithmicmartiallaw",
+      "host": "algorithmicmartiallaw.com"
+    },
+    {
+      "folder": "algorithmicreserves",
+      "host": "algorithmicreserves.com"
+    },
+    {
+      "folder": "algorithmicsovereignty",
+      "host": "algorithmicsovereignty.com"
+    },
+    {
+      "folder": "AurumReserveProtocol",
+      "host": "aurumreserveprotocol.com"
+    },
+    {
+      "folder": "automatedjurisprudence",
+      "host": "automatedjurisprudence.com"
+    },
+    {
+      "folder": "biologicaldatacenter",
+      "host": "biologicaldatacenter.com"
+    },
+    {
+      "folder": "biometricliability",
+      "host": "biometricliability.com"
+    },
+    {
+      "folder": "biometricsovereignty",
+      "host": "biometricsovereignty.com"
+    },
+    {
+      "folder": "civilizationcaching",
+      "host": "civilizationcaching.com"
+    },
+    {
+      "folder": "civilizationprotocols",
+      "host": "civilizationprotocols.com"
+    },
+    {
+      "folder": "climateinterventionism",
+      "host": "climateinterventionism.com"
+    },
+    {
+      "folder": "cognitiveassetclass",
+      "host": "cognitiveassetclass.com"
+    },
+    {
+      "folder": "ComputationalScarcity",
+      "host": "computationalscarcity.com"
+    },
+    {
+      "folder": "defaultpower",
+      "host": "defaultpower.com"
+    },
+    {
+      "folder": "dollardisruption",
+      "host": "dollardisruption.com"
+    },
+    {
+      "folder": "emotionalquantification",
+      "host": "emotionalquantification.com"
+    },
+    {
+      "folder": "energyjurisdiction",
+      "host": "energyjurisdiction.com"
+    },
+    {
+      "folder": "humanintelligenceisirreplaceable",
+      "host": "humanintelligenceisirreplaceable.com"
+    },
+    {
+      "folder": "invisibledetermination",
+      "host": "invisibledetermination.com"
+    },
+    {
+      "folder": "jurisdictionaldrift",
+      "host": "jurisdictionaldrift.com"
+    },
+    {
+      "folder": "lunarresourceprotocol",
+      "host": "lunarresourceprotocol.com"
+    },
+    {
+      "folder": "modelautophagy",
+      "host": "modelautophagy.com"
+    },
+    {
+      "folder": "offworldassetrights",
+      "host": "offworldassetrights.com"
+    },
+    {
+      "folder": "offworldsovereignty",
+      "host": "offworldsovereignty.com"
+    },
+    {
+      "folder": "orbitallockdown",
+      "host": "orbitallockdown.com"
+    },
+    {
+      "folder": "organicdatarights",
+      "host": "organicdatarights.com"
+    },
+    {
+      "folder": "PostFiatReserveSystems",
+      "host": "postfiatreservesystems.com"
+    },
+    {
+      "folder": "posthumousidentity",
+      "host": "posthumousidentity.com"
+    },
+    {
+      "folder": "posttruthresilience",
+      "host": "posttruthresilience.com"
+    },
+    {
+      "folder": "siliconmetabolism",
+      "host": "siliconmetabolism.com"
+    },
+    {
+      "folder": "sovereignairesilience",
+      "host": "sovereignairesilience.com"
+    },
+    {
+      "folder": "sovereigndigitalarchitecture",
+      "host": "sovereigndigitalarchitecture.com"
+    },
+    {
+      "folder": "StrategicResourceResilience",
+      "host": "strategicresourceresilience.com"
+    },
+    {
+      "folder": "syntheticjurisdiction",
+      "host": "syntheticjurisdiction.com"
+    },
+    {
+      "folder": "syntheticliability",
+      "host": "syntheticliability.com"
+    },
+    {
+      "folder": "syntheticpollution",
+      "host": "syntheticpollution.com"
+    },
+    {
+      "folder": "syntheticrealitycrisis",
+      "host": "syntheticrealitycrisis.com"
+    },
+    {
+      "folder": "syntheticsolvency.ai",
+      "host": "syntheticsolvency.ai"
+    },
+    {
+      "folder": "syntheticsolvency",
+      "host": "syntheticsolvency.com"
+    },
+    {
+      "folder": "technologicalpathdependency",
+      "host": "technologicalpathdependency.com"
+    },
+    {
+      "folder": "theageoffusion",
+      "host": "theageoffusion.com"
+    },
+    {
+      "folder": "theanswerisblowininthewind",
+      "host": "theanswerisblowininthewind.com"
+    },
+    {
+      "folder": "thefirstmarscitizen",
+      "host": "thefirstmarscitizen.com"
+    },
+    {
+      "folder": "thefutureisalreadyhereitisjustnotevenlydistributed",
+      "host": "thefutureisalreadyhereitisjustnotevenlydistributed.com"
+    },
+    {
+      "folder": "theincrementalism",
+      "host": "theincrementalism.com"
+    },
+    {
+      "folder": "thepacificpivot",
+      "host": "thepacificpivot.com"
+    },
+    {
+      "folder": "thepowerofdefault",
+      "host": "thepowerofdefault.com"
+    },
+    {
+      "folder": "unannouncedsovereignty",
+      "host": "unannouncedsovereignty.com"
+    },
+    {
+      "folder": "VolatilityAsInfrastructure",
+      "host": "volatilityasinfrastructure.com"
+    }
+  ]
+}

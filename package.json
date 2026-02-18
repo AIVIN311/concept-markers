@@ -8,6 +8,8 @@
     "format:check": "npx prettier --check --ignore-unknown --config ./.prettierrc.json \"**/*.{html,js,json,md}\"",
     "format:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1",
     "format:check:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1 -CheckOnly",
+    "domains:validate": "node ./scripts/validate_domains.js",
+    "redirects:generate": "node ./scripts/generate_www_to_apex_redirects.js",
     "markers:audit": "node ./scripts/audit_marker_sync.js",
     "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict",
     "sitemaps:generate": "node ./scripts/generate_sitemaps.js",

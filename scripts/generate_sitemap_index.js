@@ -3,29 +3,10 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
+const { loadDomains } = require("./lib/domains");
 
 const ROOT = process.cwd();
-const HUB_FOLDER = "civilizationcaching";
-const EXCLUDED_DIRS = new Set(["networklayer"]);
-const SUPPORTED_TLDS = [".com", ".ai", ".systems"];
-
-function getSiteFolders(rootDir) {
-  return fs
-    .readdirSync(rootDir, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .filter((name) => !EXCLUDED_DIRS.has(name))
-    .filter((name) => fs.existsSync(path.join(rootDir, name, "index.html")))
-    .sort((a, b) => a.localeCompare(b));
-}
-
-function folderToHost(folderName) {
-  const normalized = folderName.toLowerCase();
-  if (SUPPORTED_TLDS.some((tld) => normalized.endsWith(tld))) {
-    return normalized;
-  }
-  return `${normalized}.com`;
-}
+const HUB_HOST = "civilizationcaching.com";
 
 function gitLastMod(filePath) {
   try {
@@ -69,27 +50,26 @@ function buildSitemapIndex(entries) {
 }
 
 function main() {
-  const hubPath = path.join(ROOT, HUB_FOLDER);
-  if (!fs.existsSync(hubPath) || !fs.existsSync(path.join(hubPath, "index.html"))) {
-    console.error(`Hub folder not found or missing index.html: ${HUB_FOLDER}`);
+  const domains = loadDomains(ROOT);
+  const hub = domains.find((domain) => domain.host === HUB_HOST);
+
+  if (!hub) {
+    console.error(`Hub host not found in domains.json: ${HUB_HOST}`);
     process.exitCode = 2;
     return;
   }
 
-  const siteFolders = getSiteFolders(ROOT);
-  const entries = siteFolders.map((folderName) => {
-    const host = folderToHost(folderName);
-    const indexPath = path.join(ROOT, folderName, "index.html");
+  const entries = domains.map((domain) => {
     return {
-      loc: `https://${host}/sitemap.xml`,
-      lastmod: gitLastMod(indexPath),
+      loc: `https://${domain.host}/sitemap.xml`,
+      lastmod: gitLastMod(domain.indexPath),
     };
   });
 
   const xml = buildSitemapIndex(entries);
-  fs.writeFileSync(path.join(hubPath, "sitemap-index.xml"), xml, "utf8");
+  fs.writeFileSync(path.join(ROOT, hub.folder, "sitemap-index.xml"), xml, "utf8");
 
-  console.log(`Wrote ${HUB_FOLDER}/sitemap-index.xml with ${entries.length} sitemap entries.`);
+  console.log(`Wrote ${hub.folder}/sitemap-index.xml with ${entries.length} sitemap entries.`);
   console.log("lastmod source: git commit date per site's index.html (fallback: today UTC).");
 }
 
