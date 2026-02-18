@@ -32,8 +32,12 @@ stability, and civilizational horizon interactions across core nodes.
 ## Project Layout
 
 - `<domain>/index.html`: individual concept pages (one folder per domain)
+- `domains.json`: canonical domain inventory (folder <-> host mapping)
+- `domains.schema.json`: schema contract for `domains.json`
 - `networklayer/markers.js`: shared footer/network rendering logic
 - `networklayer/index.html`: minimal network-layer status page
+- `infra/www-to-apex-redirects-v1.csv`: generated WWW->apex redirect rules
+- `infra/www-to-apex-redirects.schema.json`: row-level CSV schema contract (for parsed rows)
 - `run_prettier_all.ps1`: full formatting/check/report workflow
 - `PRETTIER_UNIFY.md`: formatting SOP
 
@@ -43,6 +47,14 @@ stability, and civilizational horizon interactions across core nodes.
 - Root `markers.js` is optional and not required for normal maintenance.
 - `markers:audit` / `markers:audit:strict` will use a virtual in-memory mirror when root
   `markers.js` is missing.
+
+## Domain Inventory Contract
+
+- Canonical source: `domains.json`
+- All `generate_*` scripts read `domains.json` instead of scanning folders.
+- `domains.json` row contract is documented by `domains.schema.json`.
+- `npm run domains:validate` is the guardrail before generation tasks.
+- Redirect CSV schema design is documented in `infra/www-to-apex-redirects.schema.json`.
 
 ## Page Conventions
 
@@ -72,8 +84,13 @@ npm run format
 npm run format:check
 npm run format:all
 npm run format:check:all
+npm run domains:validate
 npm run markers:audit
 npm run markers:audit:strict
+npm run redirects:generate
+npm run sitemaps:generate
+npm run sitemaps:index
+npm run robots:generate
 ```
 
 Notes:

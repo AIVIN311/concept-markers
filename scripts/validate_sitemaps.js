@@ -2,28 +2,9 @@
 
 const fs = require("fs");
 const path = require("path");
+const { loadDomains } = require("./lib/domains");
 
 const ROOT = process.cwd();
-const EXCLUDED_DIRS = new Set(["networklayer"]);
-const SUPPORTED_TLDS = [".com", ".ai", ".systems"];
-
-function getSiteFolders(rootDir) {
-  return fs
-    .readdirSync(rootDir, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .filter((name) => !EXCLUDED_DIRS.has(name))
-    .filter((name) => fs.existsSync(path.join(rootDir, name, "index.html")))
-    .sort((a, b) => a.localeCompare(b));
-}
-
-function folderToHost(folderName) {
-  const normalized = folderName.toLowerCase();
-  if (SUPPORTED_TLDS.some((tld) => normalized.endsWith(tld))) {
-    return normalized;
-  }
-  return `${normalized}.com`;
-}
 
 function extractLoc(xmlContent) {
   const match = xmlContent.match(/<loc>\s*([^<]+)\s*<\/loc>/i);
@@ -31,36 +12,30 @@ function extractLoc(xmlContent) {
 }
 
 function main() {
-  const siteFolders = getSiteFolders(ROOT);
-
-  if (siteFolders.length === 0) {
-    console.error("No site folders with index.html were found.");
-    process.exitCode = 1;
-    return;
-  }
+  const domains = loadDomains(ROOT);
 
   const errors = [];
 
-  for (const folderName of siteFolders) {
-    const expectedLoc = `https://${folderToHost(folderName)}/`;
-    const sitemapPath = path.join(ROOT, folderName, "sitemap.xml");
-    const txtPath = path.join(ROOT, folderName, "sitemap.xml.txt");
+  for (const domain of domains) {
+    const expectedLoc = `https://${domain.host}/`;
+    const sitemapPath = path.join(ROOT, domain.folder, "sitemap.xml");
+    const txtPath = path.join(ROOT, domain.folder, "sitemap.xml.txt");
 
     if (!fs.existsSync(sitemapPath)) {
-      errors.push(`${folderName}: missing sitemap.xml`);
+      errors.push(`${domain.folder}: missing sitemap.xml`);
     } else {
       const xmlContent = fs.readFileSync(sitemapPath, "utf8");
       const actualLoc = extractLoc(xmlContent);
 
       if (!actualLoc) {
-        errors.push(`${folderName}: <loc> not found in sitemap.xml`);
+        errors.push(`${domain.folder}: <loc> not found in sitemap.xml`);
       } else if (actualLoc !== expectedLoc) {
-        errors.push(`${folderName}: <loc> mismatch (expected ${expectedLoc}, got ${actualLoc})`);
+        errors.push(`${domain.folder}: <loc> mismatch (expected ${expectedLoc}, got ${actualLoc})`);
       }
     }
 
     if (fs.existsSync(txtPath)) {
-      errors.push(`${folderName}: unexpected sitemap.xml.txt found`);
+      errors.push(`${domain.folder}: unexpected sitemap.xml.txt found`);
     }
   }
 
@@ -73,7 +48,7 @@ function main() {
     return;
   }
 
-  console.log(`Sitemap validation passed for ${siteFolders.length} site folders.`);
+  console.log(`Sitemap validation passed for ${domains.length} sites.`);
 }
 
 try {
