@@ -49,14 +49,15 @@ if (-not $CheckOnly -and -not $SkipBackup) {
   Write-Host "Backup created: $backupPath"
 }
 
-$allFiles = & rg --files -uu
+$allFiles = & rg --files
 if ($LASTEXITCODE -ne 0) {
   Write-Error "Failed to collect file list with rg."
   exit 3
 }
 
 $targetFiles = $allFiles |
-  Where-Object { $_ -imatch '\.(html|js|json)$' } |
+  Where-Object { $_ -imatch '\.(html|js|json|md)$' } |
+  Where-Object { $_ -notmatch '(^|[\\/])_ops([\\/]|$)' } |
   Sort-Object -Unique
 
 if (-not $targetFiles -or $targetFiles.Count -eq 0) {
@@ -107,8 +108,17 @@ function Invoke-PrettierBatched {
     $args += @("--ignore-unknown", "--config", ".\.prettierrc.json")
     $args += $batch
 
-    $output = & npx.cmd @args 2>&1
-    $exitCode = $LASTEXITCODE
+    $previousErrorAction = $ErrorActionPreference
+    $output = $null
+    $exitCode = 0
+    try {
+      $ErrorActionPreference = "Continue"
+      $output = & npx.cmd @args 2>&1
+      $exitCode = $LASTEXITCODE
+    }
+    finally {
+      $ErrorActionPreference = $previousErrorAction
+    }
 
     Add-Content -Path $LogPath -Value "=== mode:$Mode batch:$i-$end ===" -Encoding utf8
     if ($output) {
@@ -158,8 +168,17 @@ function Write-PrettierDiffReport {
     )
     $args += $batch
 
-    $output = & npx.cmd @args 2>&1
-    $exitCode = $LASTEXITCODE
+    $previousErrorAction = $ErrorActionPreference
+    $output = $null
+    $exitCode = 0
+    try {
+      $ErrorActionPreference = "Continue"
+      $output = & npx.cmd @args 2>&1
+      $exitCode = $LASTEXITCODE
+    }
+    finally {
+      $ErrorActionPreference = $previousErrorAction
+    }
 
     if ($output) {
       $output | ForEach-Object { $_.ToString() } | Add-Content -Path $DiffFilePath -Encoding utf8
