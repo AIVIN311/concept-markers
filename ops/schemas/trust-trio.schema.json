@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trust-trio.schema.json",
+  "title": "Trust Trio Row Schema",
+  "type": "object",
+  "required": [
+    "site_slug",
+    "host",
+    "status",
+    "concept_axis",
+    "group_id",
+    "semantic_role",
+    "trust_stack_layer",
+    "trust_stack_function",
+    "site_copy_path",
+    "notes"
+  ],
+  "properties": {
+    "site_slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "host": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}$" },
+    "status": { "type": "string", "enum": ["draft", "locked"] },
+    "concept_axis": { "type": "string" },
+    "group_id": { "type": "string" },
+    "semantic_role": { "type": "string" },
+    "trust_stack_layer": { "type": "string" },
+    "trust_stack_function": { "type": "string" },
+    "site_copy_path": { "type": "string", "pattern": "^ops/site-copy/.+\\.md$" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}
