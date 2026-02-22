@@ -259,6 +259,10 @@ Baseline storage rules:
 - Baseline manifest filename SHOULD include a timestamp or batch label (for example
   `identity-batch-baseline-20260222.json` or `identity-batch-baseline.json`) to avoid accidental
   reuse across batches.
+- Baseline revisions MAY be created when a documented local incident invalidates a previous
+  baseline (for example `identity-batch-baseline-20260222-r1.json`).
+- Baseline `r1` for this batch was created after a Windows `git stash -u` untracked line-ending
+  roundtrip; use the latest documented baseline revision for subsequent local comparisons.
 
 ### Phase 1: Spec-Phase (Docs Only)
 
@@ -309,11 +313,18 @@ Draft state hygiene (advisory):
 
 ### Phase 3: Site Lock (One Site at a Time)
 
+Workspace execution rule (hard gate):
+
+- Phase 3 lock steps SHOULD be executed in a clean secondary git worktree (lock execution
+  workspace).
+- Phase 3-related `git add` / `git commit` actions MUST NOT be run in the main workspace.
+- Phase 3 MUST NOT use `git stash -u` when large untracked site folders are present.
+
 Hard gate per site lock step:
 
 1. Working tree preflight is clean before starting the lock step:
-   - `git diff --name-only` MUST return no output.
-   - `git status --porcelain` MUST return no output.
+   - In the lock execution workspace, `git diff --name-only` MUST return no output.
+   - In the lock execution workspace, `git status --porcelain` MUST return no output.
 2. Only one row transitions to `locked`.
 3. `identity_sentence` passes the v3.1 quality gate defined above.
 4. `related_links` count is `4-6`.
@@ -434,8 +445,8 @@ This section documents procedure only; it does not define a new script.
    - Confirm `inDefinedTermSet` uses `https://civilizationcaching.com/termsets/v1/<set>`.
 4. Per-site lock checks
    - Confirm working tree preflight is clean before each lock step:
-     - `git diff --name-only` returns no output
-     - `git status --porcelain` returns no output
+     - in the lock execution workspace, `git diff --name-only` returns no output
+     - in the lock execution workspace, `git status --porcelain` returns no output
    - Review the site row against the v3.1 row-level gates before setting `status = locked`.
 5. Post-lock batch implementation checks
    - Run the batch generation, audit, and formatting checks defined by the implementation-phase

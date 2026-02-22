@@ -1,0 +1,12 @@
+# Align git normalization with Prettier endOfLine=lf
+* text=auto eol=lf
+
+# Common binary/archive safeguards
+*.zip -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.webp -text
+*.ico -text
+*.pdf -text
