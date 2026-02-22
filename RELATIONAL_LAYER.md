@@ -216,6 +216,34 @@ primary group in `networklayer/markers.js`.
   - narrative axis: Identity & Cognitive Substrate
   - primary markers group: `civilization`
 
+## Identity Stack Appendix (Summary Only)
+
+Summary only for the 12-site Synthetic Identity Infrastructure Stack batch.
+Operational details are intentionally maintained in `ops/` docs and are not defined here.
+
+Lifecycle spine (summary):
+
+- Personhood -> Entity -> Verification -> Governance -> Sovereignty
+
+Representative batch nodes (summary):
+
+- Personhood / Entity: `hybridpersonhood.com`, `offworldpersonhood.com`, `syntheticpersonhood.com`,
+  `syntheticlegalentity.com`, `syntheticcitizenship.com`
+- Verification: `syntheticattestation.com`, `syntheticverification.com`,
+  `syntheticcertification.com`
+- Governance: `protocolaccountability.com`, `orbitaljurisdiction.com`, `climatejurisdiction.com`
+- Sovereignty anchor: `computationalsovereignty.com`
+
+Frozen operational spec references:
+
+- `ops/new-sites-locksheet.md`
+- `ops/identity-radar-map.md`
+
+Guardrail:
+
+- `RELATIONAL_LAYER.md` does not define taxonomy or audit rules for this identity batch.
+- Taxonomy, bridge-edge policy, and JSON-LD field rules remain in `ops/` specs.
+
 ## Maintenance Contract
 
 1. Source of truth for topology is `networklayer/markers.js` group mapping.
