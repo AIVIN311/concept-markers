@@ -1,0 +1,44 @@
+{
+  "schema_version": "v1",
+  "cluster_id": "trust-trio",
+  "version": "v1",
+  "description": "A minimal process cluster: assert -> verify -> enforce (docs-only locks).",
+  "nodes": [
+    {
+      "id": "syntheticattestation",
+      "host": "syntheticattestation.com",
+      "role": "assert",
+      "layer": "trust-primitive"
+    },
+    {
+      "id": "syntheticverification",
+      "host": "syntheticverification.com",
+      "role": "verify",
+      "layer": "trust-primitive"
+    },
+    {
+      "id": "syntheticliability",
+      "host": "syntheticliability.com",
+      "role": "enforce",
+      "layer": "liability-enforcement"
+    }
+  ],
+  "edges": [
+    {
+      "from": "syntheticattestation",
+      "to": "syntheticverification",
+      "type": "assertion-validity",
+      "notes": "Verification evaluates claims produced by attestation."
+    },
+    {
+      "from": "syntheticverification",
+      "to": "syntheticliability",
+      "type": "responsibility-enforcement",
+      "notes": "Liability binds verified consequences to enforceable responsibility."
+    }
+  ],
+  "sources": {
+    "locksheet": "ops/trust-trio-locksheet.md",
+    "runbook": "ops/trust-trio-lock-exec.md"
+  }
+}
