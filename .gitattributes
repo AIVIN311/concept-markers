@@ -1,5 +1,8 @@
 # Align git normalization with Prettier endOfLine=lf
 * text=auto eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.json text eol=lf
 
 # Common binary/archive safeguards
 *.zip -text
