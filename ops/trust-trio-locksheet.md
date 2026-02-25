@@ -7,3 +7,4 @@
 | syntheticliability    | syntheticliability.com    | locked | governance   | synthetic_systems | governance-interface | liability-enforcement | responsibility-enforcement    | ops/site-copy/syntheticliability.md    | Copy lock: ops/site-copy/syntheticliability.md (v1); semantic_role=governance-interface; trust_stack=liability-enforcement/responsibility-enforcement; docs-only lock; runtime unchanged |
 syntheticpollution: locked
 technologicalpathdependency: locked
+syntheticcitizenship: locked
