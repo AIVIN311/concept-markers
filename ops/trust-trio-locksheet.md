@@ -8,3 +8,4 @@
 syntheticpollution: locked
 technologicalpathdependency: locked
 syntheticcitizenship: locked
+syntheticattestation: locked
