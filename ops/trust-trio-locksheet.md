@@ -11,3 +11,4 @@ syntheticcitizenship: locked
 syntheticattestation: locked
 syntheticverification: locked
 syntheticcertification: lockedsyntheticlegalentity: locked
+syntheticpersonhood: locked
