@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://protocolaccountability.com/sitemap.xml
