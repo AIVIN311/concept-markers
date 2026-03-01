@@ -10,5 +10,7 @@ technologicalpathdependency: locked
 syntheticcitizenship: locked
 syntheticattestation: locked
 syntheticverification: locked
-syntheticcertification: lockedsyntheticlegalentity: locked
+syntheticcertification: locked
+lockedsyntheticlegalentity: locked
 syntheticpersonhood: locked
+syntheticliability: locked
