@@ -14,3 +14,4 @@ syntheticcertification: locked
 lockedsyntheticlegalentity: locked
 syntheticpersonhood: locked
 syntheticliability: locked
+syntheticsolvency: locked
