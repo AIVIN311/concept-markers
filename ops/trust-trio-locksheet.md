@@ -15,3 +15,4 @@ lockedsyntheticlegalentity: locked
 syntheticpersonhood: locked
 syntheticliability: locked
 syntheticsolvency: locked
+biometricsovereignty: locked
