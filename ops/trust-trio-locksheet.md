@@ -16,3 +16,4 @@ syntheticpersonhood: locked
 syntheticliability: locked
 syntheticsolvency: locked
 biometricsovereignty: locked
+algorithmicenforcement: locked
