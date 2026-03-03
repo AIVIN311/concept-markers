@@ -18,3 +18,4 @@ syntheticsolvency: locked
 biometricsovereignty: locked
 algorithmicenforcement: locked
 syntheticjurisdiction: locked
+protocolaccountability: locked
