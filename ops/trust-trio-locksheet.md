@@ -20,3 +20,4 @@ algorithmicenforcement: locked
 syntheticjurisdiction: locked
 protocolaccountability: locked
 jurisdictionaldrift: locked
+algorithmicsovereignty: locked
