@@ -22,3 +22,4 @@ protocolaccountability: locked
 jurisdictionaldrift: locked
 algorithmicsovereignty: locked
 orbitaljurisdiction: locked
+climatejurisdiction: locked
