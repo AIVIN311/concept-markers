@@ -24,3 +24,4 @@ algorithmicsovereignty: locked
 orbitaljurisdiction: locked
 climatejurisdiction: locked
 computationalsovereignty: locked
+energyjurisdiction: locked
