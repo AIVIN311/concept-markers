@@ -25,3 +25,4 @@ orbitaljurisdiction: locked
 climatejurisdiction: locked
 computationalsovereignty: locked
 energyjurisdiction: locked
+offworldpersonhood: locked
