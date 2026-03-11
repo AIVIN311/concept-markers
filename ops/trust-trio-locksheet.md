@@ -27,3 +27,4 @@ computationalsovereignty: locked
 energyjurisdiction: locked
 offworldpersonhood: locked
 climateinterventionism: locked
+offworldsovereignty: locked
