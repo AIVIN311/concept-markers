@@ -28,3 +28,4 @@ energyjurisdiction: locked
 offworldpersonhood: locked
 climateinterventionism: locked
 offworldsovereignty: locked
+offworldassetrights: locked
