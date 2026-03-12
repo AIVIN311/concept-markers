@@ -29,3 +29,4 @@ offworldpersonhood: locked
 climateinterventionism: locked
 offworldsovereignty: locked
 offworldassetrights: locked
+orbitallockdown: locked
