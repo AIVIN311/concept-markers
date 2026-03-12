@@ -30,3 +30,4 @@ climateinterventionism: locked
 offworldsovereignty: locked
 offworldassetrights: locked
 orbitallockdown: locked
+lunarresourceprotocol: locked
