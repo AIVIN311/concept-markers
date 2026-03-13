@@ -32,3 +32,4 @@ offworldassetrights: locked
 orbitallockdown: locked
 lunarresourceprotocol: locked
 thefirstmarscitizen: locked
+aurumreserveprotocol: locked
