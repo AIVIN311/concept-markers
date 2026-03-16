@@ -34,3 +34,4 @@ lunarresourceprotocol: locked
 thefirstmarscitizen: locked
 aurumreserveprotocol: locked
 civilizationcaching: locked
+civilizationprotocols: locked
