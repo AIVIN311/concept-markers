@@ -38,3 +38,4 @@ civilizationprotocols: locked
 theageoffusion: locked
 theincrementalism: locked
 sovereigndigitalarchitecture: locked
+sovereignairesilience: locked
