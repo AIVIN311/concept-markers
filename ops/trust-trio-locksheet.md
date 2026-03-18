@@ -37,3 +37,4 @@ civilizationcaching: locked
 civilizationprotocols: locked
 theageoffusion: locked
 theincrementalism: locked
+sovereigndigitalarchitecture: locked
