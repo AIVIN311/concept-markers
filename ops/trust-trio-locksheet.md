@@ -39,3 +39,4 @@ theageoffusion: locked
 theincrementalism: locked
 sovereigndigitalarchitecture: locked
 sovereignairesilience: locked
+computationalscarcity: locked
