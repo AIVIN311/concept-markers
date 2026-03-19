@@ -40,3 +40,4 @@ theincrementalism: locked
 sovereigndigitalarchitecture: locked
 sovereignairesilience: locked
 computationalscarcity: locked
+strategicresourceresilience: locked
