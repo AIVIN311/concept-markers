@@ -43,3 +43,4 @@ computationalscarcity: locked
 strategicresourceresilience: locked
 volatilityasinfrastructure: locked
 siliconmetabolism: locked
+algorithmicreserves: locked
