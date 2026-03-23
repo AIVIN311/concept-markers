@@ -44,3 +44,4 @@ strategicresourceresilience: locked
 volatilityasinfrastructure: locked
 siliconmetabolism: locked
 algorithmicreserves: locked
+postfiatreservesystems: locked
