@@ -46,3 +46,4 @@ siliconmetabolism: locked
 algorithmicreserves: locked
 postfiatreservesystems: locked
 dollardisruption: locked
+thepowerofdefault: locked
