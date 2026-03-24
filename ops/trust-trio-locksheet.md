@@ -45,3 +45,4 @@ volatilityasinfrastructure: locked
 siliconmetabolism: locked
 algorithmicreserves: locked
 postfiatreservesystems: locked
+dollardisruption: locked
