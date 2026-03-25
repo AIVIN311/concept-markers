@@ -48,3 +48,4 @@ postfiatreservesystems: locked
 dollardisruption: locked
 thepowerofdefault: locked
 defaultpower: locked
+unannouncedsovereignty: locked
