@@ -47,3 +47,4 @@ algorithmicreserves: locked
 postfiatreservesystems: locked
 dollardisruption: locked
 thepowerofdefault: locked
+defaultpower: locked
