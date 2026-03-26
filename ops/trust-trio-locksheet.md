@@ -50,3 +50,4 @@ thepowerofdefault: locked
 defaultpower: locked
 unannouncedsovereignty: locked
 automatedjurisprudence: locked
+algorithmicmartiallaw: locked
