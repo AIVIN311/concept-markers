@@ -51,3 +51,4 @@ defaultpower: locked
 unannouncedsovereignty: locked
 automatedjurisprudence: locked
 algorithmicmartiallaw: locked
+syntheticrealitycrisis: locked
