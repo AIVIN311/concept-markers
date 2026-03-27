@@ -52,3 +52,4 @@ unannouncedsovereignty: locked
 automatedjurisprudence: locked
 algorithmicmartiallaw: locked
 syntheticrealitycrisis: locked
+modelautophagy: locked
