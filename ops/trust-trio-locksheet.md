@@ -54,3 +54,4 @@ algorithmicmartiallaw: locked
 syntheticrealitycrisis: locked
 modelautophagy: locked
 organicdatarights: locked
+posthumousidentity: locked
