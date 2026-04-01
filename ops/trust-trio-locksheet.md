@@ -53,3 +53,4 @@ automatedjurisprudence: locked
 algorithmicmartiallaw: locked
 syntheticrealitycrisis: locked
 modelautophagy: locked
+organicdatarights: locked
