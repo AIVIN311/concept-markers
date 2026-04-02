@@ -55,3 +55,4 @@ syntheticrealitycrisis: locked
 modelautophagy: locked
 organicdatarights: locked
 posthumousidentity: locked
+biologicaldatacenter: locked
