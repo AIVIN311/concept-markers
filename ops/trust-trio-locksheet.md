@@ -56,3 +56,4 @@ modelautophagy: locked
 organicdatarights: locked
 posthumousidentity: locked
 biologicaldatacenter: locked
+biometricliability: locked
