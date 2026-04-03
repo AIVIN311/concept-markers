@@ -60,3 +60,4 @@ biometricliability: locked
 cognitiveassetclass: locked
 humanintelligenceisirreplaceable: locked
 thefutureisalreadyhereitisjustnotevenlydistributed: locked
+thepacificpivot: locked
