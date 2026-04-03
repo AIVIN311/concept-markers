@@ -59,3 +59,4 @@ biologicaldatacenter: locked
 biometricliability: locked
 cognitiveassetclass: locked
 humanintelligenceisirreplaceable: locked
+thefutureisalreadyhereitisjustnotevenlydistributed: locked
