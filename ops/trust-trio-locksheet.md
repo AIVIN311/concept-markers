@@ -57,3 +57,4 @@ organicdatarights: locked
 posthumousidentity: locked
 biologicaldatacenter: locked
 biometricliability: locked
+cognitiveassetclass: locked
