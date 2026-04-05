@@ -61,3 +61,4 @@ cognitiveassetclass: locked
 humanintelligenceisirreplaceable: locked
 thefutureisalreadyhereitisjustnotevenlydistributed: locked
 thepacificpivot: locked
+hybridpersonhood: locked
