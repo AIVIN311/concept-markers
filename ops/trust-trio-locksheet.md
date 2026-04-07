@@ -63,3 +63,4 @@ thefutureisalreadyhereitisjustnotevenlydistributed: locked
 thepacificpivot: locked
 hybridpersonhood: locked
 posttruthresilience: locked
+emotionalquantification: locked
