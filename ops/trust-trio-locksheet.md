@@ -65,3 +65,4 @@ hybridpersonhood: locked
 posttruthresilience: locked
 emotionalquantification: locked
 invisibledetermination: locked
+syntheticlegalentity: locked
