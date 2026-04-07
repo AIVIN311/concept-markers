@@ -64,3 +64,4 @@ thepacificpivot: locked
 hybridpersonhood: locked
 posttruthresilience: locked
 emotionalquantification: locked
+invisibledetermination: locked
