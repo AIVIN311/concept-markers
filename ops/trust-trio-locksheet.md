@@ -68,3 +68,4 @@ invisibledetermination: locked
 syntheticlegalentity: locked
 theanswerisblowininthewind: locked
 algorithmicallocation: locked
+algorithmiclegitimacy: locked
