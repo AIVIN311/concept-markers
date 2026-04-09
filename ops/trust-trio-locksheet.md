@@ -67,3 +67,4 @@ emotionalquantification: locked
 invisibledetermination: locked
 syntheticlegalentity: locked
 theanswerisblowininthewind: locked
+algorithmicallocation: locked
