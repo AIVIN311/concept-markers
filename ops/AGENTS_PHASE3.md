@@ -1,5 +1,12 @@
 Phase 3 慢速鎖站 SOP（v1.0）
 
+📌 狀態註記（2026-04-09）
+	•	Phase 3 slow-lock cadence 已完成。
+	•	最終收尾 receipt 見 `ops/PHASE3_CLOSEOUT.md`。
+	•	legacy `lockedsyntheticlegalentity` 處理不屬於本 SOP，需單獨立 policy。
+
+⸻
+
 🎯 原則（不動搖）
 	1.	Append-only：不改寫歷史（不 rebase / amend）。
 	2.	Ops-only：只動 ops/ 允許清單。
