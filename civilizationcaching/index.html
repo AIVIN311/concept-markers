@@ -37,21 +37,59 @@
       content="A concept marker for examining how civilizations store, accumulate, and reuse structures, knowledge, and systems over time."
     />
 
-    <!-- Pilot: minimal machine-readable signal, preserving monument tone in body copy -->
+    <!-- Pilot: machine-semantic origin layer, preserving monument tone in body copy -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Civilization Caching",
-        "alternateName": "文明緩存",
-        "url": "https://civilizationcaching.com/",
-        "inLanguage": ["en", "zh-Hant"],
-        "description": "A concept marker for examining how civilizations store, accumulate, and reuse structures, knowledge, and systems over time.",
-        "about": [
-          "civilization caching",
-          "institutional memory",
-          "knowledge continuity",
-          "infrastructural persistence"
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://civilizationcaching.com/#webpage",
+            "name": "Civilization Caching",
+            "alternateName": "文明緩存",
+            "url": "https://civilizationcaching.com/",
+            "inLanguage": ["en", "zh-Hant"],
+            "description": "A concept marker for examining how civilizations store, accumulate, and reuse structures, knowledge, and systems over time.",
+            "about": [
+              "civilization caching",
+              "institutional memory",
+              "knowledge continuity",
+              "infrastructural persistence"
+            ],
+            "mainEntity": {
+              "@id": "https://civilizationcaching.com/termsets/v1/core"
+            },
+            "relatedLink": [
+              "https://defaultpower.com/",
+              "https://civilizationprotocols.com/"
+            ]
+          },
+          {
+            "@type": "DefinedTermSet",
+            "@id": "https://civilizationcaching.com/termsets/v1/core",
+            "name": "Civilization Caching Core Terms",
+            "url": "https://civilizationcaching.com/",
+            "dateCreated": "2024-11-01",
+            "version": "v1.0",
+            "creator": {
+              "@type": "Organization",
+              "name": "civilizationcaching.com",
+              "url": "https://civilizationcaching.com/"
+            },
+            "hasDefinedTerm": [
+              {
+                "@type": "DefinedTerm",
+                "@id": "https://civilizationcaching.com/#civilization-caching",
+                "name": "Civilization Caching",
+                "alternateName": "文明緩存",
+                "url": "https://civilizationcaching.com/",
+                "description": "A concept marker for examining how civilizations store, accumulate, and reuse structures, knowledge, and systems over time.",
+                "termCode": "civilization-caching",
+                "dateCreated": "2024-11-01",
+                "inDefinedTermSet": "https://civilizationcaching.com/termsets/v1/core"
+              }
+            ]
+          }
         ]
       }
     </script>
