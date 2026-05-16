@@ -1,0 +1,5 @@
+# Agent-readable Markdown pilot header.
+# This advertises a real static Markdown artifact only; no API/MCP capability is implied.
+
+https://algorithmiclegitimacy.com/
+  Link: <https://algorithmiclegitimacy.com/index.md>; rel="alternate"; type="text/markdown"
