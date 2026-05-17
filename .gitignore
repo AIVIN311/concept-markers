@@ -1,5 +1,6 @@
 ﻿# Local browser automation artifacts
 .playwright-cli/
+.wrangler/
 
 # Local ops audit/log outputs
 _ops/*.log
