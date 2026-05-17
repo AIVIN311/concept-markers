@@ -15,12 +15,25 @@ function Invoke-CfApi {
     Authorization = "Bearer $env:CLOUDFLARE_API_TOKEN"
   }
 
-  if ($null -ne $Body) {
-    $headers["Content-Type"] = "application/json"
-    return Invoke-RestMethod -Method $Method -Uri $Uri -Headers $headers -Body ($Body | ConvertTo-Json -Depth 6)
-  }
+  try {
+    if ($null -ne $Body) {
+      $headers["Content-Type"] = "application/json"
+      return Invoke-RestMethod -Method $Method -Uri $Uri -Headers $headers -Body ($Body | ConvertTo-Json -Depth 6)
+    }
 
-  return Invoke-RestMethod -Method $Method -Uri $Uri -Headers $headers
+    return Invoke-RestMethod -Method $Method -Uri $Uri -Headers $headers
+  } catch {
+    $response = $_.Exception.Response
+    if ($response -and $response.GetResponseStream()) {
+      $reader = [System.IO.StreamReader]::new($response.GetResponseStream())
+      $details = $reader.ReadToEnd()
+      if ($details) {
+        throw "$($_.Exception.Message) $details"
+      }
+    }
+
+    throw
+  }
 }
 
 $token = ($env:CLOUDFLARE_API_TOKEN -replace "`r|`n", "").Trim()
@@ -58,16 +71,21 @@ foreach ($domain in $domains) {
         reason = "zone not found"
       }
     } else {
-      if ($CheckOnly) {
-        $settingResponse = Invoke-CfApi -Method Get -Uri "https://api.cloudflare.com/client/v4/zones/$($zone.id)/settings/content_converter"
+      $settingUri = "https://api.cloudflare.com/client/v4/zones/$($zone.id)/settings/content_converter"
+      $currentSetting = Invoke-CfApi -Method Get -Uri $settingUri
+
+      if ($CheckOnly -or [bool]$currentSetting.result.editable -eq $false) {
+        $settingResponse = $currentSetting
       } else {
-        $settingResponse = Invoke-CfApi -Method Patch -Uri "https://api.cloudflare.com/client/v4/zones/$($zone.id)/settings/content_converter" -Body @{ value = "on" }
+        $settingResponse = Invoke-CfApi -Method Patch -Uri $settingUri -Body @{ value = "on" }
       }
 
       $row = [pscustomobject]@{
         host = $hostName
         zone_id = $zone.id
-        success = [bool]$settingResponse.success
+        success = [bool]$settingResponse.success -and ($CheckOnly -or $settingResponse.result.value -eq "on")
+        skipped = (-not $CheckOnly) -and [bool]$currentSetting.result.editable -eq $false
+        reason = if ((-not $CheckOnly) -and [bool]$currentSetting.result.editable -eq $false) { "content_converter setting is not editable for this zone" } else { $null }
         value = $settingResponse.result.value
         editable = $settingResponse.result.editable
         modified_on = $settingResponse.result.modified_on
