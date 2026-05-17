@@ -7,13 +7,13 @@ param(
 $ErrorActionPreference = "Stop"
 
 function Get-ProjectName {
-  param([string]$Host)
+  param([string]$DomainHost)
 
-  if ($Host.EndsWith(".com")) {
-    return $Host.Substring(0, $Host.Length - 4).ToLowerInvariant()
+  if ($DomainHost.EndsWith(".com")) {
+    return $DomainHost.Substring(0, $DomainHost.Length - 4).ToLowerInvariant()
   }
 
-  return ($Host -replace "\.", "").ToLowerInvariant()
+  return ($DomainHost -replace "\.", "").ToLowerInvariant()
 }
 
 function Invoke-CfApi {
@@ -61,7 +61,7 @@ $deployResults = @()
 foreach ($domain in $domains) {
   $hostName = [string]$domain.host
   $folder = [string]$domain.folder
-  $project = Get-ProjectName -Host $hostName
+  $project = Get-ProjectName -DomainHost $hostName
 
   Write-Host "Deploying $hostName -> $project from $folder"
   $started = Get-Date -Format o
