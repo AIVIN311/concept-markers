@@ -15,6 +15,8 @@
     "agents:generate": "node ./scripts/generate_agent_readable.js",
     "agents:check": "node ./scripts/generate_agent_readable.js --check",
     "agents:deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/deploy_agent_readable_pages.ps1",
+    "agents:markdown:check": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/set_cloudflare_markdown_for_agents.ps1 -CheckOnly",
+    "agents:markdown:enable": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/set_cloudflare_markdown_for_agents.ps1",
     "sitemaps:generate": "node ./scripts/generate_sitemaps.js",
     "sitemaps:validate": "node ./scripts/validate_sitemaps.js",
     "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate",
