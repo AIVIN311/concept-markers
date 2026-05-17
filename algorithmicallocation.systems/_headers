@@ -1,0 +1,5 @@
+# Agent-readable Markdown header.
+# This advertises a real static Markdown artifact only; no API/MCP capability is implied.
+
+https://algorithmicallocation.systems/
+  Link: <https://algorithmicallocation.systems/index.md>; rel="alternate"; type="text/markdown"

@@ -1,0 +1,5 @@
+# Agent-readable Markdown header.
+# This advertises a real static Markdown artifact only; no API/MCP capability is implied.
+
+https://thefirstmarscitizen.com/
+  Link: <https://thefirstmarscitizen.com/index.md>; rel="alternate"; type="text/markdown"

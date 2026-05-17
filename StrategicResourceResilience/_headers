@@ -1,0 +1,5 @@
+# Agent-readable Markdown header.
+# This advertises a real static Markdown artifact only; no API/MCP capability is implied.
+
+https://strategicresourceresilience.com/
+  Link: <https://strategicresourceresilience.com/index.md>; rel="alternate"; type="text/markdown"

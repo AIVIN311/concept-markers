@@ -12,6 +12,8 @@
     "redirects:generate": "node ./scripts/generate_www_to_apex_redirects.js",
     "markers:audit": "node ./scripts/audit_marker_sync.js",
     "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict",
+    "agents:generate": "node ./scripts/generate_agent_readable.js",
+    "agents:check": "node ./scripts/generate_agent_readable.js --check",
     "sitemaps:generate": "node ./scripts/generate_sitemaps.js",
     "sitemaps:validate": "node ./scripts/validate_sitemaps.js",
     "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate",
@@ -20,7 +22,7 @@
     "canonical:ensure": "node ./scripts/add_canonical.js",
     "sitemap:index": "node ./scripts/generate_sitemap_index.js",
     "seo:refresh": "npm run sitemaps:refresh && npm run sitemaps:index && npm run robots:generate",
-    "verify:all": "npm run domains:validate && npm run redirects:generate && npm run sitemaps:generate && npm run sitemaps:index && npm run sitemaps:validate && npm run robots:generate && npm run markers:audit:strict && npm run format:check"
+    "verify:all": "npm run domains:validate && npm run redirects:generate && npm run sitemaps:generate && npm run sitemaps:index && npm run sitemaps:validate && npm run robots:generate && npm run agents:check && npm run markers:audit:strict && npm run format:check"
   },
   "devDependencies": {
     "prettier": "3.8.1"

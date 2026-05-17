@@ -1,0 +1,5 @@
+# Agent-readable Markdown header.
+# This advertises a real static Markdown artifact only; no API/MCP capability is implied.
+
+https://offworldsovereignty.com/
+  Link: <https://offworldsovereignty.com/index.md>; rel="alternate"; type="text/markdown"
