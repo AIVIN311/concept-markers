@@ -9,6 +9,7 @@
     "format:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1",
     "format:check:all": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run_prettier_all.ps1 -CheckOnly",
     "domains:validate": "node ./scripts/validate_domains.js",
+    "domains:governance:check": "node ./scripts/validate_domain_governance.js",
     "redirects:generate": "node ./scripts/generate_www_to_apex_redirects.js",
     "markers:audit": "node ./scripts/audit_marker_sync.js",
     "markers:audit:strict": "node ./scripts/audit_marker_sync.js --strict",
@@ -17,6 +18,9 @@
     "agents:deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/deploy_agent_readable_pages.ps1",
     "agents:markdown:check": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/set_cloudflare_markdown_for_agents.ps1 -CheckOnly",
     "agents:markdown:enable": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/set_cloudflare_markdown_for_agents.ps1",
+    "cloudflare:agent-access:check": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/update_cloudflare_agent_access.ps1 -CheckOnly",
+    "cloudflare:agent-access:apply": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/update_cloudflare_agent_access.ps1 -Apply",
+    "cloudflare:governance:snapshot": "node ./scripts/snapshot_cloudflare_governance.js",
     "sitemaps:generate": "node ./scripts/generate_sitemaps.js",
     "sitemaps:validate": "node ./scripts/validate_sitemaps.js",
     "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate",
@@ -25,7 +29,7 @@
     "canonical:ensure": "node ./scripts/add_canonical.js",
     "sitemap:index": "node ./scripts/generate_sitemap_index.js",
     "seo:refresh": "npm run sitemaps:refresh && npm run sitemaps:index && npm run robots:generate",
-    "verify:all": "npm run domains:validate && npm run redirects:generate && npm run sitemaps:generate && npm run sitemaps:index && npm run sitemaps:validate && npm run robots:generate && npm run agents:check && npm run markers:audit:strict && npm run format:check"
+    "verify:all": "npm run domains:validate && npm run domains:governance:check && npm run redirects:generate && npm run sitemaps:generate && npm run sitemaps:index && npm run sitemaps:validate && npm run robots:generate && npm run agents:check && npm run markers:audit:strict && npm run format:check"
   },
   "devDependencies": {
     "prettier": "3.8.1"

@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://concept-markers.local/ops/domain-governance.schema.json",
+  "title": "Concept Markers Domain Governance Ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_from", "snapshot_date", "records"],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 2
+    },
+    "generated_from": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "snapshot_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "host",
+          "folder",
+          "canonical_url",
+          "sitemap_url",
+          "robots_url",
+          "marker_group",
+          "semantic_axis",
+          "governance_role",
+          "strategic_priority",
+          "copy_maturity",
+          "cloudflare",
+          "search_console",
+          "notes"
+        ],
+        "properties": {
+          "host": {
+            "type": "string"
+          },
+          "folder": {
+            "type": "string"
+          },
+          "canonical_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sitemap_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "robots_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "marker_group": {
+            "type": "string"
+          },
+          "semantic_axis": {
+            "type": "string"
+          },
+          "governance_role": {
+            "enum": ["core", "supporting", "bridge", "mirror", "reserve"]
+          },
+          "strategic_priority": {
+            "enum": ["core", "active", "supporting", "reserve"]
+          },
+          "copy_maturity": {
+            "enum": ["draft", "published", "locked", "needs_review"]
+          },
+          "cloudflare": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "zone_status",
+              "last_checked",
+              "security_level",
+              "browser_check",
+              "content_converter",
+              "agent_access_rule",
+              "public_access",
+              "recommendations"
+            ],
+            "properties": {
+              "zone_status": {
+                "enum": ["active", "pending", "moved", "missing", "unknown"]
+              },
+              "last_checked": {
+                "type": ["string", "null"],
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "security_level": {
+                "type": "string"
+              },
+              "browser_check": {
+                "type": "string"
+              },
+              "content_converter": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["value", "editable"],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "editable": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "agent_access_rule": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["status", "action", "description"],
+                "properties": {
+                  "status": {
+                    "type": "string"
+                  },
+                  "action": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              },
+              "public_access": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "homepage_status",
+                  "homepage_challenged",
+                  "link_header_present",
+                  "index_md_status",
+                  "index_md_content_type"
+                ],
+                "properties": {
+                  "homepage_status": {
+                    "type": ["integer", "null"]
+                  },
+                  "homepage_challenged": {
+                    "type": ["boolean", "null"]
+                  },
+                  "link_header_present": {
+                    "type": ["boolean", "null"]
+                  },
+                  "index_md_status": {
+                    "type": ["integer", "null"]
+                  },
+                  "index_md_content_type": {
+                    "type": ["string", "null"]
+                  }
+                }
+              },
+              "recommendations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "search_console": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["property_type", "sitemap_status", "last_checked", "notes"],
+            "properties": {
+              "property_type": {
+                "const": "domain"
+              },
+              "sitemap_status": {
+                "enum": [
+                  "submitted_success",
+                  "submitted_pending",
+                  "unable_fetch",
+                  "missing",
+                  "unknown"
+                ]
+              },
+              "last_checked": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "notes": {
+                "type": "string"
+              }
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

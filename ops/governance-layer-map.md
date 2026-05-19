@@ -42,6 +42,8 @@ The goal is to make changes **auditable, reproducible, and scope-controlled**.
 **Primary assets**
 
 - `ops/site-copy/*.md`
+- `ops/domain-governance-ledger.v0.2.json`
+- `ops/domain-governance-ledger-v0.2.md`
 - `ops/*locksheet*.md`
   - `ops/trust-trio-locksheet.md`
   - `ops/new-sites-locksheet.md` (SOP + state + incident notes)
@@ -51,6 +53,8 @@ The goal is to make changes **auditable, reproducible, and scope-controlled**.
 
 - Docs locks must be **atomic and grep-friendly**.
 - State tables must enforce **row-scope** (only touch the targeted row).
+- Domain Governance Ledger rows are dated external-state snapshots, not live Cloudflare or Search
+  Console truth.
 
 **Verification**
 

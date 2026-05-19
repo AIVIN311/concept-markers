@@ -34,6 +34,8 @@ stability, and civilizational horizon interactions across core nodes.
 - `<domain>/index.html`: individual concept pages (one folder per domain)
 - `domains.json`: canonical domain inventory (folder <-> host mapping)
 - `domains.schema.json`: schema contract for `domains.json`
+- `ops/domain-governance-ledger.v0.2.json`: canonical domain governance ledger
+- `ops/domain-governance-ledger-v0.2.md`: human-readable governance snapshot
 - `networklayer/markers.js`: shared footer/network rendering logic
 - `networklayer/index.html`: minimal network-layer status page
 - `infra/www-to-apex-redirects-v1.csv`: generated WWW->apex redirect rules
@@ -121,6 +123,7 @@ npm run format:check
 npm run format:all
 npm run format:check:all
 npm run domains:validate
+npm run domains:governance:check
 npm run markers:audit
 npm run markers:audit:strict
 npm run redirects:generate
