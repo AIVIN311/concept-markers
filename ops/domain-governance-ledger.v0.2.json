@@ -1,0 +1,2831 @@
+{
+  "schema_version": 2,
+  "generated_from": [
+    "domains.json",
+    "networklayer/markers.js",
+    "RELATIONAL_LAYER.md",
+    "Cloudflare API",
+    "public HTTP HEAD checks"
+  ],
+  "snapshot_date": "2026-05-19",
+  "records": [
+    {
+      "host": "algorithmicallocation.ai",
+      "folder": "algorithmicallocation.ai",
+      "canonical_url": "https://algorithmicallocation.ai/",
+      "sitemap_url": "https://algorithmicallocation.ai/sitemap.xml",
+      "robots_url": "https://algorithmicallocation.ai/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "mirror",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmicallocation.com",
+      "folder": "AlgorithmicAllocation",
+      "canonical_url": "https://algorithmicallocation.com/",
+      "sitemap_url": "https://algorithmicallocation.com/sitemap.xml",
+      "robots_url": "https://algorithmicallocation.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmicallocation.systems",
+      "folder": "algorithmicallocation.systems",
+      "canonical_url": "https://algorithmicallocation.systems/",
+      "sitemap_url": "https://algorithmicallocation.systems/sitemap.xml",
+      "robots_url": "https://algorithmicallocation.systems/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "mirror",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmicenforcement.com",
+      "folder": "AlgorithmicEnforcement",
+      "canonical_url": "https://algorithmicenforcement.com/",
+      "sitemap_url": "https://algorithmicenforcement.com/sitemap.xml",
+      "robots_url": "https://algorithmicenforcement.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmiclegitimacy.ai",
+      "folder": "algorithmiclegitimacy.ai",
+      "canonical_url": "https://algorithmiclegitimacy.ai/",
+      "sitemap_url": "https://algorithmiclegitimacy.ai/sitemap.xml",
+      "robots_url": "https://algorithmiclegitimacy.ai/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "mirror",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmiclegitimacy.com",
+      "folder": "algorithmiclegitimacy",
+      "canonical_url": "https://algorithmiclegitimacy.com/",
+      "sitemap_url": "https://algorithmiclegitimacy.com/sitemap.xml",
+      "robots_url": "https://algorithmiclegitimacy.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmicmartiallaw.com",
+      "folder": "algorithmicmartiallaw",
+      "canonical_url": "https://algorithmicmartiallaw.com/",
+      "sitemap_url": "https://algorithmicmartiallaw.com/sitemap.xml",
+      "robots_url": "https://algorithmicmartiallaw.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": null,
+          "homepage_challenged": null,
+          "link_header_present": null,
+          "index_md_status": null,
+          "index_md_content_type": null
+        },
+        "recommendations": ["Redeploy agent-readable artifacts; index.md is not returning 200."]
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmicreserves.com",
+      "folder": "algorithmicreserves",
+      "canonical_url": "https://algorithmicreserves.com/",
+      "sitemap_url": "https://algorithmicreserves.com/sitemap.xml",
+      "robots_url": "https://algorithmicreserves.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "algorithmicsovereignty.com",
+      "folder": "algorithmicsovereignty",
+      "canonical_url": "https://algorithmicsovereignty.com/",
+      "sitemap_url": "https://algorithmicsovereignty.com/sitemap.xml",
+      "robots_url": "https://algorithmicsovereignty.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "aurumreserveprotocol.com",
+      "folder": "AurumReserveProtocol",
+      "canonical_url": "https://aurumreserveprotocol.com/",
+      "sitemap_url": "https://aurumreserveprotocol.com/sitemap.xml",
+      "robots_url": "https://aurumreserveprotocol.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "automatedjurisprudence.com",
+      "folder": "automatedjurisprudence",
+      "canonical_url": "https://automatedjurisprudence.com/",
+      "sitemap_url": "https://automatedjurisprudence.com/sitemap.xml",
+      "robots_url": "https://automatedjurisprudence.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "biologicaldatacenter.com",
+      "folder": "biologicaldatacenter",
+      "canonical_url": "https://biologicaldatacenter.com/",
+      "sitemap_url": "https://biologicaldatacenter.com/sitemap.xml",
+      "robots_url": "https://biologicaldatacenter.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "biometricliability.com",
+      "folder": "biometricliability",
+      "canonical_url": "https://biometricliability.com/",
+      "sitemap_url": "https://biometricliability.com/sitemap.xml",
+      "robots_url": "https://biometricliability.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "biometricsovereignty.com",
+      "folder": "biometricsovereignty",
+      "canonical_url": "https://biometricsovereignty.com/",
+      "sitemap_url": "https://biometricsovereignty.com/sitemap.xml",
+      "robots_url": "https://biometricsovereignty.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "civilizationcaching.com",
+      "folder": "civilizationcaching",
+      "canonical_url": "https://civilizationcaching.com/",
+      "sitemap_url": "https://civilizationcaching.com/sitemap.xml",
+      "robots_url": "https://civilizationcaching.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "civilizationprotocols.com",
+      "folder": "civilizationprotocols",
+      "canonical_url": "https://civilizationprotocols.com/",
+      "sitemap_url": "https://civilizationprotocols.com/sitemap.xml",
+      "robots_url": "https://civilizationprotocols.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "climateinterventionism.com",
+      "folder": "climateinterventionism",
+      "canonical_url": "https://climateinterventionism.com/",
+      "sitemap_url": "https://climateinterventionism.com/sitemap.xml",
+      "robots_url": "https://climateinterventionism.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "climatejurisdiction.com",
+      "folder": "climatejurisdiction",
+      "canonical_url": "https://climatejurisdiction.com/",
+      "sitemap_url": "https://climatejurisdiction.com/sitemap.xml",
+      "robots_url": "https://climatejurisdiction.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "cognitiveassetclass.com",
+      "folder": "cognitiveassetclass",
+      "canonical_url": "https://cognitiveassetclass.com/",
+      "sitemap_url": "https://cognitiveassetclass.com/sitemap.xml",
+      "robots_url": "https://cognitiveassetclass.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "computationalscarcity.com",
+      "folder": "ComputationalScarcity",
+      "canonical_url": "https://computationalscarcity.com/",
+      "sitemap_url": "https://computationalscarcity.com/sitemap.xml",
+      "robots_url": "https://computationalscarcity.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "computationalsovereignty.com",
+      "folder": "computationalsovereignty",
+      "canonical_url": "https://computationalsovereignty.com/",
+      "sitemap_url": "https://computationalsovereignty.com/sitemap.xml",
+      "robots_url": "https://computationalsovereignty.com/robots.txt",
+      "marker_group": "sovereign_infrastructure",
+      "semantic_axis": "sovereign_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "defaultpower.com",
+      "folder": "defaultpower",
+      "canonical_url": "https://defaultpower.com/",
+      "sitemap_url": "https://defaultpower.com/sitemap.xml",
+      "robots_url": "https://defaultpower.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "dollardisruption.com",
+      "folder": "dollardisruption",
+      "canonical_url": "https://dollardisruption.com/",
+      "sitemap_url": "https://dollardisruption.com/sitemap.xml",
+      "robots_url": "https://dollardisruption.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "emotionalquantification.com",
+      "folder": "emotionalquantification",
+      "canonical_url": "https://emotionalquantification.com/",
+      "sitemap_url": "https://emotionalquantification.com/sitemap.xml",
+      "robots_url": "https://emotionalquantification.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "energyjurisdiction.com",
+      "folder": "energyjurisdiction",
+      "canonical_url": "https://energyjurisdiction.com/",
+      "sitemap_url": "https://energyjurisdiction.com/sitemap.xml",
+      "robots_url": "https://energyjurisdiction.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "sovereign_infrastructure",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "humanintelligenceisirreplaceable.com",
+      "folder": "humanintelligenceisirreplaceable",
+      "canonical_url": "https://humanintelligenceisirreplaceable.com/",
+      "sitemap_url": "https://humanintelligenceisirreplaceable.com/sitemap.xml",
+      "robots_url": "https://humanintelligenceisirreplaceable.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "identity_data",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "hybridpersonhood.com",
+      "folder": "hybridpersonhood",
+      "canonical_url": "https://hybridpersonhood.com/",
+      "sitemap_url": "https://hybridpersonhood.com/sitemap.xml",
+      "robots_url": "https://hybridpersonhood.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "invisibledetermination.com",
+      "folder": "invisibledetermination",
+      "canonical_url": "https://invisibledetermination.com/",
+      "sitemap_url": "https://invisibledetermination.com/sitemap.xml",
+      "robots_url": "https://invisibledetermination.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "jurisdictionaldrift.com",
+      "folder": "jurisdictionaldrift",
+      "canonical_url": "https://jurisdictionaldrift.com/",
+      "sitemap_url": "https://jurisdictionaldrift.com/sitemap.xml",
+      "robots_url": "https://jurisdictionaldrift.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "lunarresourceprotocol.com",
+      "folder": "lunarresourceprotocol",
+      "canonical_url": "https://lunarresourceprotocol.com/",
+      "sitemap_url": "https://lunarresourceprotocol.com/sitemap.xml",
+      "robots_url": "https://lunarresourceprotocol.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "modelautophagy.com",
+      "folder": "modelautophagy",
+      "canonical_url": "https://modelautophagy.com/",
+      "sitemap_url": "https://modelautophagy.com/sitemap.xml",
+      "robots_url": "https://modelautophagy.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "offworldassetrights.com",
+      "folder": "offworldassetrights",
+      "canonical_url": "https://offworldassetrights.com/",
+      "sitemap_url": "https://offworldassetrights.com/sitemap.xml",
+      "robots_url": "https://offworldassetrights.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "offworldpersonhood.com",
+      "folder": "offworldpersonhood",
+      "canonical_url": "https://offworldpersonhood.com/",
+      "sitemap_url": "https://offworldpersonhood.com/sitemap.xml",
+      "robots_url": "https://offworldpersonhood.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "offworldsovereignty.com",
+      "folder": "offworldsovereignty",
+      "canonical_url": "https://offworldsovereignty.com/",
+      "sitemap_url": "https://offworldsovereignty.com/sitemap.xml",
+      "robots_url": "https://offworldsovereignty.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "orbitaljurisdiction.com",
+      "folder": "orbitaljurisdiction",
+      "canonical_url": "https://orbitaljurisdiction.com/",
+      "sitemap_url": "https://orbitaljurisdiction.com/sitemap.xml",
+      "robots_url": "https://orbitaljurisdiction.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "orbitallockdown.com",
+      "folder": "orbitallockdown",
+      "canonical_url": "https://orbitallockdown.com/",
+      "sitemap_url": "https://orbitallockdown.com/sitemap.xml",
+      "robots_url": "https://orbitallockdown.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "organicdatarights.com",
+      "folder": "organicdatarights",
+      "canonical_url": "https://organicdatarights.com/",
+      "sitemap_url": "https://organicdatarights.com/sitemap.xml",
+      "robots_url": "https://organicdatarights.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "postfiatreservesystems.com",
+      "folder": "PostFiatReserveSystems",
+      "canonical_url": "https://postfiatreservesystems.com/",
+      "sitemap_url": "https://postfiatreservesystems.com/sitemap.xml",
+      "robots_url": "https://postfiatreservesystems.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "posthumousidentity.com",
+      "folder": "posthumousidentity",
+      "canonical_url": "https://posthumousidentity.com/",
+      "sitemap_url": "https://posthumousidentity.com/sitemap.xml",
+      "robots_url": "https://posthumousidentity.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "posttruthresilience.com",
+      "folder": "posttruthresilience",
+      "canonical_url": "https://posttruthresilience.com/",
+      "sitemap_url": "https://posttruthresilience.com/sitemap.xml",
+      "robots_url": "https://posttruthresilience.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "protocolaccountability.com",
+      "folder": "protocolaccountability",
+      "canonical_url": "https://protocolaccountability.com/",
+      "sitemap_url": "https://protocolaccountability.com/sitemap.xml",
+      "robots_url": "https://protocolaccountability.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "siliconmetabolism.com",
+      "folder": "siliconmetabolism",
+      "canonical_url": "https://siliconmetabolism.com/",
+      "sitemap_url": "https://siliconmetabolism.com/sitemap.xml",
+      "robots_url": "https://siliconmetabolism.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "sovereignairesilience.com",
+      "folder": "sovereignairesilience",
+      "canonical_url": "https://sovereignairesilience.com/",
+      "sitemap_url": "https://sovereignairesilience.com/sitemap.xml",
+      "robots_url": "https://sovereignairesilience.com/robots.txt",
+      "marker_group": "sovereign_infrastructure",
+      "semantic_axis": "sovereign_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "sovereigndigitalarchitecture.com",
+      "folder": "sovereigndigitalarchitecture",
+      "canonical_url": "https://sovereigndigitalarchitecture.com/",
+      "sitemap_url": "https://sovereigndigitalarchitecture.com/sitemap.xml",
+      "robots_url": "https://sovereigndigitalarchitecture.com/robots.txt",
+      "marker_group": "sovereign_infrastructure",
+      "semantic_axis": "sovereign_infrastructure",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "strategicresourceresilience.com",
+      "folder": "StrategicResourceResilience",
+      "canonical_url": "https://strategicresourceresilience.com/",
+      "sitemap_url": "https://strategicresourceresilience.com/sitemap.xml",
+      "robots_url": "https://strategicresourceresilience.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "monetary_infrastructure",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 301,
+          "homepage_challenged": false,
+          "link_header_present": false,
+          "index_md_status": 301,
+          "index_md_content_type": "text/html; charset=UTF-8"
+        },
+        "recommendations": [
+          "Check _headers deployment for the Pages custom domain; Link header is missing.",
+          "Redeploy agent-readable artifacts; index.md is not returning 200.",
+          "Check static asset MIME / Pages deploy; index.md is not text/markdown."
+        ]
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticjurisdiction.com",
+      "folder": "syntheticjurisdiction",
+      "canonical_url": "https://syntheticjurisdiction.com/",
+      "sitemap_url": "https://syntheticjurisdiction.com/sitemap.xml",
+      "robots_url": "https://syntheticjurisdiction.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticliability.com",
+      "folder": "syntheticliability",
+      "canonical_url": "https://syntheticliability.com/",
+      "sitemap_url": "https://syntheticliability.com/sitemap.xml",
+      "robots_url": "https://syntheticliability.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticattestation.com",
+      "folder": "syntheticattestation",
+      "canonical_url": "https://syntheticattestation.com/",
+      "sitemap_url": "https://syntheticattestation.com/sitemap.xml",
+      "robots_url": "https://syntheticattestation.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticcertification.com",
+      "folder": "syntheticcertification",
+      "canonical_url": "https://syntheticcertification.com/",
+      "sitemap_url": "https://syntheticcertification.com/sitemap.xml",
+      "robots_url": "https://syntheticcertification.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticcitizenship.com",
+      "folder": "syntheticcitizenship",
+      "canonical_url": "https://syntheticcitizenship.com/",
+      "sitemap_url": "https://syntheticcitizenship.com/sitemap.xml",
+      "robots_url": "https://syntheticcitizenship.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticlegalentity.com",
+      "folder": "syntheticlegalentity",
+      "canonical_url": "https://syntheticlegalentity.com/",
+      "sitemap_url": "https://syntheticlegalentity.com/sitemap.xml",
+      "robots_url": "https://syntheticlegalentity.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticpersonhood.com",
+      "folder": "syntheticpersonhood",
+      "canonical_url": "https://syntheticpersonhood.com/",
+      "sitemap_url": "https://syntheticpersonhood.com/sitemap.xml",
+      "robots_url": "https://syntheticpersonhood.com/robots.txt",
+      "marker_group": "identity_data",
+      "semantic_axis": "identity_data",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticverification.com",
+      "folder": "syntheticverification",
+      "canonical_url": "https://syntheticverification.com/",
+      "sitemap_url": "https://syntheticverification.com/sitemap.xml",
+      "robots_url": "https://syntheticverification.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticpollution.com",
+      "folder": "syntheticpollution",
+      "canonical_url": "https://syntheticpollution.com/",
+      "sitemap_url": "https://syntheticpollution.com/sitemap.xml",
+      "robots_url": "https://syntheticpollution.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticrealitycrisis.com",
+      "folder": "syntheticrealitycrisis",
+      "canonical_url": "https://syntheticrealitycrisis.com/",
+      "sitemap_url": "https://syntheticrealitycrisis.com/sitemap.xml",
+      "robots_url": "https://syntheticrealitycrisis.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticsolvency.ai",
+      "folder": "syntheticsolvency.ai",
+      "canonical_url": "https://syntheticsolvency.ai/",
+      "sitemap_url": "https://syntheticsolvency.ai/sitemap.xml",
+      "robots_url": "https://syntheticsolvency.ai/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "mirror",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "syntheticsolvency.com",
+      "folder": "syntheticsolvency",
+      "canonical_url": "https://syntheticsolvency.com/",
+      "sitemap_url": "https://syntheticsolvency.com/sitemap.xml",
+      "robots_url": "https://syntheticsolvency.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "technologicalpathdependency.com",
+      "folder": "technologicalpathdependency",
+      "canonical_url": "https://technologicalpathdependency.com/",
+      "sitemap_url": "https://technologicalpathdependency.com/sitemap.xml",
+      "robots_url": "https://technologicalpathdependency.com/robots.txt",
+      "marker_group": "synthetic_systems",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "theageoffusion.com",
+      "folder": "theageoffusion",
+      "canonical_url": "https://theageoffusion.com/",
+      "sitemap_url": "https://theageoffusion.com/sitemap.xml",
+      "robots_url": "https://theageoffusion.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "theanswerisblowininthewind.com",
+      "folder": "theanswerisblowininthewind",
+      "canonical_url": "https://theanswerisblowininthewind.com/",
+      "sitemap_url": "https://theanswerisblowininthewind.com/sitemap.xml",
+      "robots_url": "https://theanswerisblowininthewind.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "thefirstmarscitizen.com",
+      "folder": "thefirstmarscitizen",
+      "canonical_url": "https://thefirstmarscitizen.com/",
+      "sitemap_url": "https://thefirstmarscitizen.com/sitemap.xml",
+      "robots_url": "https://thefirstmarscitizen.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "thefutureisalreadyhereitisjustnotevenlydistributed.com",
+      "folder": "thefutureisalreadyhereitisjustnotevenlydistributed",
+      "canonical_url": "https://thefutureisalreadyhereitisjustnotevenlydistributed.com/",
+      "sitemap_url": "https://thefutureisalreadyhereitisjustnotevenlydistributed.com/sitemap.xml",
+      "robots_url": "https://thefutureisalreadyhereitisjustnotevenlydistributed.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "theincrementalism.com",
+      "folder": "theincrementalism",
+      "canonical_url": "https://theincrementalism.com/",
+      "sitemap_url": "https://theincrementalism.com/sitemap.xml",
+      "robots_url": "https://theincrementalism.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "thepacificpivot.com",
+      "folder": "thepacificpivot",
+      "canonical_url": "https://thepacificpivot.com/",
+      "sitemap_url": "https://thepacificpivot.com/sitemap.xml",
+      "robots_url": "https://thepacificpivot.com/robots.txt",
+      "marker_group": "civilization",
+      "semantic_axis": "civilization",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "thepowerofdefault.com",
+      "folder": "thepowerofdefault",
+      "canonical_url": "https://thepowerofdefault.com/",
+      "sitemap_url": "https://thepowerofdefault.com/sitemap.xml",
+      "robots_url": "https://thepowerofdefault.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "unannouncedsovereignty.com",
+      "folder": "unannouncedsovereignty",
+      "canonical_url": "https://unannouncedsovereignty.com/",
+      "sitemap_url": "https://unannouncedsovereignty.com/sitemap.xml",
+      "robots_url": "https://unannouncedsovereignty.com/robots.txt",
+      "marker_group": "governance",
+      "semantic_axis": "governance",
+      "governance_role": "core",
+      "strategic_priority": "active",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    },
+    {
+      "host": "volatilityasinfrastructure.com",
+      "folder": "VolatilityAsInfrastructure",
+      "canonical_url": "https://volatilityasinfrastructure.com/",
+      "sitemap_url": "https://volatilityasinfrastructure.com/sitemap.xml",
+      "robots_url": "https://volatilityasinfrastructure.com/robots.txt",
+      "marker_group": "monetary_infrastructure",
+      "semantic_axis": "synthetic_systems",
+      "governance_role": "bridge",
+      "strategic_priority": "core",
+      "copy_maturity": "published",
+      "cloudflare": {
+        "zone_status": "active",
+        "last_checked": "2026-05-19",
+        "security_level": "medium",
+        "browser_check": "on",
+        "content_converter": {
+          "value": "off",
+          "editable": false
+        },
+        "agent_access_rule": {
+          "status": "public_paths_exempted",
+          "action": "managed_challenge",
+          "description": "CivRadar: managed challenge generic non-browser clients"
+        },
+        "public_access": {
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
+        },
+        "recommendations": []
+      },
+      "search_console": {
+        "property_type": "domain",
+        "sitemap_status": "submitted_success",
+        "last_checked": "2026-05-19",
+        "notes": "Submitted/verified through Search Console browser workflow."
+      },
+      "notes": ""
+    }
+  ]
+}

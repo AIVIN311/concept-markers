@@ -136,7 +136,10 @@ function validateRecord(record, expectedDomain, markerContext, errors) {
       }
       const contentType = record.cloudflare.public_access.index_md_content_type;
       if (contentType !== null && typeof contentType !== "string") {
-        fail(errors, `${prefix} cloudflare.public_access.index_md_content_type must be string or null`);
+        fail(
+          errors,
+          `${prefix} cloudflare.public_access.index_md_content_type must be string or null`,
+        );
       }
     }
     if (!Array.isArray(record.cloudflare.recommendations)) {

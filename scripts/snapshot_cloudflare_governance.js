@@ -35,19 +35,35 @@ function requireToken() {
   return token;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function cfGet(token, uri) {
-  const response = await fetch(uri, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-    },
-  });
-  const body = await response.json().catch(() => null);
-  if (!response.ok || !body?.success) {
+  const attempts = 3;
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    const response = await fetch(uri, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+    });
+    const body = await response.json().catch(() => null);
+    if (response.ok && body?.success) {
+      return body.result;
+    }
+
     const details = body ? JSON.stringify(body.errors || body) : response.statusText;
-    throw new Error(`Cloudflare API GET failed ${response.status}: ${details}`);
+    lastError = new Error(`Cloudflare API GET failed ${response.status}: ${details}`);
+    if (response.status < 500 || attempt === attempts) {
+      break;
+    }
+    await sleep(500 * attempt);
   }
-  return body.result;
+
+  throw lastError;
 }
 
 async function getSetting(token, zoneId, setting) {
@@ -129,10 +145,14 @@ function recommendationsFor(cloudflare) {
   const access = cloudflare.public_access;
 
   if (access.homepage_challenged === true) {
-    recommendations.push("Check custom firewall / agent access rule; homepage is still challenged.");
+    recommendations.push(
+      "Check custom firewall / agent access rule; homepage is still challenged.",
+    );
   }
   if (access.link_header_present === false) {
-    recommendations.push("Check _headers deployment for the Pages custom domain; Link header is missing.");
+    recommendations.push(
+      "Check _headers deployment for the Pages custom domain; Link header is missing.",
+    );
   }
   if (access.index_md_status !== 200) {
     recommendations.push("Redeploy agent-readable artifacts; index.md is not returning 200.");
@@ -144,7 +164,9 @@ function recommendationsFor(cloudflare) {
     recommendations.push("Check static asset MIME / Pages deploy; index.md is not text/markdown.");
   }
   if (cloudflare.agent_access_rule.status !== "public_paths_exempted") {
-    recommendations.push("Review Cloudflare agent access rule; public paths are not confirmed exempted.");
+    recommendations.push(
+      "Review Cloudflare agent access rule; public paths are not confirmed exempted.",
+    );
   }
 
   return recommendations;
@@ -189,10 +211,7 @@ function renderSummary(ledger) {
     recommendations.length === 0
       ? "- None."
       : recommendations
-          .map(
-            (record) =>
-              `- \`${record.host}\`: ${record.cloudflare.recommendations.join(" ")}`,
-          )
+          .map((record) => `- \`${record.host}\`: ${record.cloudflare.recommendations.join(" ")}`)
           .join("\n");
 
   return `# Domain Governance Ledger v0.2
@@ -270,7 +289,9 @@ async function main() {
           token,
           `https://api.cloudflare.com/client/v4/zones/${zone.id}/rulesets/phases/http_request_firewall_custom/entrypoint`,
         );
-        agentRule = (ruleset.rules || []).find((rule) => rule.description === targetRuleDescription);
+        agentRule = (ruleset.rules || []).find(
+          (rule) => rule.description === targetRuleDescription,
+        );
       } catch (error) {
         agentRule = null;
       }
@@ -357,8 +378,12 @@ async function main() {
   writeJson(v2LedgerPath, ledger);
   fs.writeFileSync(v2SummaryPath, renderSummary(ledger));
 
-  const recommended = records.filter((record) => record.cloudflare.recommendations.length > 0).length;
-  console.log(`Cloudflare governance snapshot complete: ${records.length} records, ${recommended} with recommendations.`);
+  const recommended = records.filter(
+    (record) => record.cloudflare.recommendations.length > 0,
+  ).length;
+  console.log(
+    `Cloudflare governance snapshot complete: ${records.length} records, ${recommended} with recommendations.`,
+  );
   console.log(`Ledger: ${v2LedgerPath}`);
   console.log(`Summary: ${v2SummaryPath}`);
   console.log(`Log: ${logPath}`);
