@@ -1,0 +1,93 @@
+- generic [ref=e1]:
+  - generic:
+    - region "祝賀訊息":
+      - heading "0 則通知" [level=2] [ref=e3]
+      - alert
+  - dialog "要將備註新增至邀請嗎？" [active] [ref=e5]:
+    - generic [ref=e6]: 對話開始
+    - button "關閉" [ref=e7] [cursor=pointer]:
+      - img [ref=e8]
+    - heading "要將備註新增至邀請嗎？" [level=2] [ref=e12]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]:
+        - generic [ref=e15]:
+          - text: 透過新增備註來個人化您對
+          - strong [ref=e16]: li (Sam) chih jung
+          - text: 的邀請。LinkedIn 會員通常會更願意接受附有備註的邀請。
+      - generic [ref=e17]:
+        - img [ref=e18]
+        - paragraph [ref=e20]: 有了 Premium，您現在可以獲得無限筆記
+    - generic [ref=e21]:
+      - button "輸入備註" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: 輸入備註
+      - button "不附加備註即傳送" [ref=e24] [cursor=pointer]:
+        - generic [ref=e25]: 不附加備註即傳送
+    - generic [ref=e26]: 對話結束
+  - region [ref=e27]
+  - generic [ref=e28]:
+    - generic [ref=e30]:
+      - button [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]: 前往搜尋
+      - button [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: 前往內容
+      - button [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: 鍵盤快捷鍵
+      - button [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+        - generic [ref=e40]: 關閉選單
+    - banner [ref=e41]:
+      - generic [ref=e42]:
+        - link [ref=e43] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img [ref=e46]:
+            - img [ref=e47]
+        - generic [ref=e51]:
+          - combobox [ref=e52]
+          - generic:
+            - img
+        - navigation [ref=e53]:
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link [ref=e56] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e57]:
+                  - generic [ref=e60]: 動態消息 新通知
+                  - img [ref=e64]
+                - generic [ref=e66]: 首頁
+            - listitem [ref=e67]:
+              - link [ref=e68] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e72]
+                - generic [ref=e74]: 我的人脈
+            - listitem [ref=e75]:
+              - link [ref=e76] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e80]
+                - generic [ref=e82]: 職缺
+            - listitem [ref=e83]:
+              - link [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e88]
+                - generic [ref=e90]: 訊息
+            - listitem [ref=e91]:
+              - link [ref=e92] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e96]
+                - generic [ref=e98]: 通知
+            - listitem [ref=e99]:
+              - button [ref=e101] [cursor=pointer]:
+                - img [ref=e102]
+                - generic [ref=e103]:
+                  - text: 我
+                  - img [ref=e104]
+            - listitem [ref=e106]:
+              - button [ref=e108] [cursor=pointer]:
+                - img [ref=e112]
+                - generic [ref=e114]:
+                  - text: 商務功能
+                  - img [ref=e115]
+            - listitem [ref=e117]:
+              - link [ref=e118] [cursor=pointer]:
+                - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                - img [ref=e122]
+                - generic [ref=e127]: Learning

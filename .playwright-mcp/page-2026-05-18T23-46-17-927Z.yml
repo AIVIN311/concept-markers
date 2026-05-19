@@ -1,0 +1,1842 @@
+- generic [ref=e2]:
+  - heading "0 則通知" [level=2] [ref=e371]
+  - generic [ref=e372]:
+    - generic:
+      - button [ref=e373] [cursor=pointer]:
+        - generic [ref=e375]: 前往內容
+      - button [ref=e376] [cursor=pointer]:
+        - img [ref=e378]
+    - generic [ref=e380]:
+      - banner [ref=e382]:
+        - generic [ref=e385]:
+          - button "LinkedIn" [ref=e386] [cursor=pointer]:
+            - img "LinkedIn" [ref=e387]
+          - generic [ref=e389]:
+            - status [ref=e390]
+            - search [ref=e391]:
+              - generic [ref=e392]:
+                - img [ref=e394]
+                - textbox "搜尋" [ref=e396]
+          - generic [ref=e398]:
+            - figure [ref=e403]
+            - navigation [ref=e406]:
+              - list [ref=e407]:
+                - listitem [ref=e408]:
+                  - button "首頁，1 則新通知" [ref=e409] [cursor=pointer]:
+                    - img [ref=e411]
+                    - generic [ref=e415]: 首頁
+                - listitem [ref=e416]:
+                  - link "我的人脈，0 則新通知" [ref=e417] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e419]
+                    - generic [ref=e422]: 我的人脈
+                - listitem [ref=e423]:
+                  - link "職缺，0 則新通知" [ref=e424] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e426]
+                    - generic [ref=e429]: 職缺
+                - listitem [ref=e430]:
+                  - link "訊息，0 則新通知" [ref=e431] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e433]
+                    - generic [ref=e436]: 訊息
+                - listitem [ref=e437]:
+                  - link "通知，0 則新通知" [ref=e438] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e440]
+                    - generic [ref=e443]: 通知
+                - listitem [ref=e444]:
+                  - button "我" [ref=e445] [cursor=pointer]:
+                    - figure [ref=e447]
+                    - generic [ref=e449]:
+                      - text: 我
+                      - img [ref=e450]
+            - navigation [ref=e454]:
+              - list [ref=e455]:
+                - listitem [ref=e456]:
+                  - button "商務功能" [ref=e457] [cursor=pointer]:
+                    - img [ref=e459]
+                    - generic [ref=e462]:
+                      - text: 商務功能
+                      - img [ref=e463]
+                - listitem [ref=e465]:
+                  - link "Learning，0 則新通知" [ref=e466] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - img [ref=e468]
+                    - generic [ref=e474]: Learning
+      - generic [ref=e476]:
+        - toolbar [ref=e477]:
+          - generic [ref=e481]:
+            - link "Davin Chang" [ref=e482] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/davin-chang/
+              - generic "Davin Chang" [ref=e483]:
+                - figure [ref=e484]
+                - generic [ref=e485]:
+                  - paragraph [ref=e486]: Davin Chang
+                  - paragraph [ref=e488]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+            - generic [ref=e489]:
+              - button "更多內容" [ref=e491] [cursor=pointer]:
+                - img [ref=e493]
+              - button "訊息" [ref=e496] [cursor=pointer]:
+                - generic [ref=e497]:
+                  - img [ref=e498]
+                  - generic [ref=e500]: 訊息
+              - button "關注Davin Chang" [ref=e504] [cursor=pointer]:
+                - generic [ref=e505]:
+                  - img [ref=e506]
+                  - generic [ref=e509]: 關注
+        - main [ref=e510]:
+          - generic [ref=e512]:
+            - region "主要內容" [ref=e513]:
+              - generic [ref=e515]:
+                - generic [ref=e520]:
+                  - generic [ref=e521]:
+                    - button [ref=e524] [cursor=pointer]:
+                      - figure [ref=e525]:
+                        - img "封面照片" [ref=e526]
+                    - button "檔案照片" [ref=e527] [cursor=pointer]:
+                      - generic "檔案照片" [ref=e528]:
+                        - figure [ref=e529]
+                  - generic [ref=e530]:
+                    - generic [ref=e531]:
+                      - generic [ref=e533]:
+                        - generic [ref=e534]:
+                          - link "Davin Chang 查看Davin的驗證" [ref=e537] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/in/davin-chang/
+                            - generic [ref=e539]:
+                              - heading "Davin Chang" [level=2] [ref=e540]
+                              - img "查看Davin的驗證" [ref=e541]
+                          - paragraph [ref=e543]: · 2 度
+                        - paragraph [ref=e544]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                        - generic [ref=e545]:
+                          - paragraph [ref=e546]: 台灣 臺北市 台北
+                          - paragraph [ref=e547]: ·
+                          - paragraph [ref=e548]:
+                            - link "聯絡資料" [ref=e549] [cursor=pointer]:
+                              - /url: "#"
+                      - generic [ref=e551]:
+                        - button "AIPost｜AI郵報" [ref=e552] [cursor=pointer]:
+                          - generic [ref=e553]:
+                            - figure [ref=e554]
+                            - paragraph [ref=e558]: AIPost｜AI郵報
+                        - button "National Chiao Tung University" [ref=e559] [cursor=pointer]:
+                          - generic [ref=e560]:
+                            - figure [ref=e561]
+                            - paragraph [ref=e565]: National Chiao Tung University
+                    - button "AIPOST" [ref=e566]:
+                      - link "AIPOST" [ref=e567] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Faiposthub%2Ecom&urlhash=82rL&mt=0Hwq43nNMGWetetGxPKuLyy-JewV1i77QnnpRxcpvD7muBTiRLxeYmKWZYGbjHq790IyMocbKCFMpjUoFOyLgHceLpw9&isSdui=true
+                        - text: AIPOST
+                        - img [ref=e568]
+                    - paragraph [ref=e571]: 3,776 個關注者
+                    - link "Leal Wu、Valerie和其他 2 位共同聯絡人" [ref=e572] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                      - generic [ref=e573]:
+                        - figure [ref=e574]
+                        - figure [ref=e575]
+                        - paragraph [ref=e577]:
+                          - link "Leal Wu、Valerie和其他 2 位共同聯絡人" [ref=e579]:
+                            - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                            - strong [ref=e580]: Leal Wu
+                            - text: 、
+                            - strong [ref=e581]: Valerie
+                            - text: 和其他 2 位共同聯絡人
+                    - generic [ref=e585]:
+                      - button "關注Davin Chang" [ref=e589] [cursor=pointer]:
+                        - generic [ref=e590]:
+                          - img [ref=e591]
+                          - generic [ref=e594]: 關注
+                      - button "訊息" [active] [ref=e596] [cursor=pointer]:
+                        - generic [ref=e597]:
+                          - img [ref=e598]
+                          - generic [ref=e600]: 訊息
+                      - button "更多內容" [ref=e602] [cursor=pointer]:
+                        - img [ref=e604]
+                - generic [ref=e608]:
+                  - generic [ref=e613]:
+                    - heading "要點整理" [level=2] [ref=e615]
+                    - generic [ref=e619]:
+                      - img [ref=e620]
+                      - generic [ref=e627]:
+                        - generic [ref=e630]:
+                          - paragraph [ref=e631]: 徵求引薦給Davin
+                          - paragraph [ref=e632]: 詢問你們的共同聯絡人可否協助您展開對話。
+                        - link "傳送訊息給熱門聯絡人" [ref=e634] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/davin-chang/
+                          - generic [ref=e635]:
+                            - img [ref=e636]
+                            - generic [ref=e639]: 傳送訊息給熱門聯絡人
+                  - generic [ref=e644]:
+                    - heading "關於" [level=2] [ref=e646]
+                    - generic [ref=e647]:
+                      - paragraph [ref=e648]:
+                        - generic [ref=e649]: Serial entrepreneur in tech & marketing | AI & Blockchain | Global Branding & Marketing | Growth Hacking Enthusiast | Triathlete | Studying Master’s in Law
+                      - generic [ref=e652]:
+                        - generic [ref=e653]:
+                          - img [ref=e654]
+                          - generic [ref=e656]:
+                            - paragraph [ref=e657]: 擅長技能
+                            - paragraph [ref=e658]: Crypto • Business Strategy • Blockchain • Artificial Intelligence (AI) • Brand Strategy
+                        - link "顯示擅長技能" [ref=e659] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/davin-chang/overlay/top-skills-details/
+                          - img [ref=e661]
+                  - generic [ref=e667]:
+                    - heading "精選" [level=2] [ref=e669]
+                    - generic [ref=e671]:
+                      - list [ref=e673]:
+                        - listitem [ref=e674]:
+                          - listitem [ref=e675]:
+                            - link [ref=e678] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7348885538382241792/
+                              - generic [ref=e679]:
+                                - button "貼文" [ref=e680]
+                                - generic [ref=e681]:
+                                  - paragraph [ref=e683]:
+                                    - generic [ref=e684]:
+                                      - text: AIPost Night Talk 2｜設計 x AI 的夜晚 (English below)
+                                      - text: "昨天（7月9日）非常榮幸主持了 AIPost Night Talk #2，與三位設計界的重量級講者，圍繞「從設計視角看AI浪潮下的設計思維變革」展開了一場精彩又充滿洞見的對談。"
+                                      - text: 這場輕鬆卻深度的線上AMA，我們邀請了：
+                                      - link "Ming Wen" [ref=e686]:
+                                        - /url: https://www.linkedin.com/in/cis2042/zh/
+                                      - text: ｜國立台北商業大學教授 & UX三刀流主理人
+                                      - link "Seal Chang" [ref=e687]:
+                                        - /url: https://www.linkedin.com/in/wasiseal/
+                                      - text: ｜KKDAY Head of Product & Growth Hack專家
+                                      - link "Fangyi Su" [ref=e688]:
+                                        - /url: https://www.linkedin.com/in/fangyi-su/
+                                      - text: ｜MobileDrive 資深UI設計師，橫跨多元產業設計經驗
+                                      - text: 我們談論了：
+                                      - text: ☑️ AI 對 UI/UX 與產品流程的重構力量
+                                      - text: ☑️ 設計工具的演進與創意訓練的新方式
+                                      - text: ☑️ 面對AI浪潮，設計師如何重新思考「設計思維」的核心
+                                      - text: 感謝三位嘉賓的真誠分享與實戰經驗，這場夜談不只收穫滿滿，也讓許多未來人得到了深刻啟發。
+                                      - link "AIPost｜AI郵報" [ref=e689]:
+                                        - /url: https://www.linkedin.com/company/ai郵報/
+                                      - text: 會持續舉辦更多針對未來趨勢與專業實務的分享，歡迎關注我們、一起加入這場AI驅動的變革！
+                                      - link "#AI" [ref=e690]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai
+                                      - link "#設計思維" [ref=e691]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E8%A8%AD%E8%A8%88%E6%80%9D%E7%B6%AD
+                                      - link "#UIUX" [ref=e692]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23uiux
+                                      - link "#產品設計" [ref=e693]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E7%94%A2%E5%93%81%E8%A8%AD%E8%A8%88
+                                      - link "#AIPost" [ref=e694]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aipost
+                                      - link "#創新" [ref=e695]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%89%B5%E6%96%B0
+                                      - link "#科技" [ref=e696]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E7%A7%91%E6%8A%80
+                                      - link "#未來趨勢" [ref=e697]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%9C%AA%E4%BE%86%E8%B6%A8%E5%8B%A2
+                                      - text: AIPost Night Talk 2｜AI Meets Design Thinking
+                                      - text: "On July 9th, I had the honor of hosting AIPost Night Talk #2, where we explored the timely and forward-looking topic:“Design Thinking in the Age of AI: A Designer’s Perspective.” We were joined by three outstanding guests:"
+                                      - link "Ming Wen" [ref=e698]:
+                                        - /url: https://www.linkedin.com/in/cis2042/zh/
+                                      - text: ｜Professor at National Taipei University of Business & Founder of UX三刀流
+                                      - link "Seal Chang" [ref=e699]:
+                                        - /url: https://www.linkedin.com/in/wasiseal/
+                                      - text: ｜Head of Product at KKDAY & Growth Hacking Expert
+                                      - link "Fangyi Su" [ref=e700]:
+                                        - /url: https://www.linkedin.com/in/fangyi-su/
+                                      - text: ｜Senior UI Designer at MobileDrive, with diverse industry experience
+                                      - text: "Key topics we covered:"
+                                      - text: ☑️ How AI is reshaping UI/UX and the entire product development process
+                                      - text: ☑️ The evolution of design tools in the AI era
+                                      - text: ☑️ Rethinking the essence of design thinking in response to emerging technologies
+                                      - text: Huge thanks to our guests for their genuine insights and inspiring stories. The conversation sparked deep reflections and forward-looking ideas for many of us building for the future.
+                                      - link "AIPost｜AI郵報" [ref=e701]:
+                                        - /url: https://www.linkedin.com/company/ai郵報/
+                                      - text: will continue to host events like this to inspire the next generation of future-minded creators. Stay tuned and join the movement!
+                                      - link "#AI" [ref=e702]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai
+                                      - link "#DesignThinking" [ref=e703]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23designthinking
+                                      - link "#UIUX" [ref=e704]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23uiux
+                                      - link "#ProductDesign" [ref=e705]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23productdesign
+                                      - link "#AIPost" [ref=e706]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aipost
+                                      - link "#Innovation" [ref=e707]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23innovation
+                                      - link "#Tech" [ref=e708]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23tech
+                                      - link "#FutureTrends" [ref=e709]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23futuretrends
+                                  - figure [ref=e710]
+                                - generic [ref=e711]:
+                                  - img [ref=e712]
+                                  - img [ref=e717]
+                                  - paragraph [ref=e731]:
+                                    - generic [ref=e732]: 34 個感受
+                                    - text: 34 個
+                        - listitem [ref=e733]:
+                          - listitem [ref=e734]:
+                            - 'link "貼文 First CT113km Completed｜2525｜6:36:33 ✅ This was my first time completing Challenge Taiwan 113km. Not just numbers, but a reflection of time invested, discipline practiced, and the body’s honest response to consistent effort. \"Entrepreneurship\" and \"Triathlon\" may seem worlds apart, but they both demand the same things: Commitment, Endurance, and the ability to keep showing up. 10 個感受 · 3 則回應" [ref=e737] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7326832131387588608/
+                              - generic [ref=e738]:
+                                - button "貼文" [ref=e739]
+                                - generic [ref=e740]:
+                                  - paragraph [ref=e742]: "First CT113km Completed｜2525｜6:36:33 ✅ This was my first time completing Challenge Taiwan 113km. Not just numbers, but a reflection of time invested, discipline practiced, and the body’s honest response to consistent effort. \"Entrepreneurship\" and \"Triathlon\" may seem worlds apart, but they both demand the same things: Commitment, Endurance, and the ability to keep showing up."
+                                  - figure [ref=e743]
+                                - generic [ref=e744]:
+                                  - img [ref=e745]
+                                  - img [ref=e750]
+                                  - paragraph [ref=e764]:
+                                    - generic [ref=e765]: 10 個感受 · 3 則回應
+                                    - text: 10 · 3 則回應
+                        - listitem [ref=e766]:
+                          - listitem [ref=e767]:
+                            - 'link "貼文 很榮幸受邀參與《2025鼎新企業高峰年會 | 製造場》的主題對談：「用數智實現創想」，與產官學界的先進們共同探討 AI 如何重構製造業的創新生產力。 從「導入AI」到「AI Inside」，不僅是工具的更替，更是組織底層邏輯與文化的轉型。 在論壇中，我分享了以下幾個觀點： - 對中小企業而言，導入AI的起點不是技術，而是數據治理與現場理解。 - 台灣製造業的最大資產，是現場經驗的厚度與學習韌性，AI應該做的是放大這份能力，而不是取代。 - 未來的競爭力來自於「數據驅動」與「決策即時化」的能力，這需要策略、人才、與文化的三位一體推動。 - 以及2028前在Agentic AI、Multimodal、IOT間的交互應用 非常感謝鼎新數智的邀請，以及與會夥伴精彩的交流與洞察。未來，我也將持續關注 AI 在製造業、商業與法規面向的融合應用。 #AI #智慧製造 #製造業轉型 #企業數位轉型 #鼎新企業高峰年會 #AIInside #產業創新 #Digiwin #人工智慧 #數位轉型 #SmartManufacturing 9 個感受" [ref=e770] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7318513513264463872/
+                              - generic [ref=e771]:
+                                - button "貼文" [ref=e772]
+                                - generic [ref=e773]:
+                                  - paragraph [ref=e775]:
+                                    - generic [ref=e776]:
+                                      - text: 很榮幸受邀參與《2025鼎新企業高峰年會 | 製造場》的主題對談：「用數智實現創想」，與產官學界的先進們共同探討 AI 如何重構製造業的創新生產力。
+                                      - text: 從「導入AI」到「AI Inside」，不僅是工具的更替，更是組織底層邏輯與文化的轉型。
+                                      - text: 在論壇中，我分享了以下幾個觀點：
+                                      - text: "- 對中小企業而言，導入AI的起點不是技術，而是數據治理與現場理解。"
+                                      - text: "- 台灣製造業的最大資產，是現場經驗的厚度與學習韌性，AI應該做的是放大這份能力，而不是取代。"
+                                      - text: "- 未來的競爭力來自於「數據驅動」與「決策即時化」的能力，這需要策略、人才、與文化的三位一體推動。"
+                                      - text: "- 以及2028前在Agentic AI、Multimodal、IOT間的交互應用"
+                                      - text: 非常感謝鼎新數智的邀請，以及與會夥伴精彩的交流與洞察。未來，我也將持續關注 AI 在製造業、商業與法規面向的融合應用。
+                                      - link "#AI" [ref=e777]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai
+                                      - link "#智慧製造" [ref=e778]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0
+                                      - link "#製造業轉型" [ref=e779]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E8%A3%BD%E9%80%A0%E6%A5%AD%E8%BD%89%E5%9E%8B
+                                      - link "#企業數位轉型" [ref=e780]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E4%BC%81%E6%A5%AD%E6%95%B8%E4%BD%8D%E8%BD%89%E5%9E%8B
+                                      - link "#鼎新企業高峰年會" [ref=e781]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E9%BC%8E%E6%96%B0%E4%BC%81%E6%A5%AD%E9%AB%98%E5%B3%B0%E5%B9%B4%E6%9C%83
+                                      - link "#AIInside" [ref=e782]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aiinside
+                                      - link "#產業創新" [ref=e783]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E7%94%A2%E6%A5%AD%E5%89%B5%E6%96%B0
+                                      - link "#Digiwin" [ref=e784]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23digiwin
+                                      - link "#人工智慧" [ref=e785]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7
+                                      - link "#數位轉型" [ref=e786]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%95%B8%E4%BD%8D%E8%BD%89%E5%9E%8B
+                                      - link "#SmartManufacturing" [ref=e787]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23smartmanufacturing
+                                  - figure [ref=e788]
+                                - generic [ref=e789]:
+                                  - img [ref=e790]
+                                  - paragraph [ref=e795]:
+                                    - generic [ref=e796]: 9 個感受
+                                    - text: 9 個
+                        - listitem [ref=e797]:
+                          - listitem [ref=e798]:
+                            - 'link "貼文 這篇是我上週在《風傳媒菁英沙龍》中的演講紀錄，從川普政策、監管趨勢、到市場行為，分享我對川普2.0，重返白宮後看待比特幣的角度、監管策略與發展觀察看法。 全文連結：https://lnkd.in/gr4zTW_Q #川普 #比特幣 #加密貨幣 #政策觀察 #風傳媒 #金融趨勢 #演講整理 #AI郵報 #Qubic 18 個感受 · 1 則回應" [ref=e801] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7312743920759685120/
+                              - generic [ref=e802]:
+                                - button "貼文" [ref=e803]
+                                - generic [ref=e804]:
+                                  - paragraph [ref=e806]:
+                                    - generic [ref=e807]:
+                                      - text: 這篇是我上週在《風傳媒菁英沙龍》中的演講紀錄，從川普政策、監管趨勢、到市場行為，分享我對川普2.0，重返白宮後看待比特幣的角度、監管策略與發展觀察看法。
+                                      - text: 全文連結：
+                                      - link "https://lnkd.in/gr4zTW_Q" [ref=e808]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgr4zTW_Q&urlhash=aiv4&mt=BPWs_RXxPnyZGXnh7wkY0ISWI1A2L_29juAHAf4zjXoZVPXO1C6g0fyOb9OprQvS7z6CYRYJQcsccQSZarTNdCuKE3X2&isSdui=true
+                                      - link "#川普" [ref=e809]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%B7%9D%E6%99%AE
+                                      - link "#比特幣" [ref=e810]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%AF%94%E7%89%B9%E5%B9%A3
+                                      - link "#加密貨幣" [ref=e811]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3
+                                      - link "#政策觀察" [ref=e812]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%94%BF%E7%AD%96%E8%A7%80%E5%AF%9F
+                                      - link "#風傳媒" [ref=e813]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E9%A2%A8%E5%82%B3%E5%AA%92
+                                      - link "#金融趨勢" [ref=e814]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E9%87%91%E8%9E%8D%E8%B6%A8%E5%8B%A2
+                                      - link "#演講整理" [ref=e815]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%BC%94%E8%AC%9B%E6%95%B4%E7%90%86
+                                      - link "#AI郵報" [ref=e816]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai%E9%83%B5%E5%A0%B1
+                                      - link "#Qubic" [ref=e817]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23qubic
+                                  - figure [ref=e818]
+                                - generic [ref=e819]:
+                                  - img [ref=e820]
+                                  - paragraph [ref=e825]:
+                                    - generic [ref=e826]: 18 個感受 · 1 則回應
+                                    - text: 18 · 1 則回應
+                        - listitem [ref=e827]:
+                          - listitem [ref=e828]:
+                            - link "Davin Chang轉分享 Proud of our team 智聚科技 BizWitcher Lab This system we built a few years ago is now used in over 70% of major hospitals across Taiwan, making a real impact on healthcare！ 威合威務後勤管理服務 | 2023台灣形象影片 youtube.com 10 個感受" [ref=e831] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7299674206311522304/
+                              - generic [ref=e832]:
+                                - button "Davin Chang轉分享" [ref=e833]
+                                - generic [ref=e834]:
+                                  - paragraph [ref=e836]:
+                                    - generic [ref=e837]:
+                                      - text: Proud of our team
+                                      - link "智聚科技 BizWitcher Lab" [ref=e838]:
+                                        - /url: https://www.linkedin.com/company/bizwitcher/
+                                      - text: This system we built a few years ago is now used in over 70% of major hospitals across Taiwan, making a real impact on healthcare！
+                                  - figure [ref=e839]
+                                  - generic [ref=e840]:
+                                    - paragraph [ref=e841]: 威合威務後勤管理服務 | 2023台灣形象影片
+                                    - paragraph [ref=e843]: youtube.com
+                                - generic [ref=e844]:
+                                  - img [ref=e845]
+                                  - img [ref=e850]
+                                  - paragraph [ref=e862]:
+                                    - generic [ref=e863]: 10 個感受
+                                    - text: 10 個
+                        - listitem [ref=e864]:
+                          - link "顯示全部精選內容" [ref=e867] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/in/davin-chang/details/featured/
+                            - generic [ref=e868]:
+                              - img [ref=e869]
+                              - generic [ref=e871]: 顯示全部精選內容
+                      - button "下一步" [ref=e872] [cursor=pointer]:
+                        - img [ref=e874]
+                - generic [ref=e881]:
+                  - generic [ref=e882]:
+                    - generic [ref=e883]:
+                      - heading "動態" [level=2] [ref=e884]
+                      - paragraph [ref=e886]: 3,776 個關注者
+                    - button "關注Davin Chang" [ref=e889] [cursor=pointer]:
+                      - generic [ref=e890]:
+                        - img [ref=e891]
+                        - generic [ref=e894]: 關注
+                  - generic [ref=e895]:
+                    - radio "動態" [checked] [ref=e896] [cursor=pointer]:
+                      - generic [ref=e897]:
+                        - checkbox "動態" [checked]
+                        - generic [ref=e898]: 動態
+                    - radio "回應" [ref=e899] [cursor=pointer]:
+                      - generic [ref=e900]:
+                        - checkbox "回應"
+                        - generic [ref=e901]: 回應
+                    - radio "圖片" [ref=e902] [cursor=pointer]:
+                      - generic [ref=e903]:
+                        - checkbox "圖片"
+                        - generic [ref=e904]: 圖片
+                  - generic [ref=e906]:
+                    - generic [ref=e912]:
+                      - list [ref=e913]:
+                        - list [ref=e914]:
+                          - listitem [ref=e915]:
+                            - listitem [ref=e917]:
+                              - generic [ref=e918]:
+                                - generic [ref=e919]:
+                                  - link [ref=e920] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - figure [ref=e921]:
+                                      - img "查看Davin Chang的個人檔案" [ref=e922]
+                                  - generic [ref=e924]:
+                                    - link "ChangDavin 已驗證個人檔案 2 度" [ref=e927] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - generic "ChangDavin 已驗證個人檔案 2 度" [ref=e929]:
+                                        - paragraph [ref=e932]: Davin Chang
+                                        - paragraph [ref=e934]:
+                                          - generic [ref=e935]:
+                                            - img [ref=e937]
+                                            - text: • 2 度
+                                    - paragraph [ref=e940]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                                    - paragraph [ref=e942]:
+                                      - generic [ref=e943]:
+                                        - text: 3 個月 •
+                                        - img "公開度：全球" [ref=e944]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                  - button "開啟Davin Chang貼文的控制選單" [ref=e946] [cursor=pointer]:
+                                    - img [ref=e948]
+                                - link "Glad to be an AI Partner of Red Bull Basement. Good ideas deserve a bigger stage. Let’s build 🚀" [ref=e950] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7420027974831243265/
+                                  - paragraph [ref=e953]:
+                                    - generic [ref=e954]: Glad to be an AI Partner of Red Bull Basement. Good ideas deserve a bigger stage. Let’s build 🚀
+                                - button "顯示翻譯" [ref=e956] [cursor=pointer]:
+                                  - generic [ref=e958]: 顯示翻譯
+                                - generic [ref=e959]:
+                                  - generic [ref=e960]:
+                                    - link [ref=e961] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - figure [ref=e962]:
+                                        - img "查看公司：AIPost｜AI郵報" [ref=e963]
+                                    - generic [ref=e965]:
+                                      - link "AIPost｜AI郵報" [ref=e968] [cursor=pointer]:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                        - generic "AIPost｜AI郵報" [ref=e970]:
+                                          - paragraph [ref=e973]: AIPost｜AI郵報
+                                      - paragraph [ref=e975]:
+                                        - generic [ref=e976]:
+                                          - text: 3 個月 •
+                                          - img "公開度：全球" [ref=e977]
+                                      - link:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                  - 'link "我們一直相信， 好的想法值得被推到更大的世界。 這次，換我們一起幫忙把翅膀裝好。 很高興成為 Red Bull Basement 的 AI Partner。 活動資訊 https://lnkd.in/gSj7BXmP #RedBull #RedBullBasement" [ref=e979] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:share:7420020539836096512/
+                                    - paragraph [ref=e980]:
+                                      - generic [ref=e981]:
+                                        - text: 我們一直相信，
+                                        - text: 好的想法值得被推到更大的世界。
+                                        - text: 這次，換我們一起幫忙把翅膀裝好。
+                                        - text: 很高興成為
+                                        - text: Red Bull Basement 的 AI Partner。
+                                        - text: 活動資訊
+                                        - link "https://lnkd.in/gSj7BXmP" [ref=e983]:
+                                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgSj7BXmP&urlhash=rKd0&mt=-Hy-UfT-qrY3VE5OXDNSsng_YEbMy7PP33vrgA4OGj56kUiybtVcgE_avHx-p5ql9mJ0zFHJ7K72wGxgjV6KVca425Nm9N6cpv1QuCHXQQbZXbDiVYSEtIc&isSdui=true
+                                          - strong [ref=e985]: https://lnkd.in/gSj7BXmP
+                                        - link "#RedBull" [ref=e986]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23redbull&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e988]: "#RedBull"
+                                        - link "#RedBullBasement" [ref=e989]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23redbullbasement&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e991]: "#RedBullBasement"
+                                        - button:
+                                          - generic [ref=e993]: … 更多
+                                  - link [ref=e995] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:share:7420020539836096512/
+                                    - figure [ref=e996]:
+                                      - img "查看圖片" [ref=e997]
+                              - generic [ref=e998]:
+                                - link "6 個感受" [ref=e1000] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/davin-chang/
+                                  - generic [ref=e1001]:
+                                    - img [ref=e1002]
+                                    - paragraph [ref=e1009]:
+                                      - generic [ref=e1010]:
+                                        - generic [ref=e1011]: 6 個感受
+                                        - text: "6"
+                                - generic [ref=e1012]:
+                                  - generic [ref=e1013]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1016] [cursor=pointer]:
+                                      - img [ref=e1018]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1021] [cursor=pointer]
+                                  - link "回應" [ref=e1023] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7420027974831243265/
+                                    - img [ref=e1025]
+                                  - button "轉發" [ref=e1027] [cursor=pointer]:
+                                    - img [ref=e1029]
+                                  - link "傳送" [ref=e1031] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1033]
+                          - listitem [ref=e1035]:
+                            - listitem [ref=e1037]:
+                              - generic [ref=e1038]:
+                                - generic [ref=e1039]:
+                                  - link [ref=e1040] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - figure [ref=e1041]:
+                                      - img "查看Davin Chang的個人檔案" [ref=e1042]
+                                  - generic [ref=e1044]:
+                                    - link "ChangDavin 已驗證個人檔案 2 度" [ref=e1047] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - generic "ChangDavin 已驗證個人檔案 2 度" [ref=e1049]:
+                                        - paragraph [ref=e1052]: Davin Chang
+                                        - paragraph [ref=e1054]:
+                                          - generic [ref=e1055]:
+                                            - img [ref=e1057]
+                                            - text: • 2 度
+                                    - paragraph [ref=e1060]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                                    - paragraph [ref=e1062]:
+                                      - generic [ref=e1063]:
+                                        - text: 3 個月 •
+                                        - img "公開度：全球" [ref=e1064]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                  - button "開啟Davin Chang貼文的控制選單" [ref=e1066] [cursor=pointer]:
+                                    - img [ref=e1068]
+                                - link "AI 郵報學院（AIPost Academy）正式啟動，目前已經超過70位講師申請，我們不只教授工具，更致力於邀請各產業專家，將 AI 轉化為真正落地實務的生產力，有興趣參與合作計畫的專業導師，請詳見下方內文。 AIPost Academy is officially live, with over 70 instructors already onboard! We’re going beyond basic AI tools to partner with industry experts who can bridge the gap between technology and real-world impact. If you're ready to lead this transformation, check the post details below for our partnership program." [ref=e1070] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7419284784205651968/
+                                  - paragraph [ref=e1073]:
+                                    - generic [ref=e1074]:
+                                      - text: AI 郵報學院（AIPost Academy）正式啟動，目前已經超過70位講師申請，我們不只教授工具，更致力於邀請各產業專家，將 AI 轉化為真正落地實務的生產力，有興趣參與合作計畫的專業導師，請詳見下方內文。 AIPost Academy is officially live, with over 70 instructors already onboard! We’re going beyond basic AI tools to partner with industry experts who can bridge the gap between technology and real-world impact. If you're ready to lead this transformation, check the post details below for our partnership program.
+                                      - button:
+                                        - generic [ref=e1076]: … 更多
+                                - button "顯示翻譯" [ref=e1078] [cursor=pointer]:
+                                  - generic [ref=e1080]: 顯示翻譯
+                                - generic [ref=e1081]:
+                                  - generic [ref=e1082]:
+                                    - link [ref=e1083] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - figure [ref=e1084]:
+                                        - img "查看公司：AIPost｜AI郵報" [ref=e1085]
+                                    - generic [ref=e1087]:
+                                      - link "AIPost｜AI郵報" [ref=e1090] [cursor=pointer]:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                        - generic "AIPost｜AI郵報" [ref=e1092]:
+                                          - paragraph [ref=e1095]: AIPost｜AI郵報
+                                      - paragraph [ref=e1097]:
+                                        - generic [ref=e1098]:
+                                          - text: 3 個月 •
+                                          - img "公開度：全球" [ref=e1099]
+                                      - link:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                  - 'link "AI 郵報學院正式啟動「影響力講師合作計畫」 我們正在找的，不是教 AI 工具的人。而是，能把 AI 真正落地到產業與實務場景的專業者。 這是一項以實務深度、專業審核與長期合作為核心的講師計畫，首批名額採限額審核制，僅開放給具備實戰經驗與影響力的專業者。 完成合作課程後，學員未來將有機會取得具備第三方專業機構背書的學習與能力證明，應用於職涯發展、企業培訓與專業能力展示。 本次為首批講師招募 若你有意參與，留言或私訊索取申請連結，進入候選名單。 #影響力講師 #AI專業認證 #產業級學習 #AI郵報學院" [ref=e1101] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:share:7419281948319199232/
+                                    - paragraph [ref=e1102]:
+                                      - generic [ref=e1103]:
+                                        - text: AI 郵報學院正式啟動「影響力講師合作計畫」
+                                        - text: 我們正在找的，不是教 AI 工具的人。而是，能把 AI 真正落地到產業與實務場景的專業者。
+                                        - text: 這是一項以實務深度、專業審核與長期合作為核心的講師計畫，首批名額採限額審核制，僅開放給具備實戰經驗與影響力的專業者。
+                                        - text: 完成合作課程後，學員未來將有機會取得具備第三方專業機構背書的學習與能力證明，應用於職涯發展、企業培訓與專業能力展示。
+                                        - text: 本次為首批講師招募
+                                        - text: 若你有意參與，留言或私訊索取申請連結，進入候選名單。
+                                        - link "#影響力講師" [ref=e1104]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%BD%B1%E9%9F%BF%E5%8A%9B%E8%AC%9B%E5%B8%AB&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1106]: "#影響力講師"
+                                        - link "#AI專業認證" [ref=e1107]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai%E5%B0%88%E6%A5%AD%E8%AA%8D%E8%AD%89&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1109]: "#AI專業認證"
+                                        - link "#產業級學習" [ref=e1110]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E7%94%A2%E6%A5%AD%E7%B4%9A%E5%AD%B8%E7%BF%92&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1112]: "#產業級學習"
+                                        - link "#AI郵報學院" [ref=e1113]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai%E9%83%B5%E5%A0%B1%E5%AD%B8%E9%99%A2&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1115]: "#AI郵報學院"
+                                        - button:
+                                          - generic [ref=e1117]: … 更多
+                                  - link [ref=e1119] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:share:7419281948319199232/
+                                    - figure [ref=e1120]:
+                                      - img "查看圖片" [ref=e1121]
+                              - generic [ref=e1122]:
+                                - link "5 個感受" [ref=e1124] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/davin-chang/
+                                  - generic [ref=e1125]:
+                                    - img [ref=e1126]
+                                    - img [ref=e1132]
+                                    - paragraph [ref=e1141]:
+                                      - generic [ref=e1142]:
+                                        - generic [ref=e1143]: 5 個感受
+                                        - text: "5"
+                                - generic [ref=e1144]:
+                                  - generic [ref=e1145]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1148] [cursor=pointer]:
+                                      - img [ref=e1150]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1153] [cursor=pointer]
+                                  - link "回應" [ref=e1155] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7419284784205651968/
+                                    - img [ref=e1157]
+                                  - button "轉發" [ref=e1159] [cursor=pointer]:
+                                    - img [ref=e1161]
+                                  - link "傳送" [ref=e1163] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1165]
+                          - listitem [ref=e1167]:
+                            - listitem [ref=e1169]:
+                              - generic [ref=e1170]:
+                                - generic [ref=e1171]:
+                                  - generic [ref=e1172]:
+                                    - link [ref=e1173] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - figure [ref=e1174]:
+                                        - img "查看Davin Chang的個人檔案" [ref=e1175]
+                                    - paragraph [ref=e1177]:
+                                      - generic [ref=e1178]:
+                                        - link "Davin Chang" [ref=e1179] [cursor=pointer]:
+                                          - /url: https://www.linkedin.com/in/davin-chang/
+                                          - strong [ref=e1180]: Davin Chang
+                                        - text: 對此進行轉發
+                                  - button "開啟AIPost｜AI郵報貼文的控制選單" [ref=e1181] [cursor=pointer]:
+                                    - img [ref=e1183]
+                                - generic [ref=e1185]:
+                                  - link [ref=e1186] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                    - figure [ref=e1187]:
+                                      - img "查看公司：AIPost｜AI郵報" [ref=e1188]
+                                  - generic [ref=e1190]:
+                                    - link "AIPost｜AI郵報" [ref=e1193] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - generic "AIPost｜AI郵報" [ref=e1195]:
+                                        - paragraph [ref=e1198]: AIPost｜AI郵報
+                                    - paragraph [ref=e1200]:
+                                      - generic [ref=e1201]:
+                                        - text: 4 個月 •
+                                        - img "公開度：全球" [ref=e1202]
+                                    - link:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                - 'link "1月14日下午我們在微軟台北辦公室將舉辦一場中小企業AI化的實戰經驗分享活動，名額有限把握時間報名！ #Microsoft #聯強國際 #AIPost #AI #人工智慧" [ref=e1204] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/events/7412035094242091009/
+                                  - paragraph [ref=e1205]:
+                                    - generic [ref=e1206]:
+                                      - text: 1月14日下午我們在微軟台北辦公室將舉辦一場中小企業AI化的實戰經驗分享活動，名額有限把握時間報名！
+                                      - link "#Microsoft" [ref=e1208]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23microsoft&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1210]: "#Microsoft"
+                                      - link "#聯強國際" [ref=e1211]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E8%81%AF%E5%BC%B7%E5%9C%8B%E9%9A%9B&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1213]: "#聯強國際"
+                                      - link "#AIPost" [ref=e1214]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aipost&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1216]: "#AIPost"
+                                      - link "#AI" [ref=e1217]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1219]: "#AI"
+                                      - link "#人工智慧" [ref=e1220]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1222]: "#人工智慧"
+                                      - button:
+                                        - generic [ref=e1224]: … 更多
+                                - link [ref=e1225] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/events/7412035094242091009/
+                                  - figure [ref=e1226]
+                                - generic [ref=e1227]:
+                                  - link "1月14日週三，下午2:00 - 下午5:00 AI-INSIDE：中小企業 AI 化的第一哩與最後一哩 TW台北 1 人出席" [ref=e1228] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7412035094242091009/
+                                    - generic [ref=e1229]:
+                                      - paragraph [ref=e1231]: 1月14日週三，下午2:00 - 下午5:00
+                                      - paragraph [ref=e1233]: AI-INSIDE：中小企業 AI 化的第一哩與最後一哩
+                                      - paragraph [ref=e1234]:
+                                        - img [ref=e1236]
+                                        - text: TW台北
+                                      - paragraph [ref=e1240]: 1 人出席
+                                  - link "查看活動" [ref=e1241] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7412035094242091009/
+                                    - generic [ref=e1243]: 查看活動
+                              - generic [ref=e1244]:
+                                - generic [ref=e1245]:
+                                  - link "5 個感受" [ref=e1246] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - generic [ref=e1247]:
+                                      - img [ref=e1248]
+                                      - paragraph [ref=e1255]:
+                                        - generic [ref=e1256]:
+                                          - generic [ref=e1257]: 5 個感受
+                                          - text: "5"
+                                  - link "1 次轉發" [ref=e1259] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - paragraph [ref=e1260]:
+                                      - generic [ref=e1261]: 1 次轉發
+                                      - generic [ref=e1262]: 1 次轉發
+                                - generic [ref=e1263]:
+                                  - generic [ref=e1264]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1267] [cursor=pointer]:
+                                      - img [ref=e1269]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1272] [cursor=pointer]
+                                  - link "回應" [ref=e1274] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7412035344293982208/
+                                    - img [ref=e1276]
+                                  - button "轉發" [ref=e1278] [cursor=pointer]:
+                                    - img [ref=e1280]
+                                  - link "傳送" [ref=e1282] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1284]
+                          - listitem [ref=e1286]:
+                            - listitem [ref=e1288]:
+                              - generic [ref=e1289]:
+                                - generic [ref=e1290]:
+                                  - generic [ref=e1291]:
+                                    - link [ref=e1292] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - figure [ref=e1293]:
+                                        - img "查看Davin Chang的個人檔案" [ref=e1294]
+                                    - paragraph [ref=e1296]:
+                                      - generic [ref=e1297]:
+                                        - link "Davin Chang" [ref=e1298] [cursor=pointer]:
+                                          - /url: https://www.linkedin.com/in/davin-chang/
+                                          - strong [ref=e1299]: Davin Chang
+                                        - text: 對此進行轉發
+                                  - button "開啟AIPost｜AI郵報貼文的控制選單" [ref=e1300] [cursor=pointer]:
+                                    - img [ref=e1302]
+                                - generic [ref=e1304]:
+                                  - link [ref=e1305] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                    - figure [ref=e1306]:
+                                      - img "查看公司：AIPost｜AI郵報" [ref=e1307]
+                                  - generic [ref=e1309]:
+                                    - link "AIPost｜AI郵報" [ref=e1312] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - generic "AIPost｜AI郵報" [ref=e1314]:
+                                        - paragraph [ref=e1317]: AIPost｜AI郵報
+                                    - paragraph [ref=e1319]:
+                                      - generic [ref=e1320]:
+                                        - text: 5 個月 •
+                                        - img "公開度：全球" [ref=e1321]
+                                    - link:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                - link [ref=e1323] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/events/7405509949289766912/
+                                  - figure [ref=e1324]
+                                - generic [ref=e1325]:
+                                  - link "12月23日週二，上午8:30 - 下午12:00 Microsoft Cloud + AI 打造 AI 時代的領航企業 TW中正區 1 人出席" [ref=e1326] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7405509949289766912/
+                                    - generic [ref=e1327]:
+                                      - paragraph [ref=e1329]: 12月23日週二，上午8:30 - 下午12:00
+                                      - paragraph [ref=e1331]: Microsoft Cloud + AI 打造 AI 時代的領航企業
+                                      - paragraph [ref=e1332]:
+                                        - img [ref=e1334]
+                                        - text: TW中正區
+                                      - paragraph [ref=e1338]: 1 人出席
+                                  - link "查看活動" [ref=e1339] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7405509949289766912/
+                                    - generic [ref=e1341]: 查看活動
+                              - generic [ref=e1342]:
+                                - generic [ref=e1343]:
+                                  - link "5 個感受" [ref=e1344] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - generic [ref=e1345]:
+                                      - img [ref=e1346]
+                                      - paragraph [ref=e1353]:
+                                        - generic [ref=e1354]:
+                                          - generic [ref=e1355]: 5 個感受
+                                          - text: "5"
+                                  - link "2 次轉發" [ref=e1357] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - paragraph [ref=e1358]:
+                                      - generic [ref=e1359]: 2 次轉發
+                                      - generic [ref=e1360]: 2 次轉發
+                                - generic [ref=e1361]:
+                                  - generic [ref=e1362]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1365] [cursor=pointer]:
+                                      - img [ref=e1367]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1370] [cursor=pointer]
+                                  - link "回應" [ref=e1372] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7405517595283582976/
+                                    - img [ref=e1374]
+                                  - button "轉發" [ref=e1376] [cursor=pointer]:
+                                    - img [ref=e1378]
+                                  - link "傳送" [ref=e1380] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1382]
+                          - listitem [ref=e1384]:
+                            - listitem [ref=e1386]:
+                              - generic [ref=e1387]:
+                                - generic [ref=e1388]:
+                                  - link [ref=e1389] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - figure [ref=e1390]:
+                                      - img "查看Davin Chang的個人檔案" [ref=e1391]
+                                  - generic [ref=e1393]:
+                                    - link "ChangDavin 已驗證個人檔案 2 度" [ref=e1396] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - generic "ChangDavin 已驗證個人檔案 2 度" [ref=e1398]:
+                                        - paragraph [ref=e1401]: Davin Chang
+                                        - paragraph [ref=e1403]:
+                                          - generic [ref=e1404]:
+                                            - img [ref=e1406]
+                                            - text: • 2 度
+                                    - paragraph [ref=e1409]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                                    - paragraph [ref=e1411]:
+                                      - generic [ref=e1412]:
+                                        - text: 5 個月 •
+                                        - img "公開度：全球" [ref=e1413]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                  - button "開啟Davin Chang貼文的控制選單" [ref=e1415] [cursor=pointer]:
+                                    - img [ref=e1417]
+                                - 'link "上週在政大創聯會與商學院的『創業家講座』中分享關於AI趨勢下的創業方法與個人創業的心路歷程酸甜苦辣，目的是讓同學們可以趨吉避凶。 今天收到創聯會針對講座後同學們的回饋，覺得是近期在校園分享裡面非常有共鳴跟提問很有深度的一場，果然是創業風氣也很盛的政大！ 張哲維 講師 您好： 非常感謝您於上週四前來參與「創業家講座」！藉由您平易近人的創業經驗講授方式與對 AI 、新創趨勢的獨到見解讓本場講座收穫許多與會者的好評。在講者個別分享環節，您針對「 AI 時代下的創業的護城河」與「 FOMO 」，讓聽眾對 AI 的可近性有深刻的體悟，我們課程組全體成員亦獲益良多！ 以下是本次講座的回饋供講師參考 ： 整體回饋摘要： ✅學員普遍認為您分享的創業思維務實、具體且相當有深度，特別是關於「資源累積」、「資料護城河」、「市場現實」等面向。 ✅您的分享涵蓋大量真實創業經驗、失敗案例與策略洞察，讓與會者感覺有深刻揭露創業的真實現場。 ✅多則回饋提到您的分享讓他們對創業動機、資源累積、行動力有更深反思。 精選學員回饋： ✅很讚同張哲維講師說創業，手握人生的方向盤，自由掌握自己的時間，最大化收益是創業的初衷。 ✅認同講師說 AI 是最大的「不公平優勢」。 ✅講師講述 AI 輔助創業與市場競爭的邏輯非常清晰，是第一次聽到這麼實際的解說。 ✅他從面試官視角談如何跨進科技業，讓我覺得很接地氣，也很有方向。 ✅講師鼓勵我們多做專案、累積實績，比本科背景更重要。 ✅講師強調要累積「credibility」而不是去追求形式的實習，這很實用。 #AI #人工智慧 #創業 #創業心法 #Startup #政治大學 #NCCU" [ref=e1419] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7399699201049260032/
+                                  - paragraph [ref=e1420]:
+                                    - generic [ref=e1421]:
+                                      - text: 上週在政大創聯會與商學院的『創業家講座』中分享關於AI趨勢下的創業方法與個人創業的心路歷程酸甜苦辣，目的是讓同學們可以趨吉避凶。 今天收到創聯會針對講座後同學們的回饋，覺得是近期在校園分享裡面非常有共鳴跟提問很有深度的一場，果然是創業風氣也很盛的政大！
+                                      - text: 張哲維 講師 您好：
+                                      - text: 非常感謝您於上週四前來參與「創業家講座」！藉由您平易近人的創業經驗講授方式與對 AI 、新創趨勢的獨到見解讓本場講座收穫許多與會者的好評。在講者個別分享環節，您針對「 AI 時代下的創業的護城河」與「 FOMO 」，讓聽眾對 AI 的可近性有深刻的體悟，我們課程組全體成員亦獲益良多！
+                                      - text: 以下是本次講座的回饋供講師參考 ：
+                                      - text: 整體回饋摘要：
+                                      - text: ✅學員普遍認為您分享的創業思維務實、具體且相當有深度，特別是關於「資源累積」、「資料護城河」、「市場現實」等面向。
+                                      - text: ✅您的分享涵蓋大量真實創業經驗、失敗案例與策略洞察，讓與會者感覺有深刻揭露創業的真實現場。
+                                      - text: ✅多則回饋提到您的分享讓他們對創業動機、資源累積、行動力有更深反思。
+                                      - text: 精選學員回饋：
+                                      - text: ✅很讚同張哲維講師說創業，手握人生的方向盤，自由掌握自己的時間，最大化收益是創業的初衷。
+                                      - text: ✅認同講師說 AI 是最大的「不公平優勢」。
+                                      - text: ✅講師講述 AI 輔助創業與市場競爭的邏輯非常清晰，是第一次聽到這麼實際的解說。
+                                      - text: ✅他從面試官視角談如何跨進科技業，讓我覺得很接地氣，也很有方向。
+                                      - text: ✅講師鼓勵我們多做專案、累積實績，比本科背景更重要。
+                                      - text: ✅講師強調要累積「credibility」而不是去追求形式的實習，這很實用。
+                                      - link "#AI" [ref=e1422]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1424]: "#AI"
+                                      - link "#人工智慧" [ref=e1425]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1427]: "#人工智慧"
+                                      - link "#創業" [ref=e1428]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%89%B5%E6%A5%AD&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1430]: "#創業"
+                                      - link "#創業心法" [ref=e1431]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%89%B5%E6%A5%AD%E5%BF%83%E6%B3%95&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1433]: "#創業心法"
+                                      - link "#Startup" [ref=e1434]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23startup&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1436]: "#Startup"
+                                      - link "#政治大學" [ref=e1437]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E6%94%BF%E6%B2%BB%E5%A4%A7%E5%AD%B8&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1439]: "#政治大學"
+                                      - link "#NCCU" [ref=e1440]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23nccu&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1442]: "#NCCU"
+                                      - button:
+                                        - generic [ref=e1444]: … 更多
+                                - generic [ref=e1447]:
+                                  - link [ref=e1448] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - figure [ref=e1449]:
+                                      - img "查看圖片" [ref=e1450]
+                                  - paragraph [ref=e1451]: 1/5
+                              - generic [ref=e1452]:
+                                - link "29 個感受" [ref=e1454] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/davin-chang/
+                                  - generic [ref=e1455]:
+                                    - img [ref=e1456]
+                                    - paragraph [ref=e1463]:
+                                      - generic [ref=e1464]:
+                                        - generic [ref=e1465]: 29 個感受
+                                        - text: "29"
+                                - generic [ref=e1466]:
+                                  - generic [ref=e1467]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1470] [cursor=pointer]:
+                                      - img [ref=e1472]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1475] [cursor=pointer]
+                                  - link "回應" [ref=e1477] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7399699201049260032/
+                                    - img [ref=e1479]
+                                  - button "轉發" [ref=e1481] [cursor=pointer]:
+                                    - img [ref=e1483]
+                                  - link "傳送" [ref=e1485] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1487]
+                          - listitem [ref=e1489]:
+                            - listitem [ref=e1491]:
+                              - generic [ref=e1492]:
+                                - generic [ref=e1493]:
+                                  - link [ref=e1494] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - figure [ref=e1495]:
+                                      - img "查看Davin Chang的個人檔案" [ref=e1496]
+                                  - generic [ref=e1498]:
+                                    - link "ChangDavin 已驗證個人檔案 2 度" [ref=e1501] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - generic "ChangDavin 已驗證個人檔案 2 度" [ref=e1503]:
+                                        - paragraph [ref=e1506]: Davin Chang
+                                        - paragraph [ref=e1508]:
+                                          - generic [ref=e1509]:
+                                            - img [ref=e1511]
+                                            - text: • 2 度
+                                    - paragraph [ref=e1514]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                                    - paragraph [ref=e1516]:
+                                      - generic [ref=e1517]:
+                                        - text: 6 個月 •
+                                        - img "公開度：全球" [ref=e1518]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                  - button "開啟Davin Chang貼文的控制選單" [ref=e1520] [cursor=pointer]:
+                                    - img [ref=e1522]
+                                - 'link "AI郵報新節目上線，由每週電子報開信率60%的漢克主編操刀主持，第一集訪問到 PwC 的專家來幫大家解析台灣企業如何面對關稅政策帶來的挑戰！ #Tariff #關稅 #貿易 #台灣企業 #輝達 #台積電 #川普 #台灣" [ref=e1524] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7388132178150350848/
+                                  - paragraph [ref=e1525]:
+                                    - generic [ref=e1526]:
+                                      - text: AI郵報新節目上線，由每週電子報開信率60%的漢克主編操刀主持，第一集訪問到
+                                      - link "PwC" [ref=e1527]:
+                                        - /url: https://www.linkedin.com/company/pwc/
+                                        - strong [ref=e1529]: PwC
+                                      - text: 的專家來幫大家解析台灣企業如何面對關稅政策帶來的挑戰！
+                                      - link "#Tariff" [ref=e1531]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23tariff&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1533]: "#Tariff"
+                                      - link "#關稅" [ref=e1534]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E9%97%9C%E7%A8%85&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1536]: "#關稅"
+                                      - link "#貿易" [ref=e1537]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E8%B2%BF%E6%98%93&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1539]: "#貿易"
+                                      - link "#台灣企業" [ref=e1540]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1542]: "#台灣企業"
+                                      - link "#輝達" [ref=e1543]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E8%BC%9D%E9%81%94&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1545]: "#輝達"
+                                      - link "#台積電" [ref=e1546]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%8F%B0%E7%A9%8D%E9%9B%BB&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1548]: "#台積電"
+                                      - link "#川普" [ref=e1549]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%B7%9D%E6%99%AE&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1551]: "#川普"
+                                      - link "#台灣" [ref=e1552]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%8F%B0%E7%81%A3&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1554]: "#台灣"
+                                      - button:
+                                        - generic [ref=e1556]: … 更多
+                                - generic [ref=e1557]:
+                                  - generic [ref=e1558]:
+                                    - link [ref=e1559] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - figure [ref=e1560]:
+                                        - img "查看公司：AIPost｜AI郵報" [ref=e1561]
+                                    - generic [ref=e1563]:
+                                      - link "AIPost｜AI郵報" [ref=e1566] [cursor=pointer]:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                        - generic "AIPost｜AI郵報" [ref=e1568]:
+                                          - paragraph [ref=e1571]: AIPost｜AI郵報
+                                      - paragraph [ref=e1573]:
+                                        - generic [ref=e1574]:
+                                          - text: 6 個月 •
+                                          - img "公開度：全球" [ref=e1575]
+                                      - link:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                  - 'link "🎥 AI郵報 × PwC 全新聯名節目《AI焦點直播》正式登場！ 全球貿易格局不斷變化，台灣企業該如何面對關稅新局與海外設廠挑戰？ 本集邀請 PwC 全球稅務服務曾博昇會計師｜PwC Counsulting 馮丹菱資深副總經理，與 AI郵報主編 Hank 對談：關稅政策的實務衝擊、半導體與製造業的全球佈局、AI 如何在稅務與合規中發揮效能 🔗 立即報名｜https://luma.com/l7b97l9d ✨「AI焦點直播」將持續聚焦 AI、產業與政策的交叉點，帶你看見未來企業競爭力的真實樣貌。 #AI郵報 #PwC #AI焦點直播 #AIandBusiness #企業轉型 #稅務策略 #關稅新局" [ref=e1577] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/events/7386953639170469889/
+                                    - paragraph [ref=e1578]:
+                                      - generic [ref=e1579]:
+                                        - text: 🎥 AI郵報 × PwC 全新聯名節目《AI焦點直播》正式登場！
+                                        - text: 全球貿易格局不斷變化，台灣企業該如何面對關稅新局與海外設廠挑戰？
+                                        - text: 本集邀請 PwC 全球稅務服務曾博昇會計師｜PwC Counsulting 馮丹菱資深副總經理，與 AI郵報主編 Hank 對談：關稅政策的實務衝擊、半導體與製造業的全球佈局、AI 如何在稅務與合規中發揮效能
+                                        - text: 🔗 立即報名｜
+                                        - link "https://luma.com/l7b97l9d" [ref=e1580]:
+                                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fluma%2Ecom%2Fl7b97l9d&urlhash=Tyo4&mt=olqy5-UYGVAaQzV_7_zx6QbqXoy417eu_ORZ9ZWQO4XWd5V3oBfk9D8skGW5wmw0SEL3p0NSTiVVds-Ah4q5rwCL_7QU53KNyGsaew19Sw8jcXLr1s8FQJ-H5g&isSdui=true
+                                          - strong [ref=e1582]: https://luma.com/l7b97l9d
+                                        - text: ✨「AI焦點直播」將持續聚焦 AI、產業與政策的交叉點，帶你看見未來企業競爭力的真實樣貌。
+                                        - link "#AI郵報" [ref=e1583]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai%E9%83%B5%E5%A0%B1&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1585]: "#AI郵報"
+                                        - link "#PwC" [ref=e1586]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23pwc&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1588]: "#PwC"
+                                        - link "#AI焦點直播" [ref=e1589]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai%E7%84%A6%E9%BB%9E%E7%9B%B4%E6%92%AD&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1591]: "#AI焦點直播"
+                                        - link "#AIandBusiness" [ref=e1592]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23aiandbusiness&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1594]: "#AIandBusiness"
+                                        - link "#企業轉型" [ref=e1595]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E4%BC%81%E6%A5%AD%E8%BD%89%E5%9E%8B&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1597]: "#企業轉型"
+                                        - link "#稅務策略" [ref=e1598]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E7%A8%85%E5%8B%99%E7%AD%96%E7%95%A5&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1600]: "#稅務策略"
+                                        - link "#關稅新局" [ref=e1601]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E9%97%9C%E7%A8%85%E6%96%B0%E5%B1%80&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e1603]: "#關稅新局"
+                                        - button:
+                                          - generic [ref=e1605]: … 更多
+                                  - link [ref=e1606] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7386953639170469889/
+                                    - figure [ref=e1607]
+                                  - generic [ref=e1608]:
+                                    - link "10月27日週一，下午12:00 - 上午10:30 AI郵報 × PwC《焦點直播》｜關稅新局：台灣企業面臨的挑戰與全球擴張機會 線上 2 人出席" [ref=e1609] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/events/7386953639170469889/
+                                      - generic [ref=e1610]:
+                                        - paragraph [ref=e1612]: 10月27日週一，下午12:00 - 上午10:30
+                                        - paragraph [ref=e1614]: AI郵報 × PwC《焦點直播》｜關稅新局：台灣企業面臨的挑戰與全球擴張機會
+                                        - paragraph [ref=e1615]:
+                                          - img [ref=e1617]
+                                          - text: 線上
+                                        - paragraph [ref=e1621]: 2 人出席
+                                    - link "查看活動" [ref=e1622] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/events/7386953639170469889/
+                                      - generic [ref=e1624]: 查看活動
+                              - generic [ref=e1625]:
+                                - link "2 個感受" [ref=e1627] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/davin-chang/
+                                  - generic [ref=e1628]:
+                                    - img [ref=e1629]
+                                    - paragraph [ref=e1636]:
+                                      - generic [ref=e1637]:
+                                        - generic [ref=e1638]: 2 個感受
+                                        - text: "2"
+                                - generic [ref=e1639]:
+                                  - generic [ref=e1640]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1643] [cursor=pointer]:
+                                      - img [ref=e1645]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1648] [cursor=pointer]
+                                  - link "回應" [ref=e1650] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7388132178150350848/
+                                    - img [ref=e1652]
+                                  - button "轉發" [ref=e1654] [cursor=pointer]:
+                                    - img [ref=e1656]
+                                  - link "傳送" [ref=e1658] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1660]
+                          - listitem [ref=e1662]:
+                            - listitem [ref=e1664]:
+                              - generic [ref=e1665]:
+                                - generic [ref=e1666]:
+                                  - generic [ref=e1667]:
+                                    - link [ref=e1668] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - figure [ref=e1669]:
+                                        - img "查看Davin Chang的個人檔案" [ref=e1670]
+                                    - paragraph [ref=e1672]:
+                                      - generic [ref=e1673]:
+                                        - link "Davin Chang" [ref=e1674] [cursor=pointer]:
+                                          - /url: https://www.linkedin.com/in/davin-chang/
+                                          - strong [ref=e1675]: Davin Chang
+                                        - text: 對此進行轉發
+                                  - button "開啟AIPost｜AI郵報貼文的控制選單" [ref=e1676] [cursor=pointer]:
+                                    - img [ref=e1678]
+                                - generic [ref=e1680]:
+                                  - link [ref=e1681] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                    - figure [ref=e1682]:
+                                      - img "查看公司：AIPost｜AI郵報" [ref=e1683]
+                                  - generic [ref=e1685]:
+                                    - link "AIPost｜AI郵報" [ref=e1688] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - generic "AIPost｜AI郵報" [ref=e1690]:
+                                        - paragraph [ref=e1693]: AIPost｜AI郵報
+                                    - paragraph [ref=e1695]:
+                                      - generic [ref=e1696]:
+                                        - text: 7 個月 •
+                                        - img "公開度：全球" [ref=e1697]
+                                    - link:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                - 'link "AI 正在重塑製造業的遊戲規則 製造業的挑戰愈來愈複雜： 🌍 全球供應鏈不斷重組 💸 關稅與政策充滿不確定性 🤖 AI 技術快速進化 在 AWS 協助整理的產業交流手冊中，百位台灣 CEO、董總歸納出 20 個 AI 難題與解法，有幾個方向特別值得思考： 1. 美國製造回流，企業如何重塑供應鏈戰略？ 2. 當 AI 演算法天天更新，組織真的準備好了嗎？ 3. 關稅高牆之外，下一個成長機會在哪？ 4. 如何讓 AI 不只是「工具」，而是真正的決策智囊？ 👉 報名連結 https://lnkd.in/gwXtrwBZ AI 正在改寫製造業的版圖，而這些對話或許能幫助企業找到新的方向。 #AWS生成式AI #AWS #AmazonQ #AmazonBedrock #AmazonSageMaker" [ref=e1699] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7375909195667337217/
+                                  - paragraph [ref=e1700]:
+                                    - generic [ref=e1701]:
+                                      - text: AI 正在重塑製造業的遊戲規則
+                                      - text: 製造業的挑戰愈來愈複雜：
+                                      - text: 🌍 全球供應鏈不斷重組
+                                      - text: 💸 關稅與政策充滿不確定性
+                                      - text: 🤖 AI 技術快速進化
+                                      - text: 在 AWS 協助整理的產業交流手冊中，百位台灣 CEO、董總歸納出 20 個 AI 難題與解法，有幾個方向特別值得思考：
+                                      - text: 1. 美國製造回流，企業如何重塑供應鏈戰略？
+                                      - text: 2. 當 AI 演算法天天更新，組織真的準備好了嗎？
+                                      - text: 3. 關稅高牆之外，下一個成長機會在哪？
+                                      - text: 4. 如何讓 AI 不只是「工具」，而是真正的決策智囊？
+                                      - text: 👉 報名連結
+                                      - link "https://lnkd.in/gwXtrwBZ" [ref=e1703]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgwXtrwBZ&urlhash=M0vx&mt=Jqn-MrtAOvhepzia7_fzLTs_zzNxDBSNvSUfGb1R_GONdvkttyrzpuHhhafUxkneSJd-fCkkwWRA12vrWkypNjgiblGQjCt7yjXHPJWSYPQDB3hrchG4zSTxUv0&isSdui=true
+                                        - strong [ref=e1705]: https://lnkd.in/gwXtrwBZ
+                                      - text: AI 正在改寫製造業的版圖，而這些對話或許能幫助企業找到新的方向。
+                                      - link "#AWS生成式AI" [ref=e1706]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aws%E7%94%9F%E6%88%90%E5%BC%8Fai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1708]: "#AWS生成式AI"
+                                      - link "#AWS" [ref=e1709]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aws&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1711]: "#AWS"
+                                      - link "#AmazonQ" [ref=e1712]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23amazonq&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1714]: "#AmazonQ"
+                                      - link "#AmazonBedrock" [ref=e1715]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23amazonbedrock&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1717]: "#AmazonBedrock"
+                                      - link "#AmazonSageMaker" [ref=e1718]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23amazonsagemaker&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1720]: "#AmazonSageMaker"
+                                      - button:
+                                        - generic [ref=e1722]: … 更多
+                                - link [ref=e1724] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7375909195667337217/
+                                  - figure [ref=e1725]:
+                                    - img "查看圖片" [ref=e1726]
+                              - generic [ref=e1727]:
+                                - generic [ref=e1728]:
+                                  - link "14 個感受" [ref=e1729] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - generic [ref=e1730]:
+                                      - img [ref=e1731]
+                                      - paragraph [ref=e1738]:
+                                        - generic [ref=e1739]:
+                                          - generic [ref=e1740]: 14 個感受
+                                          - text: "14"
+                                  - link "3 次轉發" [ref=e1742] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - paragraph [ref=e1743]:
+                                      - generic [ref=e1744]: 3 次轉發
+                                      - generic [ref=e1745]: 3 次轉發
+                                - generic [ref=e1746]:
+                                  - generic [ref=e1747]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1750] [cursor=pointer]:
+                                      - img [ref=e1752]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1755] [cursor=pointer]
+                                  - link "回應" [ref=e1757] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7375909195667337217/
+                                    - img [ref=e1759]
+                                  - button "轉發" [ref=e1761] [cursor=pointer]:
+                                    - img [ref=e1763]
+                                  - link "傳送" [ref=e1765] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1767]
+                          - listitem [ref=e1769]:
+                            - listitem [ref=e1771]:
+                              - generic [ref=e1772]:
+                                - generic [ref=e1773]:
+                                  - generic [ref=e1774]:
+                                    - link [ref=e1775] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - figure [ref=e1776]:
+                                        - img "查看Davin Chang的個人檔案" [ref=e1777]
+                                    - paragraph [ref=e1779]:
+                                      - generic [ref=e1780]:
+                                        - link "Davin Chang" [ref=e1781] [cursor=pointer]:
+                                          - /url: https://www.linkedin.com/in/davin-chang/
+                                          - strong [ref=e1782]: Davin Chang
+                                        - text: 對此進行轉發
+                                  - button "開啟AIPost｜AI郵報貼文的控制選單" [ref=e1783] [cursor=pointer]:
+                                    - img [ref=e1785]
+                                - generic [ref=e1787]:
+                                  - link [ref=e1788] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                    - figure [ref=e1789]:
+                                      - img "查看公司：AIPost｜AI郵報" [ref=e1790]
+                                  - generic [ref=e1792]:
+                                    - link "AIPost｜AI郵報" [ref=e1795] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - generic "AIPost｜AI郵報" [ref=e1797]:
+                                        - paragraph [ref=e1800]: AIPost｜AI郵報
+                                    - paragraph [ref=e1802]:
+                                      - generic [ref=e1803]:
+                                        - text: 8 個月 • 已編輯 •
+                                        - img "公開度：全球" [ref=e1804]
+                                    - link:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                - 'link "從 iPhone Air 到 AirPods Pro 3，Apple 把 AI 融入設計、健康、語言，讓科技「不打擾卻無所不在」。 👉 你覺得這是下一個趨勢嗎？ 完整蘋果發佈會全程解析看留言 #Apple #AmbientAI #iPhone17 #AirPodsPro3 #FutureOfTech" [ref=e1806] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7371508122592403457/
+                                  - paragraph [ref=e1807]:
+                                    - generic [ref=e1808]:
+                                      - text: 從 iPhone Air 到 AirPods Pro 3，Apple 把 AI 融入設計、健康、語言，讓科技「不打擾卻無所不在」。
+                                      - text: 👉 你覺得這是下一個趨勢嗎？ 完整蘋果發佈會全程解析看留言
+                                      - link "#Apple" [ref=e1809]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23apple&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1811]: "#Apple"
+                                      - link "#AmbientAI" [ref=e1812]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ambientai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1814]: "#AmbientAI"
+                                      - link "#iPhone17" [ref=e1815]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23iphone17&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1817]: "#iPhone17"
+                                      - link "#AirPodsPro3" [ref=e1818]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23airpodspro3&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1820]: "#AirPodsPro3"
+                                      - link "#FutureOfTech" [ref=e1821]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23futureoftech&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1823]: "#FutureOfTech"
+                              - generic [ref=e1824]:
+                                - generic [ref=e1825]:
+                                  - link "6 個感受" [ref=e1826] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - generic [ref=e1827]:
+                                      - img [ref=e1828]
+                                      - paragraph [ref=e1835]:
+                                        - generic [ref=e1836]:
+                                          - generic [ref=e1837]: 6 個感受
+                                          - text: "6"
+                                  - generic [ref=e1838]:
+                                    - link "1 則回應" [ref=e1839] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/feed/update/urn:li:activity:7371508122592403457/
+                                      - paragraph [ref=e1840]:
+                                        - generic [ref=e1841]: 1 則回應
+                                        - generic [ref=e1842]: 1 則回應
+                                    - paragraph [ref=e1843]: •
+                                    - link "1 次轉發" [ref=e1844] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - paragraph [ref=e1845]:
+                                        - generic [ref=e1846]: 1 次轉發
+                                        - generic [ref=e1847]: 1 次轉發
+                                - generic [ref=e1848]:
+                                  - generic [ref=e1849]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1852] [cursor=pointer]:
+                                      - img [ref=e1854]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1857] [cursor=pointer]
+                                  - link "回應" [ref=e1859] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7371508122592403457/
+                                    - img [ref=e1861]
+                                  - button "轉發" [ref=e1863] [cursor=pointer]:
+                                    - img [ref=e1865]
+                                  - link "傳送" [ref=e1867] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e1869]
+                          - listitem [ref=e1871]:
+                            - listitem [ref=e1873]:
+                              - generic [ref=e1874]:
+                                - generic [ref=e1875]:
+                                  - link [ref=e1876] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - figure [ref=e1877]:
+                                      - img "查看Davin Chang的個人檔案" [ref=e1878]
+                                  - generic [ref=e1880]:
+                                    - link "ChangDavin 已驗證個人檔案 2 度" [ref=e1883] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - generic "ChangDavin 已驗證個人檔案 2 度" [ref=e1885]:
+                                        - paragraph [ref=e1888]: Davin Chang
+                                        - paragraph [ref=e1890]:
+                                          - generic [ref=e1891]:
+                                            - img [ref=e1893]
+                                            - text: • 2 度
+                                    - paragraph [ref=e1896]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                                    - paragraph [ref=e1898]:
+                                      - generic [ref=e1899]:
+                                        - text: 9 個月 •
+                                        - img "公開度：全球" [ref=e1900]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                  - button "開啟Davin Chang貼文的控制選單" [ref=e1902] [cursor=pointer]:
+                                    - img [ref=e1904]
+                                - link "Excited to bring AIPost to Seoul for the first time! 🚀 I’ll be sharing AI trends and connecting with local friends in Korea. Sept 15, Gangnam — see you there!" [ref=e1906] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7362690985488760832/
+                                  - paragraph [ref=e1909]:
+                                    - generic [ref=e1910]:
+                                      - text: Excited to bring AIPost to Seoul for the first time! 🚀 I’ll be sharing AI trends and connecting with local friends in Korea. Sept 15, Gangnam — see you there!
+                                      - button:
+                                        - generic [ref=e1912]: … 更多
+                                - button "顯示翻譯" [ref=e1914] [cursor=pointer]:
+                                  - generic [ref=e1916]: 顯示翻譯
+                                - generic [ref=e1917]:
+                                  - generic [ref=e1918]:
+                                    - link [ref=e1919] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - figure [ref=e1920]:
+                                        - img "查看公司：AIPost｜AI郵報" [ref=e1921]
+                                    - generic [ref=e1923]:
+                                      - link "AIPost｜AI郵報" [ref=e1926] [cursor=pointer]:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                        - generic "AIPost｜AI郵報" [ref=e1928]:
+                                          - paragraph [ref=e1931]: AIPost｜AI郵報
+                                      - paragraph [ref=e1933]:
+                                        - generic [ref=e1934]:
+                                          - text: 9 個月 •
+                                          - img "公開度：全球" [ref=e1935]
+                                      - link:
+                                        - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                  - 'link "Exciting news! For the first time, AIPost is coming to Seoul 🇹🇼🇰🇷 Join us for a free 2-hour meetup on Taiwan × Korea AI Trends & Insights. Our founder Davin, a serial entrepreneur, will share key perspectives on the Taiwanese AI market, together with AI professionals from both Taiwan and Korea. 📅 Date: September 15, 2025 📍 Gangnam, Seoul 💡 Free admission, limited seats! 👉 Register here: https://lu.ma/8evbftdf 🚀 드디어 소식 전해드립니다! AIPost가 처음으로 서울에 옵니다 🇹🇼🇰🇷 대만 × 한국 AI 트렌드 & 인사이트를 주제로 한 2시간 무료 밋업! 연쇄 창업가이자 AIPost 창립자인 Davin Chang이 대만 시장의 주요 AI 트렌드를 공유하고, 대만과 한국의 전문가들이 함께 교류합니다. 📅 일시: 2025년 9월 15일 📍 장소: 서울 강남 💡 무료 참가, 선착순 마감! 👉 지금 등록하세요: https://lu.ma/8evbftdf" [ref=e1937] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/events/7362690089094688768/
+                                    - paragraph [ref=e1940]:
+                                      - generic [ref=e1941]:
+                                        - text: Exciting news! For the first time, AIPost is coming to Seoul 🇹🇼🇰🇷
+                                        - text: Join us for a free 2-hour meetup on Taiwan × Korea AI Trends & Insights.
+                                        - text: Our founder Davin, a serial entrepreneur, will share key perspectives on the Taiwanese AI market, together with AI professionals from both Taiwan and Korea.
+                                        - text: "📅 Date: September 15, 2025"
+                                        - text: 📍 Gangnam, Seoul
+                                        - text: 💡 Free admission, limited seats!
+                                        - text: "👉 Register here:"
+                                        - link "https://lu.ma/8evbftdf" [ref=e1942]:
+                                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flu%2Ema%2F8evbftdf&urlhash=eE_U&mt=pGlvD8rs0aXa8L6Lp9Xa03qPh6rmiT-r7nPcXP1UAvuZZqw2k0GQfXB6bMA1IQ2JxPW7eqlKikfsm3rNP8HLzko596dLrf743nkcEYglO3ybTGkcukTe9RfFFA&isSdui=true
+                                          - strong [ref=e1944]: https://lu.ma/8evbftdf
+                                        - text: 🚀 드디어 소식 전해드립니다!
+                                        - text: AIPost가 처음으로 서울에 옵니다 🇹🇼🇰🇷
+                                        - text: 대만 × 한국 AI 트렌드 & 인사이트를 주제로 한 2시간 무료 밋업!
+                                        - text: 연쇄 창업가이자 AIPost 창립자인 Davin Chang이 대만 시장의 주요 AI 트렌드를 공유하고, 대만과 한국의 전문가들이 함께 교류합니다.
+                                        - text: "📅 일시: 2025년 9월 15일"
+                                        - text: "📍 장소: 서울 강남"
+                                        - text: 💡 무료 참가, 선착순 마감!
+                                        - text: "👉 지금 등록하세요:"
+                                        - link "https://lu.ma/8evbftdf" [ref=e1945]:
+                                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flu%2Ema%2F8evbftdf&urlhash=eE_U&mt=uufC6Vwyqee4r4Sj0UUVPZtBrGw-4U9DzlUBtoJt_YrUNkcEpzBUvN4fyH4LvHjJYZfPLt3II6jKcQWylKaF9jtgtSObAJ09ubQJ8ug86ImzoENiTRF7crAb6w&isSdui=true
+                                          - strong [ref=e1947]: https://lu.ma/8evbftdf
+                                        - button:
+                                          - generic [ref=e1949]: … 更多
+                                  - button "顯示翻譯" [ref=e1951] [cursor=pointer]:
+                                    - generic [ref=e1953]: 顯示翻譯
+                                  - link [ref=e1954] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7362690089094688768/
+                                    - figure [ref=e1955]
+                                  - generic [ref=e1956]:
+                                    - link "9月15日週一，下午1:00 - 下午3:00 AIPost Seoul Debut｜Taiwan-Korea AI Trends & Insights KRMapo-gu, 首爾 2 人出席" [ref=e1957] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/events/7362690089094688768/
+                                      - generic [ref=e1958]:
+                                        - paragraph [ref=e1960]: 9月15日週一，下午1:00 - 下午3:00
+                                        - paragraph [ref=e1962]: AIPost Seoul Debut｜Taiwan-Korea AI Trends & Insights
+                                        - paragraph [ref=e1963]:
+                                          - img [ref=e1965]
+                                          - text: KRMapo-gu, 首爾
+                                        - paragraph [ref=e1969]: 2 人出席
+                                    - link "查看活動" [ref=e1970] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/events/7362690089094688768/
+                                      - generic [ref=e1972]: 查看活動
+                              - generic [ref=e1973]:
+                                - link "9 個感受" [ref=e1975] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/davin-chang/
+                                  - generic [ref=e1976]:
+                                    - img [ref=e1977]
+                                    - paragraph [ref=e1984]:
+                                      - generic [ref=e1985]:
+                                        - generic [ref=e1986]: 9 個感受
+                                        - text: "9"
+                                - generic [ref=e1987]:
+                                  - generic [ref=e1988]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1991] [cursor=pointer]:
+                                      - img [ref=e1993]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1996] [cursor=pointer]
+                                  - link "回應" [ref=e1998] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7362690985488760832/
+                                    - img [ref=e2000]
+                                  - button "轉發" [ref=e2002] [cursor=pointer]:
+                                    - img [ref=e2004]
+                                  - link "傳送" [ref=e2006] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e2008]
+                          - listitem [ref=e2010]:
+                            - listitem [ref=e2012]:
+                              - generic [ref=e2013]:
+                                - generic [ref=e2014]:
+                                  - generic [ref=e2015]:
+                                    - link [ref=e2016] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/davin-chang/
+                                      - figure [ref=e2017]:
+                                        - img "查看Davin Chang的個人檔案" [ref=e2018]
+                                    - paragraph [ref=e2020]:
+                                      - generic [ref=e2021]:
+                                        - link "Davin Chang" [ref=e2022] [cursor=pointer]:
+                                          - /url: https://www.linkedin.com/in/davin-chang/
+                                          - strong [ref=e2023]: Davin Chang
+                                        - text: 對此進行轉發
+                                  - button "開啟AIPost｜AI郵報貼文的控制選單" [ref=e2024] [cursor=pointer]:
+                                    - img [ref=e2026]
+                                - generic [ref=e2028]:
+                                  - link [ref=e2029] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                    - figure [ref=e2030]:
+                                      - img "查看公司：AIPost｜AI郵報" [ref=e2031]
+                                  - generic [ref=e2033]:
+                                    - link "AIPost｜AI郵報" [ref=e2036] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                      - generic "AIPost｜AI郵報" [ref=e2038]:
+                                        - paragraph [ref=e2041]: AIPost｜AI郵報
+                                    - paragraph [ref=e2043]:
+                                      - generic [ref=e2044]:
+                                        - text: 9 個月 •
+                                        - img "公開度：全球" [ref=e2045]
+                                    - link:
+                                      - /url: https://www.linkedin.com/company/ai郵報/posts/
+                                - 'link "AI郵報一路在線上陪伴大家，這次終於要 跳出螢幕，面對面舉杯！ 8/14（四）19:00 — 21:30，我們準備了一場輕鬆卻飽含乾貨的夜晚 #人工智慧 #AI #學習" [ref=e2047] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/events/7357029822885187584/
+                                  - paragraph [ref=e2048]:
+                                    - generic [ref=e2049]:
+                                      - text: AI郵報一路在線上陪伴大家，這次終於要 跳出螢幕，面對面舉杯！
+                                      - text: 8/14（四）19:00 — 21:30，我們準備了一場輕鬆卻飽含乾貨的夜晚
+                                      - link "#人工智慧" [ref=e2050]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e2052]: "#人工智慧"
+                                      - link "#AI" [ref=e2053]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e2055]: "#AI"
+                                      - link "#學習" [ref=e2056]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23%E5%AD%B8%E7%BF%92&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e2058]: "#學習"
+                                      - button:
+                                        - generic [ref=e2060]: … 更多
+                                - link [ref=e2061] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/events/7357029822885187584/
+                                  - figure [ref=e2062]
+                                - generic [ref=e2063]:
+                                  - link "8月14日週四，下午7:00 AIPost After Hours｜趨勢解密 x 交流小聚 TW台北 1 人出席" [ref=e2064] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7357029822885187584/
+                                    - generic [ref=e2065]:
+                                      - paragraph [ref=e2067]: 8月14日週四，下午7:00
+                                      - paragraph [ref=e2069]: AIPost After Hours｜趨勢解密 x 交流小聚
+                                      - paragraph [ref=e2070]:
+                                        - img [ref=e2072]
+                                        - text: TW台北
+                                      - paragraph [ref=e2076]: 1 人出席
+                                  - link "查看活動" [ref=e2077] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/events/7357029822885187584/
+                                    - generic [ref=e2079]: 查看活動
+                              - generic [ref=e2080]:
+                                - generic [ref=e2081]:
+                                  - link "7 個感受" [ref=e2082] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - generic [ref=e2083]:
+                                      - img [ref=e2084]
+                                      - paragraph [ref=e2091]:
+                                        - generic [ref=e2092]:
+                                          - generic [ref=e2093]: 7 個感受
+                                          - text: "7"
+                                  - link "2 次轉發" [ref=e2095] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - paragraph [ref=e2096]:
+                                      - generic [ref=e2097]: 2 次轉發
+                                      - generic [ref=e2098]: 2 次轉發
+                                - generic [ref=e2099]:
+                                  - generic [ref=e2100]:
+                                    - button "感受按鈕狀態：無感受" [ref=e2103] [cursor=pointer]:
+                                      - img [ref=e2105]
+                                    - button "開啟感受選單":
+                                      - img [ref=e2108] [cursor=pointer]
+                                  - link "回應" [ref=e2110] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7357030060903575552/
+                                    - img [ref=e2112]
+                                  - button "轉發" [ref=e2114] [cursor=pointer]:
+                                    - img [ref=e2116]
+                                  - link "傳送" [ref=e2118] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/davin-chang/
+                                    - img [ref=e2120]
+                      - button "下一步" [ref=e2122] [cursor=pointer]:
+                        - img [ref=e2124]
+                    - link "顯示全部" [ref=e2127] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/davin-chang/recent-activity/all/
+                      - generic [ref=e2128]:
+                        - img [ref=e2129]
+                        - generic [ref=e2131]: 顯示全部
+            - complementary "側邊" [ref=e2153]:
+              - generic [ref=e2155]:
+                - iframe [ref=e2492]:
+                  - link "Advertise on LinkedIn" [ref=f35e3] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+                    - img "Advertise on LinkedIn" [ref=f35e4]
+                - generic [ref=e2163]:
+                  - heading "更多推薦個人檔案" [level=3] [ref=e2167]
+                  - generic [ref=e2169]:
+                    - generic [ref=e2171]:
+                      - link "Ellen Kuo · 3 度 Project manager" [ref=e2174] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/ellen-kuo-33164a240/
+                        - generic [ref=e2175]:
+                          - figure [ref=e2176]
+                          - generic [ref=e2177]:
+                            - generic [ref=e2178]:
+                              - paragraph [ref=e2180]: Ellen Kuo
+                              - paragraph [ref=e2181]: · 3 度
+                            - paragraph [ref=e2183]: Project manager
+                      - button "向Ellen Kuo傳送訊息" [ref=e2187] [cursor=pointer]:
+                        - generic [ref=e2188]:
+                          - img [ref=e2189]
+                          - generic [ref=e2191]: 訊息
+                    - generic [ref=e2193]:
+                      - link "Eric M. Hung 已驗證 · 2 度 Sr. Investment Manager at Taiwania Capital" [ref=e2196] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/myhung/
+                        - generic [ref=e2197]:
+                          - figure [ref=e2198]
+                          - generic [ref=e2199]:
+                            - generic [ref=e2200]:
+                              - paragraph [ref=e2202]:
+                                - generic [ref=e2203]:
+                                  - text: Eric M. Hung
+                                  - img "已驗證" [ref=e2204]:
+                                    - img [ref=e2205]
+                              - paragraph [ref=e2207]: · 2 度
+                            - paragraph [ref=e2209]: Sr. Investment Manager at Taiwania Capital
+                      - button "邀請Eric M. Hung加為好友" [ref=e2215] [cursor=pointer]:
+                        - generic [ref=e2216]:
+                          - img [ref=e2217]
+                          - generic [ref=e2220]: 建立關係
+                    - generic [ref=e2222]:
+                      - link "Howard Chiu · 3 度 BD Manager - Corporate Training" [ref=e2225] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/chiuhao44/
+                        - generic [ref=e2226]:
+                          - figure [ref=e2227]
+                          - generic [ref=e2228]:
+                            - generic [ref=e2229]:
+                              - paragraph [ref=e2231]: Howard Chiu
+                              - paragraph [ref=e2232]: · 3 度
+                            - paragraph [ref=e2234]: BD Manager - Corporate Training
+                      - button "向Howard Chiu傳送訊息" [ref=e2238] [cursor=pointer]:
+                        - generic [ref=e2239]:
+                          - img [ref=e2240]
+                          - generic [ref=e2242]: 訊息
+                    - generic [ref=e2244]:
+                      - link "Aaron Yeh · 2 度 Fullstack Engineer | AI Product Manager | Community Lead | Web3" [ref=e2247] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/marvelcn015/zh/
+                        - generic [ref=e2248]:
+                          - figure [ref=e2249]
+                          - generic [ref=e2250]:
+                            - generic [ref=e2251]:
+                              - paragraph [ref=e2253]: Aaron Yeh
+                              - paragraph [ref=e2254]: · 2 度
+                            - paragraph [ref=e2256]: Fullstack Engineer | AI Product Manager | Community Lead | Web3
+                      - button "邀請Aaron Yeh加為好友" [ref=e2262] [cursor=pointer]:
+                        - generic [ref=e2263]:
+                          - img [ref=e2264]
+                          - generic [ref=e2267]: 建立關係
+                    - generic [ref=e2269]:
+                      - link "Pei Ming (Philo) Huang · 2 度 Customer Success & Product Management 🌍 User-Centric Solutions | 🚀 Embracing Digital Transformation & Web3" [ref=e2272] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/pei-ming-philo-huang-94a9b725b/
+                        - generic [ref=e2273]:
+                          - figure [ref=e2274]
+                          - generic [ref=e2275]:
+                            - generic [ref=e2276]:
+                              - paragraph [ref=e2278]: Pei Ming (Philo) Huang
+                              - paragraph [ref=e2279]: · 2 度
+                            - paragraph [ref=e2281]: Customer Success & Product Management 🌍 User-Centric Solutions | 🚀 Embracing Digital Transformation & Web3
+                      - button "邀請Pei Ming (Philo) Huang加為好友" [ref=e2287] [cursor=pointer]:
+                        - generic [ref=e2288]:
+                          - img [ref=e2289]
+                          - generic [ref=e2292]: 建立關係
+                  - link "為您顯示更多個人檔案" [ref=e2294] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/davin-chang/overlay/browsemap-recommendations/
+                    - generic [ref=e2295]:
+                      - img [ref=e2296]
+                      - generic [ref=e2298]: 顯示全部
+                - generic [ref=e2301]:
+                  - heading "探索 Premium 檔案" [level=2] [ref=e2303]
+                  - generic [ref=e2305]:
+                    - generic [ref=e2307]:
+                      - link "HSUAN YU LEE Premium · 2 度 辰妍國際 Founder" [ref=e2310] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/hsuan-yu-lee-b68530407/
+                        - generic [ref=e2311]:
+                          - figure [ref=e2312]
+                          - generic [ref=e2313]:
+                            - generic [ref=e2314]:
+                              - paragraph [ref=e2316]:
+                                - generic [ref=e2317]:
+                                  - text: HSUAN YU LEE
+                                  - img "Premium" [ref=e2318]:
+                                    - img [ref=e2319]
+                              - paragraph [ref=e2321]: · 2 度
+                            - paragraph [ref=e2323]: 辰妍國際 Founder
+                      - button "邀請HSUAN YU LEE加為好友" [ref=e2329] [cursor=pointer]:
+                        - generic [ref=e2330]:
+                          - img [ref=e2331]
+                          - generic [ref=e2334]: 建立關係
+                    - generic [ref=e2336]:
+                      - link "樊松蒲 Premium · 2 度 數位人才培訓｜數據行銷顧問" [ref=e2339] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/dennisfantw/
+                        - generic [ref=e2340]:
+                          - figure [ref=e2341]
+                          - generic [ref=e2342]:
+                            - generic [ref=e2343]:
+                              - paragraph [ref=e2345]:
+                                - generic [ref=e2346]:
+                                  - text: 樊松蒲
+                                  - img "Premium" [ref=e2347]:
+                                    - img [ref=e2348]
+                              - paragraph [ref=e2350]: · 2 度
+                            - paragraph [ref=e2352]: 數位人才培訓｜數據行銷顧問
+                      - button "邀請樊松蒲加為好友" [ref=e2358] [cursor=pointer]:
+                        - generic [ref=e2359]:
+                          - img [ref=e2360]
+                          - generic [ref=e2363]: 建立關係
+                    - generic [ref=e2365]:
+                      - link "Sunglin Hsieh Premium · 3 度 Yes Grand Inc. Executive Director" [ref=e2368] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/sunglin-hsieh-a6907a148/
+                        - generic [ref=e2369]:
+                          - figure [ref=e2370]
+                          - generic [ref=e2371]:
+                            - generic [ref=e2372]:
+                              - paragraph [ref=e2374]:
+                                - generic [ref=e2375]:
+                                  - text: Sunglin Hsieh
+                                  - img "Premium" [ref=e2376]:
+                                    - img [ref=e2377]
+                              - paragraph [ref=e2379]: · 3 度
+                            - paragraph [ref=e2381]: Yes Grand Inc. Executive Director
+                      - button "邀請Sunglin Hsieh加為好友" [ref=e2387] [cursor=pointer]:
+                        - generic [ref=e2388]:
+                          - img [ref=e2389]
+                          - generic [ref=e2392]: 建立關係
+                    - generic [ref=e2394]:
+                      - link "Sebastian H Premium · 2 度 Business & Growth Leader | Digital Platforms & iGaming | Cross-border Expansion | Ex-Co-founder" [ref=e2397] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/sebastian-h-4059063b9/
+                        - generic [ref=e2398]:
+                          - figure [ref=e2399]
+                          - generic [ref=e2400]:
+                            - generic [ref=e2401]:
+                              - paragraph [ref=e2403]:
+                                - generic [ref=e2404]:
+                                  - text: Sebastian H
+                                  - img "Premium" [ref=e2405]:
+                                    - img [ref=e2406]
+                              - paragraph [ref=e2408]: · 2 度
+                            - paragraph [ref=e2410]: Business & Growth Leader | Digital Platforms & iGaming | Cross-border Expansion | Ex-Co-founder
+                      - button "邀請Sebastian H加為好友" [ref=e2416] [cursor=pointer]:
+                        - generic [ref=e2417]:
+                          - img [ref=e2418]
+                          - generic [ref=e2421]: 建立關係
+            - generic "頁尾" [ref=e2422]:
+              - generic [ref=e2425]:
+                - generic [ref=e2426]:
+                  - navigation [ref=e2427]:
+                    - link "關於" [ref=e2428] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e2429]: 關於
+                    - link "無障礙功能" [ref=e2430] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e2431]: 無障礙功能
+                    - link "人才解決方案" [ref=e2432] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e2433]: 人才解決方案
+                    - link "社群指南" [ref=e2434] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e2435]: 社群指南
+                    - link "徵才專區" [ref=e2436] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e2437]: 徵才專區
+                    - link "行銷解決方案" [ref=e2438] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e2439]: 行銷解決方案
+                    - button "隱私權及條款" [ref=e2440] [cursor=pointer]:
+                      - generic [ref=e2441]:
+                        - paragraph [ref=e2442]: 隱私權及條款
+                        - img [ref=e2443]
+                    - link "Ad Choices" [ref=e2445] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e2446]: Ad Choices
+                    - link "廣告" [ref=e2447] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e2448]: 廣告
+                    - link "銷售解決方案" [ref=e2449] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e2450]: 銷售解決方案
+                    - link "行動版" [ref=e2451] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e2452]: 行動版
+                    - link "小型企業" [ref=e2453] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e2454]: 小型企業
+                    - link "說明中心" [ref=e2455] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e2456]: 說明中心
+                  - paragraph [ref=e2458]: LinkedIn Corporation © 2026年
+                - generic [ref=e2459]:
+                  - list [ref=e2460]:
+                    - listitem [ref=e2461]:
+                      - generic [ref=e2462]:
+                        - img [ref=e2463]
+                        - generic [ref=e2465]:
+                          - link "有問題嗎？" [ref=e2466] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e2467]: 有問題嗎？
+                          - paragraph [ref=e2468]: 前往說明中心。
+                    - listitem [ref=e2469]:
+                      - generic [ref=e2470]:
+                        - img [ref=e2471]
+                        - generic [ref=e2473]:
+                          - link "管理帳戶和隱私權" [ref=e2474] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e2475]: 管理帳戶和隱私權
+                          - paragraph [ref=e2476]: 前往設定
+                    - listitem [ref=e2477]:
+                      - generic [ref=e2478]:
+                        - img [ref=e2479]
+                        - generic [ref=e2481]:
+                          - link "所獲推薦透明度" [ref=e2482] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e2483]: 所獲推薦透明度
+                          - paragraph [ref=e2484]: 深入瞭解推薦內容。
+                  - generic [ref=e2486]:
+                    - paragraph [ref=e2488]: 選擇語言
+                    - generic [ref=e2489]:
+                      - combobox "選擇語言" [ref=e2490] [cursor=pointer]:
+                        - option "العربية（阿拉伯文）"
+                        - option "বাংলা （孟加拉語）"
+                        - option "Čeština（捷克文）"
+                        - option "Dansk（丹麥文）"
+                        - option "Deutsch（德文）"
+                        - option "Ελληνικά （希臘文）"
+                        - option "English（英文）"
+                        - option "Español（西班牙文）"
+                        - option "فارسی （波斯文）"
+                        - option "Suomi （芬蘭語）"
+                        - option "Français（法文）"
+                        - option "हिंदी（印度文）"
+                        - option "Magyar（匈牙利語）"
+                        - option "Bahasa Indonesia（印尼文）"
+                        - option "Italiano（義大利文）"
+                        - option "עברית （希伯來文）"
+                        - option "日本語（日文）"
+                        - option "한국어（韓文）"
+                        - option "मराठी （馬拉地語）"
+                        - option "Bahasa Malaysia（馬來文）"
+                        - option "Nederlands（荷蘭文）"
+                        - option "Norsk（挪威文）"
+                        - option "ਪੰਜਾਬੀ （旁遮普語）"
+                        - option "Polski（波蘭文）"
+                        - option "Português（葡萄牙文）"
+                        - option "Română（羅馬尼亞文）"
+                        - option "Русский（俄文）"
+                        - option "Svenska（瑞典文）"
+                        - option "తెలుగు （泰盧固語）"
+                        - option "ภาษาไทย（泰文）"
+                        - option "Tagalog（菲律賓文）"
+                        - option "Türkçe（土耳其文）"
+                        - option "Українська（烏克蘭文）"
+                        - option "Tiếng Việt（越南語）"
+                        - option "简体中文 (簡體中文)"
+                        - option "正體中文 (正體中文)" [selected]
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e2494]:
+              - generic [ref=e2496] [cursor=pointer]:
+                - generic [ref=e2497]:
+                  - img "HSIN WEI CHEN" [ref=e2498]
+                  - generic [ref=e2500]: 狀態為已上線
+                - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。" [ref=e2501]:
+                  - generic [ref=e2502]:
+                    - generic [ref=e2503]: 訊息
+                    - generic [ref=e2504]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+              - generic [ref=e2505]:
+                - button "開啟選單" [ref=e2507] [cursor=pointer]:
+                  - img "開啟選單" [ref=e2508]
+                - button "撰寫訊息" [ref=e2511] [cursor=pointer]:
+                  - img [ref=e2512]
+                  - generic [ref=e2514]: 撰寫訊息
+                - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。" [ref=e2515] [cursor=pointer]:
+                  - img [ref=e2516]
+                  - generic [ref=e2518]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+          - complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+  - iframe [ref=e2491]:
+    - generic [active] [ref=f23e1]:
+      - generic:
+        - region "祝賀訊息":
+          - heading "0 則通知" [level=2] [ref=f23e3]
+          - alert
+      - region [ref=f23e4]
+      - generic [ref=f23e5]:
+        - generic [ref=f23e7]:
+          - button "前往搜尋" [ref=f23e8] [cursor=pointer]:
+            - generic [ref=f23e9]: 前往搜尋
+          - button "前往內容" [ref=f23e10] [cursor=pointer]:
+            - generic [ref=f23e11]: 前往內容
+          - button "鍵盤快捷鍵" [ref=f23e12] [cursor=pointer]:
+            - generic [ref=f23e13]: 鍵盤快捷鍵
+          - button "關閉選單" [ref=f23e14] [cursor=pointer]:
+            - img [ref=f23e15]
+            - generic [ref=f23e17]: 關閉選單
+        - banner "全域導覽" [ref=f23e18]:
+          - generic [ref=f23e19]:
+            - link "LinkedIn" [ref=f23e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f23e23]:
+                - img [ref=f23e24]
+            - generic [ref=f23e28]:
+              - combobox "搜尋" [ref=f23e29]
+              - generic:
+                - img
+            - navigation "主選單" [ref=f23e30]:
+              - list [ref=f23e31]:
+                - listitem [ref=f23e32]:
+                  - link "動態消息 新通知 首頁" [ref=f23e33] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f23e34]:
+                      - generic [ref=f23e37]: 動態消息 新通知
+                      - img [ref=f23e41]
+                    - generic "首頁" [ref=f23e43]
+                - listitem [ref=f23e44]:
+                  - link "我的人脈" [ref=f23e45] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f23e49]
+                    - generic "我的人脈" [ref=f23e51]
+                - listitem [ref=f23e52]:
+                  - link "職缺" [ref=f23e53] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f23e57]
+                    - generic "職缺" [ref=f23e59]
+                - listitem [ref=f23e60]:
+                  - link "訊息" [ref=f23e61] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f23e65]
+                    - generic "訊息" [ref=f23e67]
+                - listitem [ref=f23e68]:
+                  - link "通知" [ref=f23e69] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - img [ref=f23e73]
+                    - generic "通知" [ref=f23e75]
+                - listitem [ref=f23e76]:
+                  - button "HSIN WEI CHEN 我" [ref=f23e78] [cursor=pointer]:
+                    - img "HSIN WEI CHEN" [ref=f23e79]
+                    - generic [ref=f23e80]:
+                      - text: 我
+                      - img [ref=f23e81]
+                - listitem [ref=f23e83]:
+                  - button "商務功能" [ref=f23e85] [cursor=pointer]:
+                    - img [ref=f23e89]
+                    - generic "商務功能" [ref=f23e91]:
+                      - text: 商務功能
+                      - img [ref=f23e92]
+                - listitem [ref=f23e94]:
+                  - link "Learning" [ref=f23e95] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                    - img [ref=f23e99]
+                    - generic "Learning" [ref=f23e104]

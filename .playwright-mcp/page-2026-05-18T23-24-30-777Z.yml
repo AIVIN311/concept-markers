@@ -1,0 +1,113 @@
+- generic [ref=e1]:
+  - generic:
+    - region "祝賀訊息":
+      - heading "0 則通知" [level=2] [ref=e3]
+      - alert
+  - dialog "新增訊息" [ref=e169]:
+    - generic [ref=e6]: 對話開始
+    - button "關閉" [ref=e7] [cursor=pointer]:
+      - img [ref=e8]
+    - heading "新增訊息" [level=2] [ref=e171]
+    - generic [ref=e172]:
+      - generic [ref=e173]:
+        - generic [ref=e174]: 個人訊息請勿超過 300 個字元。
+        - paragraph [ref=e175]: 利用個人化邀請訊息展現誠意！
+      - generic [ref=e176]:
+        - textbox "個人訊息請勿超過 300 個字元。 利用個人化邀請訊息展現誠意！" [active] [ref=e177]:
+          - /placeholder: 如：我們是在公司活動中認識的
+        - generic [ref=e178]:
+          - img "Premium" [ref=e179]:
+            - img [ref=e180]
+          - generic [ref=e182]: 0/300
+    - generic [ref=e183]:
+      - button "取消備註" [ref=e184] [cursor=pointer]:
+        - generic [ref=e185]: 取消
+      - button "傳送邀請" [disabled] [ref=e186]:
+        - generic: 傳送
+    - generic [ref=e26]: 對話結束
+  - region [ref=e27]
+  - generic [ref=e28]:
+    - generic [ref=e30]:
+      - button [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]: 前往搜尋
+      - button [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: 前往內容
+      - button [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: 鍵盤快捷鍵
+      - button [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+        - generic [ref=e40]: 關閉選單
+    - banner [ref=e41]:
+      - generic [ref=e42]:
+        - link [ref=e43] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img [ref=e46]:
+            - img [ref=e47]
+        - generic [ref=e51]:
+          - combobox [ref=e52]
+          - generic:
+            - img
+        - navigation [ref=e53]:
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link [ref=e56] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e57]:
+                  - generic [ref=e60]: 動態消息 新通知
+                  - img [ref=e64]
+                - generic [ref=e66]: 首頁
+            - listitem [ref=e67]:
+              - link [ref=e68] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e72]
+                - generic [ref=e74]: 我的人脈
+            - listitem [ref=e75]:
+              - link [ref=e76] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e80]
+                - generic [ref=e82]: 職缺
+            - listitem [ref=e83]:
+              - link [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e88]
+                - generic [ref=e90]: 訊息
+            - listitem [ref=e91]:
+              - link [ref=e92] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e96]
+                - generic [ref=e98]: 通知
+            - listitem [ref=e99]:
+              - button [ref=e101] [cursor=pointer]:
+                - img [ref=e102]
+                - generic [ref=e103]:
+                  - text: 我
+                  - img [ref=e104]
+            - listitem [ref=e106]:
+              - button [ref=e108] [cursor=pointer]:
+                - img [ref=e112]
+                - generic [ref=e114]:
+                  - text: 商務功能
+                  - img [ref=e115]
+            - listitem [ref=e117]:
+              - link [ref=e118] [cursor=pointer]:
+                - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                - img [ref=e122]
+                - generic [ref=e127]: Learning
+    - generic [ref=e144]:
+      - generic [ref=e146] [cursor=pointer]:
+        - generic [ref=e147]:
+          - img [ref=e148]
+          - generic [ref=e168]: 狀態為已上線
+        - button [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]: 訊息
+            - generic [ref=e152]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+      - generic [ref=e153]:
+        - button [ref=e155] [cursor=pointer]:
+          - img [ref=e156]
+        - button [ref=e159] [cursor=pointer]:
+          - img [ref=e160]
+          - generic [ref=e162]: 撰寫訊息
+        - button [ref=e163] [cursor=pointer]:
+          - img [ref=e164]
+          - generic [ref=e166]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。

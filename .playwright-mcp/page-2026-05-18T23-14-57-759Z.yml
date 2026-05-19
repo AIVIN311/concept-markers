@@ -1,0 +1,2387 @@
+- generic [ref=e2]:
+  - heading "0 則通知" [level=2] [ref=e130]
+  - generic [ref=e131]:
+    - generic:
+      - button [ref=e398] [cursor=pointer]:
+        - generic [ref=e400]: 前往內容
+      - button [ref=e401] [cursor=pointer]:
+        - img [ref=e403]
+    - generic [ref=e139]:
+      - banner [ref=e406]:
+        - generic [ref=e409]:
+          - button "LinkedIn" [ref=e410] [cursor=pointer]:
+            - img "LinkedIn" [ref=e411]
+          - generic [ref=e413]:
+            - status [ref=e414]
+            - search [ref=e415]:
+              - generic [ref=e416]:
+                - img [ref=e418]
+                - textbox "搜尋" [ref=e420]
+          - generic [ref=e422]:
+            - figure [ref=e427]
+            - navigation [ref=e430]:
+              - list [ref=e431]:
+                - listitem [ref=e432]:
+                  - button "首頁，1 則新通知" [ref=e433] [cursor=pointer]:
+                    - img [ref=e435]
+                    - generic [ref=e438]: 首頁
+                - listitem [ref=e439]:
+                  - link "我的人脈，0 則新通知" [ref=e440] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e442]
+                    - generic [ref=e444]: 我的人脈
+                - listitem [ref=e445]:
+                  - link "職缺，0 則新通知" [ref=e446] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e448]
+                    - generic [ref=e450]: 職缺
+                - listitem [ref=e451]:
+                  - link "訊息，0 則新通知" [ref=e452] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e454]
+                    - generic [ref=e456]: 訊息
+                - listitem [ref=e457]:
+                  - link "通知，0 則新通知" [ref=e458] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e460]
+                    - generic [ref=e462]: 通知
+                - listitem [ref=e463]:
+                  - button "我" [ref=e464] [cursor=pointer]:
+                    - figure [ref=e466]
+                    - generic [ref=e467]:
+                      - text: 我
+                      - img [ref=e468]
+            - navigation [ref=e472]:
+              - list [ref=e473]:
+                - listitem [ref=e474]:
+                  - button "商務功能" [ref=e475] [cursor=pointer]:
+                    - img [ref=e477]
+                    - generic [ref=e479]:
+                      - text: 商務功能
+                      - img [ref=e480]
+                - listitem [ref=e482]:
+                  - link "Learning，0 則新通知" [ref=e483] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - img [ref=e485]
+                    - generic [ref=e490]: Learning
+      - generic [ref=e492]:
+        - toolbar [ref=e493]:
+          - generic [ref=e497]:
+            - link "Robin Singh" [ref=e498] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/robin7/
+              - generic "Robin Singh" [ref=e499]:
+                - figure [ref=e500]
+                - generic [ref=e501]:
+                  - paragraph [ref=e502]: Robin Singh
+                  - paragraph [ref=e504]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+            - generic [ref=e505]:
+              - button "更多內容" [ref=e507] [cursor=pointer]:
+                - img [ref=e509]
+              - button "訊息" [ref=e512] [cursor=pointer]:
+                - generic [ref=e513]:
+                  - img [ref=e514]
+                  - generic [ref=e516]: 訊息
+              - button "關注Robin Singh" [ref=e520] [cursor=pointer]:
+                - generic [ref=e521]:
+                  - img [ref=e522]
+                  - generic [ref=e525]: 關注
+        - main [ref=e526]:
+          - generic [ref=e528]:
+            - region "主要內容" [ref=e529]:
+              - generic [ref=e531]:
+                - generic [ref=e536]:
+                  - generic [ref=e537]:
+                    - button [ref=e540] [cursor=pointer]:
+                      - figure [ref=e541]:
+                        - img "封面照片" [ref=e542]
+                    - button "檔案照片" [ref=e543] [cursor=pointer]:
+                      - generic "檔案照片" [ref=e544]:
+                        - figure [ref=e545]
+                  - generic [ref=e546]:
+                    - generic [ref=e547]:
+                      - generic [ref=e549]:
+                        - generic [ref=e550]:
+                          - link "Robin Singh 查看Robin的驗證" [ref=e553] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/in/robin7/
+                            - generic [ref=e555]:
+                              - heading "Robin Singh" [level=2] [ref=e556]
+                              - img "查看Robin的驗證" [ref=e557]
+                          - paragraph [ref=e559]: · 3 度
+                        - paragraph [ref=e560]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                        - generic [ref=e561]:
+                          - paragraph [ref=e562]: 印度 哈里雅納 庫魯克舍特拉
+                          - paragraph [ref=e563]: ·
+                          - paragraph [ref=e564]:
+                            - link "聯絡資料" [ref=e565] [cursor=pointer]:
+                              - /url: "#"
+                      - generic [ref=e567]:
+                        - button "JPMorganChase" [ref=e568] [cursor=pointer]:
+                          - generic [ref=e569]:
+                            - figure [ref=e570]
+                            - paragraph [ref=e574]: JPMorganChase
+                        - button "Maharishi Markandeshwar (Deemed to be University) Official" [ref=e575] [cursor=pointer]:
+                          - generic [ref=e576]:
+                            - figure [ref=e577]
+                            - paragraph [ref=e581]: Maharishi Markandeshwar (Deemed to be University) Official
+                    - generic [ref=e582]:
+                      - paragraph [ref=e583]: 2,779 個關注者
+                      - paragraph [ref=e584]: ·
+                      - paragraph [ref=e585]: 500+
+                      - paragraph [ref=e586]: 聯絡人
+                    - generic [ref=e590]:
+                      - button "關注Robin Singh" [ref=e594] [cursor=pointer]:
+                        - generic [ref=e595]:
+                          - img [ref=e596]
+                          - generic [ref=e599]: 關注
+                      - button "訊息" [active] [ref=e601] [cursor=pointer]:
+                        - generic [ref=e602]:
+                          - img [ref=e603]
+                          - generic [ref=e605]: 訊息
+                      - button "更多內容" [ref=e607] [cursor=pointer]:
+                        - img [ref=e609]
+                - generic [ref=e613]:
+                  - generic [ref=e618]:
+                    - heading "關於" [level=2] [ref=e620]
+                    - generic [ref=e621]:
+                      - paragraph [ref=e622]:
+                        - generic [ref=e623]:
+                          - text: "I’m a B.Tech Computer Science student passionate about building technology products that combine AI, software, and real-world impact. I’m currently the Founder of InfYNova, where I’m exploring the development of AI-powered smartphones and a custom operating system called NovaOS. Alongside my startup journey, I actively build projects and experiment with technologies related to AI, Android systems, and modern software development. I’m always interested in connecting with: • engineers and developers • startup founders • mentors in AI and deep-tech • recruiters offering internships or early career opportunities If you’re working in AI, mobile systems, or startups, I’d love to connect and learn from your experience."
+                          - button:
+                            - generic [ref=e625] [cursor=pointer]: … 更多
+                      - generic [ref=e628]:
+                        - generic [ref=e629]:
+                          - img [ref=e630]
+                          - generic [ref=e632]:
+                            - paragraph [ref=e633]: 擅長技能
+                            - paragraph [ref=e634]: Node.js • Artificial Intelligence (AI) • Android Development • Flutter • Startup Strategy
+                        - link "顯示擅長技能" [ref=e635] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/robin7/overlay/top-skills-details/
+                          - img [ref=e637]
+                  - generic [ref=e643]:
+                    - heading "服務" [level=2] [ref=e645]
+                    - generic [ref=e646]:
+                      - generic [ref=e648]:
+                        - generic [ref=e649]:
+                          - paragraph [ref=e650]: 標誌設計
+                          - paragraph [ref=e651]: 寫作
+                          - paragraph [ref=e652]: 軟體測試
+                          - paragraph [ref=e653]: 網頁設計
+                          - paragraph [ref=e654]: iOS 開發
+                          - paragraph [ref=e655]: 網頁開發
+                          - paragraph [ref=e656]: SaaS 開發
+                          - paragraph [ref=e657]: 資訊安全
+                          - paragraph [ref=e658]: 行動應用程式開發
+                          - paragraph [ref=e659]: 資料庫開發
+                        - link "請求服務" [ref=e660] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/services/page/002b1432b688762761/request-proposal/
+                          - generic [ref=e662]: 請求服務
+                      - link "顯示所有服務" [ref=e664] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/services/page/002b1432b688762761/
+                        - generic [ref=e665]:
+                          - img [ref=e666]
+                          - generic [ref=e668]: 顯示全部
+                  - generic [ref=e673]:
+                    - heading "精選" [level=2] [ref=e675]
+                    - generic [ref=e677]:
+                      - list [ref=e679]:
+                        - listitem [ref=e680]:
+                          - listitem [ref=e681]:
+                            - link [ref=e684] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7431883905755992064/
+                              - generic [ref=e685]:
+                                - button "貼文" [ref=e686]
+                                - generic [ref=e687]:
+                                  - paragraph [ref=e689]:
+                                    - generic [ref=e690]:
+                                      - text: Last week, I attended the AI Impact Summit Expo 2026 at Bharat Mandapam, not as a spectator, but as a student founder working on an AI-native smartphone ecosystem from India.
+                                      - text: Over five days, I engaged in 50+ meaningful conversations with startup founders, corporate strategists, government officials, and AI researchers. I connected with leaders from enterprise tech, policy circles, and innovation teams.
+                                      - text: What stood out to me was the realization that AI is no longer just a “feature.” It has evolved into infrastructure, policy, hardware, and sovereignty. This understanding reinforced my motivation for starting
+                                      - link "InfYNova" [ref=e691]:
+                                        - /url: https://www.linkedin.com/company/infynova/
+                                      - text: .
+                                      - text: "InfYNova is an early-stage deep-tech venture focused on creating an AI-first smartphone ecosystem, powered by our custom Android-based layer, NovaOS. Currently, we are working on:"
+                                      - text: • NovaOS architecture and system apps development
+                                      - text: • AI-native integration strategy
+                                      - text: • Website and ecosystem positioning
+                                      - text: • Market validation and strategic networking
+                                      - text: We are pre-revenue and in the early stages, but we are committed to our vision. The summit not only validated our idea but also sharpened our direction. Discussions with enterprise leaders and policy researchers highlighted the need for controlled AI ecosystems in India, rather than mere app-level integrations.
+                                      - text: I am now actively seeking incubation support, strategic mentorship, and partnerships within the deep-tech ecosystem to accelerate the next phase of our journey — refining our prototype and executing a structured product roadmap.
+                                      - text: If you are involved in an incubator, accelerator, or deep-tech innovation program focused on AI, hardware, or OS-level innovation, I would appreciate the opportunity to connect.
+                                      - text: Building infrastructure takes time, but the foundation is being laid.
+                                  - figure [ref=e692]
+                                - generic [ref=e693]:
+                                  - img [ref=e694]
+                                  - img [ref=e699]
+                                  - img [ref=e711]
+                                  - paragraph [ref=e717]:
+                                    - generic [ref=e718]: 33 個感受 · 1 則回應
+                                    - text: 33 · 1 則回應
+                        - listitem [ref=e719]:
+                          - listitem [ref=e720]:
+                            - link "貼文 Resume 20 個感受" [ref=e723] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7414851380072427520/
+                              - generic [ref=e724]:
+                                - button "貼文" [ref=e725]
+                                - generic [ref=e726]:
+                                  - figure [ref=e727]
+                                  - paragraph [ref=e729]: Resume
+                                - generic [ref=e730]:
+                                  - img [ref=e731]
+                                  - paragraph [ref=e736]:
+                                    - generic [ref=e737]: 20 個感受
+                                    - text: 20 個
+                        - listitem [ref=e738]:
+                          - listitem [ref=e739]:
+                            - 'link "貼文 🎙️ “Every revolution starts with a single voice.” This is mine — the Founder’s Voice behind InfYNova. We’re not just building smartphones; we’re building an AI-integrated ecosystem that merges design, intelligence, and emotion into every interaction. This isn’t just about hardware. It’s about redefining how India experiences technology — made by us, for us. Here’s where our journey begins. #FounderVoice #InfYNova #IndianStartups #TechInnovation #AIRevolution #Entrepreneurship #StartupIndia #HardwareStartup #BuildInPublic #FounderJourney #YCApplication #VisionDriven #MakeInIndia 42 個感受 · 2 則回應" [ref=e742] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7386085345055973377/
+                              - generic [ref=e743]:
+                                - button "貼文" [ref=e744]
+                                - generic [ref=e745]:
+                                  - paragraph [ref=e747]:
+                                    - generic [ref=e748]:
+                                      - text: 🎙️ “Every revolution starts with a single voice.”
+                                      - text: This is mine — the Founder’s Voice behind InfYNova.
+                                      - text: We’re not just building smartphones; we’re building an AI-integrated ecosystem that merges design, intelligence, and emotion into every interaction.
+                                      - text: This isn’t just about hardware. It’s about redefining how India experiences technology — made by us, for us.
+                                      - text: Here’s where our journey begins.
+                                      - link "#FounderVoice" [ref=e749]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23foundervoice
+                                      - link "#InfYNova" [ref=e750]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23infynova
+                                      - link "#IndianStartups" [ref=e751]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23indianstartups
+                                      - link "#TechInnovation" [ref=e752]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23techinnovation
+                                      - link "#AIRevolution" [ref=e753]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23airevolution
+                                      - link "#Entrepreneurship" [ref=e754]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23entrepreneurship
+                                      - link "#StartupIndia" [ref=e755]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23startupindia
+                                      - link "#HardwareStartup" [ref=e756]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23hardwarestartup
+                                      - link "#BuildInPublic" [ref=e757]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23buildinpublic
+                                      - link "#FounderJourney" [ref=e758]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23founderjourney
+                                      - link "#YCApplication" [ref=e759]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ycapplication
+                                      - link "#VisionDriven" [ref=e760]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23visiondriven
+                                      - link "#MakeInIndia" [ref=e761]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23makeinindia
+                                  - generic [ref=e762]:
+                                    - figure [ref=e763]
+                                    - img [ref=e765]
+                                - generic [ref=e767]:
+                                  - img [ref=e768]
+                                  - img [ref=e773]
+                                  - img [ref=e787]
+                                  - paragraph [ref=e799]:
+                                    - generic [ref=e800]: 42 個感受 · 2 則回應
+                                    - text: 42 · 2 則回應
+                        - listitem [ref=e801]:
+                          - listitem [ref=e802]:
+                            - 'link "貼文 I’m building InfYNova, a smartphone brand shaped by community feedback. Here’s a quick one for you: 👉 If you had to choose, which feature matters MOST in your next phone? 1️⃣ Battery life 🔋 2️⃣ Camera quality 📸 3️⃣ Speed ⚡ 4️⃣ Customization 🎨 Comment the number (1, 2, 3, or 4) — I’m collecting every response to shape the roadmap for InfYNova. 👉 If you had to choose, which feature matters MOST in your next phone? 投票 • 7 票 • 投票已結束 1 個感受" [ref=e805] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/feed/update/urn:li:activity:7364684960701550592/
+                              - generic [ref=e806]:
+                                - button "貼文" [ref=e807]
+                                - generic [ref=e808]:
+                                  - paragraph [ref=e810]: "I’m building InfYNova, a smartphone brand shaped by community feedback. Here’s a quick one for you: 👉 If you had to choose, which feature matters MOST in your next phone? 1️⃣ Battery life 🔋 2️⃣ Camera quality 📸 3️⃣ Speed ⚡ 4️⃣ Customization 🎨 Comment the number (1, 2, 3, or 4) — I’m collecting every response to shape the roadmap for InfYNova."
+                                  - generic [ref=e812]:
+                                    - paragraph [ref=e814]: 👉 If you had to choose, which feature matters MOST in your next phone?
+                                    - paragraph [ref=e816]: 投票 • 7 票 • 投票已結束
+                                - generic [ref=e817]:
+                                  - img [ref=e818]
+                                  - paragraph [ref=e823]:
+                                    - generic [ref=e824]: 1 個感受
+                                    - text: 1 個
+                        - listitem [ref=e825]:
+                          - listitem [ref=e826]:
+                            - generic [ref=e829]:
+                              - link "電子報" [ref=e830] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/newsletters/infynova-7294768375866507265/
+                                - paragraph [ref=e831]: 電子報
+                              - generic [ref=e832]:
+                                - link "InfYNova" [ref=e833] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/newsletters/infynova-7294768375866507265/
+                                  - generic "InfYNova" [ref=e834]:
+                                    - figure [ref=e835]
+                                - generic [ref=e836]:
+                                  - link "InfYNova 每日發表 • 545 人訂閱 Mobile brand" [ref=e837] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/newsletters/infynova-7294768375866507265/
+                                    - generic [ref=e838]:
+                                      - paragraph [ref=e839]: InfYNova
+                                      - paragraph [ref=e840]: 每日發表 • 545 人訂閱
+                                      - paragraph [ref=e841]: Mobile brand
+                                  - button "訂閱InfYNova" [ref=e843] [cursor=pointer]:
+                                    - generic [ref=e844]:
+                                      - img [ref=e845]
+                                      - generic [ref=e847]: 訂閱
+                      - button "下一步" [ref=e848] [cursor=pointer]:
+                        - img [ref=e850]
+                - generic [ref=e857]:
+                  - generic [ref=e858]:
+                    - generic [ref=e859]:
+                      - heading "動態" [level=2] [ref=e860]
+                      - paragraph [ref=e862]: 2,779 個關注者
+                    - button "關注Robin Singh" [ref=e865] [cursor=pointer]:
+                      - generic [ref=e866]:
+                        - img [ref=e867]
+                        - generic [ref=e870]: 關注
+                  - generic [ref=e871]:
+                    - radio "動態" [checked] [ref=e872] [cursor=pointer]:
+                      - generic [ref=e873]:
+                        - checkbox "動態" [checked]
+                        - generic [ref=e874]: 動態
+                    - radio "回應" [ref=e875] [cursor=pointer]:
+                      - generic [ref=e876]:
+                        - checkbox "回應"
+                        - generic [ref=e877]: 回應
+                    - radio "影片" [ref=e878] [cursor=pointer]:
+                      - generic [ref=e879]:
+                        - checkbox "影片"
+                        - generic [ref=e880]: 影片
+                    - radio "圖片" [ref=e881] [cursor=pointer]:
+                      - generic [ref=e882]:
+                        - checkbox "圖片"
+                        - generic [ref=e883]: 圖片
+                    - radio "電子報" [ref=e884] [cursor=pointer]:
+                      - generic [ref=e885]:
+                        - checkbox "電子報"
+                        - generic [ref=e886]: 電子報
+                    - radio "文件" [ref=e887] [cursor=pointer]:
+                      - generic [ref=e888]:
+                        - checkbox "文件"
+                        - generic [ref=e889]: 文件
+                  - generic [ref=e891]:
+                    - generic [ref=e897]:
+                      - list [ref=e898]:
+                        - list [ref=e899]:
+                          - listitem [ref=e900]:
+                            - listitem [ref=e902]:
+                              - generic [ref=e903]:
+                                - generic [ref=e904]:
+                                  - link [ref=e905] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e906]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e907]
+                                  - generic [ref=e909]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e912] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e914]:
+                                        - paragraph [ref=e917]: Robin Singh
+                                        - paragraph [ref=e919]:
+                                          - generic [ref=e920]:
+                                            - img [ref=e922]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e925]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e927]:
+                                      - generic [ref=e928]:
+                                        - text: 2 天 •
+                                        - img "公開度：全球" [ref=e929]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e931] [cursor=pointer]:
+                                    - img [ref=e933]
+                                - 'link "Just got selected for the JPMorganChase Software Engineering Job Simulation through Forage. Excited to dive into real-world engineering tasks, strengthen my problem-solving skills, and experience how software teams operate at one of the world’s leading financial institutions. Every small step compounds. From building projects, surviving hackathons, working on startups like InfYNova and NovaOS, to now exploring industry-level simulations the grind continues. Looking forward to learning, building, and pushing myself further. #SoftwareEngineering #JPMorganChase #Forage #Tech #Engineering #ComputerScience #Learning #Students #FutureEngineers #Innovation #Growth #LinkedInTech" [ref=e935] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7461282615430582273/
+                                  - paragraph [ref=e938]:
+                                    - generic [ref=e939]:
+                                      - text: Just got selected for the
+                                      - link "JPMorganChase" [ref=e940]:
+                                        - /url: https://www.linkedin.com/company/jpmorganchase/
+                                        - strong [ref=e942]: JPMorganChase
+                                      - text: Software Engineering Job Simulation through
+                                      - link "Forage" [ref=e943]:
+                                        - /url: https://www.linkedin.com/company/theforage/
+                                        - strong [ref=e945]: Forage
+                                      - text: .
+                                      - text: Excited to dive into real-world engineering tasks, strengthen my problem-solving skills, and experience how software teams operate at one of the world’s leading financial institutions.
+                                      - text: Every small step compounds. From building projects, surviving hackathons, working on startups like
+                                      - link "InfYNova" [ref=e946]:
+                                        - /url: https://www.linkedin.com/company/infynova/
+                                        - strong [ref=e948]: InfYNova
+                                      - text: and NovaOS, to now exploring industry-level simulations the grind continues.
+                                      - text: Looking forward to learning, building, and pushing myself further.
+                                      - link "#SoftwareEngineering" [ref=e949]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23softwareengineering&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e951]: "#SoftwareEngineering"
+                                      - link "#JPMorganChase" [ref=e952]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23jpmorganchase&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e954]: "#JPMorganChase"
+                                      - link "#Forage" [ref=e955]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23forage&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e957]: "#Forage"
+                                      - link "#Tech" [ref=e958]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23tech&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e960]: "#Tech"
+                                      - link "#Engineering" [ref=e961]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23engineering&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e963]: "#Engineering"
+                                      - link "#ComputerScience" [ref=e964]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23computerscience&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e966]: "#ComputerScience"
+                                      - link "#Learning" [ref=e967]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23learning&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e969]: "#Learning"
+                                      - link "#Students" [ref=e970]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23students&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e972]: "#Students"
+                                      - link "#FutureEngineers" [ref=e973]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23futureengineers&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e975]: "#FutureEngineers"
+                                      - link "#Innovation" [ref=e976]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23innovation&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e978]: "#Innovation"
+                                      - link "#Growth" [ref=e979]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23growth&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e981]: "#Growth"
+                                      - link "#LinkedInTech" [ref=e982]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23linkedintech&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e984]: "#LinkedInTech"
+                                      - button:
+                                        - generic [ref=e986]: … 更多
+                                - button "顯示翻譯" [ref=e988] [cursor=pointer]:
+                                  - generic [ref=e990]: 顯示翻譯
+                                - generic [ref=e993]:
+                                  - link [ref=e994] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e995]:
+                                      - img "查看圖片" [ref=e996]
+                                  - paragraph [ref=e997]: 1/2
+                              - generic [ref=e998]:
+                                - generic [ref=e999]:
+                                  - link "31 個感受" [ref=e1000] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - generic [ref=e1001]:
+                                      - img [ref=e1002]
+                                      - img [ref=e1008]
+                                      - paragraph [ref=e1023]:
+                                        - generic [ref=e1024]:
+                                          - generic [ref=e1025]: 31 個感受
+                                          - text: "31"
+                                  - link "2 則回應" [ref=e1027] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7461282615430582273/
+                                    - paragraph [ref=e1028]:
+                                      - generic [ref=e1029]: 2 則回應
+                                      - generic [ref=e1030]: 2 則回應
+                                - generic [ref=e1031]:
+                                  - generic [ref=e1032]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1035] [cursor=pointer]:
+                                      - img [ref=e1037]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1040] [cursor=pointer]
+                                  - link "回應" [ref=e1042] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7461282615430582273/
+                                    - img [ref=e1044]
+                                  - button "轉發" [ref=e1046] [cursor=pointer]:
+                                    - img [ref=e1048]
+                                  - link "傳送" [ref=e1050] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1052]
+                          - listitem [ref=e1054]:
+                            - listitem [ref=e1056]:
+                              - generic [ref=e1057]:
+                                - generic [ref=e1058]:
+                                  - link [ref=e1059] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1060]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1061]
+                                  - generic [ref=e1063]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1066] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1068]:
+                                        - paragraph [ref=e1071]: Robin Singh
+                                        - paragraph [ref=e1073]:
+                                          - generic [ref=e1074]:
+                                            - img [ref=e1076]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1079]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1081]:
+                                      - generic [ref=e1082]:
+                                        - text: 4 天 •
+                                        - img "公開度：全球" [ref=e1083]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1085] [cursor=pointer]:
+                                    - img [ref=e1087]
+                                - 'link "🚀 VeloxCodeAgency Internship Program 2026 is now open! We are looking for passionate students, developers, and tech enthusiasts who want real-world startup experience and hands-on project exposure. Open Internship Roles: • AI/ML • Data Science • Full Stack • MERN Stack • Python • Big Data • Cybersecurity What You’ll Get: ✔ Real project exposure ✔ Startup work culture ✔ Team collaboration ✔ Internship certificate ✔ Recommendation opportunities for top performers 📍 Remote Internship 📅 Duration: 1–3 Months 💻 Type: Unpaid We already received 100+ applications in the first phase and are now accepting applications through our updated form. Apply Here: https://lnkd.in/dZiJbsYV Feel free to share this with friends, communities, and anyone interested in tech internships." [ref=e1089] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460667379065344001/
+                                  - paragraph [ref=e1092]:
+                                    - generic [ref=e1093]:
+                                      - text: 🚀 VeloxCodeAgency Internship Program 2026 is now open!
+                                      - text: We are looking for passionate students, developers, and tech enthusiasts who want real-world startup experience and hands-on project exposure.
+                                      - text: "Open Internship Roles:"
+                                      - text: • AI/ML
+                                      - text: • Data Science
+                                      - text: • Full Stack
+                                      - text: • MERN Stack
+                                      - text: • Python
+                                      - text: • Big Data
+                                      - text: • Cybersecurity
+                                      - text: "What You’ll Get:"
+                                      - text: ✔ Real project exposure
+                                      - text: ✔ Startup work culture
+                                      - text: ✔ Team collaboration
+                                      - text: ✔ Internship certificate
+                                      - text: ✔ Recommendation opportunities for top performers
+                                      - text: 📍 Remote Internship
+                                      - text: "📅 Duration: 1–3 Months"
+                                      - text: "💻 Type: Unpaid"
+                                      - text: We already received 100+ applications in the first phase and are now accepting applications through our updated form.
+                                      - text: "Apply Here:"
+                                      - link "https://lnkd.in/dZiJbsYV" [ref=e1094]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdZiJbsYV&urlhash=mF24&mt=tCNCS5Q8W_OlwHXYslSlPTe8az6hYhMb_Znsf2byPNYwKXz6hUcqXT_MFVs6EY9HqVlmUnQKBuOlAXP_QTj9YLigrDLPnChLQK0QS-dT6VCfYhs13V2FSqJWivw&isSdui=true
+                                        - strong [ref=e1096]: https://lnkd.in/dZiJbsYV
+                                      - text: Feel free to share this with friends, communities, and anyone interested in tech internships.
+                                      - button:
+                                        - generic [ref=e1098]: … 更多
+                                - button "顯示翻譯" [ref=e1100] [cursor=pointer]:
+                                  - generic [ref=e1102]: 顯示翻譯
+                                - link "VeloxCodeAgency Internship Application 2026 form.jotform.com" [ref=e1103] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fform%2Ejotform%2Ecom%2F261333893406055&urlhash=n-oz&mt=6hCp2T7LrxUMGRkoRrgHme_YOUXogIygAr77JFnZwFwh2Cngbbv_jo2HwLik5r8PKMLoXjCMfaG6zro13UQjQDjwW4NdHFvHhGRQVlQVOqYDpVmMBYp1Crvng1s&isSdui=true
+                                  - generic [ref=e1104]:
+                                    - figure [ref=e1105]
+                                    - generic [ref=e1108]:
+                                      - paragraph [ref=e1110]:
+                                        - generic [ref=e1111]:
+                                          - generic [ref=e1112]: VeloxCodeAgency Internship Application 2026
+                                          - text: VeloxCodeAgency Internship Application 2026
+                                      - paragraph [ref=e1114]: form.jotform.com
+                              - generic [ref=e1115]:
+                                - generic [ref=e1116]:
+                                  - link "1 個感受" [ref=e1117] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - generic [ref=e1118]:
+                                      - img [ref=e1119]
+                                      - paragraph [ref=e1126]:
+                                        - generic [ref=e1127]:
+                                          - generic [ref=e1128]: 1 個感受
+                                          - text: "1"
+                                  - link "1 則回應" [ref=e1130] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460667379065344001/
+                                    - paragraph [ref=e1131]:
+                                      - generic [ref=e1132]: 1 則回應
+                                      - generic [ref=e1133]: 1 則回應
+                                - generic [ref=e1134]:
+                                  - generic [ref=e1135]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1138] [cursor=pointer]:
+                                      - img [ref=e1140]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1143] [cursor=pointer]
+                                  - link "回應" [ref=e1145] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460667379065344001/
+                                    - img [ref=e1147]
+                                  - button "轉發" [ref=e1149] [cursor=pointer]:
+                                    - img [ref=e1151]
+                                  - link "傳送" [ref=e1153] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1155]
+                          - listitem [ref=e1157]:
+                            - listitem [ref=e1159]:
+                              - generic [ref=e1160]:
+                                - generic [ref=e1161]:
+                                  - link [ref=e1162] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1163]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1164]
+                                  - generic [ref=e1166]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1169] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1171]:
+                                        - paragraph [ref=e1174]: Robin Singh
+                                        - paragraph [ref=e1176]:
+                                          - generic [ref=e1177]:
+                                            - img [ref=e1179]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1182]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1184]:
+                                      - generic [ref=e1185]:
+                                        - text: 4 天 •
+                                        - img "公開度：全球" [ref=e1186]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1188] [cursor=pointer]:
+                                    - img [ref=e1190]
+                                - link [ref=e1192] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460568014988636160/
+                                  - paragraph [ref=e1195]:
+                                    - generic [ref=e1196]:
+                                      - text: We’re excited to announce that applications are now open for the VeloxCodeAgency Internship Program 2026.
+                                      - text: At VeloxCodeAgency, we build custom software solutions, AI-powered systems, automation tools, and scalable digital products for clients and startups.
+                                      - text: "We are currently looking for motivated students, freshers, and self-taught developers for the following remote internship roles:"
+                                      - text: • AI/ML Intern
+                                      - text: • Data Science Intern
+                                      - text: • Full Stack Development Intern
+                                      - text: • MERN Stack Intern
+                                      - text: • Python Development Intern
+                                      - text: • Big Data Intern
+                                      - text: • Cybersecurity Intern
+                                      - text: "This internship is designed to provide:"
+                                      - text: ✔ Real-world project exposure
+                                      - text: ✔ Collaborative startup experience
+                                      - text: ✔ Technical growth opportunities
+                                      - text: ✔ Internship certification
+                                      - text: ✔ Recommendation opportunities for exceptional performers
+                                      - text: "Internship Details:"
+                                      - text: • Remote
+                                      - text: • Unpaid
+                                      - text: "• Duration: 1–3 Months"
+                                      - text: If you are passionate about technology and eager to work in a startup-driven environment, we would love to hear from you.
+                                      - text: "Application Form:"
+                                      - link "https://lnkd.in/g25-nYGf" [ref=e1198]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg25-nYGf&urlhash=gzRI&mt=w_25uwMvrqILZSvZkSrZcpfYDNfM_opNGqnsk458tKLUqY7tXKpa55KBl7mgQRnmFbg_2qiJd6yUVSmMJmdiXwD2-6u078xj8TD-zT6_96P7nxIgRB4msHi1pOE&isSdui=true
+                                        - strong [ref=e1200]: https://lnkd.in/g25-nYGf
+                                      - text: Let’s build something meaningful together.
+                                      - button:
+                                        - generic [ref=e1202]: … 更多
+                                - button "顯示翻譯" [ref=e1204] [cursor=pointer]:
+                                  - generic [ref=e1206]: 顯示翻譯
+                              - generic [ref=e1207]:
+                                - generic [ref=e1208]:
+                                  - link "11 個感受" [ref=e1209] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - generic [ref=e1210]:
+                                      - img [ref=e1211]
+                                      - paragraph [ref=e1218]:
+                                        - generic [ref=e1219]:
+                                          - generic [ref=e1220]: 11 個感受
+                                          - text: "11"
+                                  - link "4 則回應" [ref=e1222] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460568014988636160/
+                                    - paragraph [ref=e1223]:
+                                      - generic [ref=e1224]: 4 則回應
+                                      - generic [ref=e1225]: 4 則回應
+                                - generic [ref=e1226]:
+                                  - generic [ref=e1227]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1230] [cursor=pointer]:
+                                      - img [ref=e1232]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1235] [cursor=pointer]
+                                  - link "回應" [ref=e1237] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460568014988636160/
+                                    - img [ref=e1239]
+                                  - button "轉發" [ref=e1241] [cursor=pointer]:
+                                    - img [ref=e1243]
+                                  - link "傳送" [ref=e1245] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1247]
+                          - listitem [ref=e1249]:
+                            - listitem [ref=e1251]:
+                              - generic [ref=e1252]:
+                                - generic [ref=e1253]:
+                                  - link [ref=e1254] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1255]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1256]
+                                  - generic [ref=e1258]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1261] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1263]:
+                                        - paragraph [ref=e1266]: Robin Singh
+                                        - paragraph [ref=e1268]:
+                                          - generic [ref=e1269]:
+                                            - img [ref=e1271]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1274]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1276]:
+                                      - generic [ref=e1277]:
+                                        - text: 6 天 •
+                                        - img "公開度：全球" [ref=e1278]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1280] [cursor=pointer]:
+                                    - img [ref=e1282]
+                                - link [ref=e1284] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460009976732979200/
+                                  - paragraph [ref=e1287]:
+                                    - generic [ref=e1288]:
+                                      - text: Most smartphone operating systems today are overloaded with distractions, duplicate apps, aggressive notifications, and heavy software layers that slowly ruin the user experience.
+                                      - text: "NovaOS is being built with a different philosophy:"
+                                      - text: Technology should feel lighter, faster, cleaner, and more human.
+                                      - text: "Our goal is to create an AI-first operating system experience focused on:"
+                                      - text: Performance optimization
+                                      - text: Minimal and intentional design
+                                      - text: Faster everyday workflows
+                                      - text: Better battery efficiency
+                                      - text: Smarter interactions without unnecessary complexity
+                                      - text: "This video highlights one simple idea:"
+                                      - text: Even small improvements in speed and usability can completely change how people experience their mornings, work, and daily life.
+                                      - text: We’re not trying to build “just another Android skin.”
+                                      - text: We’re building an ecosystem experience designed for the next era of computing.
+                                      - text: Still early. Still building. But the vision is clear.
+                                      - text: NovaOS by InfYNova.
+                                      - link "#NovaOS" [ref=e1289]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23novaos&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1291]: "#NovaOS"
+                                      - link "#InfYNova" [ref=e1292]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23infynova&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1294]: "#InfYNova"
+                                      - link "#Startup" [ref=e1295]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23startup&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1297]: "#Startup"
+                                      - link "#Technology" [ref=e1298]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23technology&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1300]: "#Technology"
+                                      - link "#Android" [ref=e1301]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23android&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1303]: "#Android"
+                                      - link "#ArtificialIntelligence" [ref=e1304]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23artificialintelligence&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1306]: "#ArtificialIntelligence"
+                                      - link "#ProductDesign" [ref=e1307]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23productdesign&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1309]: "#ProductDesign"
+                                      - link "#OperatingSystem" [ref=e1310]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23operatingsystem&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1312]: "#OperatingSystem"
+                                      - link "#Innovation" [ref=e1313]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23innovation&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1315]: "#Innovation"
+                                      - link "#UserExperience" [ref=e1316]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23userexperience&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1318]: "#UserExperience"
+                                      - link "#TechStartup" [ref=e1319]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23techstartup&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1321]: "#TechStartup"
+                                      - link "#MadeInIndia" [ref=e1322]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23madeinindia&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1324]: "#MadeInIndia"
+                                      - link "#FounderJourney" [ref=e1325]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23founderjourney&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1327]: "#FounderJourney"
+                                      - link "#SoftwareEngineering" [ref=e1328]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23softwareengineering&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1330]: "#SoftwareEngineering"
+                                      - link "#FutureTech" [ref=e1331]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23futuretech&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1333]: "#FutureTech"
+                                      - button:
+                                        - generic [ref=e1335]: … 更多
+                                - button "顯示翻譯" [ref=e1337] [cursor=pointer]:
+                                  - generic [ref=e1339]: 顯示翻譯
+                                - generic [ref=e1341]:
+                                  - region "Video Player" [ref=e2346]:
+                                    - application [ref=e2348]
+                                    - text:             
+                                  - button "此影片有內容憑證。" [ref=e1344] [cursor=pointer]:
+                                    - figure [ref=e1346]:
+                                      - img [ref=e2351]
+                                  - button "播放影片" [ref=e1347] [cursor=pointer]:
+                                    - img [ref=e1349]
+                              - generic [ref=e1351]:
+                                - link "2 個感受" [ref=e1353] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1354]:
+                                    - img [ref=e1355]
+                                    - paragraph [ref=e1362]:
+                                      - generic [ref=e1363]:
+                                        - generic [ref=e1364]: 2 個感受
+                                        - text: "2"
+                                - generic [ref=e1365]:
+                                  - generic [ref=e1366]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1369] [cursor=pointer]:
+                                      - img [ref=e1371]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1374] [cursor=pointer]
+                                  - link "回應" [ref=e1376] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7460009976732979200/
+                                    - img [ref=e1378]
+                                  - button "轉發" [ref=e1380] [cursor=pointer]:
+                                    - img [ref=e1382]
+                                  - link "傳送" [ref=e1384] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1386]
+                          - listitem [ref=e1388]:
+                            - listitem [ref=e1390]:
+                              - generic [ref=e1391]:
+                                - generic [ref=e1392]:
+                                  - link [ref=e1393] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1394]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1395]
+                                  - generic [ref=e1397]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1400] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1402]:
+                                        - paragraph [ref=e1405]: Robin Singh
+                                        - paragraph [ref=e1407]:
+                                          - generic [ref=e1408]:
+                                            - img [ref=e1410]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1413]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1415]:
+                                      - generic [ref=e1416]:
+                                        - text: 1 週 •
+                                        - img "公開度：全球" [ref=e1417]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1419] [cursor=pointer]:
+                                    - img [ref=e1421]
+                                - 'link "Sunday used to feel like a reset. Now it feels like a checkpoint. Not because the work stops, but because leadership makes you measure what actually moved. This week at InfyNova/NovaOS, the wins were not loud: • one cleaner boot sequence • one less crash in the AOSP layer • one more hour of battery life • one better conversation with a potential tester That’s leadership too. Not just vision. Not just motivation. But the discipline to keep score when progress is still invisible. I’ve learned that teams don’t need perfect leaders. They need consistent ones. People who make the hard call early, stay calm under pressure, and protect focus when everything is pulling in another direction. The lesson this week: clarity creates speed. When the goal is sharp, the work gets lighter. What’s one leadership lesson you’ve learned the hard way?" [ref=e1423] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7459244991173910529/
+                                  - paragraph [ref=e1426]:
+                                    - generic [ref=e1427]:
+                                      - text: "Sunday used to feel like a reset. Now it feels like a checkpoint. Not because the work stops, but because leadership makes you measure what actually moved. This week at InfyNova/NovaOS, the wins were not loud: • one cleaner boot sequence • one less crash in the AOSP layer • one more hour of battery life • one better conversation with a potential tester That’s leadership too. Not just vision. Not just motivation. But the discipline to keep score when progress is still invisible. I’ve learned that teams don’t need perfect leaders. They need consistent ones. People who make the hard call early, stay calm under pressure, and protect focus when everything is pulling in another direction. The lesson this week: clarity creates speed. When the goal is sharp, the work gets lighter. What’s one leadership lesson you’ve learned the hard way?"
+                                      - button:
+                                        - generic [ref=e1429]: … 更多
+                                - button "顯示翻譯" [ref=e1431] [cursor=pointer]:
+                                  - generic [ref=e1433]: 顯示翻譯
+                              - generic [ref=e1434]:
+                                - link "2 個感受" [ref=e1436] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1437]:
+                                    - img [ref=e1438]
+                                    - paragraph [ref=e1445]:
+                                      - generic [ref=e1446]:
+                                        - generic [ref=e1447]: 2 個感受
+                                        - text: "2"
+                                - generic [ref=e1448]:
+                                  - generic [ref=e1449]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1452] [cursor=pointer]:
+                                      - img [ref=e1454]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1457] [cursor=pointer]
+                                  - link "回應" [ref=e1459] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7459244991173910529/
+                                    - img [ref=e1461]
+                                  - button "轉發" [ref=e1463] [cursor=pointer]:
+                                    - img [ref=e1465]
+                                  - link "傳送" [ref=e1467] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1469]
+                          - listitem [ref=e1471]:
+                            - listitem [ref=e1473]:
+                              - generic [ref=e1474]:
+                                - generic [ref=e1475]:
+                                  - link [ref=e1476] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1477]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1478]
+                                  - generic [ref=e1480]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1483] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1485]:
+                                        - paragraph [ref=e1488]: Robin Singh
+                                        - paragraph [ref=e1490]:
+                                          - generic [ref=e1491]:
+                                            - img [ref=e1493]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1496]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1498]:
+                                      - generic [ref=e1499]:
+                                        - text: 1 週 •
+                                        - img "公開度：全球" [ref=e1500]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1502] [cursor=pointer]:
+                                    - img [ref=e1504]
+                                - link [ref=e1506] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458735936030392320/
+                                  - paragraph [ref=e1509]:
+                                    - generic [ref=e1510]:
+                                      - text: "Leadership gets romanticized: TED talks, boardrooms, 100-person teams."
+                                      - text: "Solo-founder truth: It's saying NO 97% of the time. Leading yourself first."
+                                      - text: "NovaOS lessons after 14 months solo:"
+                                      - text: 1. "Shiny" kills velocity
+                                      - text: Shiny AI models? Cool. But wakelock drain first. Shipped v0.1.4 Saturday 3AM because I killed 12 "nice-to-haves."
+                                      - text: 2. Metrics > motivation
+                                      - text: "Track: Lines deployed (847 yesterday), drain % (0.8/hr), investor decks sent (29). Moods don't ship code."
+                                      - text: 3. Network compounds silently
+                                      - text: Cold DM'd 47 devs. 3 became ESP32 beta testers. 1 Meesho supplier → PCB discounts. No "networking events."
+                                      - text: 4. Burnout is poor scheduling
+                                      - text: 90min blocks. 8hr cap. Sundays sacred.
+                                      - link "B.Tech" [ref=e1511]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2FB%2ETech&urlhash=4dZl&mt=OgO5hasS8t8g2MDvMxL228B20SM9T4xKeTScPsAwbTe83WG7dsZQI-yYf6MrbeURoNhLxf1EOJRuc8ncZYj0xmBB5-fL5wqwQGbp91xou7lFVOl5PWWqUAgR1IA&isSdui=true
+                                        - strong [ref=e1513]: B.Tech
+                                      - text: exams don't wait for "founder energy."
+                                      - text: 5. Validation is a trap
+                                      - text: No users? Ship anyway. Xperia boots clean now. First 10 testers next week. Feedback loops after velocity.
+                                      - text: Leadership = systems that force right decisions when you're tired, rejected, broke.
+                                      - text: Most "leaders" delegate. Solo leaders execute.
+                                      - text: "Question: What's the hardest \"NO\" you said this week to protect velocity?"
+                                      - link "#Leadership" [ref=e1514]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23leadership&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1516]: "#Leadership"
+                                      - link "#SoloFounder" [ref=e1517]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23solofounder&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1519]: "#SoloFounder"
+                                      - link "#NovaOS" [ref=e1520]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23novaos&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1522]: "#NovaOS"
+                                      - link "#BuildingInPublic" [ref=e1523]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23buildinginpublic&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1525]: "#BuildingInPublic"
+                                      - link "#DeepWork" [ref=e1526]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23deepwork&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1528]: "#DeepWork"
+                                      - button:
+                                        - generic [ref=e1530]: … 更多
+                                - button "顯示翻譯" [ref=e1532] [cursor=pointer]:
+                                  - generic [ref=e1534]: 顯示翻譯
+                              - generic [ref=e1535]:
+                                - link "4 個感受" [ref=e1537] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1538]:
+                                    - img [ref=e1539]
+                                    - paragraph [ref=e1546]:
+                                      - generic [ref=e1547]:
+                                        - generic [ref=e1548]: 4 個感受
+                                        - text: "4"
+                                - generic [ref=e1549]:
+                                  - generic [ref=e1550]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1553] [cursor=pointer]:
+                                      - img [ref=e1555]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1558] [cursor=pointer]
+                                  - link "回應" [ref=e1560] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458735936030392320/
+                                    - img [ref=e1562]
+                                  - button "轉發" [ref=e1564] [cursor=pointer]:
+                                    - img [ref=e1566]
+                                  - link "傳送" [ref=e1568] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1570]
+                          - listitem [ref=e1572]:
+                            - listitem [ref=e1574]:
+                              - generic [ref=e1575]:
+                                - generic [ref=e1576]:
+                                  - link [ref=e1577] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1578]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1579]
+                                  - generic [ref=e1581]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1584] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1586]:
+                                        - paragraph [ref=e1589]: Robin Singh
+                                        - paragraph [ref=e1591]:
+                                          - generic [ref=e1592]:
+                                            - img [ref=e1594]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1597]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1599]:
+                                      - generic [ref=e1600]:
+                                        - text: 1 週 •
+                                        - img "公開度：全球" [ref=e1601]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1603] [cursor=pointer]:
+                                    - img [ref=e1605]
+                                - 'link "Weekends don''t pause the grind. Saturday 3AM: Xperia 5 V finally boots NovaOS v0.1.4 clean. No kernel panic. 62fps Flutter lockscreen. Llama.cpp inference at 165ms/token. But here''s the tax: • ESP32 MQTT broker dropped 200 packets under 4G stress • Thermal throttle hit 52°C after 45min YouTube • JLCPCB spin #24 arrived—2 boards DOA (warped traces) Fixes shipped: adb shell dumpsys batterystats | grep wakelock systrace -t 10 -o trace.html text → Idle drain now 0.8%/hr (stock Android: 1.4%) Reality check: This is B.Tech semester + Meesho orders + Upwork React gigs funding the race. No team. No runway. Pure systems. NovaOS metric that matters: Runs offline AI in Rajasthan''s dead zones where cloud fails. Most founders sleep Saturdays. Separation happens in the shadows. Your move: What''s the 3AM fix you''re most proud of this week? #NovaOS #AOSP #OnDeviceAI #WeekendGrind #IndieDev" [ref=e1607] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458719262514483200/
+                                  - paragraph [ref=e1610]:
+                                    - generic [ref=e1611]:
+                                      - text: Weekends don't pause the grind.
+                                      - text: "Saturday 3AM: Xperia 5 V finally boots NovaOS v0.1.4 clean. No kernel panic. 62fps Flutter lockscreen. Llama.cpp inference at 165ms/token."
+                                      - text: "But here's the tax:"
+                                      - text: • ESP32 MQTT broker dropped 200 packets under 4G stress
+                                      - text: • Thermal throttle hit 52°C after 45min YouTube
+                                      - text: "• JLCPCB spin #24 arrived—2 boards DOA (warped traces)"
+                                      - text: "Fixes shipped:"
+                                      - text: adb shell dumpsys batterystats | grep wakelock
+                                      - text: systrace -t 10 -o trace.html
+                                      - text: text
+                                      - text: "→ Idle drain now 0.8%/hr (stock Android: 1.4%)"
+                                      - text: "Reality check: This is"
+                                      - link "B.Tech" [ref=e1612]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2FB%2ETech&urlhash=4dZl&mt=clyDcDGmusJzn-K8Y7otuulCGRR9kaMiPlCQJs-EG_Jpod7pZsH07E8ijfQwAOXQoKbnirxOITE_90sZAoo4lH08vHf1VTKUNV8lY6sTNFS_T2DTKrQhrof2wyM&isSdui=true
+                                        - strong [ref=e1614]: B.Tech
+                                      - text: semester + Meesho orders + Upwork React gigs funding the race. No team. No runway. Pure systems.
+                                      - text: "NovaOS metric that matters: Runs offline AI in Rajasthan's dead zones where cloud fails."
+                                      - text: Most founders sleep Saturdays. Separation happens in the shadows.
+                                      - text: "Your move: What's the 3AM fix you're most proud of this week?"
+                                      - link "#NovaOS" [ref=e1615]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23novaos&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1617]: "#NovaOS"
+                                      - link "#AOSP" [ref=e1618]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aosp&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1620]: "#AOSP"
+                                      - link "#OnDeviceAI" [ref=e1621]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ondeviceai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1623]: "#OnDeviceAI"
+                                      - link "#WeekendGrind" [ref=e1624]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23weekendgrind&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1626]: "#WeekendGrind"
+                                      - link "#IndieDev" [ref=e1627]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23indiedev&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1629]: "#IndieDev"
+                                      - button:
+                                        - generic [ref=e1631]: … 更多
+                                - button "顯示翻譯" [ref=e1633] [cursor=pointer]:
+                                  - generic [ref=e1635]: 顯示翻譯
+                              - generic [ref=e1636]:
+                                - link "5 個感受" [ref=e1638] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1639]:
+                                    - img [ref=e1640]
+                                    - paragraph [ref=e1647]:
+                                      - generic [ref=e1648]:
+                                        - generic [ref=e1649]: 5 個感受
+                                        - text: "5"
+                                - generic [ref=e1650]:
+                                  - generic [ref=e1651]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1654] [cursor=pointer]:
+                                      - img [ref=e1656]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1659] [cursor=pointer]
+                                  - link "回應" [ref=e1661] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458719262514483200/
+                                    - img [ref=e1663]
+                                  - button "轉發" [ref=e1665] [cursor=pointer]:
+                                    - img [ref=e1667]
+                                  - link "傳送" [ref=e1669] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1671]
+                          - listitem [ref=e1673]:
+                            - listitem [ref=e1675]:
+                              - generic [ref=e1676]:
+                                - generic [ref=e1677]:
+                                  - link [ref=e1678] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1679]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1680]
+                                  - generic [ref=e1682]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1685] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1687]:
+                                        - paragraph [ref=e1690]: Robin Singh
+                                        - paragraph [ref=e1692]:
+                                          - generic [ref=e1693]:
+                                            - img [ref=e1695]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1698]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1700]:
+                                      - generic [ref=e1701]:
+                                        - text: 1 週 •
+                                        - img "公開度：全球" [ref=e1702]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1704] [cursor=pointer]:
+                                    - img [ref=e1706]
+                                - 'link "\"AI-first OS\" sounds sexy on pitch decks. Reality: Llama.cpp models ballooning RAM on mid-range SoCs. Custom wakelocks draining battery 2x stock Android. Flutter system UI dropping frames under IoT stress. NovaOS v0.1.2 → v0.1.3: 72 hours straight. Fixed: • On-device inference down to 180ms/token (Xperia 5 V) • ESP32 bridge now survives 48hr thermal cycling • 17% idle drain reduction via kernel tweaks Tools in the trenches: `adb logcat | grep wakelock` `systrace` for UI jank KiCad → JLCPCB 5-day spin #24 No co-founders. No funding. Just B.Tech nights + Meesho day job + Upwork gigs funding PCB runs. This is what separation looks like: Shipping fixes while others write manifestos. Progress metric: Models that actually run offline in India’s 4G dead zones. Your turn: What''s the one optimization that unblocked your bottleneck? #NovaOS #OnDeviceAI #AOSP #Hardware #BuildingInPublic" [ref=e1708] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458567370031157248/
+                                  - paragraph [ref=e1711]:
+                                    - generic [ref=e1712]:
+                                      - text: "\"AI-first OS\" sounds sexy on pitch decks."
+                                      - text: "Reality: Llama.cpp models ballooning RAM on mid-range SoCs. Custom wakelocks draining battery 2x stock Android. Flutter system UI dropping frames under IoT stress."
+                                      - text: "NovaOS v0.1.2 → v0.1.3: 72 hours straight."
+                                      - text: "Fixed:"
+                                      - text: • On-device inference down to 180ms/token (Xperia 5 V)
+                                      - text: • ESP32 bridge now survives 48hr thermal cycling
+                                      - text: • 17% idle drain reduction via kernel tweaks
+                                      - text: "Tools in the trenches:"
+                                      - text: "`adb logcat | grep wakelock`"
+                                      - text: "`systrace` for UI jank"
+                                      - text: "KiCad → JLCPCB 5-day spin #24"
+                                      - text: No co-founders. No funding. Just
+                                      - link "B.Tech" [ref=e1713]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2FB%2ETech&urlhash=4dZl&mt=TOQ6fty9K0es_pb1GzGaPCpzz46i3DuAIT4S0vEf0hoZMWFoPDaj8VqX6lrQXKXjXZ3sf0PCPdgugYp_QvAbdOUd_MivnuSFi-YBrpaSCOIl279gPR0joc_w76g&isSdui=true
+                                        - strong [ref=e1715]: B.Tech
+                                      - text: nights + Meesho day job + Upwork gigs funding PCB runs.
+                                      - text: "This is what separation looks like: Shipping fixes while others write manifestos."
+                                      - text: "Progress metric: Models that actually run offline in India’s 4G dead zones."
+                                      - text: "Your turn: What's the one optimization that unblocked your bottleneck?"
+                                      - link "#NovaOS" [ref=e1716]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23novaos&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1718]: "#NovaOS"
+                                      - link "#OnDeviceAI" [ref=e1719]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23ondeviceai&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1721]: "#OnDeviceAI"
+                                      - link "#AOSP" [ref=e1722]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23aosp&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1724]: "#AOSP"
+                                      - link "#Hardware" [ref=e1725]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23hardware&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1727]: "#Hardware"
+                                      - link "#BuildingInPublic" [ref=e1728]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23buildinginpublic&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1730]: "#BuildingInPublic"
+                                      - button:
+                                        - generic [ref=e1732]: … 更多
+                                - button "顯示翻譯" [ref=e1734] [cursor=pointer]:
+                                  - generic [ref=e1736]: 顯示翻譯
+                              - generic [ref=e1737]:
+                                - link "1 個感受" [ref=e1739] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1740]:
+                                    - img [ref=e1741]
+                                    - paragraph [ref=e1748]:
+                                      - generic [ref=e1749]:
+                                        - generic [ref=e1750]: 1 個感受
+                                        - text: "1"
+                                - generic [ref=e1751]:
+                                  - generic [ref=e1752]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1755] [cursor=pointer]:
+                                      - img [ref=e1757]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1760] [cursor=pointer]
+                                  - link "回應" [ref=e1762] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458567370031157248/
+                                    - img [ref=e1764]
+                                  - button "轉發" [ref=e1766] [cursor=pointer]:
+                                    - img [ref=e1768]
+                                  - link "傳送" [ref=e1770] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1772]
+                          - listitem [ref=e1774]:
+                            - listitem [ref=e1776]:
+                              - generic [ref=e1777]:
+                                - generic [ref=e1778]:
+                                  - link [ref=e1779] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1780]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1781]
+                                  - generic [ref=e1783]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1786] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1788]:
+                                        - paragraph [ref=e1791]: Robin Singh
+                                        - paragraph [ref=e1793]:
+                                          - generic [ref=e1794]:
+                                            - img [ref=e1796]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1799]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1801]:
+                                      - generic [ref=e1802]:
+                                        - text: 1 週 •
+                                        - img "公開度：全球" [ref=e1803]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1805] [cursor=pointer]:
+                                    - img [ref=e1807]
+                                - generic [ref=e1809]:
+                                  - link [ref=e1810] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/pulse/building-novaos-why-stealth-mode-builds-muscle-memory-robin-singh-fihxc/
+                                    - figure [ref=e1811]:
+                                      - 'img "Building NovaOS: Why Stealth Mode Builds Muscle Memory That Launches Win" [ref=e2354]'
+                                  - 'link "InfYNova 訂閱InfYNova Building NovaOS: Why Stealth Mode Builds Muscle Memory That Launches Win Robin Singh" [ref=e1812] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/pulse/building-novaos-why-stealth-mode-builds-muscle-memory-robin-singh-fihxc/
+                                    - generic [ref=e1813]:
+                                      - link "InfYNova 訂閱InfYNova" [ref=e1814]:
+                                        - /url: https://www.linkedin.com/newsletters/infynova-7294768375866507265/
+                                        - generic [ref=e1815]:
+                                          - figure [ref=e1816]
+                                          - paragraph [ref=e1825]: InfYNova
+                                          - button "訂閱InfYNova" [ref=e1827]:
+                                            - generic [ref=e1828]:
+                                              - img [ref=e1829]
+                                              - generic [ref=e1831]: 訂閱
+                                      - paragraph [ref=e1833]: "Building NovaOS: Why Stealth Mode Builds Muscle Memory That Launches Win"
+                                      - paragraph [ref=e1835]: Robin Singh
+                              - generic [ref=e1836]:
+                                - link "6 個感受" [ref=e1838] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1839]:
+                                    - img [ref=e1840]
+                                    - paragraph [ref=e1847]:
+                                      - generic [ref=e1848]:
+                                        - generic [ref=e1849]: 6 個感受
+                                        - text: "6"
+                                - generic [ref=e1850]:
+                                  - generic [ref=e1851]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1854] [cursor=pointer]:
+                                      - img [ref=e1856]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1859] [cursor=pointer]
+                                  - link "回應" [ref=e1861] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458561734841323520/
+                                    - img [ref=e1863]
+                                  - button "轉發" [ref=e1865] [cursor=pointer]:
+                                    - img [ref=e1867]
+                                  - link "傳送" [ref=e1869] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1871]
+                          - listitem [ref=e1873]:
+                            - listitem [ref=e1875]:
+                              - generic [ref=e1876]:
+                                - generic [ref=e1877]:
+                                  - link [ref=e1878] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - figure [ref=e1879]:
+                                      - img "查看Robin Singh的個人檔案" [ref=e1880]
+                                  - generic [ref=e1882]:
+                                    - link "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1885] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                      - generic "SinghRobin 已驗證個人檔案 3 度 +" [ref=e1887]:
+                                        - paragraph [ref=e1890]: Robin Singh
+                                        - paragraph [ref=e1892]:
+                                          - generic [ref=e1893]:
+                                            - img [ref=e1895]
+                                            - text: • 3 度 +
+                                    - paragraph [ref=e1898]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                                    - paragraph [ref=e1900]:
+                                      - generic [ref=e1901]:
+                                        - text: 1 週 •
+                                        - img "公開度：全球" [ref=e1902]
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/robin7/
+                                  - button "開啟Robin Singh貼文的控制選單" [ref=e1904] [cursor=pointer]:
+                                    - img [ref=e1906]
+                                - 'link "Flashy pitches and viral threads fool most people. Truth: Real progress lives in the grind no one posts about. Forking AOSP at 2AM. ESP32 prototypes that brick on first flash. PCB revisions from JLCPCB that arrive DOA. At Nothing, we lived this for years. No users. No revenue. Just relentless iteration: daily kernel patches, hardware teardowns, cold investor emails that vanished into voids. Consistency isn''t hype. It''s physics small forces applied daily create escape velocity. You engineer it: 90-minute deep work blocks. Weekly hardware sprints. Zero excuses on ship days. Most founders burn out here, chasing dopamine hits. Survivors turn repetition into muscle memory. The product that wins isn''t the idea. It''s the execution that outlasts. Your move: What''s the one ritual that forces you to ship, no matter what? #BuildingInPublic #HardwareGrind #FounderLife" [ref=e1908] [cursor=pointer]':
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458559875854385152/
+                                  - paragraph [ref=e1911]:
+                                    - generic [ref=e1912]:
+                                      - text: Flashy pitches and viral threads fool most people.
+                                      - text: "Truth: Real progress lives in the grind no one posts about. Forking AOSP at 2AM. ESP32 prototypes that brick on first flash. PCB revisions from"
+                                      - link "JLCPCB" [ref=e1913]:
+                                        - /url: https://www.linkedin.com/company/jlcpcb/
+                                        - strong [ref=e1915]: JLCPCB
+                                      - text: that arrive DOA.
+                                      - text: At
+                                      - link "Nothing" [ref=e1916]:
+                                        - /url: https://www.linkedin.com/company/nothingtech/
+                                        - strong [ref=e1918]: Nothing
+                                      - text: ", we lived this for years. No users. No revenue. Just relentless iteration: daily kernel patches, hardware teardowns, cold investor emails that vanished into voids."
+                                      - text: Consistency isn't hype. It's physics small forces applied daily create escape velocity.
+                                      - text: "You engineer it: 90-minute deep work blocks. Weekly hardware sprints. Zero excuses on ship days."
+                                      - text: Most founders burn out here, chasing dopamine hits. Survivors turn repetition into muscle memory.
+                                      - text: The product that wins isn't the idea. It's the execution that outlasts.
+                                      - text: "Your move: What's the one ritual that forces you to ship, no matter what?"
+                                      - link "#BuildingInPublic" [ref=e1919]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23buildinginpublic&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1921]: "#BuildingInPublic"
+                                      - link "#HardwareGrind" [ref=e1922]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23hardwaregrind&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1924]: "#HardwareGrind"
+                                      - link "#FounderLife" [ref=e1925]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23founderlife&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e1927]: "#FounderLife"
+                                      - button:
+                                        - generic [ref=e1929]: … 更多
+                                - button "顯示翻譯" [ref=e1931] [cursor=pointer]:
+                                  - generic [ref=e1933]: 顯示翻譯
+                              - generic [ref=e1934]:
+                                - link "3 個感受" [ref=e1936] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/robin7/
+                                  - generic [ref=e1937]:
+                                    - img [ref=e1938]
+                                    - img [ref=e1944]
+                                    - paragraph [ref=e1951]:
+                                      - generic [ref=e1952]:
+                                        - generic [ref=e1953]: 3 個感受
+                                        - text: "3"
+                                - generic [ref=e1954]:
+                                  - generic [ref=e1955]:
+                                    - button "感受按鈕狀態：無感受" [ref=e1958] [cursor=pointer]:
+                                      - img [ref=e1960]
+                                    - button "開啟感受選單":
+                                      - img [ref=e1963] [cursor=pointer]
+                                  - link "回應" [ref=e1965] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7458559875854385152/
+                                    - img [ref=e1967]
+                                  - button "轉發" [ref=e1969] [cursor=pointer]:
+                                    - img [ref=e1971]
+                                  - link "傳送" [ref=e1973] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/robin7/
+                                    - img [ref=e1975]
+                      - button "下一步" [ref=e1977] [cursor=pointer]:
+                        - img [ref=e1979]
+                    - link "顯示全部" [ref=e1982] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/robin7/recent-activity/all/
+                      - generic [ref=e1983]:
+                        - img [ref=e1984]
+                        - generic [ref=e1986]: 顯示全部
+            - complementary "側邊" [ref=e2008]:
+              - generic [ref=e2010]:
+                - iframe [ref=e2355]:
+                  - link "Advertise on LinkedIn" [ref=f50e3] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+                    - img "Advertise on LinkedIn" [ref=f50e4]
+                - generic [ref=e2018]:
+                  - heading "更多推薦個人檔案" [level=3] [ref=e2022]
+                  - generic [ref=e2024]:
+                    - generic [ref=e2026]:
+                      - link "Gokul Kumar Sant · 3 度 MERN Stack & AI Developer | Cybersecurity Enthusiast | Co-Founder @ProtoXVision & @VeloxCode Agency | Student Placement Committee Member | E-Cell Member | CSE @ MM(DU) | Building Secure, Scalable & Smart Apps" [ref=e2029] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/gokulkumarsant/
+                        - generic [ref=e2030]:
+                          - figure [ref=e2031]
+                          - generic [ref=e2032]:
+                            - generic [ref=e2033]:
+                              - paragraph [ref=e2035]: Gokul Kumar Sant
+                              - paragraph [ref=e2036]: · 3 度
+                            - paragraph [ref=e2038]: MERN Stack & AI Developer | Cybersecurity Enthusiast | Co-Founder @ProtoXVision & @VeloxCode Agency | Student Placement Committee Member | E-Cell Member | CSE @ MM(DU) | Building Secure, Scalable & Smart Apps
+                      - button "向Gokul Kumar Sant傳送訊息" [ref=e2042] [cursor=pointer]:
+                        - generic [ref=e2043]:
+                          - img [ref=e2044]
+                          - generic [ref=e2046]: 訊息
+                    - generic [ref=e2048]:
+                      - link "Jaineesh Patel 已驗證 · 3 度 CSE Junior || Ex - SWE Intern@Livaro, UC Berkeley || Vice President @ECell RVU || Tech Explorer" [ref=e2051] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/jaineesh-patel-6471902a7/
+                        - generic [ref=e2052]:
+                          - figure [ref=e2053]
+                          - generic [ref=e2054]:
+                            - generic [ref=e2055]:
+                              - paragraph [ref=e2057]:
+                                - generic [ref=e2058]:
+                                  - text: Jaineesh Patel
+                                  - img "已驗證" [ref=e2059]:
+                                    - img [ref=e2060]
+                              - paragraph [ref=e2062]: · 3 度
+                            - paragraph [ref=e2064]: CSE Junior || Ex - SWE Intern@Livaro, UC Berkeley || Vice President @ECell RVU || Tech Explorer
+                      - button "向Jaineesh Patel 傳送訊息" [ref=e2068] [cursor=pointer]:
+                        - generic [ref=e2069]:
+                          - img [ref=e2070]
+                          - generic [ref=e2072]: 訊息
+                    - generic [ref=e2074]:
+                      - link "Vansh Saini 已驗證 · 3 度 BTech CSE Student | Aspiring Software Developer | Interested in AI & Web Development" [ref=e2077] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/vansh-saini-695193379/
+                        - generic [ref=e2078]:
+                          - figure [ref=e2079]
+                          - generic [ref=e2080]:
+                            - generic [ref=e2081]:
+                              - paragraph [ref=e2083]:
+                                - generic [ref=e2084]:
+                                  - text: Vansh Saini
+                                  - img "已驗證" [ref=e2085]:
+                                    - img [ref=e2086]
+                              - paragraph [ref=e2088]: · 3 度
+                            - paragraph [ref=e2090]: BTech CSE Student | Aspiring Software Developer | Interested in AI & Web Development
+                      - button "向Vansh Saini 傳送訊息" [ref=e2094] [cursor=pointer]:
+                        - generic [ref=e2095]:
+                          - img [ref=e2096]
+                          - generic [ref=e2098]: 訊息
+                    - generic [ref=e2100]:
+                      - link "Vikas Acharya 已驗證 · 3 度 Founder & Builder | Exploring Tech, Startups & Innovation | Product Development & UI/UX Design" [ref=e2103] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/vikasacharyaa/
+                        - generic [ref=e2104]:
+                          - figure [ref=e2105]
+                          - generic [ref=e2106]:
+                            - generic [ref=e2107]:
+                              - paragraph [ref=e2109]:
+                                - generic [ref=e2110]:
+                                  - text: Vikas Acharya
+                                  - img "已驗證" [ref=e2111]:
+                                    - img [ref=e2112]
+                              - paragraph [ref=e2114]: · 3 度
+                            - paragraph [ref=e2116]: Founder & Builder | Exploring Tech, Startups & Innovation | Product Development & UI/UX Design
+                      - button "向Vikas Acharya 傳送訊息" [ref=e2120] [cursor=pointer]:
+                        - generic [ref=e2121]:
+                          - img [ref=e2122]
+                          - generic [ref=e2124]: 訊息
+                    - generic [ref=e2126]:
+                      - link "Mohana Vamsi Gangisetti 已驗證 · 3 度 Software Engineer | Building Scalable Systems | Python • TypeScript • AWS 🚀" [ref=e2129] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/mohanavamsigangisetti/
+                        - generic [ref=e2130]:
+                          - figure [ref=e2131]
+                          - generic [ref=e2132]:
+                            - generic [ref=e2133]:
+                              - paragraph [ref=e2135]:
+                                - generic [ref=e2136]:
+                                  - text: Mohana Vamsi Gangisetti
+                                  - img "已驗證" [ref=e2137]:
+                                    - img [ref=e2138]
+                              - paragraph [ref=e2140]: · 3 度
+                            - paragraph [ref=e2142]: Software Engineer | Building Scalable Systems | Python • TypeScript • AWS 🚀
+                      - button "關注Mohana Vamsi Gangisetti" [ref=e2148] [cursor=pointer]:
+                        - generic [ref=e2149]:
+                          - img [ref=e2150]
+                          - generic [ref=e2153]: 關注
+                  - link "為您顯示更多個人檔案" [ref=e2155] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/robin7/overlay/browsemap-recommendations/
+                    - generic [ref=e2156]:
+                      - img [ref=e2157]
+                      - generic [ref=e2159]: 顯示全部
+                - generic [ref=e2162]:
+                  - heading "探索 Premium 檔案" [level=2] [ref=e2164]
+                  - generic [ref=e2166]:
+                    - generic [ref=e2168]:
+                      - link "Kuan-Jung Chiu Premium · 3 度 CEO" [ref=e2171] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/kj-chiu/
+                        - generic [ref=e2172]:
+                          - figure [ref=e2173]
+                          - generic [ref=e2174]:
+                            - generic [ref=e2175]:
+                              - paragraph [ref=e2177]:
+                                - generic [ref=e2178]:
+                                  - text: Kuan-Jung Chiu
+                                  - img "Premium" [ref=e2179]:
+                                    - img [ref=e2180]
+                              - paragraph [ref=e2182]: · 3 度
+                            - paragraph [ref=e2184]: CEO
+                      - button "向Kuan-Jung Chiu 傳送訊息" [ref=e2188] [cursor=pointer]:
+                        - generic [ref=e2189]:
+                          - img [ref=e2190]
+                          - generic [ref=e2192]: 訊息
+                    - generic [ref=e2194]:
+                      - link "CHIH-HUNG CHUANG Premium · 3 度 CEO" [ref=e2197] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/chih-hung-chuang-439062183/
+                        - generic [ref=e2198]:
+                          - figure [ref=e2199]
+                          - generic [ref=e2200]:
+                            - generic [ref=e2201]:
+                              - paragraph [ref=e2203]:
+                                - generic [ref=e2204]:
+                                  - text: CHIH-HUNG CHUANG
+                                  - img "Premium" [ref=e2205]:
+                                    - img [ref=e2206]
+                              - paragraph [ref=e2208]: · 3 度
+                            - paragraph [ref=e2210]: CEO
+                      - button "邀請CHIH-HUNG CHUANG加為好友" [ref=e2216] [cursor=pointer]:
+                        - generic [ref=e2217]:
+                          - img [ref=e2218]
+                          - generic [ref=e2221]: 建立關係
+                    - generic [ref=e2223]:
+                      - link "Jason Chen Premium · 3 度 Board Member" [ref=e2226] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/jason-chen-9b13279a/
+                        - generic [ref=e2227]:
+                          - figure [ref=e2228]
+                          - generic [ref=e2229]:
+                            - generic [ref=e2230]:
+                              - paragraph [ref=e2232]:
+                                - generic [ref=e2233]:
+                                  - text: Jason Chen
+                                  - img "Premium" [ref=e2234]:
+                                    - img [ref=e2235]
+                              - paragraph [ref=e2237]: · 3 度
+                            - paragraph [ref=e2239]: Board Member
+                      - button "關注Jason Chen" [ref=e2245] [cursor=pointer]:
+                        - generic [ref=e2246]:
+                          - img [ref=e2247]
+                          - generic [ref=e2250]: 關注
+                    - generic [ref=e2252]:
+                      - link "Ariel Liu Premium · 3 度 Industry Analyst" [ref=e2255] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/ariel-liu-1a9a85100/
+                        - generic [ref=e2256]:
+                          - figure [ref=e2257]
+                          - generic [ref=e2258]:
+                            - generic [ref=e2259]:
+                              - paragraph [ref=e2261]:
+                                - generic [ref=e2262]:
+                                  - text: Ariel Liu
+                                  - img "Premium" [ref=e2263]:
+                                    - img [ref=e2264]
+                              - paragraph [ref=e2266]: · 3 度
+                            - paragraph [ref=e2268]: Industry Analyst
+                      - button "向Ariel Liu 傳送訊息" [ref=e2272] [cursor=pointer]:
+                        - generic [ref=e2273]:
+                          - img [ref=e2274]
+                          - generic [ref=e2276]: 訊息
+            - generic "頁尾" [ref=e2277]:
+              - generic [ref=e2280]:
+                - generic [ref=e2281]:
+                  - navigation [ref=e2282]:
+                    - link "關於" [ref=e2283] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e2284]: 關於
+                    - link "無障礙功能" [ref=e2285] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e2286]: 無障礙功能
+                    - link "人才解決方案" [ref=e2287] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e2288]: 人才解決方案
+                    - link "社群指南" [ref=e2289] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e2290]: 社群指南
+                    - link "徵才專區" [ref=e2291] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e2292]: 徵才專區
+                    - link "行銷解決方案" [ref=e2293] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e2294]: 行銷解決方案
+                    - button "隱私權及條款" [ref=e2295] [cursor=pointer]:
+                      - generic [ref=e2296]:
+                        - paragraph [ref=e2297]: 隱私權及條款
+                        - img [ref=e2298]
+                    - link "Ad Choices" [ref=e2300] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e2301]: Ad Choices
+                    - link "廣告" [ref=e2302] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e2303]: 廣告
+                    - link "銷售解決方案" [ref=e2304] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e2305]: 銷售解決方案
+                    - link "行動版" [ref=e2306] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e2307]: 行動版
+                    - link "小型企業" [ref=e2308] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e2309]: 小型企業
+                    - link "說明中心" [ref=e2310] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e2311]: 說明中心
+                  - paragraph [ref=e2313]: LinkedIn Corporation © 2026年
+                - generic [ref=e2314]:
+                  - list [ref=e2315]:
+                    - listitem [ref=e2316]:
+                      - generic [ref=e2317]:
+                        - img [ref=e2318]
+                        - generic [ref=e2320]:
+                          - link "有問題嗎？" [ref=e2321] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e2322]: 有問題嗎？
+                          - paragraph [ref=e2323]: 前往說明中心。
+                    - listitem [ref=e2324]:
+                      - generic [ref=e2325]:
+                        - img [ref=e2326]
+                        - generic [ref=e2328]:
+                          - link "管理帳戶和隱私權" [ref=e2329] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e2330]: 管理帳戶和隱私權
+                          - paragraph [ref=e2331]: 前往設定
+                    - listitem [ref=e2332]:
+                      - generic [ref=e2333]:
+                        - img [ref=e2334]
+                        - generic [ref=e2336]:
+                          - link "所獲推薦透明度" [ref=e2337] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e2338]: 所獲推薦透明度
+                          - paragraph [ref=e2339]: 深入瞭解推薦內容。
+                  - generic [ref=e2341]:
+                    - paragraph [ref=e2343]: 選擇語言
+                    - generic [ref=e2344]:
+                      - combobox "選擇語言" [ref=e2345] [cursor=pointer]:
+                        - option "العربية（阿拉伯文）"
+                        - option "বাংলা （孟加拉語）"
+                        - option "Čeština（捷克文）"
+                        - option "Dansk（丹麥文）"
+                        - option "Deutsch（德文）"
+                        - option "Ελληνικά （希臘文）"
+                        - option "English（英文）"
+                        - option "Español（西班牙文）"
+                        - option "فارسی （波斯文）"
+                        - option "Suomi （芬蘭語）"
+                        - option "Français（法文）"
+                        - option "हिंदी（印度文）"
+                        - option "Magyar（匈牙利語）"
+                        - option "Bahasa Indonesia（印尼文）"
+                        - option "Italiano（義大利文）"
+                        - option "עברית （希伯來文）"
+                        - option "日本語（日文）"
+                        - option "한국어（韓文）"
+                        - option "मराठी （馬拉地語）"
+                        - option "Bahasa Malaysia（馬來文）"
+                        - option "Nederlands（荷蘭文）"
+                        - option "Norsk（挪威文）"
+                        - option "ਪੰਜਾਬੀ （旁遮普語）"
+                        - option "Polski（波蘭文）"
+                        - option "Português（葡萄牙文）"
+                        - option "Română（羅馬尼亞文）"
+                        - option "Русский（俄文）"
+                        - option "Svenska（瑞典文）"
+                        - option "తెలుగు （泰盧固語）"
+                        - option "ภาษาไทย（泰文）"
+                        - option "Tagalog（菲律賓文）"
+                        - option "Türkçe（土耳其文）"
+                        - option "Українська（烏克蘭文）"
+                        - option "Tiếng Việt（越南語）"
+                        - option "简体中文 (簡體中文)"
+                        - option "正體中文 (正體中文)" [selected]
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e371]:
+              - generic [ref=e372]:
+                - generic [ref=e374] [cursor=pointer]:
+                  - generic [ref=e375]:
+                    - img "HSIN WEI CHEN" [ref=e376]
+                    - generic [ref=e378]: 狀態為已上線
+                  - button "您正處於訊息重疊畫面。按下 Enter 即可縮小畫面。" [ref=e2356]:
+                    - generic [ref=e380]:
+                      - generic [ref=e381]: 訊息
+                      - generic [ref=e382]: 您正處於訊息重疊畫面。按下 Enter 即可縮小畫面。
+                - generic [ref=e383]:
+                  - button "開啟選單" [ref=e385] [cursor=pointer]:
+                    - img "開啟選單" [ref=e386]
+                  - button "撰寫訊息" [ref=e389] [cursor=pointer]:
+                    - img [ref=e390]
+                    - generic [ref=e392]: 撰寫訊息
+                  - button "您正處於訊息重疊畫面。按下 Enter 即可縮小畫面。" [ref=e2357] [cursor=pointer]:
+                    - img [ref=e394]
+                    - generic [ref=e396]: 您正處於訊息重疊畫面。按下 Enter 即可縮小畫面。
+              - generic [ref=e2359]:
+                - generic [ref=e2360]: 輸入關鍵字，搜尋聯絡人或討論。
+                - img [ref=e2362]
+                - textbox "輸入關鍵字，搜尋聯絡人或討論。" [ref=e2364]:
+                  - /placeholder: 搜尋訊息
+                - button "篩選訊息" [ref=e2365] [cursor=pointer]:
+                  - img "篩選訊息" [ref=e2366]
+              - tablist [ref=e2370]:
+                - tab "焦點" [selected] [ref=e2371] [cursor=pointer]
+                - tab "其他" [ref=e2372] [cursor=pointer]
+              - generic [ref=e2374]:
+                - generic [ref=e2375]: 螢幕閱讀器使用者請注意，訊息將會持續更新。請使用 tab 鍵和 shift+tab 鍵取代上下箭頭來前往不同的對話內容。
+                - generic [ref=e2376]:
+                  - generic [ref=e2380] [cursor=pointer]:
+                    - generic [ref=e2381]:
+                      - img "Kenneth M." [ref=e2383]
+                      - generic [ref=e2384]:
+                        - checkbox "選取與Kenneth M.的對話"
+                        - generic "選取與Kenneth M.的對話"
+                    - generic [ref=e2388]:
+                      - generic [ref=e2389]:
+                        - heading "Kenneth M." [level=3] [ref=e2390]:
+                          - generic [ref=e2392]: Kenneth M.
+                        - time [ref=e2393]: 07:02
+                        - button "開啟與Kenneth M.和HSIN WEI CHEN的對話選項" [ref=e2396]:
+                          - img [ref=e2397]
+                          - generic [ref=e2399]: 開啟與Kenneth M.和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2402]: Your Social Media Insights Can Earn $7.06/hr – Remote Project
+                  - generic [ref=e2407] [cursor=pointer]:
+                    - generic [ref=e2408]:
+                      - img "ChiChieh Huang" [ref=e2410]
+                      - generic [ref=e2411]:
+                        - checkbox "選取與ChiChieh Huang的對話"
+                        - generic "選取與ChiChieh Huang的對話"
+                    - generic [ref=e2415]:
+                      - generic [ref=e2416]:
+                        - heading "ChiChieh Huang" [level=3] [ref=e2417]:
+                          - generic [ref=e2419]: ChiChieh Huang
+                        - time [ref=e2420]: 5月18日
+                        - button "開啟與ChiChieh Huang和HSIN WEI CHEN的對話選項" [ref=e2423]:
+                          - img [ref=e2424]
+                          - generic [ref=e2426]: 開啟與ChiChieh Huang和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2429]: "您：Hi ChiChieh — I saw AILogora and the “knowledge space for AI minds” framing. The misunderstanding risk I see is that people may read it as another AI content/community platform, when the sharper story may be about making applied AI knowledge more interpretable, collaborative, and reusable. I’m testing Founder Signal for early AI founders: a manual review that turns rough founder material into a clearer Founder Signal Page, Reason Card, and Intro Memo. Nothing is sent to investors or third parties without permission. If useful, send me the best AILogora page/demo/post and I can give you one quick misunderstanding-risk read before you decide anything."
+                  - generic [ref=e2434] [cursor=pointer]:
+                    - generic [ref=e2435]:
+                      - img "溫珞嫣" [ref=e2437]
+                      - generic [ref=e2438]:
+                        - checkbox "選取與溫珞嫣的對話"
+                        - generic "選取與溫珞嫣的對話"
+                    - generic [ref=e2442]:
+                      - generic [ref=e2443]:
+                        - heading "溫珞嫣" [level=3] [ref=e2444]:
+                          - generic [ref=e2446]: 溫珞嫣
+                        - time [ref=e2447]: 5月18日
+                        - button "開啟與溫珞嫣和HSIN WEI CHEN的對話選項" [ref=e2450]:
+                          - img [ref=e2451]
+                          - generic [ref=e2453]: 開啟與溫珞嫣和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2455]:
+                        - paragraph [ref=e2456]:
+                          - generic [ref=e2457]: 透過服務頁面
+                        - paragraph [ref=e2458]: 溫珞嫣：感謝您傳送提案！目前先暫緩提案討論。
+                  - generic [ref=e2463] [cursor=pointer]:
+                    - generic [ref=e2464]:
+                      - img "Luis Enrique Ramirez Chavez" [ref=e2466]
+                      - generic [ref=e2467]:
+                        - checkbox "選取與Luis Enrique Ramirez Chavez的對話"
+                        - generic "選取與Luis Enrique Ramirez Chavez的對話"
+                    - generic [ref=e2471]:
+                      - generic [ref=e2472]:
+                        - heading "Luis Enrique Ramirez Chavez" [level=3] [ref=e2473]:
+                          - generic [ref=e2475]: Luis Enrique Ramirez Chavez
+                        - time [ref=e2476]: 5月18日
+                        - button "開啟與Luis Enrique Ramirez Chavez和HSIN WEI CHEN的對話選項" [ref=e2479]:
+                          - img [ref=e2480]
+                          - generic [ref=e2482]: 開啟與Luis Enrique Ramirez Chavez和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2485]: "您：Hey Luis — I saw your Calupet post through Startup Incubator Berlin. The MVP underway + pet care ecosystem + advisor/co-founder search is a strong early signal. The misunderstanding risk I see is that people may flatten Calupet into “another pet marketplace,” when the sharper story may be a trusted operating layer for pet care: walks, health, lost-pet alerts, and vetted services in one ecosystem. I’m testing Founder Signal for early founders: a manual review that turns rough founder material into a clearer Founder Signal Page, Reason Card, and Intro Memo. Nothing is sent to investors or third parties without permission. If useful, send me the best Calupet deck/demo/roadmap link and I can give you one quick misunderstanding-risk read before you decide anything."
+                  - generic [ref=e2490] [cursor=pointer]:
+                    - generic [ref=e2491]:
+                      - img "蔡岱 樺" [ref=e2493]
+                      - generic [ref=e2494]:
+                        - checkbox "選取與蔡岱 樺的對話"
+                        - generic "選取與蔡岱 樺的對話"
+                    - generic [ref=e2498]:
+                      - generic [ref=e2499]:
+                        - heading "蔡岱 樺" [level=3] [ref=e2500]:
+                          - generic [ref=e2502]: 蔡岱 樺
+                        - time [ref=e2503]: 5月18日
+                        - button "開啟與蔡岱 樺和HSIN WEI CHEN的對話選項" [ref=e2506]:
+                          - img [ref=e2507]
+                          - generic [ref=e2509]: 開啟與蔡岱 樺和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2511]:
+                        - paragraph [ref=e2512]:
+                          - generic [ref=e2513]: 透過服務頁面
+                        - paragraph [ref=e2514]: 您：您好，不一定要等履歷改好。 如果您現在還不確定要往哪個領域發展，反而可以先從方向釐清開始。我們可以先整理三件事：目前經歷、想離職的原因、以及接下來可能適合或不適合的方向。 您可以先簡單回我： 1. 目前職務內容 2. 想離職的主要原因 3. 目前有興趣但不確定的方向 不用整理得很正式，先用粗略版本就可以。
+                  - generic [ref=e2519] [cursor=pointer]:
+                    - generic [ref=e2520]:
+                      - generic [ref=e2521]:
+                        - 'img "劉家銘, #OPEN_TO_WORK" [ref=e2522]'
+                        - generic [ref=e2524]: 狀態為可聯絡
+                      - generic [ref=e2525]:
+                        - checkbox "選取與劉家銘的對話"
+                        - generic "選取與劉家銘的對話"
+                    - generic [ref=e2529]:
+                      - generic [ref=e2530]:
+                        - heading "劉家銘" [level=3] [ref=e2531]:
+                          - generic [ref=e2533]: 劉家銘
+                        - time [ref=e2534]: 5月18日
+                        - button "開啟與劉家銘和HSIN WEI CHEN的對話選項" [ref=e2537]:
+                          - img [ref=e2538]
+                          - generic [ref=e2540]: 開啟與劉家銘和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2542]:
+                        - paragraph [ref=e2543]:
+                          - generic [ref=e2544]: 透過服務頁面
+                        - paragraph [ref=e2545]: 您：可以的，我們可以先從需求釐清開始。 為了判斷怎麼協助您，想先了解三件事： 1. 您目前最想解決的是找工作、轉職、面試準備，還是職涯方向？ 2. 目前大概的職務/背景是什麼？ 3. 有沒有已經準備好的履歷或目標職缺？ 您可以先簡單回覆，不需要整理得很完整。
+                  - generic [ref=e2550] [cursor=pointer]:
+                    - generic [ref=e2551]:
+                      - img "Robin Singh" [ref=e2958]
+                      - generic [ref=e2554]:
+                        - checkbox "選取與Robin Singh的對話"
+                        - generic "選取與Robin Singh的對話"
+                    - generic [ref=e2558]:
+                      - generic [ref=e2559]:
+                        - heading "Robin Singh" [level=3] [ref=e2560]:
+                          - generic [ref=e2562]: Robin Singh
+                        - time [ref=e2563]: 5月18日
+                        - button "開啟與Robin Singh和HSIN WEI CHEN的對話選項" [ref=e2566]:
+                          - img [ref=e2567]
+                          - generic [ref=e2569]: 開啟與Robin Singh和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2572]: Robin：Okay
+                  - generic [ref=e2577] [cursor=pointer]:
+                    - generic [ref=e2578]:
+                      - 'img "jaineel jariwala, #OPEN_TO_WORK" [ref=e2580]'
+                      - generic [ref=e2581]:
+                        - checkbox "選取與jaineel jariwala的對話"
+                        - generic "選取與jaineel jariwala的對話"
+                    - generic [ref=e2585]:
+                      - generic [ref=e2586]:
+                        - heading "jaineel jariwala" [level=3] [ref=e2587]:
+                          - generic [ref=e2589]: jaineel jariwala
+                        - time [ref=e2590]: 5月17日
+                        - button "開啟與jaineel jariwala和HSIN WEI CHEN的對話選項" [ref=e2593]:
+                          - img [ref=e2594]
+                          - generic [ref=e2596]: 開啟與jaineel jariwala和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2599]: "您：Sure — short version: Founder Signal is a manual review for early founders who already have rough material, but whose idea can be misunderstood too quickly. For FoodOS, I would help turn your demo/deck/roadmap into three reusable artifacts: 1. Founder Signal Page — what FoodOS is really building, the first wedge, why now, and the misunderstanding risk 2. Reason Card — why the project may be worth a serious 20-minute conversation 3. Intro Memo — copy you can reuse with advisors, angels, or trusted introducers The goal is not to make FoodOS sound bigger. It is to make the thesis clearer, so people do not flatten it into generic restaurant software. The beta is $49 for the first 10 founders, manually reviewed within 48 hours. Nothing is sent to investors or third parties without your permission. If you want to test fit first, send me the best FoodOS link/deck plus 2-3 sentences on what you most want people to understand. I can tell you what I think the main misunderstanding risk is before you decide."
+                  - generic [ref=e2604] [cursor=pointer]:
+                    - generic [ref=e2605]:
+                      - img "Ankit Tharol" [ref=e2607]
+                      - generic [ref=e2608]:
+                        - checkbox "選取與Ankit Tharol的對話"
+                        - generic "選取與Ankit Tharol的對話"
+                    - generic [ref=e2612]:
+                      - generic [ref=e2613]:
+                        - heading "Ankit Tharol" [level=3] [ref=e2614]:
+                          - generic [ref=e2616]: Ankit Tharol
+                        - time [ref=e2617]: 5月17日
+                        - button "開啟與HSIN WEI CHEN和Ankit Tharol的對話選項" [ref=e2620]:
+                          - img [ref=e2621]
+                          - generic [ref=e2623]: 開啟與HSIN WEI CHEN和Ankit Tharol的對話選項
+                      - paragraph [ref=e2626]: Ankit：Hi HSIN WEI, Thanks for reaching out, but I'm not interested.
+                  - generic [ref=e2631] [cursor=pointer]:
+                    - generic [ref=e2632]:
+                      - img "Polly Chen" [ref=e2634]
+                      - generic [ref=e2635]:
+                        - checkbox "選取與Polly Chen的對話"
+                        - generic "選取與Polly Chen的對話"
+                    - generic [ref=e2639]:
+                      - generic [ref=e2640]:
+                        - heading "Polly Chen" [level=3] [ref=e2641]:
+                          - generic [ref=e2643]: Polly Chen
+                        - time [ref=e2644]: 5月17日
+                        - button "開啟與Polly Chen和HSIN WEI CHEN的對話選項" [ref=e2647]:
+                          - img [ref=e2648]
+                          - generic [ref=e2650]: 開啟與Polly Chen和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2652]:
+                        - paragraph [ref=e2653]:
+                          - generic [ref=e2654]: 透過服務頁面
+                        - paragraph [ref=e2655]: 您：Polly 您好，會的，正式進行會有費用。 不過我會先確認您的需求是否適合，再請您付款，不會一開始就收費。 如果是這一輪 beta，我可以用 US$49 / 約 NT$1,600 的方式，協助您整理一次職涯方向或面試準備重點：包含目前狀態、目標方向、容易被誤解或說不清楚的地方，以及可用在自我介紹 / 面試回答 / 下一步求職策略的整理。 您可以先簡單回我：目前最想解決的是面試準備、找工作、職涯轉換，還是目前職務中的成長？我先判斷是否適合。
+                  - generic [ref=e2660] [cursor=pointer]:
+                    - generic [ref=e2661]:
+                      - img "Sean Short" [ref=e2663]
+                      - generic [ref=e2664]:
+                        - checkbox "選取與Sean Short的對話"
+                        - generic "選取與Sean Short的對話"
+                    - generic [ref=e2668]:
+                      - generic [ref=e2669]:
+                        - heading "Sean Short" [level=3] [ref=e2670]:
+                          - generic [ref=e2672]: Sean Short
+                        - time [ref=e2673]: 5月17日
+                        - button "開啟與Sean Short和HSIN WEI CHEN的對話選項" [ref=e2676]:
+                          - img [ref=e2677]
+                          - generic [ref=e2679]: 開啟與Sean Short和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2682]: "您：Hey Sean — I saw your BreathylBox / YC F25 post. The working prototype, site, and demand validation make it a good kind of early-stage signal. The misunderstanding risk I see is that people may read it as just a student hardware idea, when the stronger story is probably the wedge, user pain, and why this prototype deserves a serious review. I'm testing Founder Signal for the first 10 founders: a $49 manual review that turns rough founder material into a Founder Signal Page, Reason Card, and Intro Memo. The point is not pitch polish; it is making the thesis, wedge, and misunderstanding risk easier to review. Nothing goes to investors without your permission. Would you want to try it for BreathylBox?"
+                  - generic [ref=e2687] [cursor=pointer]:
+                    - generic [ref=e2688]:
+                      - img "Stephen Albright" [ref=e2690]
+                      - generic [ref=e2691]:
+                        - checkbox "選取與Stephen Albright的對話"
+                        - generic "選取與Stephen Albright的對話"
+                    - generic [ref=e2695]:
+                      - generic [ref=e2696]:
+                        - heading "Stephen Albright" [level=3] [ref=e2697]:
+                          - generic [ref=e2699]: Stephen Albright
+                        - time [ref=e2700]: 5月17日
+                        - button "開啟與Stephen Albright和HSIN WEI CHEN的對話選項" [ref=e2703]:
+                          - img [ref=e2704]
+                          - generic [ref=e2706]: 開啟與Stephen Albright和HSIN WEI CHEN的對話選項
+                      - paragraph [ref=e2709]: "您：Hey Stephen — I saw your AphasiaGPT post. The combination of lived experience, SLP demand, and an MVP path makes the founder signal unusually strong. The misunderstanding risk I see is that people may flatten it into “AI therapy app,” when the real story seems to be daily language support for people with aphasia and the workflow around SLPs. I'm testing Founder Signal for the first 10 founders: a $49 manual review that turns rough founder material into a Founder Signal Page, Reason Card, and Intro Memo. The point is not pitch polish; it is making the thesis, wedge, and misunderstanding risk easier to review. Nothing goes to investors without your permission. Would you want to try it for AphasiaGPT?"
+                  - generic [ref=e2714] [cursor=pointer]:
+                    - generic [ref=e2715]:
+                      - img "AGUS FIRMANSYAH" [ref=e2717]
+                      - generic [ref=e2718]:
+                        - checkbox "選取與AGUS FIRMANSYAH的對話"
+                        - generic "選取與AGUS FIRMANSYAH的對話"
+                    - generic [ref=e2722]:
+                      - generic [ref=e2723]:
+                        - heading "AGUS FIRMANSYAH" [level=3] [ref=e2724]:
+                          - generic [ref=e2726]: AGUS FIRMANSYAH
+                        - time [ref=e2727]: 5月17日
+                        - button "開啟與AGUS FIRMANSYAH和HSIN WEI CHEN的對話選項" [ref=e2730]:
+                          - img [ref=e2731]
+                          - generic [ref=e2733]: 開啟與AGUS FIRMANSYAH和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2735]:
+                        - paragraph [ref=e2736]:
+                          - generic [ref=e2737]: 透過服務頁面
+                        - paragraph [ref=e2738]: 您：AGUS您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2743] [cursor=pointer]:
+                    - generic [ref=e2744]:
+                      - img "Anísio Chaúque" [ref=e2746]
+                      - generic [ref=e2747]:
+                        - checkbox "選取與Anísio Chaúque的對話"
+                        - generic "選取與Anísio Chaúque的對話"
+                    - generic [ref=e2751]:
+                      - generic [ref=e2752]:
+                        - heading "Anísio Chaúque" [level=3] [ref=e2753]:
+                          - generic [ref=e2755]: Anísio Chaúque
+                        - time [ref=e2756]: 5月17日
+                        - button "開啟與Anísio Chaúque和HSIN WEI CHEN的對話選項" [ref=e2759]:
+                          - img [ref=e2760]
+                          - generic [ref=e2762]: 開啟與Anísio Chaúque和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2764]:
+                        - paragraph [ref=e2765]:
+                          - generic [ref=e2766]: 透過服務頁面
+                        - paragraph [ref=e2767]: 您：Anísio您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2772] [cursor=pointer]:
+                    - generic [ref=e2773]:
+                      - 'img "Johnny Hsu, #OPEN_TO_WORK" [ref=e2775]'
+                      - generic [ref=e2776]:
+                        - checkbox "選取與Johnny Hsu的對話"
+                        - generic "選取與Johnny Hsu的對話"
+                    - generic [ref=e2780]:
+                      - generic [ref=e2781]:
+                        - heading "Johnny Hsu" [level=3] [ref=e2782]:
+                          - generic [ref=e2784]: Johnny Hsu
+                        - time [ref=e2785]: 5月17日
+                        - button "開啟與Johnny Hsu和HSIN WEI CHEN的對話選項" [ref=e2788]:
+                          - img [ref=e2789]
+                          - generic [ref=e2791]: 開啟與Johnny Hsu和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2793]:
+                        - paragraph [ref=e2794]:
+                          - generic [ref=e2795]: 透過服務頁面
+                        - paragraph [ref=e2796]: 您：Johnny您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2801] [cursor=pointer]:
+                    - generic [ref=e2802]:
+                      - 'img "Ms. Ip, #OPEN_TO_WORK" [ref=e2804]'
+                      - generic [ref=e2805]:
+                        - checkbox "選取與Ms. Ip的對話"
+                        - generic "選取與Ms. Ip的對話"
+                    - generic [ref=e2809]:
+                      - generic [ref=e2810]:
+                        - heading "Ms. Ip" [level=3] [ref=e2811]:
+                          - generic [ref=e2813]: Ms. Ip
+                        - time [ref=e2814]: 5月17日
+                        - button "開啟與Ms. Ip和HSIN WEI CHEN的對話選項" [ref=e2817]:
+                          - img [ref=e2818]
+                          - generic [ref=e2820]: 開啟與Ms. Ip和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2822]:
+                        - paragraph [ref=e2823]:
+                          - generic [ref=e2824]: 透過服務頁面
+                        - paragraph [ref=e2825]: 您：Ms.您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2830] [cursor=pointer]:
+                    - generic [ref=e2831]:
+                      - 'img "Wen Chun Lin, #OPEN_TO_WORK" [ref=e2833]'
+                      - generic [ref=e2834]:
+                        - checkbox "選取與Wen Chun Lin的對話"
+                        - generic "選取與Wen Chun Lin的對話"
+                    - generic [ref=e2838]:
+                      - generic [ref=e2839]:
+                        - heading "Wen Chun Lin" [level=3] [ref=e2840]:
+                          - generic [ref=e2842]: Wen Chun Lin
+                        - time [ref=e2843]: 5月17日
+                        - button "開啟與Wen Chun Lin和HSIN WEI CHEN的對話選項" [ref=e2846]:
+                          - img [ref=e2847]
+                          - generic [ref=e2849]: 開啟與Wen Chun Lin和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2851]:
+                        - paragraph [ref=e2852]:
+                          - generic [ref=e2853]: 透過服務頁面
+                        - paragraph [ref=e2854]: 您：Wen Chun您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2859] [cursor=pointer]:
+                    - generic [ref=e2860]:
+                      - img "Yeo Jun Hao" [ref=e2862]
+                      - generic [ref=e2863]:
+                        - checkbox "選取與Yeo Jun Hao的對話"
+                        - generic "選取與Yeo Jun Hao的對話"
+                    - generic [ref=e2867]:
+                      - generic [ref=e2868]:
+                        - heading "Yeo Jun Hao" [level=3] [ref=e2869]:
+                          - generic [ref=e2871]: Yeo Jun Hao
+                        - time [ref=e2872]: 5月17日
+                        - button "開啟與Yeo Jun Hao和HSIN WEI CHEN的對話選項" [ref=e2875]:
+                          - img [ref=e2876]
+                          - generic [ref=e2878]: 開啟與Yeo Jun Hao和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2880]:
+                        - paragraph [ref=e2881]:
+                          - generic [ref=e2882]: 透過服務頁面
+                        - paragraph [ref=e2883]: 您：Yeo您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2888] [cursor=pointer]:
+                    - generic [ref=e2889]:
+                      - img "黃靖韡" [ref=e2891]
+                      - generic [ref=e2892]:
+                        - checkbox "選取與黃靖韡的對話"
+                        - generic "選取與黃靖韡的對話"
+                    - generic [ref=e2896]:
+                      - generic [ref=e2897]:
+                        - heading "黃靖韡" [level=3] [ref=e2898]:
+                          - generic [ref=e2900]: 黃靖韡
+                        - time [ref=e2901]: 5月17日
+                        - button "開啟與黃靖韡和HSIN WEI CHEN的對話選項" [ref=e2904]:
+                          - img [ref=e2905]
+                          - generic [ref=e2907]: 開啟與黃靖韡和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2909]:
+                        - paragraph [ref=e2910]:
+                          - generic [ref=e2911]: 透過服務頁面
+                        - paragraph [ref=e2912]: 您：黃靖韡您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+                  - generic [ref=e2917] [cursor=pointer]:
+                    - generic [ref=e2918]:
+                      - img "Kai-Ling Chang" [ref=e2920]
+                      - generic [ref=e2921]:
+                        - checkbox "選取與Kai-Ling Chang的對話"
+                        - generic "選取與Kai-Ling Chang的對話"
+                    - generic [ref=e2925]:
+                      - generic [ref=e2926]:
+                        - heading "Kai-Ling Chang" [level=3] [ref=e2927]:
+                          - generic [ref=e2929]: Kai-Ling Chang
+                        - time [ref=e2930]: 5月17日
+                        - button "開啟與Kai-Ling Chang和HSIN WEI CHEN的對話選項" [ref=e2933]:
+                          - img [ref=e2934]
+                          - generic [ref=e2936]: 開啟與Kai-Ling Chang和HSIN WEI CHEN的對話選項
+                      - generic [ref=e2938]:
+                        - paragraph [ref=e2939]:
+                          - generic [ref=e2940]: 透過服務頁面
+                        - paragraph [ref=e2941]: 您：Kai-Ling您好： 請過目我的提案，然後告知是否有興趣合作。期盼收到您的回應。 感激不盡， HSIN WEI CHEN
+            - dialog "訊息" [ref=e2959]:
+              - generic [ref=e2960]:
+                - generic [ref=e2961] [cursor=pointer]:
+                  - generic [ref=e2963]:
+                    - img "Robin Singh" [ref=e2967]
+                    - heading "Robin Singh" [level=2] [ref=e2969]:
+                      - link "Robin Singh" [ref=e2970]:
+                        - /url: /in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY/
+                        - generic [ref=e2971]: Robin Singh
+                  - generic [ref=e2972]:
+                    - button "開啟與Robin Singh和HSIN WEI CHEN的對話選項" [ref=e2974]:
+                      - img [ref=e2975]
+                      - generic [ref=e2977]: 開啟與Robin Singh和HSIN WEI CHEN的對話選項
+                    - button "收回您和Robin和HSIN WEI的對話" [expanded] [ref=e2978]:
+                      - img [ref=e2979]
+                      - generic [ref=e2981]: 收回您和Robin和HSIN WEI的對話
+                    - button "關閉與Robin Singh和HSIN WEI CHEN的對話" [ref=e2982]:
+                      - img [ref=e2983]
+                      - generic [ref=e2985]: 關閉與Robin Singh和HSIN WEI CHEN的對話
+                - generic [ref=e2987]:
+                  - list [ref=e2992]:
+                    - listitem
+                    - listitem [ref=e2993]:
+                      - time [ref=e2994]: 星期日
+                      - generic [ref=e2995]: HSIN WEI CHEN於 20:17傳送以下訊息messages
+                      - generic [ref=e2996]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e2997] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e2998]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e2999]'
+                        - generic [ref=e3000]:
+                          - generic [ref=e3001]:
+                            - link "HSIN WEI CHEN" [ref=e3002] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3003]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3004]:
+                              - img [ref=e3005]
+                          - time [ref=e3007]: • 20:17
+                        - generic [ref=e3009]:
+                          - paragraph [ref=e3011]:
+                            - text: I work on founder clarity and product positioning.
+                            - text: Basically, I help early founders turn rough ideas, decks, product links, or application drafts into clearer materials that an advisor, angel, or investor can quickly understand.
+                            - text: "The main thing I look for is:"
+                            - text: "- what the founder is really building"
+                            - text: "- what the first wedge is"
+                            - text: "- why now"
+                            - text: "- what people may misunderstand too quickly"
+                            - text: So for NovaOS, I would look at the product and help clarify whether it is best understood as an AI phone OS, privacy-first local AI infrastructure, AI hardware layer, or something sharper.
+                            - text: If you send me one link or 2-3 sentences about NovaOS, I can do a quick free read first.
+                          - generic "傳送時間：2026/5/17 20:17" [ref=e3012]:
+                            - img [ref=e3013]
+                    - listitem [ref=e3015]:
+                      - generic [ref=e3016]: Robin Singh於 22:28傳送以下訊息messages
+                      - generic [ref=e3017]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3018] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3019]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3020]
+                        - generic [ref=e3021]:
+                          - generic [ref=e3022]:
+                            - link "Robin Singh" [ref=e3023] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3024]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3025]
+                          - time [ref=e3027]: • 22:28
+                        - paragraph [ref=e3031]: Its so expensive
+                    - listitem [ref=e3032]:
+                      - generic [ref=e3033]: HSIN WEI CHEN於 22:35傳送以下訊息messages
+                      - generic [ref=e3034]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3035] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e3036]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3037]'
+                        - generic [ref=e3038]:
+                          - generic [ref=e3039]:
+                            - link "HSIN WEI CHEN" [ref=e3040] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3041]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3042]:
+                              - img [ref=e3043]
+                          - time [ref=e3045]: • 22:35
+                        - generic [ref=e3047]:
+                          - paragraph [ref=e3049]:
+                            - text: I understand. For now, don’t worry about the $49.
+                            - text: If you want, send me one NovaOS link or a short 2–3 sentence description, and I’ll do the first misunderstanding-risk read for free.
+                            - text: If that feels useful, then you can decide later whether the full Founder Signal draft is worth paying for. If not, no pressure.
+                          - generic "傳送時間：2026/5/17 22:35" [ref=e3050]:
+                            - img [ref=e3051]
+                    - listitem [ref=e3053]:
+                      - generic [ref=e3054]: Robin Singh於 22:56傳送以下訊息messages
+                      - generic [ref=e3055]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3056] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3057]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3058]
+                        - generic [ref=e3059]:
+                          - generic [ref=e3060]:
+                            - link "Robin Singh" [ref=e3061] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3062]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3063]
+                          - time [ref=e3065]: • 22:56
+                        - paragraph [ref=e3069]: Sounds good
+                    - listitem [ref=e3070]:
+                      - paragraph [ref=e3075]: But its in mvp stage i am making it i dont have proper team and other
+                    - listitem [ref=e3076]:
+                      - generic [ref=e3077]: HSIN WEI CHEN於 23:03傳送以下訊息messages
+                      - generic [ref=e3078]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3079] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e3080]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3081]'
+                        - generic [ref=e3082]:
+                          - generic [ref=e3083]:
+                            - link "HSIN WEI CHEN" [ref=e3084] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3085]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3086]:
+                              - img [ref=e3087]
+                          - time [ref=e3089]: • 23:03
+                        - generic [ref=e3091]:
+                          - paragraph [ref=e3093]:
+                            - text: That is actually fine. MVP stage is exactly where this can be useful.
+                            - text: "You do not need a full team or polished deck. Just send whatever you have right now: one rough product link, a note, or 3 bullets on what NovaOS is supposed to become."
+                            - text: "I'll only do a quick free read first: what people may misunderstand, and what the sharper framing might be. If there is not enough signal yet, I'll tell you honestly."
+                          - generic "傳送時間：2026/5/17 23:03" [ref=e3094]:
+                            - img [ref=e3095]
+                    - listitem [ref=e3097]:
+                      - time [ref=e3098]: 星期一
+                      - generic [ref=e3099]: Robin Singh於 10:26傳送以下訊息messages
+                      - generic [ref=e3100]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3101] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3102]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3103]
+                        - generic [ref=e3104]:
+                          - generic [ref=e3105]:
+                            - link "Robin Singh" [ref=e3106] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3107]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3108]
+                          - time [ref=e3110]: • 10:26
+                        - paragraph [ref=e3114]:
+                          - link "Www.infynova.in" [ref=e3115] [cursor=pointer]:
+                            - /url: https://Www.infynova.in
+                        - link "InfYNova - India's First AI-Powered Smartphone" [ref=e3123] [cursor=pointer]:
+                          - /url: https://infynova.in
+                          - generic [ref=e3125]:
+                            - generic [ref=e3126]:
+                              - generic [ref=e3128]: InfYNova - India's First AI-Powered Smartphone
+                              - generic [ref=e3129]: infynova.in
+                            - generic [ref=e3130]: Revolutionary AI smartphone with NovaOS. Pre-order now from ₹29,999. Made in India.
+                    - listitem [ref=e3131]:
+                      - generic [ref=e3132]: HSIN WEI CHEN於 11:45傳送以下訊息messages
+                      - generic [ref=e3133]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3134] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e3135]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3136]'
+                        - generic [ref=e3137]:
+                          - generic [ref=e3138]:
+                            - link "HSIN WEI CHEN" [ref=e3139] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3140]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3141]:
+                              - img [ref=e3142]
+                          - time [ref=e3144]: • 11:45
+                        - generic [ref=e3146]:
+                          - paragraph [ref=e3148]:
+                            - text: Thanks Robin, I checked it.
+                            - text: "Quick first read: the strongest signal is probably not just \"India's first AI-powered smartphone.\" It is NovaOS as an AI-first Android layer: on-device AI, privacy, smart automation, and a phone experience built around local intelligence."
+                            - text: "The main misunderstanding risk: the site currently sounds like a full smartphone brand with many big claims, so people may compare you to Samsung/Apple too early. For an MVP-stage founder, the sharper story may be: NovaOS is an AI-first Android experience for mid-range phones, starting with a focused software/demo wedge before hardware."
+                            - text: "If you want, send me either:"
+                            - text: 1. a short demo video/screenshot of NovaOS, or
+                            - text: 2. 3 bullets on what is already built vs still planned.
+                            - text: Then I can give you a cleaner Founder Signal read.
+                          - generic "傳送時間：2026/5/18 11:45" [ref=e3149]:
+                            - img [ref=e3150]
+                    - listitem [ref=e3152]:
+                      - generic [ref=e3153]: Robin Singh於 11:54傳送以下訊息messages
+                      - generic [ref=e3154]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3155] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3156]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3157]
+                        - generic [ref=e3158]:
+                          - generic [ref=e3159]:
+                            - link "Robin Singh" [ref=e3160] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3161]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3162]
+                          - time [ref=e3164]: • 11:54
+                        - paragraph [ref=e3168]: Okay are u really helping me out
+                    - listitem [ref=e3169]:
+                      - paragraph [ref=e3174]: Ill make the smartphone later on
+                    - listitem [ref=e3175]:
+                      - generic [ref=e3176]: HSIN WEI CHEN於 14:32傳送以下訊息messages
+                      - generic [ref=e3177]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3178] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e3179]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3180]'
+                        - generic [ref=e3181]:
+                          - generic [ref=e3182]:
+                            - link "HSIN WEI CHEN" [ref=e3183] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3184]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3185]:
+                              - img [ref=e3186]
+                          - time [ref=e3188]: • 14:32
+                        - generic [ref=e3190]:
+                          - paragraph [ref=e3192]:
+                            - text: Yes, I am genuinely trying to help.
+                            - text: And that actually makes the story stronger. If the smartphone comes later, then NovaOS should probably be framed first as the AI-first software layer / Android experience, not as a full phone company on day one.
+                            - text: That is a much cleaner MVP story.
+                            - text: "Send me 3 bullets:"
+                            - text: 1. what is already built now
+                            - text: 2. what NovaOS can demo today
+                            - text: 3. what the smartphone plan is for later
+                            - text: Then I can help you shape the first clear version of the story.
+                          - generic "傳送時間：2026/5/18 14:32" [ref=e3193]:
+                            - img [ref=e3194]
+                    - listitem [ref=e3196]:
+                      - generic [ref=e3197]: Robin Singh於 14:33傳送以下訊息messages
+                      - generic [ref=e3198]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3199] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3200]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3201]
+                        - generic [ref=e3202]:
+                          - generic [ref=e3203]:
+                            - link "Robin Singh" [ref=e3204] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3205]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3206]
+                          - time [ref=e3208]: • 14:33
+                        - paragraph [ref=e3212]: Okay
+                    - listitem [ref=e3213]:
+                      - paragraph [ref=e3218]: Please keep it secret
+                    - listitem [ref=e3219]:
+                      - generic [ref=e3220]: HSIN WEI CHEN於 14:36傳送以下訊息messages
+                      - generic [ref=e3221]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3222] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e3223]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3224]'
+                        - generic [ref=e3225]:
+                          - generic [ref=e3226]:
+                            - link "HSIN WEI CHEN" [ref=e3227] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3228]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3229]:
+                              - img [ref=e3230]
+                          - time [ref=e3232]: • 14:36
+                        - generic [ref=e3234]:
+                          - paragraph [ref=e3236]:
+                            - text: Of course. I will keep it private.
+                            - text: Nothing you send me will be shared with anyone, and I will not send anything to investors or third parties without your clear permission.
+                            - text: "For now, just send the rough version. It does not need to be polished:"
+                            - text: 1. what is already built
+                            - text: 2. what can be demoed now
+                            - text: 3. what the smartphone plan is for later
+                            - text: I’ll only use it to help you clarify the story.
+                          - generic "傳送時間：2026/5/18 14:36" [ref=e3237]:
+                            - img [ref=e3238]
+                    - listitem [ref=e3240]:
+                      - generic [ref=e3241]: Robin Singh於 16:00傳送以下訊息messages
+                      - generic [ref=e3242]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3243] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3244]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3245]
+                        - generic [ref=e3246]:
+                          - generic [ref=e3247]:
+                            - link "Robin Singh" [ref=e3248] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3249]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3250]
+                          - time [ref=e3252]: • 16:00
+                        - paragraph [ref=e3256]: Im.making the novaos its in testing phase
+                    - listitem [ref=e3257]:
+                      - paragraph [ref=e3262]: What is the 2 questions can u rewrite it
+                    - listitem [ref=e3263]:
+                      - paragraph [ref=e3268]: Yes we will do with oems later on
+                    - listitem [ref=e3269]:
+                      - generic [ref=e3270]:
+                        - paragraph [ref=e3274]: Can u help me
+                        - list [ref=e3275]:
+                          - listitem [ref=e3276]:
+                            - button "移除反應 👍 1" [pressed] [ref=e3277] [cursor=pointer]:
+                              - generic [ref=e3278]:
+                                - generic [ref=e3279]: 移除反應
+                                - generic: 👍
+                                - generic: "1"
+                          - listitem [ref=e3280]:
+                            - button "開啟表情符號鍵盤" [ref=e3283] [cursor=pointer]
+                    - listitem [ref=e3284]:
+                      - generic [ref=e3285]: HSIN WEI CHEN於 20:24傳送以下訊息messages
+                      - generic [ref=e3286]:
+                        - 'link "查看HSIN WEI的個人檔案 HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3287] [cursor=pointer]':
+                          - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                          - generic [ref=e3288]: 查看HSIN WEI的個人檔案
+                          - 'img "HSIN WEI CHEN, #OPEN_TO_WORK" [ref=e3289]'
+                        - generic [ref=e3290]:
+                          - generic [ref=e3291]:
+                            - link "HSIN WEI CHEN" [ref=e3292] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAFU1qkUBTBwhx9Cz6aXLuwzouHpHtVgl7Uc
+                              - generic [ref=e3293]: HSIN WEI CHEN
+                            - img "LinkedIn Premium" [ref=e3294]:
+                              - img [ref=e3295]
+                          - time [ref=e3297]: • 20:24
+                        - generic [ref=e3299]:
+                          - paragraph [ref=e3301]:
+                            - text: Yes, I can help.
+                            - text: "Let’s make it very simple. Please answer these 2 questions:"
+                            - text: 1. What can NovaOS already do in the testing phase today?
+                            - text: "For example: AI assistant, automation, privacy/local AI, Android UI, or any working demo."
+                            - text: 2. What is the later plan with OEMs and smartphones?
+                            - text: "For example: will NovaOS first run as software on existing Android phones, then later become a full smartphone with OEM partners?"
+                            - text: Just answer roughly. It does not need to be polished. I’ll help turn it into a clearer story.
+                          - generic "傳送時間：2026/5/18 20:24" [ref=e3302]:
+                            - img [ref=e3303]
+                    - listitem [ref=e3305]:
+                      - generic [ref=e3306]: Robin Singh於 20:28傳送以下訊息messages
+                      - generic [ref=e3307]:
+                        - link "查看Robin的個人檔案 Robin Singh" [ref=e3308] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                          - generic [ref=e3309]: 查看Robin的個人檔案
+                          - img "Robin Singh" [ref=e3310]
+                        - generic [ref=e3311]:
+                          - generic [ref=e3312]:
+                            - link "Robin Singh" [ref=e3313] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY
+                              - generic [ref=e3314]: Robin Singh
+                            - img "LinkedIn 驗證" [ref=e3315]
+                          - time [ref=e3317]: • 20:28
+                        - paragraph [ref=e3321]: Okay
+                    - listitem [ref=e3322]
+                    - listitem
+                  - generic [ref=e3323]:
+                    - generic [ref=e3324]:
+                      - generic [ref=e3326]:
+                        - textbox "撰寫訊息⋯⋯" [ref=e3327]:
+                          - paragraph [ref=e3328]
+                        - text: 撰寫訊息⋯⋯
+                      - button "最大化撰寫欄位" [ref=e3330] [cursor=pointer]:
+                        - img [ref=e3331]
+                        - generic [ref=e3333]: 最大化撰寫欄位
+                    - generic [ref=e3334]:
+                      - generic [ref=e3335]:
+                        - button "附加圖片到您與Robin Singh的對話" [ref=e3337] [cursor=pointer]:
+                          - img [ref=e3338]
+                          - generic [ref=e3340]: 附加圖片到您與Robin Singh的對話
+                        - button "附加檔案到您與Robin Singh的對話" [ref=e3342] [cursor=pointer]:
+                          - img [ref=e3343]
+                          - generic [ref=e3345]: 附加檔案到您與Robin Singh的對話
+                        - button "開啟表情符號鍵盤" [ref=e3348] [cursor=pointer]:
+                          - generic:
+                            - img
+                          - generic [ref=e3349]: 開啟表情符號鍵盤
+                      - generic [ref=e3350]:
+                        - button "傳送" [disabled] [ref=e3352]
+                        - button "開啟傳送選項" [ref=e3355] [cursor=pointer]:
+                          - img [ref=e3356]
+                          - generic [ref=e3358]: 開啟傳送選項
+          - complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+  - iframe [ref=e397]:
+    - generic [active] [ref=f32e1]:
+      - generic:
+        - region "祝賀訊息":
+          - heading "0 則通知" [level=2] [ref=f32e3]
+          - alert
+      - region [ref=f32e4]
+      - generic [ref=f32e5]:
+        - generic [ref=f32e7]:
+          - button "前往搜尋" [ref=f32e8] [cursor=pointer]:
+            - generic [ref=f32e9]: 前往搜尋
+          - button "前往內容" [ref=f32e10] [cursor=pointer]:
+            - generic [ref=f32e11]: 前往內容
+          - button "鍵盤快捷鍵" [ref=f32e12] [cursor=pointer]:
+            - generic [ref=f32e13]: 鍵盤快捷鍵
+          - button "關閉選單" [ref=f32e14] [cursor=pointer]:
+            - img [ref=f32e15]
+            - generic [ref=f32e17]: 關閉選單
+        - banner "全域導覽" [ref=f32e18]:
+          - generic [ref=f32e19]:
+            - link "LinkedIn" [ref=f32e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f32e23]:
+                - img [ref=f32e24]
+            - generic [ref=f32e28]:
+              - combobox "搜尋" [ref=f32e29]
+              - generic:
+                - img
+            - navigation "主選單" [ref=f32e30]:
+              - list [ref=f32e31]:
+                - listitem [ref=f32e32]:
+                  - link "動態消息 新通知 首頁" [ref=f32e33] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f32e34]:
+                      - generic [ref=f32e37]: 動態消息 新通知
+                      - img [ref=f32e41]
+                    - generic "首頁" [ref=f32e43]
+                - listitem [ref=f32e44]:
+                  - link "我的人脈" [ref=f32e45] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f32e49]
+                    - generic "我的人脈" [ref=f32e51]
+                - listitem [ref=f32e52]:
+                  - link "職缺" [ref=f32e53] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f32e57]
+                    - generic "職缺" [ref=f32e59]
+                - listitem [ref=f32e60]:
+                  - link "訊息" [ref=f32e61] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f32e65]
+                    - generic "訊息" [ref=f32e67]
+                - listitem [ref=f32e68]:
+                  - link "通知" [ref=f32e69] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - img [ref=f32e73]
+                    - generic "通知" [ref=f32e75]
+                - listitem [ref=f32e76]:
+                  - button "HSIN WEI CHEN 我" [ref=f32e78] [cursor=pointer]:
+                    - img "HSIN WEI CHEN" [ref=f32e79]
+                    - generic [ref=f32e80]:
+                      - text: 我
+                      - img [ref=f32e81]
+                - listitem [ref=f32e83]:
+                  - button "商務功能" [ref=f32e85] [cursor=pointer]:
+                    - img [ref=f32e89]
+                    - generic "商務功能" [ref=f32e91]:
+                      - text: 商務功能
+                      - img [ref=f32e92]
+                - listitem [ref=f32e94]:
+                  - link "Learning" [ref=f32e95] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                    - img [ref=f32e99]
+                    - generic "Learning" [ref=f32e104]

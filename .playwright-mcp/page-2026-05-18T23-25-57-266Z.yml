@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "祝賀訊息":
+      - heading "0 則通知" [level=2] [ref=e3]
+      - alert
+  - region [ref=e27]
+  - generic [ref=e28]:
+    - generic [ref=e30]:
+      - button "前往搜尋" [ref=e188] [cursor=pointer]:
+        - generic [ref=e32]: 前往搜尋
+      - button "前往內容" [ref=e189] [cursor=pointer]:
+        - generic [ref=e34]: 前往內容
+      - button "鍵盤快捷鍵" [ref=e190] [cursor=pointer]:
+        - generic [ref=e36]: 鍵盤快捷鍵
+      - button "關閉選單" [ref=e191] [cursor=pointer]:
+        - img [ref=e38]
+        - generic [ref=e40]: 關閉選單
+    - banner "全域導覽" [ref=e192]:
+      - generic [ref=e42]:
+        - link "LinkedIn" [ref=e193] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e194]:
+            - img [ref=e47]
+        - generic [ref=e51]:
+          - combobox "搜尋" [ref=e195]
+          - generic:
+            - img
+        - navigation "主選單" [ref=e196]:
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "動態消息 新通知 首頁" [ref=e197] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e57]:
+                  - generic [ref=e60]: 動態消息 新通知
+                  - img [ref=e64]
+                - generic "首頁" [ref=e198]
+            - listitem [ref=e67]:
+              - link "我的人脈" [ref=e199] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e72]
+                - generic "我的人脈" [ref=e200]
+            - listitem [ref=e75]:
+              - link "職缺" [ref=e201] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e80]
+                - generic "職缺" [ref=e202]
+            - listitem [ref=e83]:
+              - link "訊息" [ref=e203] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e88]
+                - generic "訊息" [ref=e204]
+            - listitem [ref=e91]:
+              - link "通知" [ref=e205] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e96]
+                - generic "通知" [ref=e206]
+            - listitem [ref=e99]:
+              - button "HSIN WEI CHEN 我" [ref=e207] [cursor=pointer]:
+                - img "HSIN WEI CHEN" [ref=e208]
+                - generic [ref=e103]:
+                  - text: 我
+                  - img [ref=e104]
+            - listitem [ref=e106]:
+              - button "商務功能" [ref=e209] [cursor=pointer]:
+                - img [ref=e112]
+                - generic "商務功能" [ref=e210]:
+                  - text: 商務功能
+                  - img [ref=e115]
+            - listitem [ref=e117]:
+              - link "Learning" [ref=e211] [cursor=pointer]:
+                - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                - img [ref=e122]
+                - generic "Learning" [ref=e212]
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e144]:
+            - generic [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]:
+                - img "HSIN WEI CHEN" [ref=e213]
+                - generic [ref=e168]: 狀態為已上線
+              - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。" [ref=e214]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 訊息
+                  - generic [ref=e152]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+            - generic [ref=e153]:
+              - button "開啟選單" [ref=e215] [cursor=pointer]:
+                - img "開啟選單" [ref=e216]
+              - button "撰寫訊息" [ref=e217] [cursor=pointer]:
+                - img [ref=e160]
+                - generic [ref=e162]: 撰寫訊息
+              - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。" [ref=e218] [cursor=pointer]:
+                - img [ref=e164]
+                - generic [ref=e166]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+        - complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+  - iframe
+  - iframe

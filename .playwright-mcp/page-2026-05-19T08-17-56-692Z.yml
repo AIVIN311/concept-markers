@@ -1,0 +1,11 @@
+- generic [active]:
+  - generic:
+    - region "祝賀訊息":
+      - heading "0 則通知" [level=2] [ref=e2]
+      - alert
+  - img [ref=e8]
+  - region [ref=e14]
+  - generic:
+    - generic:
+      - generic:
+        - complementary "能為您的職涯發展、求職等提供協助的 AI 助理"

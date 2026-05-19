@@ -1,0 +1,91 @@
+- generic [ref=e2]:
+  - heading "0 則通知" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: 前往內容
+      - button [ref=e8] [cursor=pointer]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button [ref=e17] [cursor=pointer]
+          - generic [ref=e20]:
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "首頁，1 則新通知" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: 首頁
+                - listitem [ref=e31]:
+                  - link "我的人脈，0 則新通知" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e34]
+                    - generic [ref=e36]: 我的人脈
+                - listitem [ref=e37]:
+                  - link "職缺，0 則新通知" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: 職缺
+                - listitem [ref=e43]:
+                  - link "訊息，0 則新通知" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: 訊息
+                - listitem [ref=e49]:
+                  - link "通知，0 則新通知" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e52]
+                    - generic [ref=e54]: 通知
+                - listitem [ref=e55]:
+                  - button "我" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]: 我
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "商務功能" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]: 商務功能
+                - listitem [ref=e72]:
+                  - link "Learning，0 則新通知" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - generic [ref=e76]: Learning
+      - generic [ref=e77]:
+        - toolbar [ref=e78]
+        - main [ref=e92]:
+          - generic [ref=e95]:
+            - region "主要內容" [ref=e96]:
+              - list [ref=e101]:
+                - listitem [ref=e103]:
+                  - generic [ref=e104]:
+                    - link:
+                      - /url: https://www.linkedin.com/in/robin7/
+                    - generic [ref=e105]:
+                      - link:
+                        - /url: https://www.linkedin.com/in/robin7/
+                      - generic [ref=e106]:
+                        - link [ref=e107] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/robin7/
+                          - figure [ref=e108]
+                        - generic [ref=e109]:
+                          - link:
+                            - /url: https://www.linkedin.com/in/robin7/
+                          - paragraph [ref=e110]:
+                            - link:
+                              - /url: https://www.linkedin.com/in/robin7/
+                            - link "Robin Singh 已驗證" [ref=e111] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/robin7/
+                              - text: Robin Singh
+                              - img "已驗證" [ref=e112]
+                            - generic [ref=e114]: • 3 度 +
+                          - paragraph [ref=e116]: Founder @ InfYNova | B.Tech CSE | AI & Android Developer | Building NovaOS (AI-Powered OS) | Open to Internships & Collaboration
+                          - paragraph [ref=e118]: 印度 哈里雅納 庫魯克舍特拉
+                      - paragraph [ref=e120]:
+                        - generic [ref=e121]:
+                          - text: 現職： Founder and CEO（
+                          - strong [ref=e122]: InfYNova
+                          - text: ）
+                      - paragraph [ref=e126]:
+                        - link "2,779 人關注" [ref=e128] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_FOLLOWERS_CANNED_SEARCH&followerOf=%5B%22ACoAAE8PaVgBrT3cykg7Gw8_cQ9qL2cvGmX0KUY%22%5D
+            - complementary "側邊" [ref=e129]

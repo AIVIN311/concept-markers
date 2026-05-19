@@ -1,0 +1,662 @@
+- generic [ref=e2]:
+  - heading "0 則通知" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: 前往內容
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e10]
+    - generic [ref=e12]:
+      - banner [ref=e14]:
+        - generic [ref=e17]:
+          - button "LinkedIn" [ref=e18] [cursor=pointer]:
+            - img "LinkedIn" [ref=e19]
+          - generic [ref=e21]:
+            - status [ref=e22]
+            - search [ref=e23]:
+              - generic [ref=e24]:
+                - img [ref=e26]
+                - textbox "搜尋" [ref=e28]: AI founder MVP product startup
+          - generic [ref=e30]:
+            - figure [ref=e35]
+            - navigation [ref=e38]:
+              - list [ref=e39]:
+                - listitem [ref=e40]:
+                  - button "首頁，1 則新通知" [ref=e41] [cursor=pointer]:
+                    - img [ref=e43]
+                    - generic [ref=e46]: 首頁
+                - listitem [ref=e47]:
+                  - link "我的人脈，0 則新通知" [ref=e48] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e50]
+                    - generic [ref=e52]: 我的人脈
+                - listitem [ref=e53]:
+                  - link "職缺，0 則新通知" [ref=e54] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e56]
+                    - generic [ref=e58]: 職缺
+                - listitem [ref=e59]:
+                  - link "訊息，0 則新通知" [ref=e60] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e62]
+                    - generic [ref=e64]: 訊息
+                - listitem [ref=e65]:
+                  - link "通知，0 則新通知" [ref=e66] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e68]
+                    - generic [ref=e70]: 通知
+                - listitem [ref=e71]:
+                  - button "我" [ref=e72] [cursor=pointer]:
+                    - figure [ref=e74]
+                    - generic [ref=e75]:
+                      - text: 我
+                      - img [ref=e76]
+            - navigation [ref=e80]:
+              - list [ref=e81]:
+                - listitem [ref=e82]:
+                  - button "商務功能" [ref=e83] [cursor=pointer]:
+                    - img [ref=e85]
+                    - generic [ref=e87]:
+                      - text: 商務功能
+                      - img [ref=e88]
+                - listitem [ref=e90]:
+                  - link "Learning，0 則新通知" [ref=e91] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - img [ref=e93]
+                    - generic [ref=e98]: Learning
+      - generic [ref=e99]:
+        - toolbar [ref=e100]:
+          - generic [ref=e712]:
+            - button "根據會員篩選" [ref=e714] [cursor=pointer]:
+              - generic "根據會員篩選" [ref=e715]:
+                - checkbox "會員" [checked]
+                - generic [ref=e716]:
+                  - text: 會員
+                  - img [ref=e717]
+            - radio "根據1 度聯絡人篩選" [ref=e719] [cursor=pointer]:
+              - generic "根據1 度聯絡人篩選" [ref=e720]:
+                - checkbox "1 度"
+                - generic [ref=e721]: 1 度
+            - radio "根據2 度聯絡人篩選" [ref=e722] [cursor=pointer]:
+              - generic "根據2 度聯絡人篩選" [ref=e723]:
+                - checkbox "2 度"
+                - generic [ref=e724]: 2 度
+            - radio "根據3 度 +聯絡人篩選" [ref=e725] [cursor=pointer]:
+              - generic "根據3 度 +聯絡人篩選" [ref=e726]:
+                - checkbox "3 度 +"
+                - generic [ref=e727]: 3 度 +
+            - button "Premium 積極徵才中" [ref=e728] [cursor=pointer]:
+              - generic "Premium 積極徵才中" [ref=e729]:
+                - checkbox "積極徵才中"
+                - generic [ref=e730]:
+                  - img [ref=e731]
+                  - text: 積極徵才中
+                  - img [ref=e734]
+            - button "根據地點篩選" [ref=e736] [cursor=pointer]:
+              - generic "根據地點篩選" [ref=e737]:
+                - checkbox "地點"
+                - generic [ref=e738]:
+                  - text: 地點
+                  - img [ref=e739]
+            - button "根據現職公司篩選" [ref=e741] [cursor=pointer]:
+              - generic "根據現職公司篩選" [ref=e742]:
+                - checkbox "現職公司"
+                - generic [ref=e743]:
+                  - text: 現職公司
+                  - img [ref=e744]
+            - button "所有篩選條件" [ref=e746] [cursor=pointer]:
+              - generic [ref=e748]: 所有篩選條件
+        - main [ref=e142]:
+          - generic [ref=e751]:
+            - region "主要內容" [ref=e752]:
+              - generic [ref=e755]:
+                - list [ref=e757]:
+                  - listitem [ref=e759]:
+                    - link "謝文詠 Premium • 2 度 founder of Island Biyori Co., ltd. 台灣 臺北市 台北 摘要： ⋯SAFETY AND RELIABILITY. WITH OUR DIVERSE PRODUCT⋯ 馬仁翔、陳冠良，和其他 2 位共同聯絡人" [ref=e761] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/%E6%96%87%E8%A9%A0-%E8%AC%9D-488b37310/
+                      - generic [ref=e762]:
+                        - generic [ref=e763]:
+                          - figure [ref=e764]:
+                            - img "謝文詠" [ref=e765]
+                          - generic [ref=e766]:
+                            - paragraph [ref=e767]:
+                              - link "謝文詠 Premium" [ref=e768]:
+                                - /url: https://www.linkedin.com/in/%E6%96%87%E8%A9%A0-%E8%AC%9D-488b37310/
+                                - text: 謝文詠
+                                - img "Premium" [ref=e769]:
+                                  - img [ref=e770]
+                              - generic [ref=e772]: • 2 度
+                            - paragraph [ref=e774]: founder of Island Biyori Co., ltd.
+                            - paragraph [ref=e776]: 台灣 臺北市 台北
+                        - paragraph [ref=e778]:
+                          - generic [ref=e779]:
+                            - text: 摘要： ⋯SAFETY AND RELIABILITY. WITH OUR DIVERSE
+                            - strong [ref=e780]: PRODUCT
+                            - text: ⋯
+                        - generic [ref=e781]:
+                          - figure [ref=e782]
+                          - figure [ref=e783]
+                          - figure [ref=e784]
+                          - paragraph [ref=e786]:
+                            - generic [ref=e787]:
+                              - link "馬仁翔" [ref=e788]:
+                                - /url: https://www.linkedin.com/in/renwar-bagg-967340a2/zh/
+                                - strong [ref=e789]: 馬仁翔
+                              - text: 、
+                              - link "陳冠良" [ref=e790]:
+                                - /url: https://www.linkedin.com/in/%E5%86%A0%E8%89%AF-%E9%99%B3-6b9901216/
+                                - strong [ref=e791]: 陳冠良
+                              - text: ，和其他
+                              - link "2 位共同聯絡人" [ref=e792]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_CONNECTIONS_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAAE8wqOgBYIZUPGx9qZdpwpyNRQ5S9OoJYlg%22%5D
+                                - strong [ref=e793]: 2 位共同聯絡人
+                  - listitem [ref=e795]:
+                    - link "Yu-Hsiang Lin 已驗證 • 2 度 Quant | AI engineer | Master’s in Statistics | 4+ years full-time research experience with 4 theses | Founder of AI-powered psychological counseling startup (Link to each paper or thesis can be found in my CV) 台灣 臺中市 現職： 创始人（Elefriend） - ● Designed an Online AI Psychological Counseling System via generative AI for use⋯ Archie Zhu是共同聯絡人" [ref=e797] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/yu-hsiang-lin-b02a3b228/
+                      - generic [ref=e798]:
+                        - generic [ref=e799]:
+                          - figure [ref=e800]:
+                            - img "Yu-Hsiang Lin" [ref=e801]
+                          - generic [ref=e802]:
+                            - paragraph [ref=e803]:
+                              - link "Yu-Hsiang Lin 已驗證" [ref=e804]:
+                                - /url: https://www.linkedin.com/in/yu-hsiang-lin-b02a3b228/
+                                - text: Yu-Hsiang Lin
+                                - img "已驗證" [ref=e805]:
+                                  - img [ref=e806]
+                              - generic [ref=e808]: • 2 度
+                            - paragraph [ref=e810]: Quant | AI engineer | Master’s in Statistics | 4+ years full-time research experience with 4 theses | Founder of AI-powered psychological counseling startup (Link to each paper or thesis can be found in my CV)
+                            - paragraph [ref=e812]: 台灣 臺中市
+                        - paragraph [ref=e814]:
+                          - generic [ref=e815]:
+                            - text: 現職： 创始人（Elefriend） - ● Designed an Online
+                            - strong [ref=e816]: AI
+                            - text: Psychological Counseling System via generative
+                            - strong [ref=e817]: AI
+                            - text: for use⋯
+                        - generic [ref=e818]:
+                          - figure [ref=e819]
+                          - paragraph [ref=e821]:
+                            - generic [ref=e822]:
+                              - link "Archie Zhu" [ref=e823]:
+                                - /url: https://www.linkedin.com/in/archie-zhu-4695bb130/
+                                - strong [ref=e824]: Archie Zhu
+                              - text: 是共同聯絡人
+                  - listitem [ref=e826]:
+                    - link "Knox Kuo 已驗證 • 2 度 Founder at Lemohi Companion Wellness Co. | Evidence-based Pet Supplements | Taiwan → Global 台灣 新北市 New Taipei City 摘要： I am the founder of Lemohi Companion Wellness Co⋯ 星玲占星塔羅和chian huei yang是共同聯絡人" [ref=e828] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/knox-kuo-740166203/
+                      - generic [ref=e829]:
+                        - generic [ref=e830]:
+                          - figure [ref=e831]:
+                            - img "Knox Kuo" [ref=e832]
+                          - generic [ref=e833]:
+                            - paragraph [ref=e834]:
+                              - link "Knox Kuo 已驗證" [ref=e835]:
+                                - /url: https://www.linkedin.com/in/knox-kuo-740166203/
+                                - text: Knox Kuo
+                                - img "已驗證" [ref=e836]:
+                                  - img [ref=e837]
+                              - generic [ref=e839]: • 2 度
+                            - paragraph [ref=e841]: Founder at Lemohi Companion Wellness Co. | Evidence-based Pet Supplements | Taiwan → Global
+                            - paragraph [ref=e843]: 台灣 新北市 New Taipei City
+                        - paragraph [ref=e845]:
+                          - generic [ref=e846]:
+                            - text: 摘要： I am the
+                            - strong [ref=e847]: founder
+                            - text: of Lemohi Companion Wellness Co⋯
+                        - generic [ref=e848]:
+                          - figure [ref=e849]
+                          - figure [ref=e850]
+                          - paragraph [ref=e852]:
+                            - generic [ref=e853]:
+                              - link "星玲占星塔羅" [ref=e854]:
+                                - /url: https://www.linkedin.com/in/%E5%8D%A0%E6%98%9F%E5%A1%94%E7%BE%85-%E6%98%9F%E7%8E%B2-1b4357301/
+                                - strong [ref=e855]: 星玲占星塔羅
+                              - text: 和
+                              - link "chian huei yang" [ref=e856]:
+                                - /url: https://www.linkedin.com/in/chian-huei-yang-608144343/
+                                - strong [ref=e857]: chian huei yang
+                              - text: 是共同聯絡人
+                  - listitem [ref=e859]:
+                    - link "jiaher lee • 2 度 Founder & CEO 台灣 現職： Founder & Chief Executive Officer (CEO)（vtion.com） Tommy Lee、德昂資訊股份有限公司，和其他 1 位共同聯絡人" [ref=e861] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/jiaher-lee/
+                      - generic [ref=e862]:
+                        - generic [ref=e863]:
+                          - figure [ref=e864]:
+                            - img "jiaher lee" [ref=e865]
+                          - generic [ref=e866]:
+                            - paragraph [ref=e867]:
+                              - link "jiaher lee" [ref=e868]:
+                                - /url: https://www.linkedin.com/in/jiaher-lee/
+                              - generic [ref=e869]: • 2 度
+                            - paragraph [ref=e871]: Founder & CEO
+                            - paragraph [ref=e873]: 台灣
+                        - paragraph [ref=e875]:
+                          - generic [ref=e876]:
+                            - text: 現職：
+                            - strong [ref=e877]: Founder
+                            - text: "& Chief Executive Officer (CEO)（vtion.com）"
+                        - generic [ref=e878]:
+                          - figure [ref=e879]
+                          - figure [ref=e880]
+                          - figure [ref=e881]
+                          - paragraph [ref=e883]:
+                            - generic [ref=e884]:
+                              - link "Tommy Lee" [ref=e885]:
+                                - /url: https://www.linkedin.com/in/lee-tommy/
+                                - strong [ref=e886]: Tommy Lee
+                              - text: 、
+                              - link "德昂資訊股份有限公司" [ref=e887]:
+                                - /url: https://www.linkedin.com/in/%E8%B3%87%E8%A8%8A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E5%BE%B7%E6%98%82-75a9611b5/
+                                - strong [ref=e888]: 德昂資訊股份有限公司
+                              - text: ，和其他
+                              - link "1 位共同聯絡人" [ref=e889]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_CONNECTIONS_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAAACJysoBpeRcuIgQRbAxYv7jeAESOtC6yWs%22%5D
+                                - strong [ref=e890]: 1 位共同聯絡人
+                  - listitem [ref=e892]:
+                    - link "Juliana Kriskova 已驗證 • 2 度 AI Product Strategist & Founder @ Educality 台灣 臺南市 臺南市 現職： AI Product Strategist & Founder（Educality Co., Ltd.） Archie Zhu和Louis Tu是共同聯絡人" [ref=e894] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/julianakriskova/
+                      - generic [ref=e895]:
+                        - generic [ref=e896]:
+                          - figure [ref=e897]:
+                            - img "Juliana Kriskova" [ref=e898]
+                          - generic [ref=e899]:
+                            - paragraph [ref=e900]:
+                              - link "Juliana Kriskova 已驗證" [ref=e901]:
+                                - /url: https://www.linkedin.com/in/julianakriskova/
+                                - text: Juliana Kriskova
+                                - img "已驗證" [ref=e902]:
+                                  - img [ref=e903]
+                              - generic [ref=e905]: • 2 度
+                            - paragraph [ref=e907]: AI Product Strategist & Founder @ Educality
+                            - paragraph [ref=e909]: 台灣 臺南市 臺南市
+                        - paragraph [ref=e911]:
+                          - generic [ref=e912]:
+                            - text: 現職：
+                            - strong [ref=e913]: AI
+                            - strong [ref=e914]: Product
+                            - text: Strategist &
+                            - strong [ref=e915]: Founder
+                            - text: （Educality Co., Ltd.）
+                        - generic [ref=e916]:
+                          - figure [ref=e917]
+                          - figure [ref=e918]
+                          - paragraph [ref=e920]:
+                            - generic [ref=e921]:
+                              - link "Archie Zhu" [ref=e922]:
+                                - /url: https://www.linkedin.com/in/archie-zhu-4695bb130/
+                                - strong [ref=e923]: Archie Zhu
+                              - text: 和
+                              - link "Louis Tu" [ref=e924]:
+                                - /url: https://www.linkedin.com/in/louis-tu-548085247/
+                                - strong [ref=e925]: Louis Tu
+                              - text: 是共同聯絡人
+                  - listitem [ref=e927]:
+                    - link "Davin Chang 已驗證 • 2 度 Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete 台灣 臺北市 台北 現職： Founder / CEO（AIPost｜AI郵報） 3,776 人關注 Shui-chen Lin、Valerie Hsu，和其他 2 位共同聯絡人" [ref=e929] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/davin-chang/
+                      - generic [ref=e930]:
+                        - generic [ref=e931]:
+                          - figure [ref=e932]:
+                            - img "Davin Chang" [ref=e933]
+                          - generic [ref=e934]:
+                            - paragraph [ref=e935]:
+                              - link "Davin Chang 已驗證" [ref=e936]:
+                                - /url: https://www.linkedin.com/in/davin-chang/
+                                - text: Davin Chang
+                                - img "已驗證" [ref=e937]:
+                                  - img [ref=e938]
+                              - generic [ref=e940]: • 2 度
+                            - paragraph [ref=e942]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                            - paragraph [ref=e944]: 台灣 臺北市 台北
+                        - paragraph [ref=e946]:
+                          - generic [ref=e947]:
+                            - text: 現職：
+                            - strong [ref=e948]: Founder
+                            - text: / CEO（AIPost｜
+                            - strong [ref=e949]: AI
+                            - text: 郵報）
+                        - generic [ref=e950]:
+                          - img [ref=e951]
+                          - paragraph [ref=e954]:
+                            - link "3,776 人關注" [ref=e956]:
+                              - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_FOLLOWERS_CANNED_SEARCH&followerOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                        - generic [ref=e957]:
+                          - figure [ref=e958]
+                          - figure [ref=e959]
+                          - figure [ref=e960]
+                          - paragraph [ref=e962]:
+                            - generic [ref=e963]:
+                              - link "Shui-chen Lin" [ref=e964]:
+                                - /url: https://www.linkedin.com/in/shui-chen-lin-40a32126/
+                                - strong [ref=e965]: Shui-chen Lin
+                              - text: 、
+                              - link "Valerie Hsu" [ref=e966]:
+                                - /url: https://www.linkedin.com/in/valerie-hsu-33578b172/
+                                - strong [ref=e967]: Valerie Hsu
+                              - text: ，和其他
+                              - link "2 位共同聯絡人" [ref=e968]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_CONNECTIONS_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                                - strong [ref=e969]: 2 位共同聯絡人
+                  - listitem [ref=e971]:
+                    - link "Ting-Hong Shieh Premium • 2 度 Product Manager | Driving Product Strategy & Stakeholder Management | LLM pipeline, Python Taipei–Keelung Metropolitan area 曾任： Product Lead (Founder)（物奧土魠 | IPhO Tutor） 陳韋丞、沈重宗，和其他 8 位共同聯絡人" [ref=e973] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/ting-hong-shieh/
+                      - generic [ref=e974]:
+                        - generic [ref=e975]:
+                          - figure [ref=e976]:
+                            - img "Ting-Hong Shieh" [ref=e977]
+                          - generic [ref=e978]:
+                            - paragraph [ref=e979]:
+                              - link "Ting-Hong Shieh Premium" [ref=e980]:
+                                - /url: https://www.linkedin.com/in/ting-hong-shieh/
+                                - text: Ting-Hong Shieh
+                                - img "Premium" [ref=e981]:
+                                  - img [ref=e982]
+                              - generic [ref=e984]: • 2 度
+                            - paragraph [ref=e986]: Product Manager | Driving Product Strategy & Stakeholder Management | LLM pipeline, Python
+                            - paragraph [ref=e988]: Taipei–Keelung Metropolitan area
+                        - paragraph [ref=e990]:
+                          - generic [ref=e991]:
+                            - text: 曾任：
+                            - strong [ref=e992]: Product
+                            - text: Lead (
+                            - strong [ref=e993]: Founder
+                            - text: )（物奧土魠 | IPhO Tutor）
+                        - generic [ref=e994]:
+                          - figure [ref=e995]
+                          - figure [ref=e996]
+                          - figure [ref=e997]
+                          - paragraph [ref=e999]:
+                            - generic [ref=e1000]:
+                              - link "陳韋丞" [ref=e1001]:
+                                - /url: https://www.linkedin.com/in/%E9%99%B3%E9%9F%8B%E4%B8%9E/
+                                - strong [ref=e1002]: 陳韋丞
+                              - text: 、
+                              - link "沈重宗" [ref=e1003]:
+                                - /url: https://www.linkedin.com/in/jackshenadvisor/
+                                - strong [ref=e1004]: 沈重宗
+                              - text: ，和其他
+                              - link "8 位共同聯絡人" [ref=e1005]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_CONNECTIONS_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAACdAiEoBFuJ3sboyoy1XRt8vZeBw0PoIptg%22%5D
+                                - strong [ref=e1006]: 8 位共同聯絡人
+                  - listitem [ref=e1008]:
+                    - link "蕭文浩 已驗證 • 2 度 Founder of Hexlance Technology & Digital Consulting Co., Ltd. 台灣 臺北市 台北 Peter Melchior、沈重宗，和其他 27 位共同聯絡人" [ref=e1010] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/edwinhsiao/
+                      - generic [ref=e1011]:
+                        - generic [ref=e1012]:
+                          - figure [ref=e1013]:
+                            - img "蕭文浩" [ref=e1014]
+                          - generic [ref=e1015]:
+                            - paragraph [ref=e1016]:
+                              - link "蕭文浩 已驗證" [ref=e1017]:
+                                - /url: https://www.linkedin.com/in/edwinhsiao/
+                                - text: 蕭文浩
+                                - img "已驗證" [ref=e1018]:
+                                  - img [ref=e1019]
+                              - generic [ref=e1021]: • 2 度
+                            - paragraph [ref=e1023]: Founder of Hexlance Technology & Digital Consulting Co., Ltd.
+                            - paragraph [ref=e1025]: 台灣 臺北市 台北
+                        - generic [ref=e1026]:
+                          - figure [ref=e1027]
+                          - figure [ref=e1028]
+                          - figure [ref=e1029]
+                          - paragraph [ref=e1031]:
+                            - generic [ref=e1032]:
+                              - link "Peter Melchior" [ref=e1033]:
+                                - /url: https://www.linkedin.com/in/peter-melchior-27a3a71b/
+                                - strong [ref=e1034]: Peter Melchior
+                              - text: 、
+                              - link "沈重宗" [ref=e1035]:
+                                - /url: https://www.linkedin.com/in/jackshenadvisor/
+                                - strong [ref=e1036]: 沈重宗
+                              - text: ，和其他
+                              - link "27 位共同聯絡人" [ref=e1037]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_CONNECTIONS_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAAE4OISABME2krZc_6C425-NAe2N2G8-_1Nc%22%5D
+                                - strong [ref=e1038]: 27 位共同聯絡人
+                  - listitem [ref=e1040]:
+                    - link "Helga Shen • 2 度 企業團隊建立與品牌體驗香氛講師 ，Corporate Team Building & Brand Experience Facilitator Taipei & New Taipei 台灣 新北市 New Taipei City 現職： Founder & Corporate Workshop Facilitator（H.FUGUE ATELIER） Shui-chen Lin、陳淵，和其他 10 位共同聯絡人" [ref=e1042] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/helga-shen-79bb802a0/
+                      - generic [ref=e1043]:
+                        - generic [ref=e1044]:
+                          - figure [ref=e1045]:
+                            - img "Helga Shen" [ref=e1046]
+                          - generic [ref=e1047]:
+                            - paragraph [ref=e1048]:
+                              - link "Helga Shen" [ref=e1049]:
+                                - /url: https://www.linkedin.com/in/helga-shen-79bb802a0/
+                              - generic [ref=e1050]: • 2 度
+                            - paragraph [ref=e1052]: 企業團隊建立與品牌體驗香氛講師 ，Corporate Team Building & Brand Experience Facilitator Taipei & New Taipei
+                            - paragraph [ref=e1054]: 台灣 新北市 New Taipei City
+                        - paragraph [ref=e1056]:
+                          - generic [ref=e1057]:
+                            - text: 現職：
+                            - strong [ref=e1058]: Founder
+                            - text: "& Corporate Workshop Facilitator（H.FUGUE ATELIER）"
+                        - generic [ref=e1059]:
+                          - figure [ref=e1060]
+                          - figure [ref=e1061]
+                          - figure [ref=e1062]
+                          - paragraph [ref=e1064]:
+                            - generic [ref=e1065]:
+                              - link "Shui-chen Lin" [ref=e1066]:
+                                - /url: https://www.linkedin.com/in/shui-chen-lin-40a32126/
+                                - strong [ref=e1067]: Shui-chen Lin
+                              - text: 、
+                              - link "陳淵" [ref=e1068]:
+                                - /url: https://www.linkedin.com/in/%E6%B7%B5-%E9%99%B3-677b2960/
+                                - strong [ref=e1069]: 陳淵
+                              - text: ，和其他
+                              - link "10 位共同聯絡人" [ref=e1070]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=SHARED_CONNECTIONS_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAAEjJ0GcBsLO-y-4h6HnGPZKeknsoiV9EMeg%22%5D
+                                - strong [ref=e1071]: 10 位共同聯絡人
+                  - listitem [ref=e1073]:
+                    - link "Andrew Tsuei • 2 度 CEO & Founder, JoyFrom.AI 台灣 臺北市 台北 現職： CEO & Founder（JoyFrom.AI） Robin Hsu和Tommy Lee是共同聯絡人" [ref=e1075] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/andrew-tsuei-0b61903a/
+                      - generic [ref=e1076]:
+                        - generic [ref=e1077]:
+                          - figure [ref=e1078]:
+                            - img "Andrew Tsuei" [ref=e1079]
+                          - generic [ref=e1080]:
+                            - paragraph [ref=e1081]:
+                              - link "Andrew Tsuei" [ref=e1082]:
+                                - /url: https://www.linkedin.com/in/andrew-tsuei-0b61903a/
+                              - generic [ref=e1083]: • 2 度
+                            - paragraph [ref=e1085]: CEO & Founder, JoyFrom.AI
+                            - paragraph [ref=e1087]: 台灣 臺北市 台北
+                        - paragraph [ref=e1089]:
+                          - generic [ref=e1090]:
+                            - text: 現職： CEO &
+                            - strong [ref=e1091]: Founder
+                            - text: （JoyFrom.
+                            - strong [ref=e1092]: AI
+                            - text: ）
+                        - generic [ref=e1093]:
+                          - figure [ref=e1094]
+                          - figure [ref=e1095]
+                          - paragraph [ref=e1097]:
+                            - generic [ref=e1098]:
+                              - link "Robin Hsu" [ref=e1099]:
+                                - /url: https://www.linkedin.com/in/robin-hsu-2b59a9a5/
+                                - strong [ref=e1100]: Robin Hsu
+                              - text: 和
+                              - link "Tommy Lee" [ref=e1101]:
+                                - /url: https://www.linkedin.com/in/lee-tommy/
+                                - strong [ref=e1102]: Tommy Lee
+                              - text: 是共同聯絡人
+                - generic [ref=e1104]:
+                  - button "上一頁" [ref=e1105] [cursor=pointer]:
+                    - generic [ref=e1106]:
+                      - img [ref=e1107]
+                      - generic [ref=e1109]: 上一頁
+                  - list [ref=e1110]:
+                    - listitem [ref=e1111]:
+                      - button "第 1 頁" [ref=e1112] [cursor=pointer]:
+                        - generic [ref=e1113]: "1"
+                    - listitem [ref=e1114]:
+                      - button "第 2 頁" [ref=e1115] [cursor=pointer]:
+                        - generic [ref=e1116]: "2"
+                    - listitem [ref=e1117]:
+                      - button "第 3 頁" [ref=e1118] [cursor=pointer]:
+                        - generic [ref=e1119]: "3"
+                    - listitem [ref=e1120]:
+                      - button "第 4 頁" [ref=e1121] [cursor=pointer]:
+                        - generic [ref=e1122]: "4"
+                    - listitem [ref=e1123]:
+                      - button "第 5 頁" [ref=e1124] [cursor=pointer]:
+                        - generic [ref=e1125]: "5"
+                    - listitem [ref=e1126]:
+                      - button "第 6 頁" [ref=e1127] [cursor=pointer]:
+                        - generic [ref=e1128]: "6"
+                    - listitem [ref=e1129]:
+                      - button "第 7 頁" [ref=e1130] [cursor=pointer]:
+                        - generic [ref=e1131]: "7"
+                    - listitem [ref=e1132]:
+                      - button "第 8 頁" [ref=e1133] [cursor=pointer]:
+                        - generic [ref=e1134]: "8"
+                    - listitem [ref=e1135]:
+                      - button "第 9 頁" [ref=e1136] [cursor=pointer]:
+                        - generic [ref=e1137]: "9"
+                    - listitem [ref=e1138]:
+                      - button "第 10 頁" [ref=e1139] [cursor=pointer]:
+                        - generic [ref=e1140]: "10"
+                  - button "下一步" [ref=e1141] [cursor=pointer]:
+                    - generic [ref=e1142]:
+                      - img [ref=e1143]
+                      - generic [ref=e1145]: 下一步
+            - complementary "側邊" [ref=e1146]:
+              - generic [ref=e1150]:
+                - iframe [ref=e1151]:
+                  - link "Advertise on LinkedIn" [ref=f17e3] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+                    - img "Advertise on LinkedIn" [ref=f17e4]
+                - generic [ref=e1152]:
+                  - generic [ref=e1153]:
+                    - link "關於" [ref=e1154] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e1155]: 關於
+                    - link "無障礙功能" [ref=e1156] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e1157]: 無障礙功能
+                    - link "說明中心" [ref=e1158] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/
+                      - paragraph [ref=e1159]: 說明中心
+                    - button "隱私權及條款" [ref=e1160] [cursor=pointer]:
+                      - generic [ref=e1161]:
+                        - paragraph [ref=e1162]: 隱私權及條款
+                        - img [ref=e1163]
+                    - link "Ad Choices" [ref=e1165] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e1166]: Ad Choices
+                    - link "廣告" [ref=e1167] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e1168]: 廣告
+                    - button "商務服務" [ref=e1169] [cursor=pointer]:
+                      - generic [ref=e1170]:
+                        - paragraph [ref=e1171]: 商務服務
+                        - img [ref=e1172]
+                    - link "下載 LinkedIn App" [ref=e1174] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/mobile/
+                      - paragraph [ref=e1175]: 下載 LinkedIn App
+                    - link "更多" [ref=e1176] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/search/results/people/?keywords=AI%20founder%20MVP%20product%20startup&page=2&spellCorrectionEnabled=true&prioritizeMessage=false
+                      - paragraph [ref=e1177]: 更多
+                  - generic [ref=e1178]:
+                    - img [ref=e1179]
+                    - paragraph [ref=e1181]: LinkedIn Corporation © 2026年
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e685]:
+              - generic [ref=e687] [cursor=pointer]:
+                - generic [ref=e688]:
+                  - img "HSIN WEI CHEN" [ref=e689]
+                  - generic [ref=e691]: 狀態為已上線
+                - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。" [ref=e692]:
+                  - generic [ref=e693]:
+                    - generic [ref=e694]: 訊息
+                    - generic [ref=e695]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+              - generic [ref=e696]:
+                - button "開啟選單" [ref=e698] [cursor=pointer]:
+                  - img "開啟選單" [ref=e699]
+                - button "撰寫訊息" [ref=e702] [cursor=pointer]:
+                  - img [ref=e703]
+                  - generic [ref=e705]: 撰寫訊息
+                - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。" [ref=e706] [cursor=pointer]:
+                  - img [ref=e707]
+                  - generic [ref=e709]: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+          - complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+  - iframe [ref=e682]:
+    - generic [active] [ref=f2e1]:
+      - generic:
+        - region "祝賀訊息":
+          - heading "0 則通知" [level=2] [ref=f2e3]
+          - alert
+      - region [ref=f2e4]
+      - generic [ref=f2e5]:
+        - generic [ref=f2e7]:
+          - button "前往搜尋" [ref=f2e8] [cursor=pointer]:
+            - generic [ref=f2e9]: 前往搜尋
+          - button "前往內容" [ref=f2e10] [cursor=pointer]:
+            - generic [ref=f2e11]: 前往內容
+          - button "鍵盤快捷鍵" [ref=f2e12] [cursor=pointer]:
+            - generic [ref=f2e13]: 鍵盤快捷鍵
+          - button "關閉選單" [ref=f2e14] [cursor=pointer]:
+            - img [ref=f2e15]
+            - generic [ref=f2e17]: 關閉選單
+        - banner "全域導覽" [ref=f2e18]:
+          - generic [ref=f2e19]:
+            - link "LinkedIn" [ref=f2e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f2e98]:
+                - img [ref=f2e99]
+            - generic [ref=f2e28]:
+              - combobox "搜尋" [ref=f2e29]
+              - generic:
+                - img
+            - navigation "主選單" [ref=f2e30]:
+              - list [ref=f2e31]:
+                - listitem [ref=f2e101]:
+                  - link "動態消息 新通知 首頁" [ref=f2e102] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f2e103]:
+                      - generic [ref=f2e106]: 動態消息 新通知
+                      - img [ref=f2e110]
+                    - generic "首頁" [ref=f2e112]
+                - listitem [ref=f2e113]:
+                  - link "我的人脈" [ref=f2e114] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f2e118]
+                    - generic "我的人脈" [ref=f2e120]
+                - listitem [ref=f2e121]:
+                  - link "職缺" [ref=f2e122] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f2e126]
+                    - generic "職缺" [ref=f2e128]
+                - listitem [ref=f2e129]:
+                  - link "訊息" [ref=f2e130] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f2e134]
+                    - generic "訊息" [ref=f2e136]
+                - listitem [ref=f2e137]:
+                  - link "通知" [ref=f2e138] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - img [ref=f2e142]
+                    - generic "通知" [ref=f2e144]
+                - listitem [ref=f2e145]:
+                  - button "HSIN WEI CHEN 我" [ref=f2e147] [cursor=pointer]:
+                    - img "HSIN WEI CHEN" [ref=f2e148]
+                    - generic [ref=f2e149]:
+                      - text: 我
+                      - img [ref=f2e150]
+                - listitem [ref=f2e152]:
+                  - button "商務功能" [ref=f2e154] [cursor=pointer]:
+                    - img [ref=f2e158]
+                    - generic "商務功能" [ref=f2e160]:
+                      - text: 商務功能
+                      - img [ref=f2e161]
+                - listitem [ref=f2e163]:
+                  - link "Learning" [ref=f2e164] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                    - img [ref=f2e168]
+                    - generic "Learning" [ref=f2e173]

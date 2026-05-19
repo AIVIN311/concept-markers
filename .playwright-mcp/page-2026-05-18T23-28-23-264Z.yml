@@ -1,0 +1,82 @@
+- generic [ref=e1]:
+  - generic:
+    - region "祝賀訊息":
+      - heading "0 則通知" [level=2] [ref=e3]
+      - alert
+  - dialog "要將備註新增至邀請嗎？" [active] [ref=e5]:
+    - generic [ref=e6]: 對話開始
+    - button "關閉" [ref=e7] [cursor=pointer]:
+      - img [ref=e8]
+    - heading "要將備註新增至邀請嗎？" [level=2] [ref=e11]
+    - generic [ref=e12]:
+      - paragraph [ref=e13]:
+        - generic [ref=e14]:
+          - text: 透過新增備註來個人化您對
+          - strong [ref=e15]: Pai-Heng Hsiao
+          - text: 的邀請。LinkedIn 會員通常會更願意接受附有備註的邀請。
+      - generic [ref=e16]:
+        - img [ref=e17]
+        - paragraph [ref=e18]: 有了 Premium，您現在可以獲得無限筆記
+    - generic [ref=e19]:
+      - button "輸入備註" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: 輸入備註
+      - button "不附加備註即傳送" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: 不附加備註即傳送
+    - generic [ref=e24]: 對話結束
+  - region [ref=e25]
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - button [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 前往搜尋
+      - button [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]: 前往內容
+      - button [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: 鍵盤快捷鍵
+      - button [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+        - generic [ref=e37]: 關閉選單
+    - banner [ref=e38]:
+      - generic [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img [ref=e43]:
+            - img [ref=e44]
+        - generic [ref=e48]:
+          - combobox [ref=e49]
+          - generic:
+            - img
+        - navigation [ref=e50]:
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - link [ref=e53] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e54]:
+                  - generic [ref=e57]: 動態消息 新通知
+                  - img [ref=e61]
+                - generic [ref=e63]: 首頁
+            - listitem [ref=e64]:
+              - link [ref=e65] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e69]
+                - generic [ref=e71]: 人脈
+            - listitem [ref=e72]:
+              - link [ref=e73] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e77]
+                - generic [ref=e79]: 職缺
+            - listitem [ref=e80]:
+              - link [ref=e81] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e85]
+                - generic [ref=e87]: 訊息
+            - listitem [ref=e88]:
+              - link [ref=e89] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?filter=all&
+                - img [ref=e93]
+                - generic [ref=e95]: 通知
+            - listitem [ref=e96]:
+              - button [ref=e98] [cursor=pointer]:
+                - img [ref=e99]
+                - generic [ref=e100]:
+                  - text: 我
+                  - img [ref=e101]

@@ -1,0 +1,284 @@
+- generic [ref=e2]:
+  - heading "0 則通知" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: 前往內容
+      - button [ref=e8] [cursor=pointer]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button [ref=e17] [cursor=pointer]
+          - generic [ref=e20]:
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "首頁，1 則新通知" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e31]: 首頁
+                - listitem [ref=e32]:
+                  - link "我的人脈，0 則新通知" [ref=e33] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e35]
+                    - generic [ref=e38]: 我的人脈
+                - listitem [ref=e39]:
+                  - link "職缺，0 則新通知" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e42]
+                    - generic [ref=e45]: 職缺
+                - listitem [ref=e46]:
+                  - link "訊息，0 則新通知" [ref=e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e49]
+                    - generic [ref=e52]: 訊息
+                - listitem [ref=e53]:
+                  - link "通知，0 則新通知" [ref=e54] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e56]
+                    - generic [ref=e59]: 通知
+                - listitem [ref=e60]:
+                  - button "我" [ref=e61] [cursor=pointer]:
+                    - figure [ref=e63]
+                    - generic [ref=e65]: 我
+            - navigation [ref=e69]:
+              - list [ref=e70]:
+                - listitem [ref=e71]:
+                  - button "商務功能" [ref=e72] [cursor=pointer]:
+                    - img [ref=e74]
+                    - generic [ref=e77]: 商務功能
+                - listitem [ref=e79]:
+                  - link "Learning，0 則新通知" [ref=e80] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - generic [ref=e84]: Learning
+      - generic [ref=e86]:
+        - toolbar [ref=e87]:
+          - generic [ref=e91]:
+            - link "Davin Chang" [ref=e92] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/davin-chang/
+              - generic "Davin Chang" [ref=e93]:
+                - figure [ref=e94]
+                - generic [ref=e95]:
+                  - paragraph [ref=e96]: Davin Chang
+                  - paragraph [ref=e98]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+            - generic [ref=e99]:
+              - button "更多內容" [ref=e101] [cursor=pointer]
+              - button "訊息" [ref=e105] [cursor=pointer]:
+                - generic [ref=e108]: 訊息
+        - main [ref=e109]:
+          - generic [ref=e111]:
+            - region "主要內容" [ref=e112]:
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - button [ref=e123] [cursor=pointer]:
+                    - figure [ref=e124]:
+                      - img "封面照片" [ref=e125]
+                  - button "檔案照片" [ref=e126] [cursor=pointer]:
+                    - generic "檔案照片" [ref=e127]:
+                      - figure [ref=e128]
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - generic [ref=e132]:
+                      - link "Davin Chang" [ref=e136] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/
+                        - heading "Davin Chang" [level=2] [ref=e139]
+                      - paragraph [ref=e141]: Founder & CEO | Architect of AI Decision OS | Driving Growth through Business Solutions & Automation | Tech-Legal Strategist | Triathlete
+                      - generic [ref=e142]:
+                        - paragraph [ref=e143]: 台灣 臺北市 台北
+                        - paragraph [ref=e144]: ·
+                        - paragraph [ref=e145]:
+                          - link "聯絡資料" [ref=e146] [cursor=pointer]:
+                            - /url: "#"
+                    - generic [ref=e148]:
+                      - button "AIPost｜AI郵報" [ref=e149] [cursor=pointer]:
+                        - generic [ref=e150]:
+                          - figure [ref=e151]
+                          - paragraph [ref=e155]: AIPost｜AI郵報
+                      - button "National Chiao Tung University" [ref=e156] [cursor=pointer]:
+                        - generic [ref=e157]:
+                          - figure [ref=e158]
+                          - paragraph [ref=e162]: National Chiao Tung University
+                  - button "AIPOST" [ref=e163]:
+                    - link "AIPOST" [ref=e164] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Faiposthub%2Ecom&urlhash=82rL&mt=0Hwq43nNMGWetetGxPKuLyy-JewV1i77QnnpRxcpvD7muBTiRLxeYmKWZYGbjHq790IyMocbKCFMpjUoFOyLgHceLpw9&isSdui=true
+                      - text: AIPOST
+                  - paragraph [ref=e167]: 3,776 個關注者
+                  - link:
+                    - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                  - generic [ref=e168]:
+                    - link [ref=e169] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                      - figure [ref=e170]
+                      - figure [ref=e171]
+                    - generic [ref=e172]:
+                      - link:
+                        - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                      - paragraph [ref=e173]:
+                        - link:
+                          - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                        - link "Leal Wu、Valerie和其他 2 位共同聯絡人" [ref=e174] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/search/results/people/?origin=MEMBER_PROFILE_CANNED_SEARCH&network=%5B%22F%22%5D&connectionOf=%5B%22ACoAABVjPKQBdgD3dl-mfqdfqR5mtG0LJYblH8E%22%5D
+                          - strong [ref=e175]: Leal Wu
+                          - text: 、
+                          - strong [ref=e176]: Valerie
+                          - text: 和其他 2 位共同聯絡人
+                  - generic [ref=e180]:
+                    - button "訊息" [ref=e182] [cursor=pointer]:
+                      - generic [ref=e185]: 訊息
+                    - button "更多內容" [ref=e187] [cursor=pointer]
+            - complementary "側邊" [ref=e221]:
+              - generic [ref=e223]:
+                - iframe [ref=e226]:
+                  
+                - generic [ref=e229]:
+                  - heading "探索 Premium 檔案" [level=2] [ref=e231]
+                  - generic [ref=e233]:
+                    - link "HSUAN YU LEE Premium · 2 度 辰妍國際 Founder" [ref=e238] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/hsuan-yu-lee-b68530407/
+                      - generic [ref=e239]:
+                        - figure [ref=e240]
+                        - generic [ref=e241]:
+                          - generic [ref=e242]:
+                            - paragraph [ref=e244]:
+                              - generic [ref=e245]:
+                                - text: HSUAN YU LEE
+                                - img "Premium" [ref=e246]
+                            - paragraph [ref=e248]: · 2 度
+                          - paragraph [ref=e250]: 辰妍國際 Founder
+                    - link "樊松蒲 Premium · 2 度 數位人才培訓｜數據行銷顧問" [ref=e256] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/dennisfantw/
+                      - generic [ref=e257]:
+                        - figure [ref=e258]
+                        - generic [ref=e259]:
+                          - generic [ref=e260]:
+                            - paragraph [ref=e262]:
+                              - generic [ref=e263]:
+                                - text: 樊松蒲
+                                - img "Premium" [ref=e264]
+                            - paragraph [ref=e266]: · 2 度
+                          - paragraph [ref=e268]: 數位人才培訓｜數據行銷顧問
+                    - link "Sunglin Hsieh Premium · 3 度 Yes Grand Inc. Executive Director" [ref=e274] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/sunglin-hsieh-a6907a148/
+                      - generic [ref=e275]:
+                        - figure [ref=e276]
+                        - generic [ref=e277]:
+                          - generic [ref=e278]:
+                            - paragraph [ref=e280]:
+                              - generic [ref=e281]:
+                                - text: Sunglin Hsieh
+                                - img "Premium" [ref=e282]
+                            - paragraph [ref=e284]: · 3 度
+                          - paragraph [ref=e286]: Yes Grand Inc. Executive Director
+                    - link "Sebastian H Premium · 2 度 Business & Growth Leader | Digital Platforms & iGaming | Cross-border Expansion | Ex-Co-founder" [ref=e292] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/sebastian-h-4059063b9/
+                      - generic [ref=e293]:
+                        - figure [ref=e294]
+                        - generic [ref=e295]:
+                          - generic [ref=e296]:
+                            - paragraph [ref=e298]:
+                              - generic [ref=e299]:
+                                - text: Sebastian H
+                                - img "Premium" [ref=e300]
+                            - paragraph [ref=e302]: · 2 度
+                          - paragraph [ref=e304]: Business & Growth Leader | Digital Platforms & iGaming | Cross-border Expansion | Ex-Co-founder
+            - generic "頁尾" [ref=e306]:
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - navigation [ref=e311]:
+                    - link "關於" [ref=e312] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e313]: 關於
+                    - link "無障礙功能" [ref=e314] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e315]: 無障礙功能
+                    - link "人才解決方案" [ref=e316] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e317]: 人才解決方案
+                    - link "社群指南" [ref=e318] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e319]: 社群指南
+                    - link "徵才專區" [ref=e320] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e321]: 徵才專區
+                    - link "行銷解決方案" [ref=e322] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e323]: 行銷解決方案
+                    - button "隱私權及條款" [ref=e324] [cursor=pointer]:
+                      - paragraph [ref=e326]: 隱私權及條款
+                    - link "Ad Choices" [ref=e328] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e329]: Ad Choices
+                    - link "廣告" [ref=e330] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e331]: 廣告
+                    - link "銷售解決方案" [ref=e332] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e333]: 銷售解決方案
+                    - link "行動版" [ref=e334] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e335]: 行動版
+                    - link "小型企業" [ref=e336] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e337]: 小型企業
+                    - link "說明中心" [ref=e338] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e339]: 說明中心
+                  - paragraph [ref=e341]: LinkedIn Corporation © 2026年
+                - generic [ref=e342]:
+                  - list [ref=e343]:
+                    - listitem [ref=e344]:
+                      - generic [ref=e347]:
+                        - link "有問題嗎？" [ref=e348] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/
+                          - paragraph [ref=e349]: 有問題嗎？
+                        - paragraph [ref=e350]: 前往說明中心。
+                    - listitem [ref=e351]:
+                      - generic [ref=e354]:
+                        - link "管理帳戶和隱私權" [ref=e355] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/mypreferences/d/
+                          - paragraph [ref=e356]: 管理帳戶和隱私權
+                        - paragraph [ref=e357]: 前往設定
+                    - listitem [ref=e358]:
+                      - generic [ref=e361]:
+                        - link "所獲推薦透明度" [ref=e362] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                          - paragraph [ref=e363]: 所獲推薦透明度
+                        - paragraph [ref=e364]: 深入瞭解推薦內容。
+                  - generic [ref=e366]:
+                    - paragraph [ref=e368]: 選擇語言
+                    - combobox "選擇語言" [ref=e370] [cursor=pointer]:
+                      - option "العربية（阿拉伯文）"
+                      - option "বাংলা （孟加拉語）"
+                      - option "Čeština（捷克文）"
+                      - option "Dansk（丹麥文）"
+                      - option "Deutsch（德文）"
+                      - option "Ελληνικά （希臘文）"
+                      - option "English（英文）"
+                      - option "Español（西班牙文）"
+                      - option "فارسی （波斯文）"
+                      - option "Suomi （芬蘭語）"
+                      - option "Français（法文）"
+                      - option "हिंदी（印度文）"
+                      - option "Magyar（匈牙利語）"
+                      - option "Bahasa Indonesia（印尼文）"
+                      - option "Italiano（義大利文）"
+                      - option "עברית （希伯來文）"
+                      - option "日本語（日文）"
+                      - option "한국어（韓文）"
+                      - option "मराठी （馬拉地語）"
+                      - option "Bahasa Malaysia（馬來文）"
+                      - option "Nederlands（荷蘭文）"
+                      - option "Norsk（挪威文）"
+                      - option "ਪੰਜਾਬੀ （旁遮普語）"
+                      - option "Polski（波蘭文）"
+                      - option "Português（葡萄牙文）"
+                      - option "Română（羅馬尼亞文）"
+                      - option "Русский（俄文）"
+                      - option "Svenska（瑞典文）"
+                      - option "తెలుగు （泰盧固語）"
+                      - option "ภาษาไทย（泰文）"
+                      - option "Tagalog（菲律賓文）"
+                      - option "Türkçe（土耳其文）"
+                      - option "Українська（烏克蘭文）"
+                      - option "Tiếng Việt（越南語）"
+                      - option "简体中文 (簡體中文)"
+                      - option "正體中文 (正體中文)" [selected]
