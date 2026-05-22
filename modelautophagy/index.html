@@ -223,37 +223,7 @@
       </footer>
     </main>
 
-    <script>
-      (function () {
-        const en = document.querySelector('[data-lang="en"]');
-        const zh = document.querySelector('[data-lang="zh"]');
-        const btn = document.getElementById("langBtn");
-
-        function setLang(lang) {
-          const isZh = lang === "zh";
-          en.classList.toggle("active", !isZh);
-          zh.classList.toggle("active", isZh);
-          btn.textContent = isZh ? "English" : "中文";
-          document.documentElement.lang = isZh ? "zh-Hant" : "en";
-          try {
-            localStorage.setItem("prefLang", isZh ? "zh" : "en");
-          } catch (e) {}
-        }
-
-        let initial = "en";
-        try {
-          const saved = localStorage.getItem("prefLang");
-          if (saved) initial = saved;
-        } catch (e) {}
-
-        setLang(initial);
-
-        btn.addEventListener("click", () => {
-          setLang(zh.classList.contains("active") ? "en" : "zh");
-        });
-      })();
-    </script>
-
+    <script src="./lang-toggle.js" defer></script>
     <script src="https://networklayer-bnf.pages.dev/markers.js?v=20260212a" defer></script>
     <!-- LOCKED: baseline stabilization 2026-02-25 -->
   </body>

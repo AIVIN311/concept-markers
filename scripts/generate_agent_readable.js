@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 const { loadDomains } = require("./lib/domains");
 
 const ROOT = process.cwd();
@@ -120,13 +121,51 @@ function buildMarkdown({ host, title, series, related, english, chinese }) {
   return `${lines.join("\n").trim()}\n`;
 }
 
-function buildHeaders(host) {
+function extractInlineScriptHashes(html) {
+  const hashes = [];
+  const inlineScriptRe = /<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi;
+  let match;
+  while ((match = inlineScriptRe.exec(html))) {
+    const hash = crypto.createHash("sha256").update(match[1]).digest("base64");
+    hashes.push(`'sha256-${hash}'`);
+  }
+  return hashes;
+}
+
+function buildSecurityHeaders(host, html) {
+  const inlineScriptHashes = extractInlineScriptHashes(html);
+  const scriptHashes = inlineScriptHashes.length ? ` ${inlineScriptHashes.join(" ")}` : "";
+  const csp = [
+    "default-src 'self'",
+    "base-uri 'self'",
+    "object-src 'none'",
+    "frame-ancestors 'self'",
+    "form-action 'self'",
+    `script-src 'self'${scriptHashes} https://networklayer-bnf.pages.dev https://static.cloudflareinsights.com`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data:",
+    "connect-src 'self' https://cloudflareinsights.com https://static.cloudflareinsights.com",
+    "frame-src 'self'",
+    "upgrade-insecure-requests",
+  ].join("; ");
+
+  return [
+    "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
+    "Cross-Origin-Opener-Policy: same-origin",
+    `Content-Security-Policy: ${csp}`,
+  ];
+}
+
+function buildHeaders(host, html) {
+  const securityHeaders = buildSecurityHeaders(host, html);
+
   return [
     "# Agent-readable Markdown header.",
     "# This advertises a real static Markdown artifact only; no API/MCP capability is implied.",
     "",
     `https://${host}/`,
     `  Link: <https://${host}/index.md>; rel="alternate"; type="text/markdown"`,
+    ...securityHeaders.map((header) => `  ${header}`),
     "",
   ].join("\n");
 }
@@ -162,7 +201,7 @@ function ensureMarkdownAlternate(html, host, folder) {
 
 function writeIfChanged(filePath, content, changed) {
   const current = fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : null;
-  if (current === content) {
+  if (current === content || (current && current.replace(/\r\n/g, "\n") === content)) {
     return false;
   }
 
@@ -195,7 +234,7 @@ function main() {
       english,
       chinese,
     });
-    const headers = buildHeaders(domain.host);
+    const headers = buildHeaders(domain.host, nextHtml);
 
     writeIfChanged(domain.indexPath, nextHtml, changed);
     writeIfChanged(path.join(folderPath, "index.md"), markdown, changed);
