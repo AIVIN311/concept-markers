@@ -162,10 +162,17 @@ function buildHeaders(host, html) {
   return [
     "# Agent-readable Markdown header.",
     "# This advertises a real static Markdown artifact only; no API/MCP capability is implied.",
+    "# Pages preview URLs are kept out of search results; custom domains remain indexable.",
     "",
     `https://${host}/`,
     `  Link: <https://${host}/index.md>; rel="alternate"; type="text/markdown"`,
     ...securityHeaders.map((header) => `  ${header}`),
+    "",
+    "https://:project.pages.dev/*",
+    "  X-Robots-Tag: noindex",
+    "",
+    "https://:version.:project.pages.dev/*",
+    "  X-Robots-Tag: noindex",
     "",
   ].join("\n");
 }
