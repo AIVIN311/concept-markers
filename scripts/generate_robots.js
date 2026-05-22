@@ -8,7 +8,14 @@ const ROOT = process.cwd();
 const HUB_HOST = "civilizationcaching.com";
 
 function buildRobotsTxt(host) {
-  const lines = ["User-agent: *", "Allow: /", "", `Sitemap: https://${host}/sitemap.xml`];
+  const lines = [
+    "User-agent: *",
+    "Allow: /",
+    "",
+    "Content-Signal: search=yes, ai-input=yes, ai-train=no",
+    "",
+    `Sitemap: https://${host}/sitemap.xml`,
+  ];
   if (host === HUB_HOST) {
     lines.push(`Sitemap: https://${host}/sitemap-index.xml`);
   }
