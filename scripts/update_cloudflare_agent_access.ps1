@@ -16,6 +16,28 @@ if (-not $CheckOnly -and -not $Apply) {
 $targetDescription = "CivRadar: managed challenge generic non-browser clients"
 $oldExpression = '(http.user_agent eq "" or lower(http.user_agent) contains "curl/")'
 $newExpression = '(http.user_agent eq "" or lower(http.user_agent) contains "curl/") and not http.request.uri.path in {"/" "/index.md" "/robots.txt" "/sitemap.xml"}'
+$publicPaths = @("/", "/index.md", "/robots.txt", "/sitemap.xml")
+
+function Test-PublicPathsAreExempted {
+  param(
+    [Parameter(Mandatory = $true)][string]$Expression
+  )
+
+  $hasBaseUserAgentMatch =
+    $Expression -match 'http\.user_agent\s+eq\s+""' -and
+    $Expression -match 'lower\(http\.user_agent\)\s+contains\s+"curl/"'
+  $hasNotClause = $Expression -match '\bnot\b'
+  $hasAllPublicPaths = $true
+
+  foreach ($publicPath in $publicPaths) {
+    if ($Expression -notlike "*`"$publicPath`"*") {
+      $hasAllPublicPaths = $false
+      break
+    }
+  }
+
+  return $hasBaseUserAgentMatch -and $hasNotClause -and $hasAllPublicPaths
+}
 
 function Invoke-CfApi {
   param(
@@ -96,14 +118,14 @@ foreach ($domain in $domains) {
           success = $false
           status = "target_rule_not_found"
         }
-      } elseif ($rule.expression -eq $newExpression) {
+      } elseif ($rule.expression -eq $newExpression -or (Test-PublicPathsAreExempted -Expression $rule.expression)) {
         $row = [pscustomobject]@{
           host = $hostName
           zone_id = $zone.id
           ruleset_id = $ruleset.id
           rule_id = $rule.id
           success = $true
-          status = "already_updated"
+          status = if ($rule.expression -eq $newExpression) { "already_updated" } else { "already_public_paths_exempted" }
           old_expression = $rule.expression
           new_expression = $newExpression
         }
@@ -174,9 +196,10 @@ $failed = @($results | Where-Object { $_.success -ne $true })
 $wouldUpdate = @($results | Where-Object { $_.status -eq "would_update" }).Count
 $updated = @($results | Where-Object { $_.status -eq "updated" }).Count
 $alreadyUpdated = @($results | Where-Object { $_.status -eq "already_updated" }).Count
+$alreadyPublicPathsExempted = @($results | Where-Object { $_.status -eq "already_public_paths_exempted" }).Count
 
 Write-Host "Cloudflare agent access $mode complete: $($results.Count - $failed.Count)/$($results.Count) successful."
-Write-Host "Would update: $wouldUpdate; Updated: $updated; Already updated: $alreadyUpdated."
+Write-Host "Would update: $wouldUpdate; Updated: $updated; Already updated: $alreadyUpdated; Already public-paths exempted: $alreadyPublicPathsExempted."
 Write-Host "Log: $logPath"
 
 if ($failed.Count -gt 0) {

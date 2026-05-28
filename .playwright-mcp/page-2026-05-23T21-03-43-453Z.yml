@@ -1,0 +1,228 @@
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - navigation [ref=e8]:
+      - link "Home" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Cloudflare Color Logo" [ref=e13]
+      - generic [ref=e14]:
+        - link "Log in" [ref=e15] [cursor=pointer]:
+          - /url: https://dash.cloudflare.com/login
+        - button "Toggle menu" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+  - generic [ref=e20]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Announcing Cloudflare pay per crawl beta" [level=1] [ref=e25]
+        - paragraph [ref=e27]: Empowering content creators and AI innovators alike
+        - button "Request access" [ref=e29] [cursor=pointer]
+      - generic [ref=e30]:
+        - button "Pay per crawl private beta - Hero image":
+          - img "Pay per crawl private beta - Hero image"
+    - generic [ref=e34]:
+      - generic:
+        - generic:
+          - heading [level=2]
+      - generic [ref=e36]:
+        - button "For publishers and content creators" [ref=e38]:
+          - generic [ref=e40]: For publishers and content creators
+        - button "For crawlers and AI companies" [ref=e41]:
+          - generic [ref=e42]: For crawlers and AI companies
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic:
+            - paragraph
+        - generic [ref=e50]:
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - paragraph [ref=e55]: "Stop scraping: Choose upfront to explicitly allow or deny AI bots from crawling your content."
+            - listitem [ref=e56]:
+              - paragraph [ref=e59]: "Control access: Decide who can access your content and under what conditions."
+            - listitem [ref=e60]:
+              - paragraph [ref=e63]: "New revenue stream: Generate income by charging companies for access to your content."
+          - paragraph
+    - generic [ref=e66]:
+      - heading "Frequently asked questions" [level=3] [ref=e67]
+      - generic [ref=e69]:
+        - heading "Why is Cloudflare introducing pay per crawl?" [level=3] [ref=e71]:
+          - button "Why is Cloudflare introducing pay per crawl?" [ref=e72]:
+            - generic [ref=e73]: Why is Cloudflare introducing pay per crawl?
+        - heading "How will publishers use pay per crawl?" [level=3] [ref=e76]:
+          - button "How will publishers use pay per crawl?" [ref=e77]:
+            - generic [ref=e78]: How will publishers use pay per crawl?
+        - heading "How will AI companies use pay per crawl to access content?" [level=3] [ref=e81]:
+          - button "How will AI companies use pay per crawl to access content?" [ref=e82]:
+            - generic [ref=e83]: How will AI companies use pay per crawl to access content?
+        - heading "How will AI bots be identified and distinguished from search engine crawlers or other legitimate bots?" [level=3] [ref=e86]:
+          - button "How will AI bots be identified and distinguished from search engine crawlers or other legitimate bots?" [ref=e87]:
+            - generic [ref=e88]: How will AI bots be identified and distinguished from search engine crawlers or other legitimate bots?
+        - heading "What is the difference between AI Crawl Control vs pay per crawl?" [level=3] [ref=e91]:
+          - button "What is the difference between AI Crawl Control vs pay per crawl?" [ref=e92]:
+            - generic [ref=e93]: What is the difference between AI Crawl Control vs pay per crawl?
+        - heading "What happens if I join the pay per crawl private beta?" [level=3] [ref=e96]:
+          - button "What happens if I join the pay per crawl private beta?" [ref=e97]:
+            - generic [ref=e98]: What happens if I join the pay per crawl private beta?
+        - heading "How do I participate in the private beta?" [level=3] [ref=e101]:
+          - button "How do I participate in the private beta?" [ref=e102]:
+            - generic [ref=e103]: How do I participate in the private beta?
+    - generic [ref=e108]:
+      - generic [ref=e110]:
+        - generic [ref=e111]: Apply now
+        - generic [ref=e112]: Sign up for early access
+        - separator [ref=e113]
+        - generic [ref=e114]: Apply for private beta access by filling out this form. Make sure to specify whether you're a publisher or a crawler.
+      - generic [ref=e118]:
+        - button "Sign up" [disabled] [ref=e119]
+        - paragraph [ref=e122]:
+          - text: In submitting this form, you agree to receive information from Cloudflare related to our products, events, and special offers. You can unsubscribe from such messages at any time. We never sell your data, and we value your privacy choices. Please see our
+          - link "Privacy Policy" [ref=e123] [cursor=pointer]:
+            - /url: /privacypolicy/
+          - text: for information.
+  - generic [ref=e125]:
+    - generic [ref=e126]:
+      - generic [ref=e128]:
+        - paragraph [ref=e129]: GETTING STARTED
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - link "Free plans" [ref=e132] [cursor=pointer]:
+              - /url: /plans/free/
+          - listitem [ref=e133]:
+            - link "Small business plans" [ref=e134] [cursor=pointer]:
+              - /url: /small-business/
+          - listitem [ref=e135]:
+            - link "For enterprises" [ref=e136] [cursor=pointer]:
+              - /url: /enterprise/
+          - listitem [ref=e137]:
+            - link "Get a recommendation" [ref=e138] [cursor=pointer]:
+              - /url: /about-your-website/
+          - listitem [ref=e139]:
+            - link "Request a demo" [ref=e140] [cursor=pointer]:
+              - /url: /plans/enterprise/demo/
+          - listitem [ref=e141]:
+            - link "Contact sales" [ref=e142] [cursor=pointer]:
+              - /url: /plans/enterprise/contact/
+      - generic [ref=e144]:
+        - paragraph [ref=e145]: SOLUTIONS
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Connectivity cloud" [ref=e148] [cursor=pointer]:
+              - /url: /connectivity-cloud/
+          - listitem [ref=e149]:
+            - link "Application services" [ref=e150] [cursor=pointer]:
+              - /url: /application-services/
+          - listitem [ref=e151]:
+            - link "SASE and workspace security" [ref=e152] [cursor=pointer]:
+              - /url: /sase/
+          - listitem [ref=e153]:
+            - link "Network services" [ref=e154] [cursor=pointer]:
+              - /url: /network-services/
+          - listitem [ref=e155]:
+            - link "Developer platform" [ref=e156] [cursor=pointer]:
+              - /url: /developer-platform/
+      - generic [ref=e158]:
+        - paragraph [ref=e159]: SUPPORT
+        - list [ref=e160]:
+          - listitem [ref=e161]:
+            - link "Help center" [ref=e162] [cursor=pointer]:
+              - /url: https://support.cloudflare.com
+          - listitem [ref=e163]:
+            - link "Customer support" [ref=e164] [cursor=pointer]:
+              - /url: https://dash.cloudflare.com/?to=/:account/support
+          - listitem [ref=e165]:
+            - link "Community forum" [ref=e166] [cursor=pointer]:
+              - /url: https://community.cloudflare.com
+          - listitem [ref=e167]:
+            - link "Developers Discord" [ref=e168] [cursor=pointer]:
+              - /url: https://discord.com/invite/cloudflaredev
+          - listitem [ref=e169]:
+            - link "Lost account access?" [ref=e170] [cursor=pointer]:
+              - /url: https://developers.cloudflare.com/support/account-management-billing/common-account-questions/login-and-account-issues/
+          - listitem [ref=e171]:
+            - link "Cloudflare status" [ref=e172] [cursor=pointer]:
+              - /url: https://www.cloudflarestatus.com/
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: COMPLIANCE
+        - list [ref=e176]:
+          - listitem [ref=e177]:
+            - link "Compliance resources" [ref=e178] [cursor=pointer]:
+              - /url: /trust-hub/compliance-resources/
+          - listitem [ref=e179]:
+            - link "Trust" [ref=e180] [cursor=pointer]:
+              - /url: /trust-hub/
+          - listitem [ref=e181]:
+            - link "GDPR" [ref=e182] [cursor=pointer]:
+              - /url: /trust-hub/gdpr/
+          - listitem [ref=e183]:
+            - link "Responsible AI" [ref=e184] [cursor=pointer]:
+              - /url: /trust-hub/responsible-ai/
+          - listitem [ref=e185]:
+            - link "Transparency report" [ref=e186] [cursor=pointer]:
+              - /url: /transparency/
+          - listitem [ref=e187]:
+            - link "Report abuse" [ref=e188] [cursor=pointer]:
+              - /url: /trust-hub/abuse-approach/
+      - generic [ref=e190]:
+        - paragraph [ref=e191]: PUBLIC INTEREST
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "Project Galileo" [ref=e194] [cursor=pointer]:
+              - /url: /galileo/
+          - listitem [ref=e195]:
+            - link "Athenian Project" [ref=e196] [cursor=pointer]:
+              - /url: /athenian/
+          - listitem [ref=e197]:
+            - link "Cloudflare for Campaigns" [ref=e198] [cursor=pointer]:
+              - /url: /campaigns/
+          - listitem [ref=e199]:
+            - link "Project Fairshot" [ref=e200] [cursor=pointer]:
+              - /url: /fair-shot/
+      - generic [ref=e202]:
+        - paragraph [ref=e203]: COMPANY
+        - list [ref=e204]:
+          - listitem [ref=e205]:
+            - link "About Cloudflare" [ref=e206] [cursor=pointer]:
+              - /url: /about-overview/
+          - listitem [ref=e207]:
+            - link "Network map" [ref=e208] [cursor=pointer]:
+              - /url: /network/
+          - listitem [ref=e209]:
+            - link "Our team" [ref=e210] [cursor=pointer]:
+              - /url: /people/
+          - listitem [ref=e211]:
+            - link "Logos & press kit" [ref=e212] [cursor=pointer]:
+              - /url: /press/press-kit/
+          - listitem [ref=e213]:
+            - link "Diversity, equity, & inclusion" [ref=e214] [cursor=pointer]:
+              - /url: /diversity-equity-and-inclusion/
+          - listitem [ref=e215]:
+            - link "Impact/ESG" [ref=e216] [cursor=pointer]:
+              - /url: /impact/
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - link "Facebook" [ref=e219] [cursor=pointer]:
+          - /url: https://www.facebook.com/cloudflare
+          - img [ref=e220]
+        - link "X" [ref=e223] [cursor=pointer]:
+          - /url: https://x.com/cloudflare
+          - img [ref=e224]
+        - link "LinkedIn" [ref=e228] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/cloudflare
+          - img [ref=e229]
+        - link "Youtube" [ref=e233] [cursor=pointer]:
+          - /url: https://www.youtube.com/cloudflare
+          - img [ref=e234]
+        - link "Instagram" [ref=e238] [cursor=pointer]:
+          - /url: https://instagram.com/cloudflare
+          - img [ref=e239]
+      - generic [ref=e242]:
+        - generic [ref=e243]: © 2026 Cloudflare, Inc.
+        - link "Privacy Policy" [ref=e244] [cursor=pointer]:
+          - /url: /privacypolicy/
+        - link "Terms of Use" [ref=e245] [cursor=pointer]:
+          - /url: /website-terms/
+        - link "Report Security Issues" [ref=e246] [cursor=pointer]:
+          - /url: /disclosure/
+        - button "privacy options Cookie Preferences" [ref=e247]:
+          - img "privacy options" [ref=e248]
+          - text: Cookie Preferences
+        - link "Trademark" [ref=e249] [cursor=pointer]:
+          - /url: /trademark/

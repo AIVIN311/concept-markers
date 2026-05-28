@@ -5,7 +5,7 @@ The JSON ledger is canonical.
 
 ## Snapshot
 
-- Snapshot date: `2026-05-19`
+- Snapshot date: `2026-05-28`
 - Total domains: `67`
 - Scope: Cloudflare zone status, security settings, agent access rule, homepage access, and `index.md` access
 - Mutation policy: read-only snapshot; no Cloudflare settings were changed by this pass
@@ -15,19 +15,18 @@ The JSON ledger is canonical.
 
 | zone_status | count |
 | ----------- | ----: |
-| `active`    |    67 |
+| `active` |    67 |
 
 ## Public Access Checks
 
 - Homepage challenged: `0`
-- Missing Link header: `2`
-- Markdown artifact issues: `2`
-- Records with recommendations: `2`
+- Missing Link header: `0`
+- Markdown artifact issues: `0`
+- Records with recommendations: `0`
 
 ## Recommendations
 
-- `algorithmicmartiallaw.com`: Redeploy agent-readable artifacts; index.md is not returning 200.
-- `strategicresourceresilience.com`: Check \_headers deployment for the Pages custom domain; Link header is missing. Redeploy agent-readable artifacts; index.md is not returning 200. Check static asset MIME / Pages deploy; index.md is not text/markdown.
+- None.
 
 ## Next Pass
 

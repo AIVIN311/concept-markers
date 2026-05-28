@@ -63,6 +63,80 @@ const crawlerDefinitions = [
   { key: "mistralUser", crawler: "MistralAI-User", operator: "Mistral", pattern: "MistralAI-User" },
 ];
 
+const publicDiscoveryPaths = new Set(["/", "/index.md", "/robots.txt", "/sitemap.xml"]);
+const normalDiscoveryCrawlers = new Set([
+  "BingBot",
+  "ClaudeBot",
+  "Claude-SearchBot",
+  "Claude-User",
+  "Googlebot",
+  "GPTBot",
+  "OAI-SearchBot",
+  "ChatGPT-User",
+  "PerplexityBot",
+  "Perplexity-User",
+]);
+
+function scannerReasonsForPath(value) {
+  const pathValue = value || "";
+  const lower = pathValue.toLowerCase();
+  const reasons = [];
+
+  if (/(^|\/)\.env(?:[./_-]|$)|%65%6e%76|aws\.env\.json/.test(lower)) {
+    reasons.push("environment-file-probe");
+  }
+  if (/(^|\/)\.git(?:\/|$)|(^|\/)\.github(?:\/|$)|(^|\/)\.gitlab/i.test(pathValue)) {
+    reasons.push("git-metadata-probe");
+  }
+  if (/wp-login\.php|\/wp-admin(?:\/|$)|xmlrpc\.php/i.test(pathValue)) {
+    reasons.push("wordpress-probe");
+  }
+  if (/\/billing\//i.test(pathValue)) {
+    reasons.push("billing-path-probe");
+  }
+  if (/%25/i.test(pathValue) || /%c0%ae/i.test(lower) || /\.\.;|\.\.%2f|\.\.%252f/i.test(lower)) {
+    reasons.push("encoded-traversal-or-fuzzing");
+  }
+  if (pathValue.length > 160 && /%/i.test(pathValue)) {
+    reasons.push("long-encoded-path");
+  }
+
+  return reasons;
+}
+
+function addScannerHit(map, pathValue, count, crawler, operator) {
+  const reasons = scannerReasonsForPath(pathValue);
+  if (reasons.length === 0) return;
+
+  const key = pathValue || "(unknown)";
+  const existing = map.get(key) || {
+    path: key,
+    count: 0,
+    reasons: new Set(),
+    crawlers: new Map(),
+    operators: new Map(),
+  };
+
+  existing.count += count;
+  reasons.forEach((reason) => existing.reasons.add(reason));
+  increment(existing.crawlers, crawler, count);
+  increment(existing.operators, operator, count);
+  map.set(key, existing);
+}
+
+function scannerHitEntries(map, limit = 10) {
+  return [...map.values()]
+    .map((entry) => ({
+      path: entry.path,
+      count: entry.count,
+      reasons: [...entry.reasons].sort(),
+      top_crawlers: topEntries(entry.crawlers, 5),
+      top_operators: topEntries(entry.operators, 5),
+    }))
+    .sort((a, b) => b.count - a.count || a.path.localeCompare(b.path))
+    .slice(0, limit);
+}
+
 function readJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf8"));
 }
@@ -217,6 +291,8 @@ function emptyDomainRecord(domain, status, note, error = null) {
     top_operators: [],
     top_crawlers: [],
     top_paths: [],
+    scanner_like_path_requests: 0,
+    scanner_like_paths: [],
     error,
   };
 }
@@ -225,6 +301,7 @@ function summarizeDomain(domain, zone, zoneData) {
   const operatorCounts = new Map();
   const crawlerCounts = new Map();
   const pathCounts = new Map();
+  const scannerPathCounts = new Map();
   const statusCounts = { "2xx": 0, "3xx": 0, "4xx": 0, "5xx": 0, other: 0 };
   let total = 0;
   let successful = 0;
@@ -245,8 +322,11 @@ function summarizeDomain(domain, zone, zoneData) {
       increment(operatorCounts, crawler.operator, count);
       increment(crawlerCounts, crawler.crawler, count);
       increment(pathCounts, requestPath, count);
+      addScannerHit(scannerPathCounts, requestPath, count, crawler.crawler, crawler.operator);
     }
   }
+
+  const scannerLikePaths = scannerHitEntries(scannerPathCounts);
 
   return {
     host: domain.host,
@@ -262,6 +342,8 @@ function summarizeDomain(domain, zone, zoneData) {
     top_operators: topEntries(operatorCounts),
     top_crawlers: topEntries(crawlerCounts),
     top_paths: topEntries(pathCounts),
+    scanner_like_path_requests: scannerLikePaths.reduce((sum, row) => sum + row.count, 0),
+    scanner_like_paths: scannerLikePaths,
   };
 }
 
@@ -269,6 +351,7 @@ function summarizeFleet(records) {
   const operatorCounts = new Map();
   const crawlerCounts = new Map();
   const pathCounts = new Map();
+  const scannerPathCounts = new Map();
   const statusCounts = { "2xx": 0, "3xx": 0, "4xx": 0, "5xx": 0, other: 0 };
   let total = 0;
   let successful = 0;
@@ -284,6 +367,23 @@ function summarizeFleet(records) {
     for (const row of record.top_operators) increment(operatorCounts, row.name, row.count);
     for (const row of record.top_crawlers) increment(crawlerCounts, row.name, row.count);
     for (const row of record.top_paths) increment(pathCounts, row.name, row.count);
+    for (const row of record.scanner_like_paths || []) {
+      const existing = scannerPathCounts.get(row.path) || {
+        path: row.path,
+        count: 0,
+        reasons: new Set(),
+        crawlers: new Map(),
+        operators: new Map(),
+      };
+      existing.count += row.count;
+      for (const reason of row.reasons || []) existing.reasons.add(reason);
+      for (const crawler of row.top_crawlers || [])
+        increment(existing.crawlers, crawler.name, crawler.count);
+      for (const operator of row.top_operators || []) {
+        increment(existing.operators, operator.name, operator.count);
+      }
+      scannerPathCounts.set(row.path, existing);
+    }
   }
 
   return {
@@ -300,6 +400,11 @@ function summarizeFleet(records) {
     top_operators: topEntries(operatorCounts),
     top_crawlers: topEntries(crawlerCounts),
     top_paths: topEntries(pathCounts),
+    scanner_like_path_requests: records.reduce(
+      (sum, record) => sum + (record.scanner_like_path_requests || 0),
+      0,
+    ),
+    scanner_like_paths: scannerHitEntries(scannerPathCounts, 15),
     top_domains: records
       .map((record) => ({
         host: record.host,
@@ -309,6 +414,70 @@ function summarizeFleet(records) {
       }))
       .sort((a, b) => b.requests - a.requests || a.host.localeCompare(b.host))
       .slice(0, 10),
+  };
+}
+
+function domainSuccessRate(record) {
+  return record.total_requests === 0 ? 0 : record.successful_requests_2xx / record.total_requests;
+}
+
+function buildDomainAttentionQueue(records) {
+  return records
+    .map((record) => {
+      const reasons = [];
+      const scannerCount = record.scanner_like_path_requests || 0;
+      const successRate = domainSuccessRate(record);
+
+      if (record.status !== "ok") reasons.push(record.status);
+      if (record.total_requests >= 20 && successRate < 0.9)
+        reasons.push("low-ai-crawler-success-rate");
+      if (record.unsuccessful_requests_non_2xx >= 10) reasons.push("elevated-non-2xx");
+      if (scannerCount >= 3) reasons.push("scanner-like-paths-observed");
+
+      if (reasons.length === 0) return null;
+
+      return {
+        host: record.host,
+        total_requests: record.total_requests,
+        successful_requests_2xx: record.successful_requests_2xx,
+        unsuccessful_requests_non_2xx: record.unsuccessful_requests_non_2xx,
+        success_rate: successRate,
+        scanner_like_path_requests: scannerCount,
+        reasons,
+        suggested_action:
+          scannerCount >= 3
+            ? "Keep discovery crawlers allowed; review scanner-path WAF coverage only."
+            : "Verify live robots/sitemap/index.md access before changing Cloudflare rules.",
+      };
+    })
+    .filter(Boolean)
+    .sort(
+      (a, b) =>
+        b.scanner_like_path_requests - a.scanner_like_path_requests ||
+        b.unsuccessful_requests_non_2xx - a.unsuccessful_requests_non_2xx ||
+        a.host.localeCompare(b.host),
+    )
+    .slice(0, 20);
+}
+
+function buildCrawlerPolicyRecommendation(fleet) {
+  const presentCrawlers = fleet.top_crawlers.map((row) => row.name);
+  const observedDiscoveryCrawlers = presentCrawlers.filter((crawler) =>
+    normalDiscoveryCrawlers.has(crawler),
+  );
+
+  return {
+    posture: "allow-and-observe-discovery-crawlers",
+    mutation_policy: "read-only-report; no WAF, robots.txt, Pay Per Crawl, or Pages changes",
+    recommended_allow_or_observe: observedDiscoveryCrawlers,
+    recommended_security_focus: [
+      "scanner-like paths",
+      "empty user-agent",
+      "generic curl user-agent",
+      "encoded traversal or fuzzing paths",
+    ],
+    public_paths_that_must_stay_accessible: [...publicDiscoveryPaths],
+    defer: ["Zero Trust", "R2", "D1", "Turnstile", "AI Gateway", "Pay Per Crawl enforcement"],
   };
 }
 
@@ -329,6 +498,32 @@ function compactPath(value, maxLength = 72) {
 function renderPathCounts(rows) {
   if (rows.length === 0) return "None";
   return rows.map((row) => `${compactPath(row.name)}: ${row.count}`).join(", ");
+}
+
+function renderScannerPathRows(rows) {
+  if (!rows || rows.length === 0) return "None observed in the retained GraphQL groups.";
+  return rows
+    .map((row) => {
+      const crawlers = renderNameCounts(row.top_crawlers || []);
+      return `${compactPath(row.path, 82).padEnd(84)} ${String(row.count).padStart(7)} ${row.reasons.join(", ").padEnd(42)} ${crawlers}`;
+    })
+    .join("\n");
+}
+
+function renderAttentionRows(rows) {
+  if (!rows || rows.length === 0) return "None.";
+  return rows
+    .map((row) =>
+      [
+        row.host.padEnd(58),
+        String(row.total_requests).padStart(8),
+        formatPercent(row.success_rate).padStart(8),
+        String(row.unsuccessful_requests_non_2xx).padStart(8),
+        String(row.scanner_like_path_requests).padStart(8),
+        row.reasons.join(", "),
+      ].join(" "),
+    )
+    .join("\n");
 }
 
 function renderMarkdown(report) {
@@ -364,6 +559,7 @@ function renderMarkdown(report) {
       ].join(" ");
     })
     .join("\n");
+  const policy = report.crawler_policy_recommendation;
 
   return `# AI Crawler 24h Overview
 
@@ -382,6 +578,7 @@ This is a 24-hour UTC snapshot across the 67 concept-marker domains. It is an ob
 - Top operators: ${renderNameCounts(fleet.top_operators)}
 - Top crawlers: ${renderNameCounts(fleet.top_crawlers)}
 - Top paths: ${renderPathCounts(fleet.top_paths)}
+- Scanner-like path requests: \`${fleet.scanner_like_path_requests}\`
 
 ## Top Domains
 
@@ -397,6 +594,30 @@ Host                                                           Requests      2xx
 ${domainRows}
 \`\`\`
 
+## Scanner-Like Paths
+
+These paths look like vulnerability scanning or fuzzing. Keep this separate from normal AI/search crawler discovery.
+
+\`\`\`text
+Path                                                                                  Requests Reasons                                    Top crawlers
+${renderScannerPathRows(fleet.scanner_like_paths)}
+\`\`\`
+
+## Domain Attention Queue
+
+\`\`\`text
+Host                                                           Requests  Success  Non-2xx  Scanner Reasons
+${renderAttentionRows(report.domain_attention_queue)}
+\`\`\`
+
+## Crawler Policy Recommendation
+
+- Posture: \`${policy.posture}\`
+- Recommended allow/observe crawlers: ${policy.recommended_allow_or_observe.join(", ") || "None observed"}
+- Security focus: ${policy.recommended_security_focus.join(", ")}
+- Public paths that must stay accessible: ${policy.public_paths_that_must_stay_accessible.map((item) => `\`${item}\``).join(", ")}
+- Deferred features: ${policy.defer.join(", ")}
+
 ## Method
 
 - Source inventory: \`domains.json\`
@@ -404,6 +625,7 @@ ${domainRows}
 - Classification: conservative user-agent matching based on Cloudflare AI Crawl Control bot reference; user-agent strings can be spoofed when verified bot detection IDs are unavailable
 - Full paths are preserved in the JSON report; very long paths are compacted in this Markdown view
 - Excluded action: no Cloudflare settings, WAF rules, Pay Per Crawl policy, robots.txt, or Pages deployment changes
+- Scanner-like path detection is heuristic and used for attention routing, not automatic enforcement
 `;
 }
 
@@ -438,6 +660,7 @@ async function main() {
     }
   }
 
+  const fleetSummary = summarizeFleet(records);
   const report = {
     schema_version: 1,
     generated_at: new Date().toISOString(),
@@ -458,7 +681,10 @@ async function main() {
       operator,
       pattern,
     })),
-    fleet_summary: summarizeFleet(records),
+    fleet_summary: fleetSummary,
+    scanner_like_paths: fleetSummary.scanner_like_paths,
+    domain_attention_queue: buildDomainAttentionQueue(records),
+    crawler_policy_recommendation: buildCrawlerPolicyRecommendation(fleetSummary),
     domains: records,
   };
 

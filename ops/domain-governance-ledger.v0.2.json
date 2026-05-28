@@ -7,7 +7,7 @@
     "Cloudflare API",
     "public HTTP HEAD checks"
   ],
-  "snapshot_date": "2026-05-19",
+  "snapshot_date": "2026-05-28",
   "records": [
     {
       "host": "algorithmicallocation.ai",
@@ -22,7 +22,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -64,7 +64,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -106,7 +106,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -148,7 +148,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -190,7 +190,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -232,7 +232,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -274,7 +274,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -287,13 +287,13 @@
           "description": "CivRadar: managed challenge generic non-browser clients"
         },
         "public_access": {
-          "homepage_status": null,
-          "homepage_challenged": null,
-          "link_header_present": null,
-          "index_md_status": null,
-          "index_md_content_type": null
+          "homepage_status": 200,
+          "homepage_challenged": false,
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
         },
-        "recommendations": ["Redeploy agent-readable artifacts; index.md is not returning 200."]
+        "recommendations": []
       },
       "search_console": {
         "property_type": "domain",
@@ -316,7 +316,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -358,7 +358,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -400,7 +400,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -442,7 +442,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -484,7 +484,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -526,7 +526,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -568,7 +568,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -610,7 +610,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -652,7 +652,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -694,7 +694,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -736,7 +736,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -778,7 +778,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -820,7 +820,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -862,7 +862,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -904,7 +904,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -946,7 +946,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -988,7 +988,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1030,7 +1030,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1072,7 +1072,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1114,7 +1114,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1156,7 +1156,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1198,7 +1198,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1240,7 +1240,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1282,7 +1282,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1324,7 +1324,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1366,7 +1366,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1408,7 +1408,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1450,7 +1450,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1492,7 +1492,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1534,7 +1534,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1576,7 +1576,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1618,7 +1618,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1660,7 +1660,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1702,7 +1702,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1744,7 +1744,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1786,7 +1786,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1828,7 +1828,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1870,7 +1870,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1883,17 +1883,13 @@
           "description": "CivRadar: managed challenge generic non-browser clients"
         },
         "public_access": {
-          "homepage_status": 301,
+          "homepage_status": 200,
           "homepage_challenged": false,
-          "link_header_present": false,
-          "index_md_status": 301,
-          "index_md_content_type": "text/html; charset=UTF-8"
+          "link_header_present": true,
+          "index_md_status": 200,
+          "index_md_content_type": "text/markdown; charset=utf-8"
         },
-        "recommendations": [
-          "Check _headers deployment for the Pages custom domain; Link header is missing.",
-          "Redeploy agent-readable artifacts; index.md is not returning 200.",
-          "Check static asset MIME / Pages deploy; index.md is not text/markdown."
-        ]
+        "recommendations": []
       },
       "search_console": {
         "property_type": "domain",
@@ -1916,7 +1912,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -1958,7 +1954,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2000,7 +1996,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2042,7 +2038,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2084,7 +2080,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2126,7 +2122,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2168,7 +2164,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2210,7 +2206,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2252,7 +2248,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2294,7 +2290,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2336,7 +2332,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2378,7 +2374,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2420,7 +2416,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2462,7 +2458,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2504,7 +2500,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2546,7 +2542,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2588,7 +2584,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2630,7 +2626,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2672,7 +2668,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2714,7 +2710,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2756,7 +2752,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {
@@ -2798,7 +2794,7 @@
       "copy_maturity": "published",
       "cloudflare": {
         "zone_status": "active",
-        "last_checked": "2026-05-19",
+        "last_checked": "2026-05-28",
         "security_level": "medium",
         "browser_check": "on",
         "content_converter": {

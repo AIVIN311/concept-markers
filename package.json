@@ -22,6 +22,8 @@
     "cloudflare:agent-access:apply": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/update_cloudflare_agent_access.ps1 -Apply",
     "cloudflare:governance:snapshot": "node ./scripts/snapshot_cloudflare_governance.js",
     "cloudflare:ai-crawl:overview": "node ./scripts/collect_ai_crawl_overview.js",
+    "cloudflare:ai-crawl:rollup": "node ./scripts/rollup_ai_crawl_reports.js --days 7",
+    "cloudflare:ai-crawl:rollup:30": "node ./scripts/rollup_ai_crawl_reports.js --days 30",
     "sitemaps:generate": "node ./scripts/generate_sitemaps.js",
     "sitemaps:validate": "node ./scripts/validate_sitemaps.js",
     "sitemaps:refresh": "npm run sitemaps:generate && npm run sitemaps:validate",

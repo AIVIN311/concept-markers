@@ -12,6 +12,7 @@ const logPath = path.join(opsDir, "cloudflare-governance-snapshot-results.jsonl"
 const targetRuleDescription = "CivRadar: managed challenge generic non-browser clients";
 const publicPathsExpression =
   '(http.user_agent eq "" or lower(http.user_agent) contains "curl/") and not http.request.uri.path in {"/" "/index.md" "/robots.txt" "/sitemap.xml"}';
+const publicPaths = ["/", "/index.md", "/robots.txt", "/sitemap.xml"];
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf8"));
@@ -124,6 +125,18 @@ async function fetchHead(uri) {
   }
 }
 
+function publicPathsAreExempted(expression) {
+  if (!expression) return false;
+  const hasBaseUserAgentMatch =
+    /http\.user_agent\s+eq\s+""/.test(expression) &&
+    /lower\(http\.user_agent\)\s+contains\s+"curl\/"/.test(expression);
+  const hasNotClause = /\bnot\b/.test(expression);
+  const hasAllPublicPaths = publicPaths.every((publicPath) =>
+    expression.includes(`"${publicPath}"`),
+  );
+  return hasBaseUserAgentMatch && hasNotClause && hasAllPublicPaths;
+}
+
 function getAgentAccessRuleStatus(rule) {
   if (!rule) {
     return {
@@ -134,7 +147,7 @@ function getAgentAccessRuleStatus(rule) {
   }
 
   return {
-    status: rule.expression === publicPathsExpression ? "public_paths_exempted" : "needs_review",
+    status: publicPathsAreExempted(rule.expression) ? "public_paths_exempted" : "needs_review",
     action: rule.action || "unknown",
     description: rule.description || targetRuleDescription,
   };

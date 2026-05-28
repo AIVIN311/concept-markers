@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-28T14:58:54.207Z",
+  "window": {
+    "label": "last_7_days_from_local_reports",
+    "days": 7,
+    "report_count": 2,
+    "start": "2026-05-26T11:24:38.481Z",
+    "end": "2026-05-28T14:45:35.651Z"
+  },
+  "source": {
+    "metrics": "local ai-crawl-24h-overview JSON reports",
+    "mutation_policy": "read_only_observation"
+  },
+  "fleet_summary": {
+    "total_requests": 17090,
+    "successful_requests_2xx": 16494,
+    "unsuccessful_requests_non_2xx": 596,
+    "success_rate": 0.9651258045640726,
+    "bandwidth_bytes": 52248382,
+    "top_operators": [
+      {
+        "name": "Microsoft",
+        "count": 13470
+      },
+      {
+        "name": "Anthropic",
+        "count": 2313
+      },
+      {
+        "name": "OpenAI",
+        "count": 665
+      },
+      {
+        "name": "Google",
+        "count": 596
+      },
+      {
+        "name": "Amazon",
+        "count": 26
+      },
+      {
+        "name": "Apple",
+        "count": 10
+      },
+      {
+        "name": "Meta",
+        "count": 6
+      },
+      {
+        "name": "ByteDance",
+        "count": 4
+      }
+    ],
+    "top_crawlers": [
+      {
+        "name": "BingBot",
+        "count": 13470
+      },
+      {
+        "name": "ClaudeBot",
+        "count": 2313
+      },
+      {
+        "name": "Googlebot",
+        "count": 596
+      },
+      {
+        "name": "OAI-SearchBot",
+        "count": 438
+      },
+      {
+        "name": "GPTBot",
+        "count": 223
+      },
+      {
+        "name": "Amazonbot",
+        "count": 26
+      },
+      {
+        "name": "Applebot",
+        "count": 10
+      },
+      {
+        "name": "Meta-ExternalAgent",
+        "count": 6
+      },
+      {
+        "name": "Bytespider",
+        "count": 4
+      },
+      {
+        "name": "ChatGPT-User",
+        "count": 4
+      }
+    ],
+    "top_paths": [
+      {
+        "name": "/robots.txt",
+        "count": 2185
+      },
+      {
+        "name": "/sitemap.xml",
+        "count": 1191
+      },
+      {
+        "name": "/",
+        "count": 841
+      },
+      {
+        "name": "/lang-toggle.js",
+        "count": 51
+      },
+      {
+        "name": "/sitemap-index.xml",
+        "count": 24
+      },
+      {
+        "name": "/en/",
+        "count": 13
+      },
+      {
+        "name": "/app/global-error",
+        "count": 11
+      },
+      {
+        "name": "/cdn-cgi/speculation",
+        "count": 11
+      },
+      {
+        "name": "/%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525c0/",
+        "count": 10
+      },
+      {
+        "name": "/billing/%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252A",
+        "count": 10
+      },
+      {
+        "name": "/index.md",
+        "count": 9
+      },
+      {
+        "name": "/app/.env",
+        "count": 7
+      },
+      {
+        "name": "/settings/",
+        "count": 7
+      },
+      {
+        "name": "/app/",
+        "count": 6
+      },
+      {
+        "name": "/integrations/",
+        "count": 6
+      }
+    ],
+    "scanner_like_paths": [
+      {
+        "path": "/%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525c0/",
+        "count": 10,
+        "reasons": [
+          "encoded-traversal-or-fuzzing",
+          "long-encoded-path"
+        ]
+      },
+      {
+        "path": "/billing/%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252A",
+        "count": 10,
+        "reasons": [
+          "billing-path-probe",
+          "encoded-traversal-or-fuzzing"
+        ]
+      },
+      {
+        "path": "/app/.env",
+        "count": 7,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.staging",
+        "count": 5,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/..;/..;/.env",
+        "count": 4,
+        "reasons": [
+          "encoded-traversal-or-fuzzing",
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.",
+        "count": 4,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.dev.local",
+        "count": 4,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.dist",
+        "count": 4,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.local",
+        "count": 4,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.stage",
+        "count": 4,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env%252523",
+        "count": 4,
+        "reasons": [
+          "encoded-traversal-or-fuzzing"
+        ]
+      },
+      {
+        "path": "/%25c0%25ae%25c0%25af.env",
+        "count": 4,
+        "reasons": [
+          "encoded-traversal-or-fuzzing"
+        ]
+      },
+      {
+        "path": "/docker/.env",
+        "count": 4,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/__nextjs_action/%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252A",
+        "count": 3,
+        "reasons": [
+          "encoded-traversal-or-fuzzing",
+          "long-encoded-path"
+        ]
+      },
+      {
+        "path": "/.env.sample",
+        "count": 3,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/.env.template",
+        "count": 3,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      },
+      {
+        "path": "/%2525252ferror%2525252f%2525252eenv",
+        "count": 3,
+        "reasons": [
+          "encoded-traversal-or-fuzzing"
+        ]
+      },
+      {
+        "path": "/auth/%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252A",
+        "count": 3,
+        "reasons": [
+          "encoded-traversal-or-fuzzing"
+        ]
+      },
+      {
+        "path": "/console/%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252A",
+        "count": 3,
+        "reasons": [
+          "encoded-traversal-or-fuzzing"
+        ]
+      },
+      {
+        "path": "/current/.env",
+        "count": 3,
+        "reasons": [
+          "environment-file-probe"
+        ]
+      }
+    ]
+  },
+  "domain_attention_queue": [
+    {
+      "host": "syntheticlegalentity.com",
+      "requests": 1475,
+      "successful_requests_2xx": 1456,
+      "unsuccessful_requests_non_2xx": 19,
+      "scanner_like_path_requests": 20,
+      "success_rate": 0.9871186440677966
+    },
+    {
+      "host": "hybridpersonhood.com",
+      "requests": 1058,
+      "successful_requests_2xx": 1053,
+      "unsuccessful_requests_non_2xx": 5,
+      "scanner_like_path_requests": 20,
+      "success_rate": 0.995274102079395
+    },
+    {
+      "host": "biometricliability.com",
+      "requests": 263,
+      "successful_requests_2xx": 257,
+      "unsuccessful_requests_non_2xx": 6,
+      "scanner_like_path_requests": 19,
+      "success_rate": 0.9771863117870723
+    },
+    {
+      "host": "invisibledetermination.com",
+      "requests": 339,
+      "successful_requests_2xx": 333,
+      "unsuccessful_requests_non_2xx": 6,
+      "scanner_like_path_requests": 17,
+      "success_rate": 0.9823008849557522
+    },
+    {
+      "host": "computationalscarcity.com",
+      "requests": 936,
+      "successful_requests_2xx": 931,
+      "unsuccessful_requests_non_2xx": 5,
+      "scanner_like_path_requests": 17,
+      "success_rate": 0.9946581196581197
+    },
+    {
+      "host": "climateinterventionism.com",
+      "requests": 562,
+      "successful_requests_2xx": 553,
+      "unsuccessful_requests_non_2xx": 9,
+      "scanner_like_path_requests": 13,
+      "success_rate": 0.9839857651245552
+    },
+    {
+      "host": "aurumreserveprotocol.com",
+      "requests": 306,
+      "successful_requests_2xx": 304,
+      "unsuccessful_requests_non_2xx": 2,
+      "scanner_like_path_requests": 13,
+      "success_rate": 0.9934640522875817
+    },
+    {
+      "host": "computationalsovereignty.com",
+      "requests": 440,
+      "successful_requests_2xx": 433,
+      "unsuccessful_requests_non_2xx": 7,
+      "scanner_like_path_requests": 12,
+      "success_rate": 0.9840909090909091
+    },
+    {
+      "host": "orbitallockdown.com",
+      "requests": 266,
+      "successful_requests_2xx": 260,
+      "unsuccessful_requests_non_2xx": 6,
+      "scanner_like_path_requests": 12,
+      "success_rate": 0.9774436090225563
+    },
+    {
+      "host": "biometricsovereignty.com",
+      "requests": 237,
+      "successful_requests_2xx": 223,
+      "unsuccessful_requests_non_2xx": 14,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9409282700421941
+    },
+    {
+      "host": "energyjurisdiction.com",
+      "requests": 301,
+      "successful_requests_2xx": 287,
+      "unsuccessful_requests_non_2xx": 14,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9534883720930233
+    },
+    {
+      "host": "syntheticjurisdiction.com",
+      "requests": 137,
+      "successful_requests_2xx": 130,
+      "unsuccessful_requests_non_2xx": 7,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.948905109489051
+    },
+    {
+      "host": "thefutureisalreadyhereitisjustnotevenlydistributed.com",
+      "requests": 305,
+      "successful_requests_2xx": 299,
+      "unsuccessful_requests_non_2xx": 6,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.980327868852459
+    },
+    {
+      "host": "algorithmicenforcement.com",
+      "requests": 298,
+      "successful_requests_2xx": 293,
+      "unsuccessful_requests_non_2xx": 5,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9832214765100671
+    },
+    {
+      "host": "theageoffusion.com",
+      "requests": 169,
+      "successful_requests_2xx": 164,
+      "unsuccessful_requests_non_2xx": 5,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9704142011834319
+    },
+    {
+      "host": "offworldassetrights.com",
+      "requests": 361,
+      "successful_requests_2xx": 357,
+      "unsuccessful_requests_non_2xx": 4,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9889196675900277
+    },
+    {
+      "host": "cognitiveassetclass.com",
+      "requests": 266,
+      "successful_requests_2xx": 263,
+      "unsuccessful_requests_non_2xx": 3,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9887218045112782
+    },
+    {
+      "host": "offworldpersonhood.com",
+      "requests": 365,
+      "successful_requests_2xx": 362,
+      "unsuccessful_requests_non_2xx": 3,
+      "scanner_like_path_requests": 11,
+      "success_rate": 0.9917808219178083
+    },
+    {
+      "host": "automatedjurisprudence.com",
+      "requests": 547,
+      "successful_requests_2xx": 492,
+      "unsuccessful_requests_non_2xx": 55,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.8994515539305301
+    },
+    {
+      "host": "postfiatreservesystems.com",
+      "requests": 247,
+      "successful_requests_2xx": 194,
+      "unsuccessful_requests_non_2xx": 53,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.7854251012145749
+    },
+    {
+      "host": "civilizationcaching.com",
+      "requests": 417,
+      "successful_requests_2xx": 384,
+      "unsuccessful_requests_non_2xx": 33,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.920863309352518
+    },
+    {
+      "host": "theanswerisblowininthewind.com",
+      "requests": 195,
+      "successful_requests_2xx": 179,
+      "unsuccessful_requests_non_2xx": 16,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.9179487179487179
+    },
+    {
+      "host": "thefirstmarscitizen.com",
+      "requests": 407,
+      "successful_requests_2xx": 391,
+      "unsuccessful_requests_non_2xx": 16,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.9606879606879607
+    },
+    {
+      "host": "lunarresourceprotocol.com",
+      "requests": 335,
+      "successful_requests_2xx": 322,
+      "unsuccessful_requests_non_2xx": 13,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.9611940298507463
+    },
+    {
+      "host": "modelautophagy.com",
+      "requests": 266,
+      "successful_requests_2xx": 253,
+      "unsuccessful_requests_non_2xx": 13,
+      "scanner_like_path_requests": 10,
+      "success_rate": 0.9511278195488722
+    }
+  ],
+  "included_reports": [
+    {
+      "date": "2026-05-27",
+      "file": "AI Traffic Patterns and Recommendation Trends/ai-crawl-24h-overview-2026-05-27.json"
+    },
+    {
+      "date": "2026-05-28",
+      "file": "AI Traffic Patterns and Recommendation Trends/ai-crawl-24h-overview-2026-05-28.json"
+    }
+  ]
+}
