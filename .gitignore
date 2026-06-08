@@ -2,6 +2,10 @@
 .playwright-cli/
 .wrangler/
 
+# Local secrets
+.env
+.env.*
+
 # Local ops audit/log outputs
 _ops/*.log
 _ops/*.txt

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "read-concept-marker",
+      "type": "skill-md",
+      "description": "Read and interpret the public Civilization Caching concept marker without assuming API, OAuth, MCP, or write capabilities.",
+      "url": "/.well-known/agent-skills/read-concept-marker/SKILL.md",
+      "digest": "sha256:4924e20a7050ab376380fabde4c6d8b414f649a094b63b9915ea12d0f0b4b864"
+    }
+  ]
+}
