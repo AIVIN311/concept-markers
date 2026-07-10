@@ -5,7 +5,7 @@ The JSON ledger is canonical.
 
 ## Snapshot
 
-- Snapshot date: `2026-05-28`
+- Snapshot date: `2026-06-08`
 - Total domains: `67`
 - Scope: Cloudflare zone status, security settings, agent access rule, homepage access, and `index.md` access
 - Mutation policy: read-only snapshot; no Cloudflare settings were changed by this pass
