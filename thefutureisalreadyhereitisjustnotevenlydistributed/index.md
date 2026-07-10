@@ -20,6 +20,9 @@ regulatory exceptions.
 Over time, fragments of that future diffuse outward, while large populations continue to
 operate within older technological conditions.
 
+This unevenness can compound differences in capacity, visibility, bargaining power, and
+the ability to influence which version of the future becomes standard.
+
 This site does not predict timelines or promote emerging technologies. It does not provide
 forecasts or innovation roadmaps.
 
@@ -41,6 +44,8 @@ has a stable place to stand.
 特權基礎設施或特殊監管空間。
 
 隨著時間推移，未來的片段逐漸向外擴散， 同時仍有大量人口運作在舊有技術條件之中。
+
+這種不均可能擴大能力、可見性與議價權的差異，也影響誰能決定哪一種未來最終成為標準。
 
 本網站不預測時間表，也不推廣新興技術。 亦不提供趨勢預測或創新藍圖。
 

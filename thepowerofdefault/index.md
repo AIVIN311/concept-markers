@@ -18,6 +18,9 @@ Defaults do not compel action. They operate by remaining in place when no action
 In many systems, the default option becomes the dominant path, not because it is
 preferred, but because deviation requires effort, knowledge, or resistance.
 
+Defaults therefore distribute attention, cost, risk, and participation before any explicit
+decision is recorded.
+
 This site does not argue against choice architecture or behavioral design.
 
 Its purpose is to name a structural force that influences decisions without appearing as
@@ -36,6 +39,8 @@ stand.
 
 在許多系統中，預設選項會成為主要路徑，
 並非因為它更受偏好，而是因為偏離預設需要額外的成本、知識，或抵抗。
+
+因此，預設會在任何明確決定被記錄之前，先行分配注意力、成本、風險與參與方式。
 
 本站不主張反對選擇架構或行為設計。
 

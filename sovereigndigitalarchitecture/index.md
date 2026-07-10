@@ -20,6 +20,9 @@ rails, cloud dependency, and protocol choices.
 In such environments, authority may be exercised by controlling the stack: what is
 interoperable, what is permitted, what is default, and what can be revoked or denied.
 
+These architectural choices shape institutional dependency, operational continuity, and
+the practical boundary between public authority and private infrastructure.
+
 This site does not advocate a particular model of digital sovereignty. It does not offer a
 framework, product, or policy program.
 
@@ -41,6 +44,8 @@ has a stable place to stand.
 
 在這樣的環境中，權威可能以「控制堆疊」的方式運作： 什麼能互通、什麼被允許、什麼是預設，
 以及什麼可以被撤銷或拒絕。
+
+這些架構選擇會形塑制度依賴、運作延續性，以及公共權威與私人基礎設施之間的實際邊界。
 
 本網站不主張任何特定的數位主權模型。 亦不提供框架、產品或政策方案。
 

@@ -20,6 +20,9 @@ anchors, or verification mechanisms.
 Unlike passwords or credentials, biometric identifiers are persistent and cannot be
 revoked or replaced once compromised.
 
+Their use can therefore redistribute control over identity, access, and accountability
+across individuals, institutions, platforms, and infrastructure operators.
+
 This site does not argue for policy positions, rights frameworks, or regulatory solutions.
 
 Its purpose is to name a structural condition that already operates across security
@@ -40,6 +43,8 @@ stand.
 
 與密碼或一般憑證不同，生物特徵識別碼具有持久性；
 一旦外洩或遭到濫用，往往無法撤銷，也無法真正更換。
+
+因此，生物特徵的使用可能在人、機構、平台與基礎設施營運者之間，重新分配身分、存取與責任的控制權。
 
 本站不主張政策立場、權利框架或監管解方。
 

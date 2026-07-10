@@ -25,9 +25,8 @@ stability criteria.
 In many systems, what counts as “safe” is no longer declared — it is computed, priced, and
 continuously re-evaluated.
 
-This site does not advocate a position.
-
-It does not provide a service, framework, or policy proposal.
+This site does not advocate a position or provide a service, framework, or policy
+proposal.
 
 Its purpose is to name a structural shift already operating across financial and
 computational infrastructure — often without explicit vocabulary.
@@ -47,9 +46,7 @@ stand.
 
 在許多系統中，何者被視為「安全」不再由宣示決定， 而是被計算、定價，並持續再評估。
 
-本站不主張任何立場。
-
-亦不提供服務、框架或政策提案。
+本站不主張任何立場，亦不提供服務、框架或政策提案。
 
 它的目的，是為一個已在金融與計算基礎設施中運作的結構轉變命名，
 而這個轉變往往缺乏明確詞彙。

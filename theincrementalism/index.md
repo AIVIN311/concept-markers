@@ -20,6 +20,9 @@ gradually become permanent.
 At no single moment does the system appear to change, yet over time its direction,
 structure, and consequences are fundamentally altered.
 
+Because each step appears limited, responsibility can become dispersed while institutional
+expectations and public baselines move without a clear decision point.
+
 This site does not criticize or endorse incremental approaches.
 
 Its purpose is to mark a pattern that operates across policy, technology, and governance —
@@ -39,6 +42,8 @@ has a stable place to stand.
 
 在任何單一時刻，系統看起來都沒有明顯改變；
 但長期累積之後，它的方向、結構與後果卻已被根本改寫。
+
+由於每一步看似有限，責任可能逐漸分散，制度預期與公共基準也會在缺乏明確決策點的情況下位移。
 
 本站不批判或背書漸進式方法。
 

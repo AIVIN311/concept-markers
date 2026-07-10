@@ -24,9 +24,8 @@ When biometrics are misused, the harm cannot be “reset” the way passwords ca
 As biometric adoption expands, accountability becomes a structural question: who bears the
 loss, who must respond, and who can repair what cannot be replaced.
 
-This site does not advocate a position.
-
-It does not provide a service, framework, or policy proposal.
+This site does not advocate a position or provide a service, framework, or policy
+proposal.
 
 Its purpose is to name a problem already operating across financial, administrative, and
 security systems — often without explicit vocabulary.
@@ -47,9 +46,7 @@ stand.
 當生物識別採用規模化後，
 責任成為結構問題：誰承擔損失、誰必須回應、以及誰能修復不可替換之物。
 
-本站不主張任何立場。
-
-亦不提供服務、框架或政策提案。
+本站不主張任何立場，亦不提供服務、框架或政策提案。
 
 它的目的，是為一個已在金融、行政與安全系統中運作的問題命名，
 而這個問題往往尚未被清楚意識或具備詞彙。

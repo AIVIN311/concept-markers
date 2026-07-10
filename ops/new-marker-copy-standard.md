@@ -1,12 +1,14 @@
-# New Marker Copy Standard (Future Pages Only)
+# Marker Copy Standard
 
-This document defines the authoring standard for new marker pages only.
-Existing tracked pages stay unchanged unless a separate request is made.
+This document defines the authoring and alignment standard for marker pages.
+Existing tracked pages stay unchanged unless a separate alignment request is made.
 
 ## Scope
 
-- In scope: content authoring for newly created `*/index.html` marker pages.
-- Out of scope: rewriting existing markers, HTML/CSS/JS structure changes, marker runtime changes.
+- In scope: content authoring for newly created `*/index.html` marker pages and explicitly requested
+  copy-alignment passes for existing pages.
+- Out of scope: unrequested rewriting of existing markers, HTML/CSS/JS structure changes, and marker
+  runtime changes.
 
 ## Stability Contract
 
@@ -39,12 +41,19 @@ Use this 8-paragraph flow in both languages:
 7. Minimalism sentence.
 8. Stable-term anchoring sentence.
 
+For an existing-page alignment pass, preserve the page's concept-specific vocabulary and claims.
+Paragraphs may be combined or separated only to restore this eight-part flow and EN/ZH semantic
+pairing; alignment must not turn distinct concepts into interchangeable templates.
+
 ## Language Rules
 
 - Prefer concrete system nouns (`platforms`, `infrastructures`, `governance mechanisms`) over vague abstractions.
 - Avoid dense jargon clusters. Use specialist terms only when they add precision.
 - Avoid prescriptive mitigation/regulatory advice unless the concept explicitly requires it.
 - Keep disclaimer and purpose lines explicit and separate from marketing language.
+- Traditional Chinese house style uses `身分` rather than `身份`, and spaces `AI` when it appears
+  beside Chinese text (for example, `主權 AI 韌性`). Preserve established concept titles where a
+  different term is semantically intentional.
 - Keep the final anchoring sentence in place:
   - EN: `stable foothold` or `stable place to stand`
   - ZH: `穩定的立足點`

@@ -20,6 +20,9 @@ military positioning, and demographic momentum.
 Over time, institutions, capital, and influence increasingly orient around
 Pacific-centered networks rather than Atlantic ones.
 
+This reorientation can reshape dependency, strategic access, institutional priorities, and
+which regions set the operating assumptions of global systems.
+
 This site does not interpret the shift as opportunity or threat. It does not promote
 strategic doctrines or political agendas.
 
@@ -40,6 +43,8 @@ has a stable place to stand.
 
 隨著時間推移，制度、資本與影響力越來越圍繞
 以太平洋為核心的網絡運作，而非傳統的大西洋體系。
+
+這種重心轉移可能重塑依賴、戰略存取、制度優先順序，以及哪些區域能設定全球系統的運作前提。
 
 本網站不將此轉變解讀為機會或威脅。 亦不推廣任何戰略學說或政治立場。
 

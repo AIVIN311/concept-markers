@@ -20,6 +20,10 @@ service denial, and platform-level lockouts.
 In such conditions, exceptional measures can be applied at scale, triggered by thresholds
 and models rather than deliberation or due process.
 
+The result is a shift in how restriction is experienced: access, mobility, and
+participation can be narrowed through routine technical decisions rather than visible
+emergency rule.
+
 This site does not argue for or against emergency powers. It does not provide a framework,
 service, or policy proposal.
 
@@ -41,6 +45,8 @@ has a stable place to stand.
 
 在這樣的情況下，例外措施可以被大規模套用，
 並由門檻與模型觸發，而非由審議、程序或正當性檢驗所支撐。
+
+其結果是約束方式的轉變：存取、移動與參與可能透過日常技術決定被縮限，而不再以可見的緊急統治呈現。
 
 本網站不主張支持或反對緊急權力。 亦不提供框架、服務或政策提案。
 

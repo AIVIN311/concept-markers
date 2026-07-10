@@ -21,6 +21,9 @@ regional payment networks, or changes in collateral trust.
 In such conditions, dominance can erode by degrees: not through declaration, but through
 migration of defaults and routing choices.
 
+That migration can redistribute liquidity, settlement risk, bargaining power, and the
+institutions relied upon to coordinate cross-border exchange.
+
 This site does not advocate a monetary thesis, investment strategy, or policy program. It
 does not provide forecasts or recommendations.
 
@@ -43,6 +46,8 @@ has a stable place to stand.
 
 在這樣的條件下，主導地位可能以「漸進」的方式被削弱：
 不是透過宣告，而是透過預設值與路由選擇的遷移。
+
+這種遷移可能重新分配流動性、清算風險、議價權，以及跨境交換所依賴的協調制度。
 
 本網站不主張任何貨幣論述、投資策略或政策計畫。 亦不提供預測或建議。
 

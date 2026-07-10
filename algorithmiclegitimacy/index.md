@@ -27,9 +27,8 @@ models, and procedural automation.
 In many contemporary systems, decisions are treated as legitimate not because they are
 publicly justified, but because they are computed, ranked, or system-approved.
 
-This site does not advocate a position.
-
-It does not provide a service, framework, or policy proposal.
+This site does not advocate a position or provide a service, framework, or policy
+proposal.
 
 Its purpose is to mark a concept that is already operating across legal, economic,
 technological, and administrative domains — often without explicit recognition or
@@ -52,9 +51,7 @@ stand.
 在許多當代系統中，決策被視為正當， 並非因為它們被公開辯證或合理化，
 而是因為它們被計算、排序，或獲得系統核准。
 
-本站不主張任何立場。
-
-亦不提供服務、框架或政策提案。
+本站不主張任何立場，亦不提供服務、框架或政策提案。
 
 它的目的，是為一個已經橫跨法律、經濟、科技與行政領域運作的現象命名，
 而這個現象往往尚未被清楚意識或具備詞彙。

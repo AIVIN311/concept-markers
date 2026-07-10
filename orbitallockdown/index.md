@@ -21,6 +21,9 @@ ground-station dependence, or spectrum constraints.
 In such conditions, denial can appear as safety, compliance, or coordination, while
 functioning as restriction on who can operate, persist, or maneuver in orbit.
 
+Control over these dependencies can reorganize strategic access, commercial continuity,
+and the distribution of authority across orbital systems.
+
 This site does not advocate militarization, deterrence, or space security policy. It does
 not provide operational guidance or technical claims.
 
@@ -42,6 +45,8 @@ has a stable place to stand.
 
 在這樣的條件下，拒止可以以安全、合規或協調的形式呈現，
 但在效果上成為對「誰能在軌道上運作、持續、機動」的限制。
+
+對這些依賴條件的控制，可能重組戰略存取、商業延續性，以及軌道系統中的權威分布。
 
 本網站不主張軍事化、嚇阻或太空安全政策。 亦不提供操作指引或技術斷言。
 

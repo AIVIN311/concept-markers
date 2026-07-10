@@ -20,6 +20,9 @@ consequences.
 In many systems, performance can be optimized without understanding, and outputs can be
 produced without ownership of harm.
 
+When those outputs guide shared systems, the distinction affects trust, legitimacy, and
+whether responsibility can still be assigned rather than merely routed through a process.
+
 This site does not argue against automation, augmentation, or AI development. It does not
 propose a definition of intelligence.
 
@@ -41,6 +44,8 @@ has a stable place to stand.
 
 在許多系統裡，效能可以在缺乏理解的情況下被最佳化，
 輸出也能在無需承擔傷害的條件下被大量生成。
+
+當這些輸出開始引導共同系統時，這項差異會影響信任、正當性，以及責任能否被實際歸屬，而不只是沿流程轉移。
 
 本網站不反對自動化、增強或 AI 發展。 亦不試圖提供「智慧」的定義。
 

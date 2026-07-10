@@ -19,6 +19,9 @@ patterns, decision feedback, and collective intelligence.
 These forms of cognition are persistently captured, processed, and monetized across
 digital platforms and automated infrastructures.
 
+This conversion can reshape how learning, participation, and judgment are valued, while
+separating economic benefit from the people and contexts that produced the signals.
+
 A cognitive asset class does not assume ownership structures or regulatory models.
 
 It marks the transition in which intelligence itself becomes a measurable, transferable,
@@ -36,6 +39,8 @@ stand.
 在 AI 系統中，價值愈來愈多來自學習訊號、 行為模式、決策回饋與集體智慧。
 
 這些認知形式被持續擷取、處理並轉化為可獲利的資源， 存在於數位平台與自動化基礎設施之中。
+
+這種轉換可能改變學習、參與與判斷被估值的方式，也可能讓經濟利益與產生訊號的人及情境分離。
 
 「認知資產類」不預設所有權制度或監管模型。
 

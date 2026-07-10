@@ -22,10 +22,8 @@ Digital systems are often perceived as infinitely scalable. In practice, computa
 constrained by energy, hardware, supply chains, and physical infrastructure.
 
 As artificial intelligence, automation, and simulation expand, access to compute becomes a
-strategic resource.
-
-Scarcity no longer centers solely on land, labor, or capital. It increasingly centers on
-processing power, data throughput, and energy-backed computation.
+strategic resource. Scarcity no longer centers solely on land, labor, or capital; it
+increasingly centers on processing power, data throughput, and energy-backed computation.
 
 In such conditions, those who control computational capacity shape economic growth,
 technological progress, and governance capability.
@@ -46,9 +44,7 @@ stand.
 
 數位系統常被視為可無限擴張， 但實際上運算受到能源、硬體、供應鏈與物理基礎設施限制。
 
-隨著人工智慧、自動化與模擬規模化， 算力逐漸成為戰略資源。
-
-稀缺不再僅圍繞土地、勞動與資本， 而愈來愈圍繞處理能力、資料吞吐與能源支撐的計算。
+隨著人工智慧、自動化與模擬規模化，算力逐漸成為戰略資源；稀缺不再僅圍繞土地、勞動與資本，而愈來愈圍繞處理能力、資料吞吐與能源支撐的計算。
 
 在這樣的條件下， 誰掌握算力，誰就形塑經濟成長、科技進步與治理能力。
 

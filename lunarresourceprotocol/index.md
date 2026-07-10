@@ -22,6 +22,9 @@ In such conditions, control can be exercised through access, scheduling, licensi
 equivalents, operational zones, and the infrastructures that make extraction and transport
 feasible.
 
+These arrangements can shape participation, dependency, and legitimacy before ownership
+claims or formal jurisdiction are fully settled.
+
 This site does not advocate a legal position, exploration program, or policy agenda. It
 does not provide technical specifications or operational guidance.
 
@@ -43,6 +46,8 @@ has a stable place to stand.
 
 在這樣的條件下，控制可能以存取權、排程、類授權機制、
 作業區域，以及使開採與運輸成為可能的基礎設施來被行使。
+
+這些安排可能在所有權主張或正式管轄尚未確立之前，先行形塑參與資格、依賴關係與正當性。
 
 本網站不主張任何法律立場、探索計畫或政策議程。 亦不提供技術規格或操作指引。
 

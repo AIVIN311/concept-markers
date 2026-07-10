@@ -21,6 +21,9 @@ In such conditions, resilience is not only technical uptime. It also concerns cu
 verification, fallback capacity, and the ability to operate when access, pricing,
 policies, or model behavior changes.
 
+These dependencies can shift institutional continuity and public accountability toward
+model providers, infrastructure operators, and external control points.
+
 This site does not propose governance programs or national strategies. It does not offer
 tools, audits, or compliance services.
 
@@ -42,6 +45,8 @@ has a stable place to stand.
 在這樣的條件下，韌性不僅是技術層的不中斷。 它也關乎託管、驗證、備援能力，
 以及當存取權、價格、政策或模型行為改變時仍能運作的能力。
 
+這些依賴可能把制度延續性與公共責任，轉移至模型供應者、基礎設施營運者與外部控制節點。
+
 本網站不提出治理計畫或國家策略。 亦不提供工具、稽核或合規服務。
 
 其目的是為一種結構性需求命名： 在 AI 依賴之下仍保有自主，
@@ -49,5 +54,5 @@ has a stable place to stand.
 
 本頁刻意維持極簡。
 
-它存在，是為了確保 **主權AI韌性（Sovereign AI Resilience）**
+它存在，是為了確保 **主權 AI 韌性（Sovereign AI Resilience）**
 這個詞能有一個穩定的立足點。

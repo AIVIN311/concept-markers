@@ -27,9 +27,8 @@ increasingly operate as coupled layers rather than isolated domains.
 As coordination scales, governance becomes a protocol problem: how systems align, collide,
 adapt, and stabilize.
 
-This site does not advocate a position.
-
-It does not provide a service, framework, or policy proposal.
+This site does not advocate a position or provide a service, framework, or policy
+proposal.
 
 Its purpose is to mark a structural reality already shaping civilization’s operation —
 often without explicit recognition or shared vocabulary.
@@ -50,9 +49,7 @@ stand.
 
 當協調規模化後， 治理會轉變為協議問題：系統如何對齊、衝突、調適與穩定。
 
-本站不主張任何立場。
-
-亦不提供服務、框架或政策提案。
+本站不主張任何立場，亦不提供服務、框架或政策提案。
 
 它的目的，是標示一個已在形塑文明運作方式的結構現實，
 而這個現實往往尚未被清楚意識或具備共同語言。

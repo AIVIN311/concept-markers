@@ -27,9 +27,8 @@ As climate measures become operational through infrastructure, standards, protoc
 emergency powers, jurisdiction shifts from a background assumption to a primary governance
 variable.
 
-This site does not recommend policies, treaties, or technical solutions.
-
-It does not provide compliance advice, legal services, or regulatory interpretation.
+This site does not recommend policies, treaties, or technical solutions, and it does not
+provide compliance advice, legal services, or regulatory interpretation.
 
 Its purpose is to mark an institutional boundary problem already unfolding across climate
 systems, energy systems, and sovereign governance.
@@ -51,9 +50,7 @@ It exists to ensure the term **Climate Jurisdiction** has a stable foothold.
 當氣候措施透過基礎設施、標準、協定與緊急權力逐步落地，
 管轄權就從背景假設轉為核心治理變數。
 
-本站不提供政策建議、條約倡議或技術解方。
-
-亦不提供合規諮詢、法律服務或法規解讀。
+本站不提供政策建議、條約倡議或技術解方，亦不提供合規諮詢、法律服務或法規解讀。
 
 它的目的，是為一個正在氣候系統、能源系統與主權治理之間展開的「制度邊界問題」
 命名——而這個問題往往在詞彙出現之前，就已經開始運作。

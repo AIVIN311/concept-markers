@@ -19,6 +19,9 @@ sources of political authority.
 Governance may instead emerge from control over life-support systems, resource
 infrastructures, automated decision systems, and shared operational protocols.
 
+Under these constraints, access to essential systems can shape legitimacy, jurisdiction,
+dependency, and the practical limits of political participation.
+
 Offworld sovereignty does not assume nation-state dominance, nor does it prescribe legal
 or political outcomes.
 
@@ -37,6 +40,8 @@ stand.
 在地外環境中，土地、邊界與國籍不再是政治權力的主要來源。
 
 治理權力可能轉而建立於 生命維持系統、資源基礎設施、自動化決策系統， 以及共同運作協議之上。
+
+在這些限制下，關鍵系統的存取可能形塑正當性、管轄、依賴關係，以及政治參與的實際邊界。
 
 「地外主權」不預設國家主導， 也不提出具體的法律或政治方案。
 

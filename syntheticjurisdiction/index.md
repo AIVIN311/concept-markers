@@ -19,6 +19,9 @@ real world without being tied to a single location, authority, or accountable or
 As synthetic data and synthetic reality scale, questions of responsibility become
 jurisdictional: who can enforce, who can audit, and who must answer.
 
+Without durable boundaries, influence can travel across platforms and territories while
+enforcement, attribution, and remedy remain fragmented.
+
 Synthetic jurisdiction does not assume a single legal regime or a universal policy
 framework.
 
@@ -39,6 +42,8 @@ stand.
 
 當合成資料與合成現實規模化後， 「責任」會變成一個管轄問題：
 誰能執行？誰能稽核？誰必須回應？
+
+若缺乏可持續的邊界，影響可以跨越平台與領域流動，執行、歸屬與救濟卻仍維持碎片化。
 
 「合成管轄權」不預設單一法律體系，也不主張一套普世政策框架。
 

@@ -25,9 +25,8 @@ In such environments, legal outcomes may no longer arise primarily from interpre
 deliberation, but are influenced by optimization rules, data thresholds, system defaults,
 and computational procedures.
 
-This site does not advocate a legal framework or policy position.
-
-It does not provide legal advice or services.
+This site does not advocate a legal framework or policy position, and it does not provide
+legal advice or services.
 
 Its purpose is to anchor a concept that is already operating in governance and legal
 systems — one that often lacks clear boundaries, accountable responsibility, and a shared
@@ -51,9 +50,7 @@ to stand.
 在這類環境中，法律結果可能不再主要來自詮釋與審議，
 而是受到最佳化規則、資料門檻、系統預設與計算流程所影響。
 
-本站不主張任何法律框架或政策立場。
-
-亦不提供法律建議或服務。
+本站不主張任何法律框架或政策立場，亦不提供法律建議或服務。
 
 它的目的，是為一個已在治理與法制系統中實際運作的概念定錨——
 這個概念往往缺乏清楚邊界、責任歸屬與共同語言。

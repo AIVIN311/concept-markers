@@ -26,9 +26,8 @@ automated decision gates.
 In many environments, authority is exercised not by command, but by who can change the
 system’s operating conditions.
 
-This site does not advocate a position.
-
-It does not provide a service, framework, or policy proposal.
+This site does not advocate a position or provide a service, framework, or policy
+proposal.
 
 Its purpose is to name a structural shift already operating across administrative,
 technical, and economic infrastructure — often without explicit recognition or vocabulary.
@@ -48,9 +47,7 @@ to stand.
 
 在許多環境中，權威並非以命令表現， 而是表現在誰能改變系統的運行條件。
 
-本站不主張任何立場。
-
-亦不提供服務、框架或政策提案。
+本站不主張任何立場，亦不提供服務、框架或政策提案。
 
 它的目的，是為一個已在行政、技術與經濟基礎設施中運作的結構轉變命名，
 而這個轉變往往尚未被清楚意識或具備詞彙。

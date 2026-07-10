@@ -20,6 +20,9 @@ favor continuity over reconsideration.
 As systems scale, reversal becomes increasingly costly, even when superior alternatives
 exist.
 
+The resulting dependency shapes procurement, skills, governance, and institutional
+expectations, narrowing which alternatives remain practical rather than merely possible.
+
 This site does not promote innovation strategies or intervention models.
 
 Its purpose is to name a structural dynamic that operates across platforms, institutions,
@@ -39,6 +42,8 @@ place to stand.
 使系統傾向延續既有路徑，而非重新評估。
 
 隨著系統規模擴大，回頭與翻轉會變得越來越昂貴—— 即使存在更優的替代方案。
+
+由此形成的依賴會形塑採購、技能、治理與制度預期，讓替代方案即使仍然可能，也逐漸失去實際可行性。
 
 本站不推廣創新策略或介入模型。
 

@@ -20,6 +20,9 @@ algorithmic amplification.
 As a result, individuals may feel that answers are near, yet never fully reachable—because
 the conditions for shared verification are unstable or contested.
 
+This instability affects more than individual certainty; it can weaken coordination,
+shared memory, and the legitimacy of institutions that depend on common evidence.
+
 This site does not offer conclusions, ideology, or reassurance. It does not provide a
 method for certainty.
 
@@ -40,6 +43,8 @@ has a stable place to stand.
 制度誘因與演算法放大的交錯之中。
 
 因此，人們可能感覺答案很近， 卻始終難以抵達——因為共同驗證的條件 已經不穩定，或正在被爭奪。
+
+這種不穩定不只影響個人的確定感，也可能削弱協調、共同記憶，以及依賴共同證據之制度的正當性。
 
 本網站不提供結論、意識形態或安慰。 亦不提供通往確定性的技術方法。
 

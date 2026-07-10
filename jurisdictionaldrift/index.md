@@ -22,6 +22,10 @@ cross-border coordination mechanisms.
 value position. It is not equivalent to territorial expansion, and it does not necessarily
 involve war or occupation.
 
+As this reach shifts, people and institutions may become subject to rules, enforcement,
+and dependencies that were not visible when their original legal relationships were
+formed.
+
 Its purpose is to name a process: under global interconnection and high technical density,
 legal effect and the radius of power may undergo continuous displacement rather than
 one-time declaration.
@@ -45,6 +49,8 @@ has a stable place to stand.
 
 **「管轄漂移」**不預設特定國家、制度或價值立場。
 它既不等同於領土擴張，也不必然涉及戰爭或佔領。
+
+隨著這種效力範圍位移，個人與機構可能受到原始法律關係形成時並不可見的規則、執行機制與依賴關係約束。
 
 其目的是標示一種過程：在全球互聯與高度技術化的條件下，
 法律效力與權力半徑可能呈現連續性的位移，而非一次性的宣告。

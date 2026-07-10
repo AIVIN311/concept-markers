@@ -20,6 +20,9 @@ operational dependency.
 In such conditions, power is real and effective, even when it is never explicitly named as
 sovereignty.
 
+This separation between formal recognition and operational control can obscure who sets
+the rules, who carries the dependency, and where accountability can be directed.
+
 This site does not assign legitimacy or illegitimacy.
 
 Its purpose is to mark a condition of governance: authority operating without
@@ -38,6 +41,8 @@ has a stable place to stand.
 它透過對基礎設施、標準、介面與操作依賴的控制而產生。
 
 在這種情況下，權力是真實且有效的， 即使它從未明確被稱為主權。
+
+正式承認與實際控制之間的分離，可能使誰設定規則、誰承擔依賴，以及責任應指向何處變得模糊。
 
 本網站不賦予任何合法性或非法性。
 

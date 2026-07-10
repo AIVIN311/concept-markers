@@ -21,6 +21,9 @@ If fusion approaches practical deployment, abundance does not eliminate constrai
 relocate constraint into materials, cooling, siting, security, governance, and
 geopolitical dependence.
 
+That relocation can reshape industrial concentration, strategic access, and the
+institutions responsible for distributing the benefits and risks of a new energy base.
+
 This site does not advocate timelines, investment theses, or policy programs. It does not
 provide technical claims or forecasts.
 
@@ -42,6 +45,8 @@ has a stable place to stand.
 
 即便核融合走向實用部署，能量豐裕也不會消除限制。 限制可能轉移到材料、冷卻、選址、安全、
 治理與地緣依賴等層面。
+
+這種限制的轉移可能重塑產業集中、戰略存取，以及負責分配新能量基礎之利益與風險的制度。
 
 本網站不主張時間表、投資論述或政策計畫。 亦不提供技術斷言或預測。
 
