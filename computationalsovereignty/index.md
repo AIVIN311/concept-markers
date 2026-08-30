@@ -15,11 +15,9 @@ Related concepts:
 
 ## English
 
-This domain serves as a reference point for examining how control over computation is
-becoming a condition of sovereignty.
-
-Computational sovereignty is not defined only by owning data centers, chips, or domestic
-models.
+Computational sovereignty is the capacity of a state, institution, or community to govern
+access to the computing infrastructure required to train, deploy, and operate digital
+systems. It is not defined only by owning data centers, chips, or domestic models.
 
 It emerges through export controls, cloud access gates, accelerator allocation, scheduling
 priorities, and energy-linked compute policy. It becomes visible when institutions decide
@@ -42,9 +40,8 @@ foothold.
 
 ## 中文
 
-本網域作為一個參考標記，用於檢視：對算力的控制如何逐漸成為主權條件的一部分。
-
-「算力主權」並不只由資料中心、晶片或本土模型的擁有與否所定義。
+「算力主權」是國家、機構或社群對訓練、部署與運作數位系統所需的運算基礎設施，
+具有治理其存取方式的能力。它並不只由資料中心、晶片或本土模型的擁有與否所定義。
 
 它透過出口管制、雲端存取閘門、加速器分配、排程優先序與能源連動的算力政策逐步形成；當機構開始決定誰可以執行大規模訓練或推論、依何種標準、並以何種成本執行時，這個問題就會變得可見。
 
