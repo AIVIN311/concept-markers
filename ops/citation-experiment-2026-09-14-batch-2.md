@@ -55,3 +55,24 @@ practical. Preserve negative results. Do not interpret crawl access as indexing 
 - Purge only `/`, `/index.html`, and `/index.md` for apex and `www` on the three changed
   zones; do not purge whole zones.
 - Verify HTTP 200, new opening present, old opening absent, and record cache status.
+
+## Deployment and verification record
+
+- Source commit `eb43519` was pushed to `origin/main`.
+- Cloudflare Pages deployments completed for the three changed projects:
+  - `https://138666a8.offworldassetrights.pages.dev`
+  - `https://96075c95.modelautophagy.pages.dev`
+  - `https://1b1de366.energyjurisdiction.pages.dev`
+- Cache purge succeeded for the six scoped URL surfaces per zone: `/`, `/index.html`,
+  and `/index.md` on apex and `www`. No whole-zone purge was used.
+- Public apex `/` and `/index.md` returned HTTP 200 with `CF-Cache-Status: MISS`, the
+  new opening present, and the old opening absent for all three sites.
+- `www` requests redirected to the apex and returned the same verified new content. Their
+  subsequent apex response was a cache `HIT`, as expected after the first verification.
+- Targeted Prettier validation passed for all seven changed files, and `git diff --check`
+  passed before commit.
+- Repository-wide `npm run format:check` remained blocked by three pre-existing files
+  outside this experiment: `civilizationcaching-ai-visibility-audit-2026-08-30.source.json`,
+  `cloudflare..md`, and `ops/domain-governance-ledger-v0.2.md`. They were not modified.
+- `computationalsovereignty.com` and `jurisdictionaldrift.com` source hashes remained
+  unchanged from the prior experiment record.
