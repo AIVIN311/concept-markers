@@ -10,11 +10,9 @@ Related concepts:
 
 ## English
 
-This domain serves as a reference point for examining how artificial intelligence systems
-increasingly consume, recycle, and train on their own generated outputs rather than
-independent human data sources.
-
-Model autophagy does not arise from a single failure or error.
+Model autophagy is the process by which artificial intelligence systems increasingly
+consume, recycle, and train on machine-generated outputs rather than independent human
+data sources. It does not arise from a single failure or error.
 
 It emerges through synthetic data loops, automated content generation, large-scale
 retraining pipelines, and the gradual replacement of original information with
@@ -36,10 +34,8 @@ It exists to ensure the term **Model Autophagy** has a stable place to stand.
 
 ## 中文
 
-本網域作為一個參考標記，用於檢視：人工智慧系統如何日益消耗、回收，
-並以自身產生的輸出進行訓練，而非依賴獨立的人類資料來源。
-
-「模型自噬」並非源於單次失敗或錯誤。
+「模型自噬」是人工智慧系統日益消耗、回收並以機器生成輸出進行訓練，而非依賴
+獨立人類資料來源的過程。它並非源於單次失敗或錯誤。
 
 它透過合成資料迴圈、自動化內容生成、大規模再訓練流程，
 以及以機器產生資料逐步取代原始資訊而浮現。

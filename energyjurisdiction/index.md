@@ -14,10 +14,9 @@ Related concepts:
 
 ## English
 
-This domain serves as a reference point for examining jurisdiction where energy
-constraints define enforceable reality.
-
-In many systems, authority is assumed to be legal, administrative, or institutional.
+Energy jurisdiction is the practical authority to govern access to, allocation of, and
+dependence on energy infrastructure across territories, markets, and technical systems.
+It is not limited to formal legal, administrative, or institutional authority.
 
 But energy infrastructure determines what can run, what can scale, and what must stop.
 
@@ -36,9 +35,8 @@ stand.
 
 ## 中文
 
-本網域作為一個參考標記，用於檢視：當能源限制決定現實可運行範圍時，管轄如何成立。
-
-在許多想像中，權威被視為法律、行政或制度性的。
+「能源管轄權」是跨越領土、市場與技術系統，治理能源基礎設施之存取、分配與依賴關係的
+實際權威。它不只限於正式的法律、行政或制度權威。
 
 但能源基礎設施決定什麼能運行、什麼能擴張、以及什麼必須停止。
 

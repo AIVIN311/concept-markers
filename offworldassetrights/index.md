@@ -14,10 +14,10 @@ Related concepts:
 
 ## English
 
-This domain serves as a reference point for examining asset rights beyond Earth.
-
-Offworld environments introduce a mismatch between ownership claims and enforceable
-conditions.
+Offworld asset rights are the legal and operational claims that determine who may possess,
+use, transfer, profit from, or exclude others from assets beyond Earth. They are not
+defined only by declarations of ownership, because enforceable rights also depend on
+physical control, treaty interpretation, and access to offworld infrastructure.
 
 In orbit or on the Moon, physical control may exist without a stable legal layer, while
 legal declarations may exist without physical enforcement.
@@ -38,9 +38,9 @@ stand.
 
 ## 中文
 
-本網域作為一個參考標記，用於檢視：地外環境中的資產權如何成立。
-
-離地環境會產生一種落差：所有權主張與可執行條件不再自然重合。
+「離地資產權」是決定誰可以占有、使用、移轉、獲利或排除他人使用地外資產的法律與
+實際運作主張。它不只由所有權宣告所定義，因為權利能否執行，也取決於物理控制、
+條約詮釋與地外基礎設施的存取能力。
 
 在軌道或月面，可能存在物理控制卻缺乏穩定法律層； 也可能存在法律宣告卻缺乏物理執行。
 
